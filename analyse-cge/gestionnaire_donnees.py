@@ -12,27 +12,3 @@
 #   consultez.
 #  ==============================================================================
 
-# python_version >= "3.11"
-
-# matplotlib : graphiques
-import matplotlib.pyplot as plt
-import matplotlib.animation as animation
-
-# numpy : outils mathématiques
-import numpy as np
-
-# sys : système
-import sys
-
-def run():
-    """
-    Fonction principale du logiciel.
-    Executée si main.py n'est pas appelée comme un module
-
-    Args:
-        data_file_path (string): Chemin vers le fichier de données.
-    """
-
-
-if __name__ == '__main__': # On vérifie si on execute bien le fichier directement et non comme un module
-    sys.exit(run()) # Si on ne l'execute pas comme un module, alors on démarre notre programme
