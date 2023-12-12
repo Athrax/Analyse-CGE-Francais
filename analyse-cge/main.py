@@ -24,6 +24,9 @@ import numpy as np
 # sys : système
 import sys
 
+# Importation des modules principaux
+from gestionnaire_affichage import affichage
+
 def run():
     """
     Fonction principale du logiciel.
@@ -32,7 +35,7 @@ def run():
     Args:
         data_file_path (string): Chemin vers le fichier de données.
     """
-
+    affichage()
 
 if __name__ == '__main__': # On vérifie si on execute bien le fichier directement et non comme un module
     sys.exit(run()) # Si on ne l'execute pas comme un module, alors on démarre notre programme

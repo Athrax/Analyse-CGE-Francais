@@ -12,6 +12,15 @@
 #   consultez.
 #  ==============================================================================
 
-import matplotlib.pyplot as plt
-def affichage():
-    return
+from setuptools import setup
+
+setup(
+    name='analyse-cge',
+    version='1.0',
+    packages=['analyse-cge'],
+    url='',
+    license='MIT',
+    author='aymericschaeffer',
+    author_email='schaeffer.aymeric@gmail.com',
+    description=''
+)
