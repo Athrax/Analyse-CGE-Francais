@@ -36,6 +36,7 @@ def run():
         data_file_path (string): Chemin vers le fichier de données.
     """
     affichage()
+    np.exp(2)
 
 if __name__ == '__main__': # On vérifie si on execute bien le fichier directement et non comme un module
     sys.exit(run()) # Si on ne l'execute pas comme un module, alors on démarre notre programme
