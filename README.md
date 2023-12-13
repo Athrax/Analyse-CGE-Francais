@@ -14,18 +14,19 @@ L'objectif de ce projet était de manipuler et d'exploiter les données d'un fic
 ## Technologies Utilisées
 - Python
 - Bibliothèques Python pour le traitement de données (pandas, matplotlib, etc.)
+- Poetry pour la gestion des dépendances
 
 ## Comment Utiliser
 1. Clônez le dépôt vers votre machine locale.
-2. Assurez-vous d'avoir les dépendances Python installées (voir `requirements.txt`).
-3. Exécutez le script principal pour traiter les données du bilan comptable.
+2. Les dépendances et l'interpréteur s'installent automatiquement. Le cas échéant, assurez-vous d'avoir les dépendances Python installées (voir `pyproject.toml`).
+3. Exécutez le script principal pour traiter les données du bilan comptable (`analyse-cge/main.py`)
 
 ## Remarques
 Ce projet est destiné à des fins éducatives dans le cadre de la formation universitaire. N'hésitez pas à explorer le code source, à suggérer des améliorations ou à poser des questions.
 
 ## Auteurs
-- Aymeric Schaeffer
 - Lise Renaud
+- Aymeric Schaeffer
 
 ## Licence
 Ce projet est sous licence open source - voir le fichier [LICENSE](LICENSE) pour plus de détails.
