@@ -1,4 +1,3 @@
-#  """
 #  ==============================================================================
 #   Copyright (c) 2023 Aymeric Schaeffer et Lise Renaud
 #
@@ -12,5 +11,4 @@
 #   Vous devriez avoir reçu une copie de la licence avec ce programme. Sinon,
 #   consultez.
 #  ==============================================================================
-#  """
 

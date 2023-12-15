@@ -1,5 +1,5 @@
 #  ==============================================================================
-#   Copyright (c) 2023 Aymeric Schaeffer et Lise Renaud
+#   Copyright (c) 2023 Lise Renaud et Aymeric Schaeffer
 #
 #   Permission vous est accordée de copier, distribuer et/ou modifier ce code
 #   sous les termes de la licence open source.
