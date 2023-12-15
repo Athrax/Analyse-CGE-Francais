@@ -16,7 +16,7 @@ import matplotlib.pyplot as plt  # graphiques
 import numpy as np  # outils mathématiques
 import sys  # système
 
-import fichier.gestionnaire_source  # traitement du fichier source
+from fichier.gestionnaire_source import detection_en_tete # traitement du fichier source
 import affichage.gestionnaire_affichage  # gestion de l'affichage
 from tracabilite.traces import info  # logs de niveau 1
 from tracabilite.traces import erreur  # logs de niveau 2
