@@ -11,7 +11,7 @@
 #   Vous devriez avoir reçu une copie de la licence avec ce programme. Sinon,
 #   consultez.
 #  ==============================================================================
-from analyse_cge.tracabilite import traces
+from analyse_cge.tracabilite.traces import *
 
 def detection_en_tete(fichier_source):
     """
@@ -26,12 +26,7 @@ def detection_en_tete(fichier_source):
     # Lecture de la première ligne du fichier source
     # Traduction en minuscule
     # Découpage
-    try :
-        en_tete = fichier_source.readline().lower.split(',')
-        info("Lecture de la première ligne du fichier source")
-    except IOError :
-        erreur("Immpossible de lire la première ligne du fichier source")
-
+    en_tete = fichier_source.readline().lower.split(',')
 
     # On précise les colonne du fichier qui nous intéressent
     en_tete_utiles = ["postes", "sous-postes", "libellé ministère", "balance sortie 2022", "balance sortie 2012"]
