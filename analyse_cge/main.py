@@ -41,8 +41,10 @@ def run():
         info("Recherche du fichier passé en argument : {0}".format(chemin_fichier_source))
         try:  # On essaye de charger le fichier de donnes
             fichier_source = open(chemin_fichier_source, "r")
-            info("Fichier ouvert avec succès.")
+            info("Fichier ouvert avec succès", "Création de la base de donnée à partir de la source ...")
+
             # On traite le fichier source donné
+
 
         except FileNotFoundError:  # Si le fichier n'est pas trouvé
             erreur("Le fichier {0} est introuvable".format(chemin_fichier_source))
