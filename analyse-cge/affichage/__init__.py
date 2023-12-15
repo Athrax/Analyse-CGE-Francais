@@ -11,4 +11,3 @@
 #   Vous devriez avoir reçu une copie de la licence avec ce programme. Sinon,
 #   consultez.
 #  ==============================================================================
-

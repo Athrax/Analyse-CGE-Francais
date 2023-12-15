@@ -12,31 +12,65 @@
 #   consultez.
 #  ==============================================================================
 
-# python_version >= "3.11"
+import matplotlib.pyplot as plt  # graphiques
+import numpy as np  # outils mathématiques
+import sys  # système
 
-# matplotlib : graphiques
-import matplotlib.pyplot as plt
-import matplotlib.animation as animation
+import fichier.gestionnaire_source  # traitement du fichier source
+import affichage.gestionnaire_affichage  # gestion de l'affichage
+from tracabilite.traces import info  # logs de niveau 1
+from tracabilite.traces import erreur  # logs de niveau 2
 
-# numpy : outils mathématiques
-import numpy as np
-
-# sys : système
-import sys
-
-# Importation des modules principaux
-from gestionnaire_affichage import affichage
 
 def run():
     """
     Fonction principale du logiciel.
     Executée si main.py n'est pas appelée comme un module
-
-    Args:
-        data_file_path (string): Chemin vers le fichier de données.
     """
-    affichage()
-    np.exp(2)
 
-if __name__ == '__main__': # On vérifie si on execute bien le fichier directement et non comme un module
-    sys.exit(run()) # Si on ne l'execute pas comme un module, alors on démarre notre programme
+    # Traitement du fichier source :
+    # Si un fichier a été passé en argument lors de l'execution du code,
+    # alors on met à jour la base de donnée json
+    # sinon, on créer un fichier json avec les données du fichier.
+
+    # Si un argument est donné (fichier source)
+
+    if len(sys.argv) > 1:
+        chemin_fichier_source = str(sys.argv[1])  # On enregistre le chemin du fichier csv
+
+        info("Recherche du fichier passé en argument : {0}".format(chemin_fichier_source))
+        try:  # On essaye de charger le fichier de donnes
+            fichier_source = open(chemin_fichier_source, "r")
+            info("Fichier ouvert avec succès.")
+            # On traite le fichier source donné
+
+        except FileNotFoundError:  # Si le fichier n'est pas trouvé
+            erreur("Le fichier {0} est introuvable".format(chemin_fichier_source))
+            return 2  # Mauvaise utilisation du programme ou erreur d'entrée de l'utilisateur
+
+        except IOError:
+            erreur("Le fichier {0} n'est pas lisible".format(chemin_fichier_source))
+            return 2  # Erreur générique (non spécifiée)
+
+    # Si aucun chemin vers un fichier source n'a été donné
+
+    else:
+        try:  # On vérifie si la base de donnée existe déja (donnees.json)
+            db = open("donnees.json", "r")  # On essaye d'ouvrir la base de données (qu'on nommera db)
+
+        except FileNotFoundError:
+            erreur("Aucune base de donnée n'existe",
+                   "Veuillez executer le logiciel en précisant le chemin vers une source",
+                   "Elle doit être au format csv, séparé par des virgules")
+            return 2  # Erreur générique (non spécifiée)
+
+    info("Fin du programme")
+    return 0  # Fin du programme
+
+
+if __name__ == '__main__':  # On vérifie si on execute bien le fichier directement et non comme un module
+    info("Le programme démarre ...")
+    sys.exit(run())  # Si on ne l'execute pas comme un module, alors on démarre notre programme
+
+else:
+    erreur("Impossible de démarrer le logiciel en tant que module", "Veuillez executer main.py directement.")
