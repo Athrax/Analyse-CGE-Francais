@@ -13,10 +13,11 @@
 #  ==============================================================================
 from analyse_cge.journalisation.traces import *
 
+
 def detection_en_tete(fichier_source):
     """
     Détecte les colonnes utiles du fichier source selon celles qui nous intéressent.
-    Celles ci sont décrites dans le fichier de configuration.
+    Celles ci sont décrites dans le fichier de configuration/liste en_tete_utiles
 
     Args:
         fichier_source (file): Fichier source.
@@ -28,16 +29,22 @@ def detection_en_tete(fichier_source):
     # Découpage
     info("Detection des en-têtes ...")
     en_tete = fichier_source.readline().lower().split(',')
+    en_tete_source = fichier_source.readline().lower().split(',')
 
     # On précise les colonne du fichier qui nous intéressent
-    en_tete_utiles = ["postes", "sous-postes", "libellé ministère", "balance sortie 2022", "balance sortie 2012"]
-    colonnes = dict() # Création d'un dictionnaire des colonnes utiles
+    en_tete_utiles = ["postes", "sous-postes", "ministère", "2022", "2012"]
+    colonnes = dict()  # Création d'un dictionnaire des colonnes utiles
 
-    for i in range(len(en_tete)):
-         if en_tete[i] in en_tete_utiles:
-             colonnes[en_tete[i]] = i
+    info("Détection des colonnes du fichier source ...")
+
+    for en_tete_recherchee in en_tete_utiles:
+        for i in range(len(en_tete_source)):
+            if en_tete_recherchee in en_tete_source[i]:
+                colonnes[en_tete_recherchee] = i
+                break
 
     info(f"Colonnes: {colonnes}")  # On affiches les colonnes et leur indices
+
     return colonnes
 
 
