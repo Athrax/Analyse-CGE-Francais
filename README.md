@@ -16,6 +16,14 @@ L'objectif de ce projet était de manipuler et d'exploiter les données d'un fic
 - Bibliothèques Python pour le traitement de données (pandas, matplotlib, etc.)
 - Poetry pour la gestion des dépendances
 
+## Bibliothèques Utilisées
+- matplotlib.pyplot
+- os
+- sys
+- io
+- datetime
+- json
+
 ## Comment Utiliser
 1. Clônez le dépôt vers votre machine locale.
 2. Les dépendances et l'interpréteur s'installent automatiquement. Le cas échéant, assurez-vous d'avoir les dépendances Python installées (voir `pyproject.toml`).

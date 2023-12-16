@@ -27,7 +27,7 @@ def savon(*valeurs):
     Returns:
         nombre (tuple): Valeurs nettoyée
     """
-    info(f"Nettotage des valeurs {valeurs} ...")
+    info(f"Nettoyage des valeurs {valeurs} ...")
     try:
         # Essaye de convertir en float la valeur directement obtenue
         return tuple(float(nombre) for nombre in valeurs)  # La valeur est déja un nombre

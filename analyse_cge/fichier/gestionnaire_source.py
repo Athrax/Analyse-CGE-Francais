@@ -11,9 +11,10 @@
 #   Vous devriez avoir reçu une copie de la licence avec ce programme. Sinon,
 #   consultez.
 #  ==============================================================================
+import csv
+
 from analyse_cge.donnees.nettoyage_valeur import savon
 from analyse_cge.journalisation.traces import *
-import re
 
 
 def detection_en_tete(fichier_source):
@@ -48,6 +49,43 @@ def detection_en_tete(fichier_source):
     return colonnes
 
 
+def detection_cellules(ligne):
+    """
+    Cette fonction répond à un problème d'interpétation du fichier csv
+    Chaque cellule d'une ligne du fichier csv est séparée par une virgule.
+    Or, il arrive qu'une virgule existe à l'intérieur d'une cellule.
+    Ainsi, la-dite cellule est entourée de guillements.
+    L'objectif de cette fonction est de traiter correctement le decoupage de cellule
+    afin de ne pas séparer en deux l'une d'elles.
+    Nous utilisons un module de traitement de fichier csv appelé StringIO,
+    de la biliothèque io de python.
+
+    Args:
+        ligne (str): La ligne du fichier à découper en cellules
+    Returns:
+        cellules (list): Les cellules sous forme de liste
+    """
+    from io import StringIO
+
+    # On considère notre ligne comme un fichier csv d'une seule ligne
+    try:
+        with StringIO(ligne) as ligne_fichier:
+            # On lit le fichier csv d'une ligne et on découpe les cellules
+            # en précisant le délimiteur et les caractère de jalons de cellule
+            # Rappel : next() est une fonction qui permet d'obtenir le prochain élément d'un itérable
+
+            lecture_ligne = next(csv.reader(ligne_fichier, delimiter=",", quotechar='"'))
+            info(f"Données détectées dans la ligne : {lecture_ligne}")
+            return lecture_ligne # On renvoit la première ligne du fichier-ligne csv
+
+    except IOError as err: # Si on n'arrive pas à lire la ligne
+        erreur("Echec de la détection des données dans la ligne",
+               "Impossible de lire la ligne fichier",
+               "Veuillez verifier les caractères delimiteur et jalons de cellule",
+               err)
+        return 1
+
+
 def regroupe_donnees_ministere(fichier_source, colonnes):
     """
     Regroupes les donnees du fichier source par ministère dans un dictionnaire
@@ -63,7 +101,14 @@ def regroupe_donnees_ministere(fichier_source, colonnes):
 
     info("Regroupement du contenu du fichier source par ministère...")
     for ligne in fichier_source:  # On lit ligne après ligne le fichier source
-        cellules = ligne.strip().split(',')  # Supprime caractère de nouvelle ligne et recupère une liste des cellules
+
+        # On essaye de récupérer les cellules du ligne après ligne
+        try: # Si tout se passe bien
+            cellules = detection_cellules(ligne) # On extrait les cellules de la lignes sous forme de tableau
+
+        except: # Si la ligne ne contient pas de données valides
+            break # On ne traite pas la ligne
+
         cellule_ministere = cellules[colonnes["ministère"]]  # Ministère concerné par la ligne
         cellule_poste = cellules[colonnes["postes"]]  # Poste concerné par la ligne
         cellule_sous_poste = cellules[colonnes["sous-postes"]]  # Sous poste concerné par la ligne
