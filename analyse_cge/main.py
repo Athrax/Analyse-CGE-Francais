@@ -44,7 +44,8 @@ def run():
             info("Fichier ouvert avec succès", "Création de la base de donnée à partir de la source ...")
 
             # On traite le fichier source donné
-            detection_en_tete(fichier_source)
+            colonnes_a_traiter = detection_en_tete(fichier_source)
+
 
         except FileNotFoundError:  # Si le fichier n'est pas trouvé
             erreur("Le fichier {0} est introuvable".format(chemin_fichier_source))
