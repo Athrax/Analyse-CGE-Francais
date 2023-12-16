@@ -1,0 +1,38 @@
+{
+    "menu": {
+        "graphique": {
+            "titre": "Affichage des graphiques",
+            "menu": {
+                "ministere": {
+                    "titre": "Recettes et dépenses par ministère",
+                    "menu": {
+                        "retour": {
+                            "titre": "Ce graphique représente les dépense et les recettes de létat par ministère, entre 2022 et 2012",
+                            "operation": "graph_ministere"
+                        }
+                    }
+                },
+                "retour": {
+                    "titre": "Retour"
+                }
+            }
+        },
+        "options": {
+            "titre": "Options et constantes du programme",
+            "menu": {
+                "source": {
+                    "titre": "Source des données"
+                },
+                "db": {
+                    "titre": "Base de donnéees"
+                },
+                "retour": {
+                    "titre": "Retour"
+                }
+            }
+        },
+        "quitter": {
+            "titre": "Quitter le logiciel"
+        }
+    }
+}
