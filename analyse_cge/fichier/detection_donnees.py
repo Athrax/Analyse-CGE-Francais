@@ -28,7 +28,11 @@ def detection_en_tete(fichier_source):
     # Lecture de la première ligne du fichier source
     # Traduction en minuscule
     # Découpage
-    en_tete_source = fichier_source.readline().lower().split(',')
+    try:
+        en_tete_source = fichier_source.readline().lower().split(',')
+    except UnicodeDecodeError:
+        erreur("Impossible de lire le fichier source", "Seul le codec UTF-8 est autorisé")
+        sys.exit(2)
 
     # On précise les colonne du fichier qui nous intéressent
     en_tete_utiles = ["postes", "sous-postes", "ministère", "2022", "2012"]

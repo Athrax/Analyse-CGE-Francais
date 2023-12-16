@@ -1,875 +1,185 @@
 {
-    "Inconnu": {
+    "Agriculture et alimentation": {
         "d\u00e9pense_annuelle": {
-            "2022": -17254584967137.0,
-            "2012": -3921730807495.959
+            "2022": -4045605095.69,
+            "2012": -555457692.81
+        },
+        "recette_annuelle": {
+            "2022": 0.0,
+            "2012": 26183165.700000003
         },
         "postes": {
-            "Tr\u00e9sorerie active": {
+            " Charges d'intervention ": {
                 "d\u00e9pense_annuelle": {
-                    "2022": -6113525642.6,
+                    "2022": -265665535.14,
+                    "2012": -376998.0
+                },
+                "recette_annuelle": {
+                    "2022": 0.0,
                     "2012": 0.0
                 },
                 "sous-postes": {
-                    "Fonds bancaires et fonds en caisse": {
+                    " Transferts aux entreprises ": {
                         "d\u00e9pense_annuelle": {
-                            "2022": -6113525642.6,
+                            "2022": -265665535.14,
+                            "2012": -376998.0
+                        },
+                        "recette_annuelle": {
+                            "2022": 0.0,
                             "2012": 0.0
                         }
                     }
                 }
             },
-            "Solde des op\u00e9rations de l'exercice": {
+            " Dettes non financi\u00e8res ": {
                 "d\u00e9pense_annuelle": {
-                    "2022": -5117881402.0,
+                    "2022": -158973672.96,
+                    "2012": -328856.67
+                },
+                "recette_annuelle": {
+                    "2022": 0.0,
                     "2012": 0.0
                 },
                 "sous-postes": {
-                    "Inconnu": {
+                    " Dettes d'intervention ": {
                         "d\u00e9pense_annuelle": {
-                            "2022": -5117881402.0,
+                            "2022": -158973672.96,
+                            "2012": -328856.67
+                        },
+                        "recette_annuelle": {
+                            "2022": 0.0,
                             "2012": 0.0
                         }
                     }
                 }
             },
-            "Dettes financi\u00e8res": {
+            " Engagements hors bilan ": {
                 "d\u00e9pense_annuelle": {
-                    "2022": -11281265427.23,
+                    "2022": -200709562.88,
+                    "2012": -41614365.1
+                },
+                "recette_annuelle": {
+                    "2022": 0.0,
                     "2012": 0.0
                 },
                 "sous-postes": {
-                    "Titres n\u00e9gociables": {
+                    " Contrepartie des engagements ": {
                         "d\u00e9pense_annuelle": {
-                            "2022": -11281265427.23,
+                            "2022": -200709562.88,
+                            "2012": -41614365.1
+                        },
+                        "recette_annuelle": {
+                            "2022": 0.0,
                             "2012": 0.0
                         }
                     }
                 }
             },
-            "Dettes non financi\u00e8res": {
+            " Immobilisations financi\u00e8res ": {
                 "d\u00e9pense_annuelle": {
-                    "2022": -6122335568.4,
+                    "2022": -146924149.91,
+                    "2012": 0.0
+                },
+                "recette_annuelle": {
+                    "2022": 0.0,
                     "2012": 0.0
                 },
                 "sous-postes": {
-                    "Autres dettes non financi\u00e8res": {
+                    " Fonds sans personnalit\u00e9 juridique ": {
                         "d\u00e9pense_annuelle": {
-                            "2022": -6122335568.4,
+                            "2022": -146924149.91,
+                            "2012": 0.0
+                        },
+                        "recette_annuelle": {
+                            "2022": 0.0,
                             "2012": 0.0
                         }
                     }
                 }
             },
-            "Engagements hors bilan": {
+            " Produits d'intervention ": {
                 "d\u00e9pense_annuelle": {
-                    "2022": -5866165818.9,
+                    "2022": -327970538.92,
+                    "2012": -224976623.26
+                },
+                "recette_annuelle": {
+                    "2022": 0.0,
                     "2012": 0.0
                 },
                 "sous-postes": {
-                    "Engagements financiers de l'Etat": {
+                    " Reprises sur provisions et d\u00e9pr\u00e9ciations ": {
                         "d\u00e9pense_annuelle": {
-                            "2022": -5866165818.9,
+                            "2022": -327970538.92,
+                            "2012": -224976623.26
+                        },
+                        "recette_annuelle": {
+                            "2022": 0.0,
                             "2012": 0.0
                         }
                     }
                 }
             },
-            "Comptes de r\u00e9gularisation - Actif": {
+            " Produits de fonctionnement ": {
                 "d\u00e9pense_annuelle": {
-                    "2022": -6636570896.0,
+                    "2022": -234016003.88,
+                    "2012": -84300000.0
+                },
+                "recette_annuelle": {
+                    "2022": 0.0,
                     "2012": 0.0
                 },
                 "sous-postes": {
-                    "Inconnu": {
+                    " Reprises sur provisions et d\u00e9pr\u00e9ciations ": {
                         "d\u00e9pense_annuelle": {
-                            "2022": -6636570896.0,
+                            "2022": -234016003.88,
+                            "2012": -84300000.0
+                        },
+                        "recette_annuelle": {
+                            "2022": 0.0,
                             "2012": 0.0
                         }
                     }
                 }
             },
-            "Produits r\u00e9galiens nets": {
+            " Provisions ": {
                 "d\u00e9pense_annuelle": {
-                    "2022": -5762963842.0,
+                    "2022": -355327582.11,
+                    "2012": -140314326.1
+                },
+                "recette_annuelle": {
+                    "2022": 0.0,
                     "2012": 0.0
                 },
                 "sous-postes": {
-                    "Imp\u00f4t sur le revenu": {
+                    " Provisions pour charges ": {
                         "d\u00e9pense_annuelle": {
-                            "2022": -5762963842.0,
+                            "2022": -355327582.11,
+                            "2012": -140314326.1
+                        },
+                        "recette_annuelle": {
+                            "2022": 0.0,
                             "2012": 0.0
                         }
                     }
                 }
             },
-            "Ecarts de r\u00e9\u00e9valuation et d'int\u00e9gration": {
+            " Solde des op\u00e9rations de l'exercice ": {
                 "d\u00e9pense_annuelle": {
-                    "2022": -5533943834.0,
+                    "2022": -182336168.62,
+                    "2012": -63546523.68
+                },
+                "recette_annuelle": {
+                    "2022": 0.0,
                     "2012": 0.0
                 },
                 "sous-postes": {
-                    "Inconnu": {
+                    "   ": {
                         "d\u00e9pense_annuelle": {
-                            "2022": -5533943834.0,
-                            "2012": 0.0
-                        }
-                    }
-                }
-            },
-            "Tr\u00e9sorerie passive": {
-                "d\u00e9pense_annuelle": {
-                    "2022": -7181068378.0,
-                    "2012": 0.0
-                },
-                "sous-postes": {
-                    "Correspondants du Tr\u00e9sor et personnes habilit\u00e9es": {
-                        "d\u00e9pense_annuelle": {
-                            "2022": -7181068378.0,
-                            "2012": 0.0
-                        }
-                    }
-                }
-            },
-            "Immobilisations financi\u00e8res": {
-                "d\u00e9pense_annuelle": {
-                    "2022": -5217456000.0,
-                    "2012": 0.0
-                },
-                "sous-postes": {
-                    "Fonds sans personnalit\u00e9 juridique": {
-                        "d\u00e9pense_annuelle": {
-                            "2022": -5217456000.0,
-                            "2012": 0.0
-                        }
-                    }
-                }
-            },
-            "Comptes de r\u00e9gularisation - Passif": {
-                "d\u00e9pense_annuelle": {
-                    "2022": -40725000000.0,
-                    "2012": 0.0
-                },
-                "sous-postes": {
-                    "Inconnu": {
-                        "d\u00e9pense_annuelle": {
-                            "2022": -40725000000.0,
-                            "2012": 0.0
-                        }
-                    }
-                }
-            },
-            "Cr\u00e9ances": {
-                "d\u00e9pense_annuelle": {
-                    "2022": -5272117919.0,
-                    "2012": 0.0
-                },
-                "sous-postes": {
-                    "Autres cr\u00e9ances": {
-                        "d\u00e9pense_annuelle": {
-                            "2022": -5272117919.0,
-                            "2012": 0.0
-                        }
-                    }
-                }
-            },
-            "Report des exercices ant\u00e9rieurs": {
-                "d\u00e9pense_annuelle": {
-                    "2022": -86575070084.0,
-                    "2012": 0.0
-                },
-                "sous-postes": {
-                    "Inconnu": {
-                        "d\u00e9pense_annuelle": {
-                            "2022": -86575070084.0,
-                            "2012": 0.0
-                        }
-                    }
-                }
-            },
-            "Charges de fonctionnement direct": {
-                "d\u00e9pense_annuelle": {
-                    "2022": -19560681609.0,
-                    "2012": 0.0
-                },
-                "sous-postes": {
-                    "Charges de personnel": {
-                        "d\u00e9pense_annuelle": {
-                            "2022": -19560681609.0,
-                            "2012": 0.0
-                        }
-                    }
-                }
-            },
-            "Produits de fonctionnement": {
-                "d\u00e9pense_annuelle": {
-                    "2022": -10162479912.0,
-                    "2012": 0.0
-                },
-                "sous-postes": {
-                    "Autres produits de fonctionnement": {
-                        "d\u00e9pense_annuelle": {
-                            "2022": -10162479912.0,
-                            "2012": 0.0
-                        }
-                    }
-                }
-            },
-            "Produits d'intervention": {
-                "d\u00e9pense_annuelle": {
-                    "2022": -7400000000.0,
-                    "2012": 0.0
-                },
-                "sous-postes": {
-                    "Contributions re\u00e7ues de tiers": {
-                        "d\u00e9pense_annuelle": {
-                            "2022": -7400000000.0,
-                            "2012": 0.0
-                        }
-                    }
-                }
-            },
-            "Provisions": {
-                "d\u00e9pense_annuelle": {
-                    "2022": -26126664175.36,
-                    "2012": 0.0
-                },
-                "sous-postes": {
-                    "Provisions pour charges": {
-                        "d\u00e9pense_annuelle": {
-                            "2022": -26126664175.36,
-                            "2012": 0.0
-                        }
-                    }
-                }
-            },
-            "Autres passifs (hors tr\u00e9sorerie)": {
-                "d\u00e9pense_annuelle": {
-                    "2022": -6566571476.0,
-                    "2012": 0.0
-                },
-                "sous-postes": {
-                    "Investissements d'avenir (consommables)": {
-                        "d\u00e9pense_annuelle": {
-                            "2022": -6566571476.0,
-                            "2012": 0.0
-                        }
-                    }
-                }
-            },
-            "Produits financiers": {
-                "d\u00e9pense_annuelle": {
-                    "2022": -17008290589.0,
-                    "2012": 0.0
-                },
-                "sous-postes": {
-                    "Reprises sur provisions et d\u00e9pr\u00e9ciations": {
-                        "d\u00e9pense_annuelle": {
-                            "2022": -17008290589.0,
-                            "2012": 0.0
-                        }
-                    }
-                }
-            },
-            "Charges constat\u00e9es d'avance": {
-                "d\u00e9pense_annuelle": {
-                    "2022": -13851554308.0,
-                    "2012": 0.0
-                },
-                "sous-postes": {
-                    "Inconnu": {
-                        "d\u00e9pense_annuelle": {
-                            "2022": -13851554308.0,
-                            "2012": 0.0
-                        }
-                    }
-                }
-            }
-        }
-    },
-    "Transition \u00e9cologique": {
-        "d\u00e9pense_annuelle": {
-            "2022": -806775314896.0,
-            "2012": -232755765980.53
-        },
-        "postes": {
-            "Engagements hors bilan": {
-                "d\u00e9pense_annuelle": {
-                    "2022": -5485144221.0,
-                    "2012": 0.0
-                },
-                "sous-postes": {
-                    "Dispositifs d'intervention": {
-                        "d\u00e9pense_annuelle": {
-                            "2022": -5485144221.0,
-                            "2012": 0.0
-                        }
-                    }
-                }
-            },
-            "Ecarts de r\u00e9\u00e9valuation et d'int\u00e9gration": {
-                "d\u00e9pense_annuelle": {
-                    "2022": -17221007349.0,
-                    "2012": 0.0
-                },
-                "sous-postes": {
-                    "Inconnu": {
-                        "d\u00e9pense_annuelle": {
-                            "2022": -17221007349.0,
-                            "2012": 0.0
-                        }
-                    }
-                }
-            },
-            "Solde des op\u00e9rations de l'exercice": {
-                "d\u00e9pense_annuelle": {
-                    "2022": -27916781830.0,
-                    "2012": 0.0
-                },
-                "sous-postes": {
-                    "Inconnu": {
-                        "d\u00e9pense_annuelle": {
-                            "2022": -27916781830.0,
-                            "2012": 0.0
-                        }
-                    }
-                }
-            },
-            "Provisions": {
-                "d\u00e9pense_annuelle": {
-                    "2022": -9188344042.0,
-                    "2012": 0.0
-                },
-                "sous-postes": {
-                    "Provisions pour charges": {
-                        "d\u00e9pense_annuelle": {
-                            "2022": -9188344042.0,
-                            "2012": 0.0
-                        }
-                    }
-                }
-            },
-            "Produits de fonctionnement": {
-                "d\u00e9pense_annuelle": {
-                    "2022": -15760183711.0,
-                    "2012": 0.0
-                },
-                "sous-postes": {
-                    "Autres produits de fonctionnement": {
-                        "d\u00e9pense_annuelle": {
-                            "2022": -15760183711.0,
-                            "2012": 0.0
-                        }
-                    }
-                }
-            },
-            "Cr\u00e9ances": {
-                "d\u00e9pense_annuelle": {
-                    "2022": -13070047000.0,
-                    "2012": 0.0
-                },
-                "sous-postes": {
-                    "Autres cr\u00e9ances": {
-                        "d\u00e9pense_annuelle": {
-                            "2022": -13070047000.0,
-                            "2012": 0.0
-                        }
-                    }
-                }
-            },
-            "Immobilisations corporelles": {
-                "d\u00e9pense_annuelle": {
-                    "2022": -10081169188.0,
-                    "2012": 0.0
-                },
-                "sous-postes": {
-                    "Constructions": {
-                        "d\u00e9pense_annuelle": {
-                            "2022": -10081169188.0,
-                            "2012": 0.0
-                        }
-                    }
-                }
-            },
-            "Charges d'intervention": {
-                "d\u00e9pense_annuelle": {
-                    "2022": -7640870941.0,
-                    "2012": 0.0
-                },
-                "sous-postes": {
-                    "Transferts aux entreprises": {
-                        "d\u00e9pense_annuelle": {
-                            "2022": -7640870941.0,
-                            "2012": 0.0
-                        }
-                    }
-                }
-            },
-            "Dettes non financi\u00e8res": {
-                "d\u00e9pense_annuelle": {
-                    "2022": -6602966792.0,
-                    "2012": 0.0
-                },
-                "sous-postes": {
-                    "Produits constat\u00e9s d'avance": {
-                        "d\u00e9pense_annuelle": {
-                            "2022": -6602966792.0,
-                            "2012": 0.0
-                        }
-                    }
-                }
-            }
-        }
-    },
-    "Services du Premier ministre": {
-        "d\u00e9pense_annuelle": {
-            "2022": -114627758000.0,
-            "2012": -491741960.1
-        },
-        "postes": {
-            "Engagements hors bilan": {
-                "d\u00e9pense_annuelle": {
-                    "2022": -26105000000.0,
-                    "2012": 0.0
-                },
-                "sous-postes": {
-                    "Engagements financiers de l'Etat": {
-                        "d\u00e9pense_annuelle": {
-                            "2022": -26105000000.0,
-                            "2012": 0.0
-                        }
-                    }
-                }
-            }
-        }
-    },
-    "\u00c9conomie, finances et relance": {
-        "d\u00e9pense_annuelle": {
-            "2022": -590518538464.0,
-            "2012": -23683897037.12
-        },
-        "postes": {
-            "Comptes de r\u00e9gularisation - Passif": {
-                "d\u00e9pense_annuelle": {
-                    "2022": -6116009905.0,
-                    "2012": 0.0
-                },
-                "sous-postes": {
-                    "Inconnu": {
-                        "d\u00e9pense_annuelle": {
-                            "2022": -6116009905.0,
-                            "2012": 0.0
-                        }
-                    }
-                }
-            },
-            "Solde des op\u00e9rations de l'exercice": {
-                "d\u00e9pense_annuelle": {
-                    "2022": -4981543434.74,
-                    "2012": 0.0
-                },
-                "sous-postes": {
-                    "Inconnu": {
-                        "d\u00e9pense_annuelle": {
-                            "2022": -4981543434.74,
-                            "2012": 0.0
-                        }
-                    }
-                }
-            },
-            "Dettes non financi\u00e8res": {
-                "d\u00e9pense_annuelle": {
-                    "2022": -15090894158.0,
-                    "2012": 0.0
-                },
-                "sous-postes": {
-                    "Autres dettes non financi\u00e8res": {
-                        "d\u00e9pense_annuelle": {
-                            "2022": -15090894158.0,
-                            "2012": 0.0
-                        }
-                    }
-                }
-            },
-            "Produits r\u00e9galiens nets": {
-                "d\u00e9pense_annuelle": {
-                    "2022": -6434407924.0,
-                    "2012": 0.0
-                },
-                "sous-postes": {
-                    "Imp\u00f4t sur les soci\u00e9t\u00e9s": {
-                        "d\u00e9pense_annuelle": {
-                            "2022": -6434407924.0,
-                            "2012": 0.0
-                        }
-                    }
-                }
-            },
-            "Produits de fonctionnement": {
-                "d\u00e9pense_annuelle": {
-                    "2022": -10073592717.0,
-                    "2012": 0.0
-                },
-                "sous-postes": {
-                    "Reprises sur provisions et d\u00e9pr\u00e9ciations": {
-                        "d\u00e9pense_annuelle": {
-                            "2022": -10073592717.0,
-                            "2012": 0.0
-                        }
-                    }
-                }
-            },
-            "Ecarts de r\u00e9\u00e9valuation et d'int\u00e9gration": {
-                "d\u00e9pense_annuelle": {
-                    "2022": -6799396508.96,
-                    "2012": 0.0
-                },
-                "sous-postes": {
-                    "Inconnu": {
-                        "d\u00e9pense_annuelle": {
-                            "2022": -6799396508.96,
-                            "2012": 0.0
-                        }
-                    }
-                }
-            },
-            "Engagements hors bilan": {
-                "d\u00e9pense_annuelle": {
-                    "2022": -8160529848.0,
-                    "2012": 0.0
-                },
-                "sous-postes": {
-                    "Engagements financiers de l'Etat": {
-                        "d\u00e9pense_annuelle": {
-                            "2022": -8160529848.0,
-                            "2012": 0.0
-                        }
-                    }
-                }
-            },
-            "Tr\u00e9sorerie passive": {
-                "d\u00e9pense_annuelle": {
-                    "2022": -8580929092.0,
-                    "2012": 0.0
-                },
-                "sous-postes": {
-                    "Correspondants du Tr\u00e9sor et personnes habilit\u00e9es": {
-                        "d\u00e9pense_annuelle": {
-                            "2022": -8580929092.0,
-                            "2012": 0.0
-                        }
-                    }
-                }
-            },
-            "Provisions": {
-                "d\u00e9pense_annuelle": {
-                    "2022": -8005482993.0,
-                    "2012": 0.0
-                },
-                "sous-postes": {
-                    "Provisions pour risques": {
-                        "d\u00e9pense_annuelle": {
-                            "2022": -8005482993.0,
-                            "2012": 0.0
-                        }
-                    }
-                }
-            },
-            "Immobilisations financi\u00e8res": {
-                "d\u00e9pense_annuelle": {
-                    "2022": -12749400992.0,
-                    "2012": 0.0
-                },
-                "sous-postes": {
-                    "Cr\u00e9ances rattach\u00e9es \u00e0 des participations": {
-                        "d\u00e9pense_annuelle": {
-                            "2022": -12749400992.0,
-                            "2012": 0.0
-                        }
-                    }
-                }
-            },
-            "Cr\u00e9ances": {
-                "d\u00e9pense_annuelle": {
-                    "2022": -10892439857.0,
-                    "2012": 0.0
-                },
-                "sous-postes": {
-                    "Redevables": {
-                        "d\u00e9pense_annuelle": {
-                            "2022": -10892439857.0,
-                            "2012": 0.0
-                        }
-                    }
-                }
-            },
-            "Produits d'intervention": {
-                "d\u00e9pense_annuelle": {
-                    "2022": -5542876844.0,
-                    "2012": 0.0
-                },
-                "sous-postes": {
-                    "Reprises sur provisions et d\u00e9pr\u00e9ciations": {
-                        "d\u00e9pense_annuelle": {
-                            "2022": -5542876844.0,
-                            "2012": 0.0
-                        }
-                    }
-                }
-            }
-        }
-    },
-    "Mer": {
-        "d\u00e9pense_annuelle": {
-            "2022": -38297982000.0,
-            "2012": 0.0
-        },
-        "postes": {
-            "Engagements hors bilan": {
-                "d\u00e9pense_annuelle": {
-                    "2022": -38297982000.0,
-                    "2012": 0.0
-                },
-                "sous-postes": {
-                    "Dispositifs d'intervention": {
-                        "d\u00e9pense_annuelle": {
-                            "2022": -38297982000.0,
-                            "2012": 0.0
-                        }
-                    }
-                }
-            }
-        }
-    },
-    "Arm\u00e9es": {
-        "d\u00e9pense_annuelle": {
-            "2022": -137372725965.0,
-            "2012": -58581701406.87
-        },
-        "postes": {
-            "Immobilisations corporelles": {
-                "d\u00e9pense_annuelle": {
-                    "2022": -13155064940.0,
-                    "2012": 0.0
-                },
-                "sous-postes": {
-                    "Mat\u00e9riel militaire": {
-                        "d\u00e9pense_annuelle": {
-                            "2022": -13155064940.0,
-                            "2012": 0.0
-                        }
-                    }
-                }
-            },
-            "Solde des op\u00e9rations de l'exercice": {
-                "d\u00e9pense_annuelle": {
-                    "2022": -7480347446.0,
-                    "2012": 0.0
-                },
-                "sous-postes": {
-                    "Inconnu": {
-                        "d\u00e9pense_annuelle": {
-                            "2022": -7480347446.0,
-                            "2012": 0.0
-                        }
-                    }
-                }
-            },
-            "Cr\u00e9ances": {
-                "d\u00e9pense_annuelle": {
-                    "2022": -18162358461.0,
-                    "2012": 0.0
-                },
-                "sous-postes": {
-                    "Autres cr\u00e9ances": {
-                        "d\u00e9pense_annuelle": {
-                            "2022": -18162358461.0,
-                            "2012": 0.0
-                        }
-                    }
-                }
-            },
-            "Immobilisations incorporelles": {
-                "d\u00e9pense_annuelle": {
-                    "2022": -28227813589.0,
-                    "2012": 0.0
-                },
-                "sous-postes": {
-                    "Co\u00fbt de d\u00e9veloppement": {
-                        "d\u00e9pense_annuelle": {
-                            "2022": -28227813589.0,
-                            "2012": 0.0
-                        }
-                    }
-                }
-            },
-            "Engagements hors bilan": {
-                "d\u00e9pense_annuelle": {
-                    "2022": -9266000000.0,
-                    "2012": 0.0
-                },
-                "sous-postes": {
-                    "Garanties li\u00e9es \u00e0 des missions d'int g\u00e9n": {
-                        "d\u00e9pense_annuelle": {
-                            "2022": -9266000000.0,
-                            "2012": 0.0
-                        }
-                    }
-                }
-            },
-            "Comptes de r\u00e9gularisation - Actif": {
-                "d\u00e9pense_annuelle": {
-                    "2022": -8436388965.87,
-                    "2012": 0.0
-                },
-                "sous-postes": {
-                    "Inconnu": {
-                        "d\u00e9pense_annuelle": {
-                            "2022": -8436388965.87,
-                            "2012": 0.0
-                        }
-                    }
-                }
-            },
-            "Stocks": {
-                "d\u00e9pense_annuelle": {
-                    "2022": -9021348240.0,
-                    "2012": 0.0
-                },
-                "sous-postes": {
-                    "Inconnu": {
-                        "d\u00e9pense_annuelle": {
-                            "2022": -9021348240.0,
-                            "2012": 0.0
-                        }
-                    }
-                }
-            },
-            "Ecarts de r\u00e9\u00e9valuation et d'int\u00e9gration": {
-                "d\u00e9pense_annuelle": {
-                    "2022": -11152622481.0,
-                    "2012": 0.0
-                },
-                "sous-postes": {
-                    "Inconnu": {
-                        "d\u00e9pense_annuelle": {
-                            "2022": -11152622481.0,
-                            "2012": 0.0
-                        }
-                    }
-                }
-            }
-        }
-    },
-    "Solidarit\u00e9s et sant\u00e9": {
-        "d\u00e9pense_annuelle": {
-            "2022": -17656008000.0,
-            "2012": 0.0
-        },
-        "postes": {
-            "Engagements hors bilan": {
-                "d\u00e9pense_annuelle": {
-                    "2022": -17656008000.0,
-                    "2012": 0.0
-                },
-                "sous-postes": {
-                    "Dispositifs d'intervention": {
-                        "d\u00e9pense_annuelle": {
-                            "2022": -17656008000.0,
-                            "2012": 0.0
-                        }
-                    }
-                }
-            }
-        }
-    },
-    "Travail, emploi et insertion": {
-        "d\u00e9pense_annuelle": {
-            "2022": -39720696605.0,
-            "2012": -246684979.31
-        },
-        "postes": {
-            "Comptes de r\u00e9gularisation - Passif": {
-                "d\u00e9pense_annuelle": {
-                    "2022": -17500000000.0,
-                    "2012": 0.0
-                },
-                "sous-postes": {
-                    "Inconnu": {
-                        "d\u00e9pense_annuelle": {
-                            "2022": -17500000000.0,
-                            "2012": 0.0
-                        }
-                    }
-                }
-            },
-            "Engagements hors bilan": {
-                "d\u00e9pense_annuelle": {
-                    "2022": -8143549723.01,
-                    "2012": 0.0
-                },
-                "sous-postes": {
-                    "Dispositifs d'intervention": {
-                        "d\u00e9pense_annuelle": {
-                            "2022": -8143549723.01,
-                            "2012": 0.0
-                        }
-                    }
-                }
-            },
-            "Solde des op\u00e9rations de l'exercice": {
-                "d\u00e9pense_annuelle": {
-                    "2022": -5226789562.0,
-                    "2012": 0.0
-                },
-                "sous-postes": {
-                    "Inconnu": {
-                        "d\u00e9pense_annuelle": {
-                            "2022": -5226789562.0,
-                            "2012": 0.0
-                        }
-                    }
-                }
-            }
-        }
-    },
-    "Europe et affaires \u00e9trang\u00e8res": {
-        "d\u00e9pense_annuelle": {
-            "2022": -7072437932.0,
-            "2012": -4882179518.0
-        },
-        "postes": {
-            "Provisions": {
-                "d\u00e9pense_annuelle": {
-                    "2022": -11954617450.0,
-                    "2012": 0.0
-                },
-                "sous-postes": {
-                    "Provisions pour charges": {
-                        "d\u00e9pense_annuelle": {
-                            "2022": -11954617450.0,
-                            "2012": 0.0
-                        }
-                    }
-                }
-            }
-        }
-    },
-    "Justice": {
-        "d\u00e9pense_annuelle": {
-            "2022": -5060362031.0,
-            "2012": -3578989681.0
-        },
-        "postes": {
-            "Immobilisations corporelles": {
-                "d\u00e9pense_annuelle": {
-                    "2022": -8639351712.0,
-                    "2012": 0.0
-                },
-                "sous-postes": {
-                    "Constructions": {
-                        "d\u00e9pense_annuelle": {
-                            "2022": -8639351712.0,
+                            "2022": -182336168.62,
+                            "2012": -63546523.68
+                        },
+                        "recette_annuelle": {
+                            "2022": 0.0,
                             "2012": 0.0
                         }
                     }

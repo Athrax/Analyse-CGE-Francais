@@ -38,7 +38,7 @@ def savon(*valeurs):
             valeurs = tuple(str(valeur) for valeur in valeurs)
 
             # Supprime les guillements dans la cellule
-            suppression_guillement = tuple(valeur.strip('"') for valeur in valeurs)
+            suppression_guillement = tuple(valeur.strip('"').strip(" ") for valeur in valeurs)
 
             # Remplace les virgules par des points
             remplacement_virgule = tuple(valeur.replace(",", ".") for valeur in suppression_guillement)
@@ -60,4 +60,4 @@ def savon(*valeurs):
             avert(f"Echec du nettoyage des valeurs : {valeurs}",
                   "Ces valeurs ont été rempalcées par 0",
                   err)
-            return tuple(0 for valeur in valeurs)
+            return tuple(0.0 for valeur in valeurs)
