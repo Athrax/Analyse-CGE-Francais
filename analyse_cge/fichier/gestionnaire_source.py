@@ -11,7 +11,7 @@
 #   Vous devriez avoir reçu une copie de la licence avec ce programme. Sinon,
 #   consultez.
 #  ==============================================================================
-from analyse_cge.tracabilite.traces import *
+from analyse_cge.journalisation.traces import *
 
 def detection_en_tete(fichier_source):
     """
@@ -19,23 +19,51 @@ def detection_en_tete(fichier_source):
     Celles ci sont décrites dans le fichier de configuration.
 
     Args:
-        fichier_source (file): Chemin vers le fichier source.
+        fichier_source (file): Fichier source.
     Returns:
         colonnes (dict): Dictionnaire de colonnes utiles
     """
     # Lecture de la première ligne du fichier source
     # Traduction en minuscule
     # Découpage
+    info("Detection des en-têtes ...")
     en_tete = fichier_source.readline().lower().split(',')
 
     # On précise les colonne du fichier qui nous intéressent
     en_tete_utiles = ["postes", "sous-postes", "libellé ministère", "balance sortie 2022", "balance sortie 2012"]
     colonnes = dict() # Création d'un dictionnaire des colonnes utiles
 
-    info("Detection des en-têtes ...")
     for i in range(len(en_tete)):
          if en_tete[i] in en_tete_utiles:
              colonnes[en_tete[i]] = i
 
     info(f"Colonnes: {colonnes}")  # On affiches les colonnes et leur indices
     return colonnes
+
+
+def regroupe_donnees_ministere(fichier_source, colonnes):
+    """
+    Regroupes les donnees du fichier source par ministère dans un dictionnaire
+
+    Args:
+        fichier_source (file): Fichier source à traiter
+        colonnes (dict): Colonnes à traiter
+
+    Returns:
+         dictionnaire_ministere (dict): Dictionnaire des données regroupées par ministère
+    """
+    dictionnaire_ministere = dict
+
+    info("Regroupement du contenu du fichier source par ministère...")
+    for ligne in fichier_source:  # On lit ligne après ligne le fichier source
+        cellules = ligne.strip().split(',')  # Supprime caractère de nouvelle ligne et recupère une liste des cellules
+        cellule_ministere = cellules[colonnes["ministere"]] # Ministère concerné la ligne
+
+        if cellule_ministere not in dictionnaire_ministere: # Si le ministère n'existe pas encore dans le dictionnaire
+            dictionnaire_ministere
+
+        # On somme la dépense de la ligne sur les années 2022 et 2012
+        dictionnaire_ministere[cellule_ministere]["depense"][colonnes[-2]] += cellules[colonnes["2022"]]
+        dictionnaire_ministere[cellule_ministere]["depense"][colonnes[-1]] += cellules[colonnes["2012"]]
+
+

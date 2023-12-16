@@ -16,10 +16,11 @@ import matplotlib.pyplot as plt  # graphiques
 import numpy as np  # outils mathématiques
 import sys  # système
 
+from journalisation.traces import info  # logs de niveau 1
+from journalisation.traces import erreur  # logs de niveau 2
 from fichier.gestionnaire_source import detection_en_tete # traitement du fichier source
+from fichier.gestionnaire_source import regroupe_donnees_ministere
 import affichage.gestionnaire_affichage  # gestion de l'affichage
-from tracabilite.traces import info  # logs de niveau 1
-from tracabilite.traces import erreur  # logs de niveau 2
 
 
 def run():
@@ -44,6 +45,10 @@ def run():
             info("Fichier ouvert avec succès", "Création de la base de donnée à partir de la source ...")
 
             # On traite le fichier source donné
+            colonnes_a_traiter = detection_en_tete(fichier_source) # On cherche l'indice des colonnes à traiter
+
+            # On regroupe les données par ministère
+            db_ministere = regroupe_donnees_ministere(fichier_source, colonnes_a_traiter) # On créer un dictionnaire
 
 
         except FileNotFoundError:  # Si le fichier n'est pas trouvé

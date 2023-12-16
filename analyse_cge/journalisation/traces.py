@@ -12,7 +12,7 @@
 #   consultez.
 #  ==============================================================================
 from datetime import datetime
-
+import os.path
 
 def log(niveau, message, temps_actuel):
     """
@@ -23,13 +23,13 @@ def log(niveau, message, temps_actuel):
         message (tuple): Information à enregistrer
         temps_actuel (datetime): info : 1, avertissement : 2, erreur : 3
     """
+
     timestamp = int(datetime.timestamp(temps_actuel) * 1000)  # Créer un identifiant unique pour chaque entrée
     date_heure = temps_actuel.strftime("%d-%m-%Y %H:%M:%S")  # Heure et date
-
     entree = f"{date_heure} [{timestamp}]: {niveau} - {message}"  # On préfère f"" à "".format(), plus facile à lire
     print(entree)  # On affiche dans la console l'info
 
-    with open("logs/latest.log", 'a+') as fichier_log:  # On ouvre le dernier fichier de tracabilite ou le créer
+    with open(os.path.join(os.path.dirname(os.path.dirname(__file__)), "journalisation", "latest.log"), 'a+') as fichier_log:  # On ouvre le dernier fichier de journalisation ou le créer
         fichier_log.write(entree + "\n")
 
 
