@@ -27,8 +27,6 @@ def detection_en_tete(fichier_source):
     # Lecture de la première ligne du fichier source
     # Traduction en minuscule
     # Découpage
-    info("Detection des en-têtes ...")
-    en_tete = fichier_source.readline().lower().split(',')
     en_tete_source = fichier_source.readline().lower().split(',')
 
     # On précise les colonne du fichier qui nous intéressent
@@ -64,7 +62,7 @@ def regroupe_donnees_ministere(fichier_source, colonnes):
     info("Regroupement du contenu du fichier source par ministère...")
     for ligne in fichier_source:  # On lit ligne après ligne le fichier source
         cellules = ligne.strip().split(',')  # Supprime caractère de nouvelle ligne et recupère une liste des cellules
-        cellule_ministere = cellules[colonnes["ministere"]] # Ministère concerné la ligne
+        cellule_ministere = cellules[colonnes["ministère"]] # Ministère concerné la ligne
 
         if cellule_ministere not in dictionnaire_ministere: # Si le ministère n'existe pas encore dans le dictionnaire
             dictionnaire_ministere
