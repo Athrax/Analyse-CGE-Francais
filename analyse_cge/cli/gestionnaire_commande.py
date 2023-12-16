@@ -11,40 +11,7 @@
 #   Vous devriez avoir reçu une copie de la licence avec ce programme. Sinon,
 #   consultez.
 #  ==============================================================================
+from analyse_cge.affichage.gestionnaire_affichage import *
+def commande(operation):
+    if operation == "graph_ministere":
 
-import matplotlib.pyplot as plt
-
-
-def affichage_X_Y(X, Y):
-    """
-    Cette fonction affiche un graph linéaire.
-
-    Args:
-        X (list): Valeurs abscisse
-        Y (list): Valeurs ordonnées
-    """
-
-    return
-
-
-def affichage_bar(X, Y):
-    """
-    Cette fonction affiche un diagramme en barre à partir de listes X et Y
-
-    Args:
-        X (list): Valeurs abscisse
-        Y (list): Valeurs ordonnées
-    """
-
-    return
-
-
-def affichage_pie(X):
-    """
-    Cette fonction affiche un diagramme en camembert à partir d'une liste X
-
-    Args:
-        X (list): Liste des valeurs à représenter
-    """
-
-    return

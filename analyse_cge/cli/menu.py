@@ -16,6 +16,7 @@ import sys
 from analyse_cge.journalisation.traces import info, debug, avert, erreur
 from analyse_cge.fichier.gestionnaire_json import importer_json
 from analyse_cge.fichier.gestionnaire_arborescence import chemin, parent, grand_parent
+from gestionnaire_commande import commande
 
 
 def lf(n=1):
@@ -57,21 +58,24 @@ def affichage_menu():
             operation = menu_courant["retour"]["operation"]
             info(f"L'opération {operation} est demandée")
 
-        # On invite l'utilisateur à entrer la commande souhaitée
-        commande = input("> ")
+            # On appel le gestionnaire de commande
+            commande(operation)
 
-        if commande == "quitter": # On peut executer la commande quitter à tout moment, dans tous les menus
+        # On invite l'utilisateur à entrer la commande souhaitée
+        entree = input("> ")
+
+        if entree == "quitter": # On peut executer la commande quitter à tout moment, dans tous les menus
             break
 
         # Si l'on souhaite acceder au menu précédent
-        elif commande == "retour" and len(chemin_menu) > 1:
+        elif entree == "retour" and len(chemin_menu) > 1:
             chemin_menu.pop() # Mi chemin (on remonte aux paramtères du menu, comme le nom complet)
             chemin_menu.pop() # Puis on revient au menu précédent
 
         # On vérifie si la commande tapée
         # On déballe les choix possible dans le menu actuel
-        elif commande in [*menu_courant]:
-            chemin_menu += [commande, "menu"]
+        elif entree in [*menu_courant]:
+            chemin_menu += [entree, "menu"]
 
         # Si on tape une mauvaise commande, on reste dans le même menu
         # car on ne change pas le chemin de menu, on passe juste.
