@@ -23,34 +23,36 @@ def savon(*valeurs):
     - Remplacer les valeur vide ou avec un "-" par 0
     - Renvoyer les valeurs à 0 si elles n'ont pas réussies à être traitée
     Args:
-        valeurs (tuple): Des valeurs a nettoyer.
+        valeurs (tuple): Valeurs a nettoyer.
     Returns:
-        nombre (tuple): Valeurs nettoyée
+        nombre (tuple): Tuple des flotants nettoyés
     """
     debug(f"Nettoyage des valeurs {valeurs} ...")
     try:
-        # Essaye de convertir en float la valeur directement obtenue
-        return tuple(float(nombre) for nombre in valeurs)  # La valeur est déja un nombre
+        # Essaye directement de convertir en float la valeur à traiter
+        return tuple(float(nombre) for nombre in valeurs)  # Ici, on convertit les string en float
 
-    except ValueError as err:  # La valeur n'est pas un nombre convertissable en float
-        try:
+    except ValueError as err:  # Si les valeurs ne sont pas des convertissables en float
+        try: # Alors on continue de les convertir :
             # On convertit toutes nos valeurs en chaine de caractère pour les traiter également
             valeurs = tuple(str(valeur) for valeur in valeurs)
 
-            # Essaye en supprimant les guillements dans la cellule
+            # Supprime les guillements dans la cellule
             suppression_guillement = tuple(valeur.strip('"') for valeur in valeurs)
 
             # Remplace les virgules par des points
             remplacement_virgule = tuple(valeur.replace(",", ".") for valeur in suppression_guillement)
 
-            # Si une valeur est vide ("") ou contient un trait ("-"), on remplace par 0
+            # Si une valeur est vide ("") ou contient un trait ("-"), on remplace par 0.0
             remplissage_cellule = tuple(
-                0 if valeur == "" or valeur == "-" else valeur for valeur in remplacement_virgule)
+                0.0 if valeur == "" or valeur == "-"
+                else valeur
+                for valeur in remplacement_virgule)
 
             # On créer le tuple nettoyé et on le renvoi
-            nombres = tuple(float(valeur) for valeur in remplissage_cellule)
-            debug(f"Valeurs nettoyées avec succès : {nombres}")
-            return nombres
+            nombres_savonnes = tuple(float(valeur) for valeur in remplissage_cellule)
+            debug(f"Valeurs nettoyées avec succès : {nombres_savonnes}")
+            return nombres_savonnes
 
         except ValueError as err:  # La valeur semble ne pas contenir de nombre
             # Ces instructions sont executées si les valeurs de dépenses contient par exemple des lettres

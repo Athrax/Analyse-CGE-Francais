@@ -33,7 +33,7 @@ def regroupe_donnees_ministere(fichier_source, colonnes):
     info("Regroupement du contenu du fichier source par ministère...")
     for ligne in fichier_source:  # On lit ligne après ligne le fichier source
 
-        # On essaye de récupérer les cellules du ligne après ligne
+        # On essaye de récupérer les cellules, ligne après ligne
         try:  # Si tout se passe bien
             cellules = detection_cellules(ligne)  # On extrait les cellules de la lignes sous forme de tableau
 
@@ -44,11 +44,13 @@ def regroupe_donnees_ministere(fichier_source, colonnes):
         cellule_poste = cellules[colonnes["postes"]]  # Poste concerné par la ligne
         cellule_sous_poste = cellules[colonnes["sous-postes"]]  # Sous poste concerné par la ligne
 
-        dep_2022, dep_2012 = savon(cellules[colonnes["2022"]], cellules[colonnes["2022"]])  # Nettoyage des données
+        dep_2022, dep_2012 = savon(cellules[colonnes["2022"]], cellules[colonnes["2012"]])  # Nettoyage des données
 
         debug(f"Ligne à traiter : Ministère {cellule_ministere}, "
               f"poste : {cellule_poste}, "
-              f"sous-poste : {cellule_sous_poste}, ")
+              f"sous-poste : {cellule_sous_poste}, "
+              f"dep_2022 : {dep_2022}, "
+              f"dep_2012 : {dep_2012}")
 
         if cellule_ministere == "":  # Si le ministère n'est pas renseigné sur la ligne (Inconnu)
             cellule_ministere = "Inconnu"  # On créera un ministère Inconnu
@@ -60,19 +62,19 @@ def regroupe_donnees_ministere(fichier_source, colonnes):
             cellule_sous_poste = "Inconnu"  # On créera un sous-poste Inconnu
 
         if cellule_ministere not in dictionnaire_ministere:  # Si le ministère n'a pas déja été enregistré
-            info(f"Traitement d'un nouveau ministère {cellule_ministere}")
+            info(f"Création d'un nouveau ministère {cellule_ministere}")
             # On créer le dictionnaire des dépenses totales du ministère pour les deux années
             dictionnaire_ministere[cellule_ministere] = dict()  # On créer le dictionnaire du ministère
             dictionnaire_ministere[cellule_ministere]["dépense_annuelle"] = {
                 "2022": 0.0,
                 "2012": 0.0
             }
-            # On créer le dictionnaire parent des dépenses par postes du ministères
+            # On créer le dictionnaire parent des postes
             dictionnaire_ministere[cellule_ministere]["postes"] = dict()
 
         # Si le poste n'est pas déja enregistré dans le ministère, on créer un enfant poste
         if cellule_poste not in dictionnaire_ministere[cellule_ministere]:
-            debug(f"Traitement du nouveau poste {cellule_poste} pour le ministère {cellule_ministere}")
+            debug(f"Création du nouveau poste {cellule_poste} pour le ministère {cellule_ministere}")
             # On créer le dictionnaire des dépenses par poste du ministère pour les deux années
             dictionnaire_ministere[cellule_ministere]["postes"][cellule_poste] = dict()
             dictionnaire_ministere[cellule_ministere]["postes"][cellule_poste]["dépense_annuelle"] = {
@@ -84,7 +86,7 @@ def regroupe_donnees_ministere(fichier_source, colonnes):
 
         # Si le sous-poste n'est pas déja enregistré dans le ministère, on créer le sous-poste dans le poste
         if cellule_sous_poste not in dictionnaire_ministere[cellule_ministere]["postes"][cellule_poste]["sous-postes"]:
-            debug(f"Traitement du nouveau sous-poste {cellule_sous_poste} pour le ministère {cellule_ministere}")
+            debug(f"Création du nouveau sous-poste {cellule_sous_poste} pour le ministère {cellule_ministere}")
             # On créer le dictionnaire des dépenses par sous-poste du poste du ministère pour les deux années
             dictionnaire_ministere[cellule_ministere]["postes"][cellule_poste]["sous-postes"][
                 cellule_sous_poste] = dict()
@@ -97,11 +99,11 @@ def regroupe_donnees_ministere(fichier_source, colonnes):
             }
 
         # Ajout des données au ministère créé
-        debug(f"Nouvelle entrée : Dépense du ministère {cellule_ministere}, "
+        debug(f"Nouvelle entrée pour le ministère {cellule_ministere}, "
               f"poste : {cellule_poste}, "
               f"sous-poste : {cellule_sous_poste}, "
-              f"dépense 2022 : {dictionnaire_ministere[cellule_ministere]['dépense_annuelle']['2022']}, "
-              f"dépense 2012 : {dictionnaire_ministere[cellule_ministere]['dépense_annuelle']['2012']}")
+              f"dépense 2022 : {dictionnaire_ministere[cellule_ministere]['dépense_annuelle']['2022']} + {dep_2022}, "
+              f"dépense 2012 : {dictionnaire_ministere[cellule_ministere]['dépense_annuelle']['2012']} + {dep_2012}")
 
         # Ajout de la dépense à la somme annuelle du ministère
         dictionnaire_ministere[cellule_ministere]["dépense_annuelle"]["2022"] += dep_2022
@@ -109,12 +111,22 @@ def regroupe_donnees_ministere(fichier_source, colonnes):
 
         # Ajout de la dépense à la somme annuelle du poste
         dictionnaire_ministere[cellule_ministere]["postes"][cellule_poste]["dépense_annuelle"]["2022"] += dep_2022
-        dictionnaire_ministere[cellule_ministere]["postes"][cellule_poste]["dépense_annuelle"]["2022"] += dep_2012
+        dictionnaire_ministere[cellule_ministere]["postes"][cellule_poste]["dépense_annuelle"]["2012"] += dep_2012
 
         # Ajout de la dépense à la somme annuelle du sous-poste
         dictionnaire_ministere[cellule_ministere]["postes"][cellule_poste]["sous-postes"][cellule_sous_poste][
             "dépense_annuelle"]["2022"] += dep_2022
         dictionnaire_ministere[cellule_ministere]["postes"][cellule_poste]["sous-postes"][cellule_sous_poste][
-            "dépense_annuelle"]["2022"] += dep_2012
+            "dépense_annuelle"]["2012"] += dep_2012
+
+        debug(f"Mise à jour terminée pour le minisètre {cellule_ministere}, "
+              f"dépense 2022 : {dictionnaire_ministere[cellule_ministere]['dépense_annuelle']['2022']}, "
+              f"dépense 2012 : {dictionnaire_ministere[cellule_ministere]['dépense_annuelle']['2012']}, "
+              f"poste : {cellule_poste}, "
+              f"2022 : {dictionnaire_ministere[cellule_ministere]['postes'][cellule_poste]['dépense_annuelle']['2022']}, "
+              f"2012 : {dictionnaire_ministere[cellule_ministere]['postes'][cellule_poste]['dépense_annuelle']['2012']}, "
+              f"sous-poste : {cellule_sous_poste}, "
+              f"2022 : {dictionnaire_ministere[cellule_ministere]['postes'][cellule_poste]['sous-postes'][cellule_sous_poste]['dépense_annuelle']['2022']}, "
+              f"2012 : {dictionnaire_ministere[cellule_ministere]['postes'][cellule_poste]['sous-postes'][cellule_sous_poste]['dépense_annuelle']['2012']}")
 
     return dictionnaire_ministere

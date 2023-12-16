@@ -33,7 +33,7 @@ def log(niveau, message, temps_actuel):
 
     try:
         with open(os.path.join(os.path.dirname(os.path.dirname(__file__)), "logs", "latest.log"),
-                  'a+') as fichier_log:  # On ouvre le dernier fichier de journalisation ou le créer
+                  'a') as fichier_log:  # On ouvre le dernier fichier de journalisation ou le créer
             fichier_log.write(entree + "\n")
     except FileNotFoundError:  # Le dossier n'existe pas
         print(f"{date_heure} [{timestamp}]: ERREUR - Le dossier logs n'existe pas")
