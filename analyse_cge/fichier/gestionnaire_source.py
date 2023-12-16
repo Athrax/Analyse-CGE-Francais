@@ -26,18 +26,19 @@ def detection_en_tete(fichier_source):
     # Lecture de la première ligne du fichier source
     # Traduction en minuscule
     # Découpage
-    en_tete = fichier_source.readline().lower().split(',')
+    en_tete_source = fichier_source.readline().lower().split(',')
 
     # On précise les colonne du fichier qui nous intéressent
-    en_tete_utiles = ["postes", "sous-postes", "libellé ministère", "balance sortie 2022", "balance 2012"]
+    en_tete_utiles = ["postes", "sous-postes", "ministère", "2022", "2012"]
     colonnes = dict()  # Création d'un dictionnaire des colonnes utiles
 
     info("Détection des colonnes du fichier source ...")
-    for i in range(len(en_tete)):  # On enregistre les positions des colonnes qui nous intéressent
-        for u in range(len(en_tete_utiles)):  # Pour chaque colonne de l'en-tete du fichier source
-            if en_tete_utiles[u] in en_tete[i] :  # S'il y a une correspondance avec les en-tete utiles
-                colonnes[en_tete_utiles[u]] = i  # Alors on enregistre la position de cette en-tete
 
+    for en_tete_recherchee in en_tete_utiles:
+        for i in range(len(en_tete_source)):
+            if en_tete_recherchee in en_tete_source[i]:
+                colonnes[en_tete_recherchee] = i
+                break
 
     info(f"Colonnes: {colonnes}")  # On affiches les colonnes et leur indices
 
