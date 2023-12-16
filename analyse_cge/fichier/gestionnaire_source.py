@@ -13,6 +13,7 @@
 #  ==============================================================================
 from analyse_cge.tracabilite.traces import *
 
+
 def detection_en_tete(fichier_source):
     """
     Détecte les colonnes utiles du fichier source selon celles qui nous intéressent.
