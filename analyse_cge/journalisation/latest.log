@@ -1398,3 +1398,275 @@
 16-12-2023 11:01:27 [1702720887927]: AVERTISSEMENT - Echec du nettoyage des valeurs : ('1', '"-2,23""', '', 'd', '4', '-5.9334', '6', '7', '8')
 16-12-2023 11:01:27 [1702720887927]: AVERTISSEMENT - Ces valeurs ont été rempalcées par 0
 16-12-2023 11:01:27 [1702720887927]: AVERTISSEMENT - could not convert string to float: 'd'
+16-12-2023 11:04:04 [1702721044767]: INFO - Le programme démarre ...
+16-12-2023 11:04:04 [1702721044767]: INFO - Recherche du fichier passé en argument : ../docs/source.csv
+16-12-2023 11:04:04 [1702721044767]: INFO - Fichier ouvert avec succès
+16-12-2023 11:04:04 [1702721044767]: INFO - Création de la base de donnée à partir de la source ...
+16-12-2023 11:04:04 [1702721044768]: INFO - Détection des colonnes du fichier source ...
+16-12-2023 11:04:04 [1702721044768]: INFO - Colonnes: {'postes': 0, 'sous-postes': 1, 'ministère': 7, '2022': 8, '2012': 18}
+16-12-2023 11:04:04 [1702721044768]: INFO - Regroupement du contenu du fichier source par ministère...
+16-12-2023 11:04:04 [1702721044768]: INFO - Ligne à traiter : Ministère , poste : Trésorerie active, sous-poste : Fonds bancaires et fonds en caisse, 
+16-12-2023 11:04:04 [1702721044768]: INFO - Traitement d'un nouveau ministère inconnu
+16-12-2023 11:04:04 [1702721044769]: INFO - Traitement du nouveau poste Trésorerie active pour le ministère inconnu
+16-12-2023 11:04:04 [1702721044769]: INFO - Traitement du nouveau sous-poste Fonds bancaires et fonds en caisse pour le ministère inconnu
+16-12-2023 11:04:04 [1702721044769]: INFO - Nouvelle entrée : Dépense du ministère inconnu, poste : Trésorerie active, sous-poste : Fonds bancaires et fonds en caisse, dépense 2022 : 0, dépense 2012 : 0
+16-12-2023 11:04:04 [1702721044769]: INFO - Ligne à traiter : Ministère , poste : Solde des opérations de l'exercice, sous-poste : , 
+16-12-2023 11:04:04 [1702721044769]: INFO - Traitement du nouveau poste Solde des opérations de l'exercice pour le ministère inconnu
+16-12-2023 11:04:04 [1702721044769]: INFO - Traitement du nouveau sous-poste inconnu pour le ministère inconnu
+16-12-2023 11:04:04 [1702721044769]: INFO - Nouvelle entrée : Dépense du ministère inconnu, poste : Solde des opérations de l'exercice, sous-poste : inconnu, dépense 2022 : -2864619807805.0, dépense 2012 : -2864619807805.0
+16-12-2023 11:04:04 [1702721044770]: INFO - Ligne à traiter : Ministère , poste : Dettes financières, sous-poste : Titres négociables, 
+16-12-2023 11:04:04 [1702721044770]: INFO - Traitement du nouveau poste Dettes financières pour le ministère inconnu
+16-12-2023 11:04:04 [1702721044770]: INFO - Traitement du nouveau sous-poste Titres négociables pour le ministère inconnu
+16-12-2023 11:04:04 [1702721044770]: INFO - Nouvelle entrée : Dépense du ministère inconnu, poste : Dettes financières, sous-poste : Titres négociables, dépense 2022 : -4734891428514.0, dépense 2012 : -4734891428514.0
+16-12-2023 11:04:04 [1702721044770]: INFO - Ligne à traiter : Ministère , poste : Solde des opérations de l'exercice, sous-poste : , 
+16-12-2023 11:04:04 [1702721044771]: INFO - Traitement du nouveau poste Solde des opérations de l'exercice pour le ministère inconnu
+16-12-2023 11:04:04 [1702721044771]: INFO - Traitement du nouveau sous-poste inconnu pour le ministère inconnu
+16-12-2023 11:04:04 [1702721044771]: INFO - Nouvelle entrée : Dépense du ministère inconnu, poste : Solde des opérations de l'exercice, sous-poste : inconnu, dépense 2022 : -6602021988196.0, dépense 2012 : -6602021988196.0
+16-12-2023 11:04:04 [1702721044771]: INFO - Ligne à traiter : Ministère , poste : Solde des opérations de l'exercice, sous-poste : , 
+16-12-2023 11:04:04 [1702721044771]: INFO - Traitement du nouveau poste Solde des opérations de l'exercice pour le ministère inconnu
+16-12-2023 11:04:04 [1702721044771]: INFO - Traitement du nouveau sous-poste inconnu pour le ministère inconnu
+16-12-2023 11:04:04 [1702721044771]: INFO - Nouvelle entrée : Dépense du ministère inconnu, poste : Solde des opérations de l'exercice, sous-poste : inconnu, dépense 2022 : -8093518532980.0, dépense 2012 : -8093518532980.0
+16-12-2023 11:04:04 [1702721044771]: INFO - Ligne à traiter : Ministère , poste : Dettes non financières, sous-poste : Autres dettes non financières, 
+16-12-2023 11:04:04 [1702721044772]: INFO - Traitement du nouveau poste Dettes non financières pour le ministère inconnu
+16-12-2023 11:04:04 [1702721044772]: INFO - Traitement du nouveau sous-poste Autres dettes non financières pour le ministère inconnu
+16-12-2023 11:04:04 [1702721044772]: INFO - Nouvelle entrée : Dépense du ministère inconnu, poste : Dettes non financières, sous-poste : Autres dettes non financières, dépense 2022 : -9079784248534.0, dépense 2012 : -9079784248534.0
+16-12-2023 11:04:04 [1702721044772]: INFO - Ligne à traiter : Ministère , poste : Engagements hors bilan, sous-poste : Garanties liées à des missions d'int gén, 
+16-12-2023 11:04:04 [1702721044772]: INFO - Traitement du nouveau poste Engagements hors bilan pour le ministère inconnu
+16-12-2023 11:04:04 [1702721044772]: INFO - Traitement du nouveau sous-poste Garanties liées à des missions d'int gén pour le ministère inconnu
+16-12-2023 11:04:04 [1702721044772]: INFO - Nouvelle entrée : Dépense du ministère inconnu, poste : Engagements hors bilan, sous-poste : Garanties liées à des missions d'int gén, dépense 2022 : -9865121047700.0, dépense 2012 : -9865121047700.0
+16-12-2023 11:04:04 [1702721044772]: INFO - Ligne à traiter : Ministère , poste : Solde des opérations de l'exercice, sous-poste : , 
+16-12-2023 11:04:04 [1702721044772]: INFO - Traitement du nouveau poste Solde des opérations de l'exercice pour le ministère inconnu
+16-12-2023 11:04:04 [1702721044773]: INFO - Traitement du nouveau sous-poste inconnu pour le ministère inconnu
+16-12-2023 11:04:04 [1702721044773]: INFO - Nouvelle entrée : Dépense du ministère inconnu, poste : Solde des opérations de l'exercice, sous-poste : inconnu, dépense 2022 : -10422960937904.0, dépense 2012 : -10422960937904.0
+16-12-2023 11:04:04 [1702721044773]: INFO - Ligne à traiter : Ministère , poste : Trésorerie active, sous-poste : Fonds bancaires et fonds en caisse, 
+16-12-2023 11:04:04 [1702721044773]: INFO - Traitement du nouveau poste Trésorerie active pour le ministère inconnu
+16-12-2023 11:04:04 [1702721044773]: INFO - Traitement du nouveau sous-poste Fonds bancaires et fonds en caisse pour le ministère inconnu
+16-12-2023 11:04:04 [1702721044774]: INFO - Nouvelle entrée : Dépense du ministère inconnu, poste : Trésorerie active, sous-poste : Fonds bancaires et fonds en caisse, dépense 2022 : -10882945868253.0, dépense 2012 : -10882945868253.0
+16-12-2023 11:04:04 [1702721044774]: INFO - Ligne à traiter : Ministère , poste : Comptes de régularisation - Actif, sous-poste : , 
+16-12-2023 11:04:04 [1702721044774]: INFO - Traitement du nouveau poste Comptes de régularisation - Actif pour le ministère inconnu
+16-12-2023 11:04:04 [1702721044774]: INFO - Traitement du nouveau sous-poste inconnu pour le ministère inconnu
+16-12-2023 11:04:04 [1702721044774]: INFO - Nouvelle entrée : Dépense du ministère inconnu, poste : Comptes de régularisation - Actif, sous-poste : inconnu, dépense 2022 : -11214874895324.0, dépense 2012 : -11214874895324.0
+16-12-2023 11:04:04 [1702721044774]: INFO - Ligne à traiter : Ministère , poste : Engagements hors bilan, sous-poste : Dette garantie par l'Etat, 
+16-12-2023 11:04:04 [1702721044775]: INFO - Traitement du nouveau poste Engagements hors bilan pour le ministère inconnu
+16-12-2023 11:04:04 [1702721044775]: INFO - Traitement du nouveau sous-poste Dette garantie par l'Etat pour le ministère inconnu
+16-12-2023 11:04:04 [1702721044775]: INFO - Nouvelle entrée : Dépense du ministère inconnu, poste : Engagements hors bilan, sous-poste : Dette garantie par l'Etat, dépense 2022 : -11545728140430.0, dépense 2012 : -11545728140430.0
+16-12-2023 11:04:04 [1702721044775]: INFO - Ligne à traiter : Ministère , poste : Solde des opérations de l'exercice, sous-poste : , 
+16-12-2023 11:04:04 [1702721044775]: INFO - Traitement du nouveau poste Solde des opérations de l'exercice pour le ministère inconnu
+16-12-2023 11:04:04 [1702721044775]: INFO - Traitement du nouveau sous-poste inconnu pour le ministère inconnu
+16-12-2023 11:04:04 [1702721044775]: INFO - Nouvelle entrée : Dépense du ministère inconnu, poste : Solde des opérations de l'exercice, sous-poste : inconnu, dépense 2022 : -11844007094389.0, dépense 2012 : -11844007094389.0
+16-12-2023 11:04:04 [1702721044775]: INFO - Ligne à traiter : Ministère , poste : Dettes financières, sous-poste : Titres négociables, 
+16-12-2023 11:04:04 [1702721044776]: INFO - Traitement du nouveau poste Dettes financières pour le ministère inconnu
+16-12-2023 11:04:04 [1702721044776]: INFO - Traitement du nouveau sous-poste Titres négociables pour le ministère inconnu
+16-12-2023 11:04:04 [1702721044776]: INFO - Nouvelle entrée : Dépense du ministère inconnu, poste : Dettes financières, sous-poste : Titres négociables, dépense 2022 : -12133152198932.0, dépense 2012 : -12133152198932.0
+16-12-2023 11:04:04 [1702721044776]: INFO - Ligne à traiter : Ministère Transition écologique, poste : Engagements hors bilan, sous-poste : Dispositifs d'intervention, 
+16-12-2023 11:04:04 [1702721044776]: INFO - Traitement d'un nouveau ministère Transition écologique
+16-12-2023 11:04:04 [1702721044776]: INFO - Traitement du nouveau poste Engagements hors bilan pour le ministère Transition écologique
+16-12-2023 11:04:04 [1702721044776]: INFO - Traitement du nouveau sous-poste Dispositifs d'intervention pour le ministère Transition écologique
+16-12-2023 11:04:04 [1702721044777]: INFO - Nouvelle entrée : Dépense du ministère Transition écologique, poste : Engagements hors bilan, sous-poste : Dispositifs d'intervention, dépense 2022 : 0, dépense 2012 : 0
+16-12-2023 11:04:04 [1702721044777]: INFO - Ligne à traiter : Ministère , poste : Produits régaliens nets, sous-poste : Taxe sur la valeur ajoutée, 
+16-12-2023 11:04:04 [1702721044777]: INFO - Traitement du nouveau poste Produits régaliens nets pour le ministère inconnu
+16-12-2023 11:04:04 [1702721044777]: INFO - Traitement du nouveau sous-poste Taxe sur la valeur ajoutée pour le ministère inconnu
+16-12-2023 11:04:04 [1702721044777]: INFO - Nouvelle entrée : Dépense du ministère inconnu, poste : Produits régaliens nets, sous-poste : Taxe sur la valeur ajoutée, dépense 2022 : -12347092342932.0, dépense 2012 : -12347092342932.0
+16-12-2023 11:04:04 [1702721044777]: INFO - Ligne à traiter : Ministère , poste : Ecarts de réévaluation et d'intégration, sous-poste : , 
+16-12-2023 11:04:04 [1702721044777]: INFO - Traitement du nouveau poste Ecarts de réévaluation et d'intégration pour le ministère inconnu
+16-12-2023 11:04:04 [1702721044778]: INFO - Traitement du nouveau sous-poste inconnu pour le ministère inconnu
+16-12-2023 11:04:04 [1702721044778]: INFO - Nouvelle entrée : Dépense du ministère inconnu, poste : Ecarts de réévaluation et d'intégration, sous-poste : inconnu, dépense 2022 : -12518860270956.0, dépense 2012 : -12518860270956.0
+16-12-2023 11:04:04 [1702721044778]: INFO - Ligne à traiter : Ministère , poste : Dettes non financières, sous-poste : Autres dettes non financières, 
+16-12-2023 11:04:04 [1702721044778]: INFO - Traitement du nouveau poste Dettes non financières pour le ministère inconnu
+16-12-2023 11:04:04 [1702721044778]: INFO - Traitement du nouveau sous-poste Autres dettes non financières pour le ministère inconnu
+16-12-2023 11:04:04 [1702721044778]: INFO - Nouvelle entrée : Dépense du ministère inconnu, poste : Dettes non financières, sous-poste : Autres dettes non financières, dépense 2022 : -12668055785976.0, dépense 2012 : -12668055785976.0
+16-12-2023 11:04:04 [1702721044778]: INFO - Ligne à traiter : Ministère , poste : Dettes financières, sous-poste : Titres négociables, 
+16-12-2023 11:04:04 [1702721044779]: INFO - Traitement du nouveau poste Dettes financières pour le ministère inconnu
+16-12-2023 11:04:04 [1702721044779]: INFO - Traitement du nouveau sous-poste Titres négociables pour le ministère inconnu
+16-12-2023 11:04:04 [1702721044779]: INFO - Nouvelle entrée : Dépense du ministère inconnu, poste : Dettes financières, sous-poste : Titres négociables, dépense 2022 : -12816706482915.0, dépense 2012 : -12816706482915.0
+16-12-2023 11:04:04 [1702721044779]: INFO - Ligne à traiter : Ministère , poste : Solde des opérations de l'exercice, sous-poste : , 
+16-12-2023 11:04:04 [1702721044779]: INFO - Traitement du nouveau poste Solde des opérations de l'exercice pour le ministère inconnu
+16-12-2023 11:04:04 [1702721044779]: INFO - Traitement du nouveau sous-poste inconnu pour le ministère inconnu
+16-12-2023 11:04:04 [1702721044779]: INFO - Nouvelle entrée : Dépense du ministère inconnu, poste : Solde des opérations de l'exercice, sous-poste : inconnu, dépense 2022 : -12965169482915.0, dépense 2012 : -12965169482915.0
+16-12-2023 11:04:04 [1702721044780]: INFO - Ligne à traiter : Ministère , poste : Solde des opérations de l'exercice, sous-poste : , 
+16-12-2023 11:04:04 [1702721044780]: INFO - Traitement du nouveau poste Solde des opérations de l'exercice pour le ministère inconnu
+16-12-2023 11:04:04 [1702721044780]: INFO - Traitement du nouveau sous-poste inconnu pour le ministère inconnu
+16-12-2023 11:04:04 [1702721044780]: INFO - Nouvelle entrée : Dépense du ministère inconnu, poste : Solde des opérations de l'exercice, sous-poste : inconnu, dépense 2022 : -13111668091180.0, dépense 2012 : -13111668091180.0
+16-12-2023 11:04:04 [1702721044780]: INFO - Ligne à traiter : Ministère , poste : Solde des opérations de l'exercice, sous-poste : , 
+16-12-2023 11:04:04 [1702721044780]: INFO - Traitement du nouveau poste Solde des opérations de l'exercice pour le ministère inconnu
+16-12-2023 11:04:04 [1702721044780]: INFO - Traitement du nouveau sous-poste inconnu pour le ministère inconnu
+16-12-2023 11:04:04 [1702721044780]: INFO - Nouvelle entrée : Dépense du ministère inconnu, poste : Solde des opérations de l'exercice, sous-poste : inconnu, dépense 2022 : -13249207108641.0, dépense 2012 : -13249207108641.0
+16-12-2023 11:04:04 [1702721044781]: INFO - Ligne à traiter : Ministère , poste : Dettes non financières, sous-poste : Produits constatés d'avance, 
+16-12-2023 11:04:04 [1702721044781]: INFO - Traitement du nouveau poste Dettes non financières pour le ministère inconnu
+16-12-2023 11:04:04 [1702721044781]: INFO - Traitement du nouveau sous-poste Produits constatés d'avance pour le ministère inconnu
+16-12-2023 11:04:04 [1702721044781]: INFO - Nouvelle entrée : Dépense du ministère inconnu, poste : Dettes non financières, sous-poste : Produits constatés d'avance, dépense 2022 : -13383554496310.0, dépense 2012 : -13383554496310.0
+16-12-2023 11:04:04 [1702721044781]: INFO - Ligne à traiter : Ministère , poste : Trésorerie passive, sous-poste : Correspondants du Trésor et personnes habilitées, 
+16-12-2023 11:04:04 [1702721044781]: INFO - Traitement du nouveau poste Trésorerie passive pour le ministère inconnu
+16-12-2023 11:04:04 [1702721044782]: INFO - Traitement du nouveau sous-poste Correspondants du Trésor et personnes habilitées pour le ministère inconnu
+16-12-2023 11:04:04 [1702721044782]: INFO - Nouvelle entrée : Dépense du ministère inconnu, poste : Trésorerie passive, sous-poste : Correspondants du Trésor et personnes habilitées, dépense 2022 : -13517862783636.0, dépense 2012 : -13517862783636.0
+16-12-2023 11:04:04 [1702721044782]: INFO - Ligne à traiter : Ministère Transition écologique, poste : Engagements hors bilan, sous-poste : Dispositifs d'intervention, 
+16-12-2023 11:04:04 [1702721044782]: INFO - Traitement du nouveau poste Engagements hors bilan pour le ministère Transition écologique
+16-12-2023 11:04:04 [1702721044782]: INFO - Traitement du nouveau sous-poste Dispositifs d'intervention pour le ministère Transition écologique
+16-12-2023 11:04:04 [1702721044782]: INFO - Nouvelle entrée : Dépense du ministère Transition écologique, poste : Engagements hors bilan, sous-poste : Dispositifs d'intervention, dépense 2022 : -173404445779.0, dépense 2012 : -173404445779.0
+16-12-2023 11:04:04 [1702721044783]: INFO - Ligne à traiter : Ministère , poste : Solde des opérations de l'exercice, sous-poste : , 
+16-12-2023 11:04:04 [1702721044783]: INFO - Traitement du nouveau poste Solde des opérations de l'exercice pour le ministère inconnu
+16-12-2023 11:04:04 [1702721044783]: INFO - Traitement du nouveau sous-poste inconnu pour le ministère inconnu
+16-12-2023 11:04:04 [1702721044783]: INFO - Nouvelle entrée : Dépense du ministère inconnu, poste : Solde des opérations de l'exercice, sous-poste : inconnu, dépense 2022 : -13640300065152.0, dépense 2012 : -13640300065152.0
+16-12-2023 11:04:04 [1702721044783]: INFO - Ligne à traiter : Ministère , poste : Comptes de régularisation - Actif, sous-poste : , 
+16-12-2023 11:04:04 [1702721044783]: INFO - Traitement du nouveau poste Comptes de régularisation - Actif pour le ministère inconnu
+16-12-2023 11:04:04 [1702721044783]: INFO - Traitement du nouveau sous-poste inconnu pour le ministère inconnu
+16-12-2023 11:04:04 [1702721044784]: INFO - Nouvelle entrée : Dépense du ministère inconnu, poste : Comptes de régularisation - Actif, sous-poste : inconnu, dépense 2022 : -13750834608903.0, dépense 2012 : -13750834608903.0
+16-12-2023 11:04:04 [1702721044784]: INFO - Ligne à traiter : Ministère , poste : Solde des opérations de l'exercice, sous-poste : , 
+16-12-2023 11:04:04 [1702721044784]: INFO - Traitement du nouveau poste Solde des opérations de l'exercice pour le ministère inconnu
+16-12-2023 11:04:04 [1702721044784]: INFO - Traitement du nouveau sous-poste inconnu pour le ministère inconnu
+16-12-2023 11:04:04 [1702721044784]: INFO - Nouvelle entrée : Dépense du ministère inconnu, poste : Solde des opérations de l'exercice, sous-poste : inconnu, dépense 2022 : -13851854385978.0, dépense 2012 : -13851854385978.0
+16-12-2023 11:04:04 [1702721044784]: INFO - Ligne à traiter : Ministère Services du Premier ministre, poste : Engagements hors bilan, sous-poste : Dispositifs d'intervention, 
+16-12-2023 11:04:04 [1702721044785]: INFO - Traitement d'un nouveau ministère Services du Premier ministre
+16-12-2023 11:04:04 [1702721044785]: INFO - Traitement du nouveau poste Engagements hors bilan pour le ministère Services du Premier ministre
+16-12-2023 11:04:04 [1702721044785]: INFO - Traitement du nouveau sous-poste Dispositifs d'intervention pour le ministère Services du Premier ministre
+16-12-2023 11:04:04 [1702721044785]: INFO - Nouvelle entrée : Dépense du ministère Services du Premier ministre, poste : Engagements hors bilan, sous-poste : Dispositifs d'intervention, dépense 2022 : 0, dépense 2012 : 0
+16-12-2023 11:04:04 [1702721044785]: INFO - Ligne à traiter : Ministère , poste : Immobilisations financières, sous-poste : Créances rattachées à des participations, 
+16-12-2023 11:04:04 [1702721044785]: INFO - Traitement du nouveau poste Immobilisations financières pour le ministère inconnu
+16-12-2023 11:04:04 [1702721044786]: INFO - Traitement du nouveau sous-poste Créances rattachées à des participations pour le ministère inconnu
+16-12-2023 11:04:04 [1702721044786]: INFO - Nouvelle entrée : Dépense du ministère inconnu, poste : Immobilisations financières, sous-poste : Créances rattachées à des participations, dépense 2022 : -13942624949916.0, dépense 2012 : -13942624949916.0
+16-12-2023 11:04:04 [1702721044786]: INFO - Ligne à traiter : Ministère , poste : Ecarts de réévaluation et d'intégration, sous-poste : , 
+16-12-2023 11:04:04 [1702721044786]: INFO - Traitement du nouveau poste Ecarts de réévaluation et d'intégration pour le ministère inconnu
+16-12-2023 11:04:04 [1702721044786]: INFO - Traitement du nouveau sous-poste inconnu pour le ministère inconnu
+16-12-2023 11:04:04 [1702721044786]: INFO - Nouvelle entrée : Dépense du ministère inconnu, poste : Ecarts de réévaluation et d'intégration, sous-poste : inconnu, dépense 2022 : -14030884880604.0, dépense 2012 : -14030884880604.0
+16-12-2023 11:04:46 [1702721086252]: INFO - Le programme démarre ...
+16-12-2023 11:04:46 [1702721086253]: INFO - Recherche du fichier passé en argument : ../docs/source.csv
+16-12-2023 11:04:46 [1702721086253]: INFO - Fichier ouvert avec succès
+16-12-2023 11:04:46 [1702721086253]: INFO - Création de la base de donnée à partir de la source ...
+16-12-2023 11:04:46 [1702721086253]: INFO - Détection des colonnes du fichier source ...
+16-12-2023 11:04:46 [1702721086254]: INFO - Colonnes: {'postes': 0, 'sous-postes': 1, 'ministère': 7, '2022': 8, '2012': 18}
+16-12-2023 11:04:46 [1702721086254]: INFO - Regroupement du contenu du fichier source par ministère...
+16-12-2023 11:04:46 [1702721086254]: INFO - Ligne à traiter : Ministère , poste : Trésorerie active, sous-poste : Fonds bancaires et fonds en caisse, 
+16-12-2023 11:04:46 [1702721086254]: INFO - Traitement d'un nouveau ministère inconnu
+16-12-2023 11:04:46 [1702721086254]: INFO - Traitement du nouveau poste Trésorerie active pour le ministère inconnu
+16-12-2023 11:04:46 [1702721086254]: INFO - Traitement du nouveau sous-poste Fonds bancaires et fonds en caisse pour le ministère inconnu
+16-12-2023 11:04:46 [1702721086255]: INFO - Nouvelle entrée : Dépense du ministère inconnu, poste : Trésorerie active, sous-poste : Fonds bancaires et fonds en caisse, dépense 2022 : 0, dépense 2012 : 0
+16-12-2023 11:04:46 [1702721086255]: INFO - Ligne à traiter : Ministère , poste : Solde des opérations de l'exercice, sous-poste : , 
+16-12-2023 11:04:46 [1702721086255]: INFO - Traitement du nouveau poste Solde des opérations de l'exercice pour le ministère inconnu
+16-12-2023 11:04:46 [1702721086255]: INFO - Traitement du nouveau sous-poste inconnu pour le ministère inconnu
+16-12-2023 11:04:46 [1702721086255]: INFO - Nouvelle entrée : Dépense du ministère inconnu, poste : Solde des opérations de l'exercice, sous-poste : inconnu, dépense 2022 : -2864619807805.0, dépense 2012 : -2864619807805.0
+16-12-2023 11:04:46 [1702721086255]: INFO - Ligne à traiter : Ministère , poste : Dettes financières, sous-poste : Titres négociables, 
+16-12-2023 11:04:46 [1702721086256]: INFO - Traitement du nouveau poste Dettes financières pour le ministère inconnu
+16-12-2023 11:04:46 [1702721086256]: INFO - Traitement du nouveau sous-poste Titres négociables pour le ministère inconnu
+16-12-2023 11:04:46 [1702721086256]: INFO - Nouvelle entrée : Dépense du ministère inconnu, poste : Dettes financières, sous-poste : Titres négociables, dépense 2022 : -4734891428514.0, dépense 2012 : -4734891428514.0
+16-12-2023 11:04:46 [1702721086256]: INFO - Ligne à traiter : Ministère , poste : Solde des opérations de l'exercice, sous-poste : , 
+16-12-2023 11:04:46 [1702721086256]: INFO - Traitement du nouveau poste Solde des opérations de l'exercice pour le ministère inconnu
+16-12-2023 11:04:46 [1702721086256]: INFO - Traitement du nouveau sous-poste inconnu pour le ministère inconnu
+16-12-2023 11:04:46 [1702721086256]: INFO - Nouvelle entrée : Dépense du ministère inconnu, poste : Solde des opérations de l'exercice, sous-poste : inconnu, dépense 2022 : -6602021988196.0, dépense 2012 : -6602021988196.0
+16-12-2023 11:04:46 [1702721086257]: INFO - Ligne à traiter : Ministère , poste : Solde des opérations de l'exercice, sous-poste : , 
+16-12-2023 11:04:46 [1702721086257]: INFO - Traitement du nouveau poste Solde des opérations de l'exercice pour le ministère inconnu
+16-12-2023 11:04:46 [1702721086257]: INFO - Traitement du nouveau sous-poste inconnu pour le ministère inconnu
+16-12-2023 11:04:46 [1702721086257]: INFO - Nouvelle entrée : Dépense du ministère inconnu, poste : Solde des opérations de l'exercice, sous-poste : inconnu, dépense 2022 : -8093518532980.0, dépense 2012 : -8093518532980.0
+16-12-2023 11:04:46 [1702721086257]: INFO - Ligne à traiter : Ministère , poste : Dettes non financières, sous-poste : Autres dettes non financières, 
+16-12-2023 11:04:46 [1702721086257]: INFO - Traitement du nouveau poste Dettes non financières pour le ministère inconnu
+16-12-2023 11:04:46 [1702721086257]: INFO - Traitement du nouveau sous-poste Autres dettes non financières pour le ministère inconnu
+16-12-2023 11:04:46 [1702721086258]: INFO - Nouvelle entrée : Dépense du ministère inconnu, poste : Dettes non financières, sous-poste : Autres dettes non financières, dépense 2022 : -9079784248534.0, dépense 2012 : -9079784248534.0
+16-12-2023 11:04:46 [1702721086258]: INFO - Ligne à traiter : Ministère , poste : Engagements hors bilan, sous-poste : Garanties liées à des missions d'int gén, 
+16-12-2023 11:04:46 [1702721086258]: INFO - Traitement du nouveau poste Engagements hors bilan pour le ministère inconnu
+16-12-2023 11:04:46 [1702721086258]: INFO - Traitement du nouveau sous-poste Garanties liées à des missions d'int gén pour le ministère inconnu
+16-12-2023 11:04:46 [1702721086258]: INFO - Nouvelle entrée : Dépense du ministère inconnu, poste : Engagements hors bilan, sous-poste : Garanties liées à des missions d'int gén, dépense 2022 : -9865121047700.0, dépense 2012 : -9865121047700.0
+16-12-2023 11:04:46 [1702721086258]: INFO - Ligne à traiter : Ministère , poste : Solde des opérations de l'exercice, sous-poste : , 
+16-12-2023 11:04:46 [1702721086258]: INFO - Traitement du nouveau poste Solde des opérations de l'exercice pour le ministère inconnu
+16-12-2023 11:04:46 [1702721086258]: INFO - Traitement du nouveau sous-poste inconnu pour le ministère inconnu
+16-12-2023 11:04:46 [1702721086259]: INFO - Nouvelle entrée : Dépense du ministère inconnu, poste : Solde des opérations de l'exercice, sous-poste : inconnu, dépense 2022 : -10422960937904.0, dépense 2012 : -10422960937904.0
+16-12-2023 11:04:46 [1702721086259]: INFO - Ligne à traiter : Ministère , poste : Trésorerie active, sous-poste : Fonds bancaires et fonds en caisse, 
+16-12-2023 11:04:46 [1702721086259]: INFO - Traitement du nouveau poste Trésorerie active pour le ministère inconnu
+16-12-2023 11:04:46 [1702721086259]: INFO - Traitement du nouveau sous-poste Fonds bancaires et fonds en caisse pour le ministère inconnu
+16-12-2023 11:04:46 [1702721086259]: INFO - Nouvelle entrée : Dépense du ministère inconnu, poste : Trésorerie active, sous-poste : Fonds bancaires et fonds en caisse, dépense 2022 : -10882945868253.0, dépense 2012 : -10882945868253.0
+16-12-2023 11:04:46 [1702721086259]: INFO - Ligne à traiter : Ministère , poste : Comptes de régularisation - Actif, sous-poste : , 
+16-12-2023 11:04:46 [1702721086259]: INFO - Traitement du nouveau poste Comptes de régularisation - Actif pour le ministère inconnu
+16-12-2023 11:04:46 [1702721086259]: INFO - Traitement du nouveau sous-poste inconnu pour le ministère inconnu
+16-12-2023 11:04:46 [1702721086259]: INFO - Nouvelle entrée : Dépense du ministère inconnu, poste : Comptes de régularisation - Actif, sous-poste : inconnu, dépense 2022 : -11214874895324.0, dépense 2012 : -11214874895324.0
+16-12-2023 11:04:46 [1702721086260]: INFO - Ligne à traiter : Ministère , poste : Engagements hors bilan, sous-poste : Dette garantie par l'Etat, 
+16-12-2023 11:04:46 [1702721086260]: INFO - Traitement du nouveau poste Engagements hors bilan pour le ministère inconnu
+16-12-2023 11:04:46 [1702721086260]: INFO - Traitement du nouveau sous-poste Dette garantie par l'Etat pour le ministère inconnu
+16-12-2023 11:04:46 [1702721086260]: INFO - Nouvelle entrée : Dépense du ministère inconnu, poste : Engagements hors bilan, sous-poste : Dette garantie par l'Etat, dépense 2022 : -11545728140430.0, dépense 2012 : -11545728140430.0
+16-12-2023 11:04:46 [1702721086260]: INFO - Ligne à traiter : Ministère , poste : Solde des opérations de l'exercice, sous-poste : , 
+16-12-2023 11:04:46 [1702721086260]: INFO - Traitement du nouveau poste Solde des opérations de l'exercice pour le ministère inconnu
+16-12-2023 11:04:46 [1702721086260]: INFO - Traitement du nouveau sous-poste inconnu pour le ministère inconnu
+16-12-2023 11:04:46 [1702721086261]: INFO - Nouvelle entrée : Dépense du ministère inconnu, poste : Solde des opérations de l'exercice, sous-poste : inconnu, dépense 2022 : -11844007094389.0, dépense 2012 : -11844007094389.0
+16-12-2023 11:04:46 [1702721086261]: INFO - Ligne à traiter : Ministère , poste : Dettes financières, sous-poste : Titres négociables, 
+16-12-2023 11:04:46 [1702721086261]: INFO - Traitement du nouveau poste Dettes financières pour le ministère inconnu
+16-12-2023 11:04:46 [1702721086261]: INFO - Traitement du nouveau sous-poste Titres négociables pour le ministère inconnu
+16-12-2023 11:04:46 [1702721086261]: INFO - Nouvelle entrée : Dépense du ministère inconnu, poste : Dettes financières, sous-poste : Titres négociables, dépense 2022 : -12133152198932.0, dépense 2012 : -12133152198932.0
+16-12-2023 11:04:46 [1702721086261]: INFO - Ligne à traiter : Ministère Transition écologique, poste : Engagements hors bilan, sous-poste : Dispositifs d'intervention, 
+16-12-2023 11:04:46 [1702721086261]: INFO - Traitement d'un nouveau ministère Transition écologique
+16-12-2023 11:04:46 [1702721086261]: INFO - Traitement du nouveau poste Engagements hors bilan pour le ministère Transition écologique
+16-12-2023 11:04:46 [1702721086262]: INFO - Traitement du nouveau sous-poste Dispositifs d'intervention pour le ministère Transition écologique
+16-12-2023 11:04:46 [1702721086262]: INFO - Nouvelle entrée : Dépense du ministère Transition écologique, poste : Engagements hors bilan, sous-poste : Dispositifs d'intervention, dépense 2022 : 0, dépense 2012 : 0
+16-12-2023 11:04:46 [1702721086262]: INFO - Ligne à traiter : Ministère , poste : Produits régaliens nets, sous-poste : Taxe sur la valeur ajoutée, 
+16-12-2023 11:04:46 [1702721086262]: INFO - Traitement du nouveau poste Produits régaliens nets pour le ministère inconnu
+16-12-2023 11:04:46 [1702721086262]: INFO - Traitement du nouveau sous-poste Taxe sur la valeur ajoutée pour le ministère inconnu
+16-12-2023 11:04:46 [1702721086262]: INFO - Nouvelle entrée : Dépense du ministère inconnu, poste : Produits régaliens nets, sous-poste : Taxe sur la valeur ajoutée, dépense 2022 : -12347092342932.0, dépense 2012 : -12347092342932.0
+16-12-2023 11:04:46 [1702721086262]: INFO - Ligne à traiter : Ministère , poste : Ecarts de réévaluation et d'intégration, sous-poste : , 
+16-12-2023 11:04:46 [1702721086262]: INFO - Traitement du nouveau poste Ecarts de réévaluation et d'intégration pour le ministère inconnu
+16-12-2023 11:04:46 [1702721086263]: INFO - Traitement du nouveau sous-poste inconnu pour le ministère inconnu
+16-12-2023 11:04:46 [1702721086263]: INFO - Nouvelle entrée : Dépense du ministère inconnu, poste : Ecarts de réévaluation et d'intégration, sous-poste : inconnu, dépense 2022 : -12518860270956.0, dépense 2012 : -12518860270956.0
+16-12-2023 11:04:46 [1702721086263]: INFO - Ligne à traiter : Ministère , poste : Dettes non financières, sous-poste : Autres dettes non financières, 
+16-12-2023 11:04:46 [1702721086263]: INFO - Traitement du nouveau poste Dettes non financières pour le ministère inconnu
+16-12-2023 11:04:46 [1702721086263]: INFO - Traitement du nouveau sous-poste Autres dettes non financières pour le ministère inconnu
+16-12-2023 11:04:46 [1702721086263]: INFO - Nouvelle entrée : Dépense du ministère inconnu, poste : Dettes non financières, sous-poste : Autres dettes non financières, dépense 2022 : -12668055785976.0, dépense 2012 : -12668055785976.0
+16-12-2023 11:04:46 [1702721086263]: INFO - Ligne à traiter : Ministère , poste : Dettes financières, sous-poste : Titres négociables, 
+16-12-2023 11:04:46 [1702721086263]: INFO - Traitement du nouveau poste Dettes financières pour le ministère inconnu
+16-12-2023 11:04:46 [1702721086263]: INFO - Traitement du nouveau sous-poste Titres négociables pour le ministère inconnu
+16-12-2023 11:04:46 [1702721086264]: INFO - Nouvelle entrée : Dépense du ministère inconnu, poste : Dettes financières, sous-poste : Titres négociables, dépense 2022 : -12816706482915.0, dépense 2012 : -12816706482915.0
+16-12-2023 11:04:46 [1702721086264]: INFO - Ligne à traiter : Ministère , poste : Solde des opérations de l'exercice, sous-poste : , 
+16-12-2023 11:04:46 [1702721086264]: INFO - Traitement du nouveau poste Solde des opérations de l'exercice pour le ministère inconnu
+16-12-2023 11:04:46 [1702721086264]: INFO - Traitement du nouveau sous-poste inconnu pour le ministère inconnu
+16-12-2023 11:04:46 [1702721086264]: INFO - Nouvelle entrée : Dépense du ministère inconnu, poste : Solde des opérations de l'exercice, sous-poste : inconnu, dépense 2022 : -12965169482915.0, dépense 2012 : -12965169482915.0
+16-12-2023 11:04:46 [1702721086264]: INFO - Ligne à traiter : Ministère , poste : Solde des opérations de l'exercice, sous-poste : , 
+16-12-2023 11:04:46 [1702721086264]: INFO - Traitement du nouveau poste Solde des opérations de l'exercice pour le ministère inconnu
+16-12-2023 11:04:46 [1702721086264]: INFO - Traitement du nouveau sous-poste inconnu pour le ministère inconnu
+16-12-2023 11:04:46 [1702721086264]: INFO - Nouvelle entrée : Dépense du ministère inconnu, poste : Solde des opérations de l'exercice, sous-poste : inconnu, dépense 2022 : -13111668091180.0, dépense 2012 : -13111668091180.0
+16-12-2023 11:04:46 [1702721086265]: INFO - Ligne à traiter : Ministère , poste : Solde des opérations de l'exercice, sous-poste : , 
+16-12-2023 11:04:46 [1702721086265]: INFO - Traitement du nouveau poste Solde des opérations de l'exercice pour le ministère inconnu
+16-12-2023 11:04:46 [1702721086265]: INFO - Traitement du nouveau sous-poste inconnu pour le ministère inconnu
+16-12-2023 11:04:46 [1702721086265]: INFO - Nouvelle entrée : Dépense du ministère inconnu, poste : Solde des opérations de l'exercice, sous-poste : inconnu, dépense 2022 : -13249207108641.0, dépense 2012 : -13249207108641.0
+16-12-2023 11:04:46 [1702721086265]: INFO - Ligne à traiter : Ministère , poste : Dettes non financières, sous-poste : Produits constatés d'avance, 
+16-12-2023 11:04:46 [1702721086265]: INFO - Traitement du nouveau poste Dettes non financières pour le ministère inconnu
+16-12-2023 11:04:46 [1702721086265]: INFO - Traitement du nouveau sous-poste Produits constatés d'avance pour le ministère inconnu
+16-12-2023 11:04:46 [1702721086265]: INFO - Nouvelle entrée : Dépense du ministère inconnu, poste : Dettes non financières, sous-poste : Produits constatés d'avance, dépense 2022 : -13383554496310.0, dépense 2012 : -13383554496310.0
+16-12-2023 11:04:46 [1702721086265]: INFO - Ligne à traiter : Ministère , poste : Trésorerie passive, sous-poste : Correspondants du Trésor et personnes habilitées, 
+16-12-2023 11:04:46 [1702721086266]: INFO - Traitement du nouveau poste Trésorerie passive pour le ministère inconnu
+16-12-2023 11:04:46 [1702721086266]: INFO - Traitement du nouveau sous-poste Correspondants du Trésor et personnes habilitées pour le ministère inconnu
+16-12-2023 11:04:46 [1702721086266]: INFO - Nouvelle entrée : Dépense du ministère inconnu, poste : Trésorerie passive, sous-poste : Correspondants du Trésor et personnes habilitées, dépense 2022 : -13517862783636.0, dépense 2012 : -13517862783636.0
+16-12-2023 11:04:46 [1702721086266]: INFO - Ligne à traiter : Ministère Transition écologique, poste : Engagements hors bilan, sous-poste : Dispositifs d'intervention, 
+16-12-2023 11:04:46 [1702721086266]: INFO - Traitement du nouveau poste Engagements hors bilan pour le ministère Transition écologique
+16-12-2023 11:04:46 [1702721086266]: INFO - Traitement du nouveau sous-poste Dispositifs d'intervention pour le ministère Transition écologique
+16-12-2023 11:04:46 [1702721086266]: INFO - Nouvelle entrée : Dépense du ministère Transition écologique, poste : Engagements hors bilan, sous-poste : Dispositifs d'intervention, dépense 2022 : -173404445779.0, dépense 2012 : -173404445779.0
+16-12-2023 11:04:46 [1702721086266]: INFO - Ligne à traiter : Ministère , poste : Solde des opérations de l'exercice, sous-poste : , 
+16-12-2023 11:04:46 [1702721086266]: INFO - Traitement du nouveau poste Solde des opérations de l'exercice pour le ministère inconnu
+16-12-2023 11:04:46 [1702721086267]: INFO - Traitement du nouveau sous-poste inconnu pour le ministère inconnu
+16-12-2023 11:04:46 [1702721086267]: INFO - Nouvelle entrée : Dépense du ministère inconnu, poste : Solde des opérations de l'exercice, sous-poste : inconnu, dépense 2022 : -13640300065152.0, dépense 2012 : -13640300065152.0
+16-12-2023 11:04:46 [1702721086267]: INFO - Ligne à traiter : Ministère , poste : Comptes de régularisation - Actif, sous-poste : , 
+16-12-2023 11:04:46 [1702721086267]: INFO - Traitement du nouveau poste Comptes de régularisation - Actif pour le ministère inconnu
+16-12-2023 11:04:46 [1702721086267]: INFO - Traitement du nouveau sous-poste inconnu pour le ministère inconnu
+16-12-2023 11:04:46 [1702721086267]: INFO - Nouvelle entrée : Dépense du ministère inconnu, poste : Comptes de régularisation - Actif, sous-poste : inconnu, dépense 2022 : -13750834608903.0, dépense 2012 : -13750834608903.0
+16-12-2023 11:04:46 [1702721086267]: INFO - Ligne à traiter : Ministère , poste : Solde des opérations de l'exercice, sous-poste : , 
+16-12-2023 11:04:46 [1702721086267]: INFO - Traitement du nouveau poste Solde des opérations de l'exercice pour le ministère inconnu
+16-12-2023 11:04:46 [1702721086268]: INFO - Traitement du nouveau sous-poste inconnu pour le ministère inconnu
+16-12-2023 11:04:46 [1702721086268]: INFO - Nouvelle entrée : Dépense du ministère inconnu, poste : Solde des opérations de l'exercice, sous-poste : inconnu, dépense 2022 : -13851854385978.0, dépense 2012 : -13851854385978.0
+16-12-2023 11:04:46 [1702721086268]: INFO - Ligne à traiter : Ministère Services du Premier ministre, poste : Engagements hors bilan, sous-poste : Dispositifs d'intervention, 
+16-12-2023 11:04:46 [1702721086268]: INFO - Traitement d'un nouveau ministère Services du Premier ministre
+16-12-2023 11:04:46 [1702721086268]: INFO - Traitement du nouveau poste Engagements hors bilan pour le ministère Services du Premier ministre
+16-12-2023 11:04:46 [1702721086268]: INFO - Traitement du nouveau sous-poste Dispositifs d'intervention pour le ministère Services du Premier ministre
+16-12-2023 11:04:46 [1702721086268]: INFO - Nouvelle entrée : Dépense du ministère Services du Premier ministre, poste : Engagements hors bilan, sous-poste : Dispositifs d'intervention, dépense 2022 : 0, dépense 2012 : 0
+16-12-2023 11:04:46 [1702721086269]: INFO - Ligne à traiter : Ministère , poste : Immobilisations financières, sous-poste : Créances rattachées à des participations, 
+16-12-2023 11:04:46 [1702721086269]: INFO - Traitement du nouveau poste Immobilisations financières pour le ministère inconnu
+16-12-2023 11:04:46 [1702721086269]: INFO - Traitement du nouveau sous-poste Créances rattachées à des participations pour le ministère inconnu
+16-12-2023 11:04:46 [1702721086269]: INFO - Nouvelle entrée : Dépense du ministère inconnu, poste : Immobilisations financières, sous-poste : Créances rattachées à des participations, dépense 2022 : -13942624949916.0, dépense 2012 : -13942624949916.0
+16-12-2023 11:04:46 [1702721086269]: INFO - Ligne à traiter : Ministère , poste : Ecarts de réévaluation et d'intégration, sous-poste : , 
+16-12-2023 11:04:46 [1702721086269]: INFO - Traitement du nouveau poste Ecarts de réévaluation et d'intégration pour le ministère inconnu
+16-12-2023 11:04:46 [1702721086269]: INFO - Traitement du nouveau sous-poste inconnu pour le ministère inconnu
+16-12-2023 11:04:46 [1702721086269]: INFO - Nouvelle entrée : Dépense du ministère inconnu, poste : Ecarts de réévaluation et d'intégration, sous-poste : inconnu, dépense 2022 : -14030884880604.0, dépense 2012 : -14030884880604.0
+16-12-2023 11:05:37 [1702721137666]: INFO - Le programme démarre ...
+16-12-2023 11:05:37 [1702721137666]: INFO - Recherche du fichier passé en argument : ../docs/source.csv
+16-12-2023 11:05:37 [1702721137667]: INFO - Fichier ouvert avec succès
+16-12-2023 11:05:37 [1702721137667]: INFO - Création de la base de donnée à partir de la source ...
+16-12-2023 11:05:37 [1702721137667]: INFO - Détection des colonnes du fichier source ...
+16-12-2023 11:05:37 [1702721137667]: INFO - Colonnes: {'postes': 0, 'sous-postes': 1, 'ministère': 7, '2022': 8, '2012': 18}
+16-12-2023 11:05:37 [1702721137668]: INFO - Regroupement du contenu du fichier source par ministère...
+16-12-2023 11:05:37 [1702721137668]: INFO - Ligne à traiter : Ministère , poste : Trésorerie active, sous-poste : Fonds bancaires et fonds en caisse, 
+16-12-2023 11:05:37 [1702721137668]: INFO - Traitement d'un nouveau ministère inconnu
+16-12-2023 11:05:37 [1702721137668]: INFO - Traitement du nouveau poste Trésorerie active pour le ministère inconnu
+16-12-2023 11:05:37 [1702721137668]: INFO - Traitement du nouveau sous-poste Fonds bancaires et fonds en caisse pour le ministère inconnu
+16-12-2023 11:05:37 [1702721137668]: INFO - Nouvelle entrée : Dépense du ministère inconnu, poste : Trésorerie active, sous-poste : Fonds bancaires et fonds en caisse, dépense 2022 : 0, dépense 2012 : 0

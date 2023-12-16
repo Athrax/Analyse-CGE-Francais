@@ -69,15 +69,6 @@ def regroupe_donnees_ministere(fichier_source, colonnes):
         cellule_sous_poste = cellules[colonnes["sous-postes"]]  # Sous poste concerné par la ligne
 
         dep_2022, dep_2012 = savon(cellules[colonnes["2022"]], cellules[colonnes["2022"]]) # Nettoyage des données
-        # if cellules[colonnes["2022"]] == ("" or "-"):  # On nettoye les valeurs de dépense qui ne sont pas des nombres
-        #     cellules[colonnes["2022"]] = "0"              # On supprime le "-" et on converit en string
-        # if cellules[colonnes["2012"]] == ("" or "-"):
-        #     cellules[colonnes["2012"]] = "0"
-        #
-        # print(cellules[colonnes["2022"]])
-        # dep_2022 = float(re.sub(r'[^0-9.]', '', cellules[colonnes["2022"]]))
-        # dep_2012 = float(re.sub(r'[^0-9.]', '', cellules[colonnes["2012"]]))
-
 
         info(f"Ligne à traiter : Ministère {cellule_ministere}, "
         f"poste : {cellule_poste}, "
