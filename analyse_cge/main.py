@@ -12,14 +12,15 @@
 #   consultez.
 #  ==============================================================================
 
+
 import matplotlib.pyplot as plt  # graphiques
 import numpy as np  # outils mathématiques
 import sys  # système
-
-from journalisation.traces import info  # logs de niveau 1
-from journalisation.traces import erreur  # logs de niveau 2
-from fichier.gestionnaire_source import detection_en_tete # traitement du fichier source
+from journalisation.traces import info, debug, erreur  # logs
+from fichier.gestionnaire_arborescence import parent, grand_parent, chemin
+from fichier.detection_donnees import detection_en_tete  # traitement du fichier source
 from fichier.gestionnaire_source import regroupe_donnees_ministere
+from fichier.gestionnaire_json import sauvegarder_json, importer_json
 import affichage.gestionnaire_affichage  # gestion de l'affichage
 
 
@@ -35,21 +36,23 @@ def run():
     # sinon, on créer un fichier json avec les données du fichier.
 
     # Si un argument est donné (fichier source)
+    # Alors on créer le dictionnaire des ministères
 
     if len(sys.argv) > 1:
         chemin_fichier_source = str(sys.argv[1])  # On enregistre le chemin du fichier csv
-
         info("Recherche du fichier passé en argument : {0}".format(chemin_fichier_source))
-        try:  # On essaye de charger le fichier de donnes
+
+        try:  # On essaye de charger le fichier de donnees
             fichier_source = open(chemin_fichier_source, "r")
             info("Fichier ouvert avec succès", "Création de la base de donnée à partir de la source ...")
 
             # On traite le fichier source donné
-            colonnes_a_traiter = detection_en_tete(fichier_source) # On cherche l'indice des colonnes à traiter
+            colonnes_a_traiter = detection_en_tete(fichier_source)  # On cherche l'indice des colonnes à traiter
 
             # On regroupe les données par ministère
-            db_ministere = regroupe_donnees_ministere(fichier_source, colonnes_a_traiter) # On créer un dictionnaire
-
+            db_ministere = regroupe_donnees_ministere(fichier_source, colonnes_a_traiter)  # On créer un dictionnaire
+            # On enregistre la base de donnée créée
+            sauvegarder_json(db_ministere, chemin(grand_parent(__file__), "docs", "db_ministere.json"))
 
         except FileNotFoundError:  # Si le fichier n'est pas trouvé
             erreur("Le fichier {0} est introuvable".format(chemin_fichier_source))
@@ -60,20 +63,23 @@ def run():
             return 2  # Erreur générique (non spécifiée)
 
     # Si aucun chemin vers un fichier source n'a été donné
+    # Alors on importe le dictionnaire déja créé
 
     else:
-        try:  # On vérifie si la base de donnée existe déja (donnees.json)
-            db = open("donnees.json", "r")  # On essaye d'ouvrir la base de données (qu'on nommera db)
-
+        try:  # On vérifie si la base de donnée éxiste déja (donnees.json)
+            db_ministere = importer_json(chemin_json=chemin(grand_parent(__file__), "docs", "db_ministere.json"))  # On essaye d'ouvrir la base de données (qu'on nommera db)
+            debug("Base de donnée json importée")
         except FileNotFoundError:
             erreur("Aucune base de donnée n'existe",
                    "Veuillez executer le logiciel en précisant le chemin vers une source",
                    "Elle doit être au format csv, séparé par des virgules")
             return 2  # Erreur générique (non spécifiée)
 
+    # La base de donnée ministère a été créée ou a été importée
+    # On peut maintenant exploiter les données
+
     info("Fin du programme")
     return 0  # Fin du programme
-
 
 if __name__ == '__main__':  # On vérifie si on execute bien le fichier directement et non comme un module
     info("Le programme démarre ...")

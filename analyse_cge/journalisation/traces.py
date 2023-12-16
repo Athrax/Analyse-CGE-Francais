@@ -11,8 +11,10 @@
 #   Vous devriez avoir reçu une copie de la licence avec ce programme. Sinon,
 #   consultez.
 #  ==============================================================================
+import sys
 from datetime import datetime
 import os.path
+
 
 def log(niveau, message, temps_actuel):
     """
@@ -29,14 +31,26 @@ def log(niveau, message, temps_actuel):
     entree = f"{date_heure} [{timestamp}]: {niveau} - {message}"  # On préfère f"" à "".format(), plus facile à lire
     print(entree)  # On affiche dans la console l'info
 
-    with open(os.path.join(os.path.dirname(os.path.dirname(__file__)), "journalisation", "latest.log"), 'a+') as fichier_log:  # On ouvre le dernier fichier de journalisation ou le créer
-        fichier_log.write(entree + "\n")
+    try:
+        with open(os.path.join(os.path.dirname(os.path.dirname(__file__)), "logs", "latest.log"),
+                  'a+') as fichier_log:  # On ouvre le dernier fichier de journalisation ou le créer
+            fichier_log.write(entree + "\n")
+    except FileNotFoundError:  # Le dossier n'existe pas
+        print(f"{date_heure} [{timestamp}]: ERREUR - Le dossier logs n'existe pas")
+        sys.exit(1)
+
+
+def debug(*message):
+    if "-v" in sys.argv:  # On affiche les messages d'information uniquement en mode verbose
+        temps_actuel = datetime.now()  # On récupère les données de temps actuel
+        for ligne in message:
+            log("DEBUG", ligne, temps_actuel)  # Pour chaque ligne envoyée, on affiche un message
 
 
 def info(*message):
     temps_actuel = datetime.now()  # On récupère les données de temps actuel
     for ligne in message:
-        log("INFO", ligne, temps_actuel)  # Pour chaque ligne envoyée, on affiche un message
+        log("INFO", ligne, temps_actuel)
 
 
 def avert(*message):

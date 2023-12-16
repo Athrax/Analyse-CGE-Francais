@@ -11,7 +11,7 @@
 #   Vous devriez avoir reçu une copie de la licence avec ce programme. Sinon,
 #   consultez.
 #  ==============================================================================
-from analyse_cge.journalisation.traces import info, avert
+from analyse_cge.journalisation.traces import debug, avert
 
 
 def savon(*valeurs):
@@ -27,7 +27,7 @@ def savon(*valeurs):
     Returns:
         nombre (tuple): Valeurs nettoyée
     """
-    info(f"Nettoyage des valeurs {valeurs} ...")
+    debug(f"Nettoyage des valeurs {valeurs} ...")
     try:
         # Essaye de convertir en float la valeur directement obtenue
         return tuple(float(nombre) for nombre in valeurs)  # La valeur est déja un nombre
@@ -49,7 +49,7 @@ def savon(*valeurs):
 
             # On créer le tuple nettoyé et on le renvoi
             nombres = tuple(float(valeur) for valeur in remplissage_cellule)
-            info(f"Valeurs nettoyées avec succès : {nombres}")
+            debug(f"Valeurs nettoyées avec succès : {nombres}")
             return nombres
 
         except ValueError as err:  # La valeur semble ne pas contenir de nombre
