@@ -1,93 +1,27 @@
 {
-    "Agriculture et alimentation": {
+    "\u00c9conomie, finances et relance": {
         "d\u00e9pense_annuelle": {
-            "2022": -4045605095.69,
-            "2012": -555457692.81
+            "2022": 0.0,
+            "2012": -13075.0
         },
         "recette_annuelle": {
             "2022": 0.0,
-            "2012": 26183165.700000003
+            "2012": 0.0
         },
         "postes": {
-            " Charges d'intervention ": {
+            " Produits r\u00e9galiens nets ": {
                 "d\u00e9pense_annuelle": {
-                    "2022": -265665535.14,
-                    "2012": -376998.0
+                    "2022": 0.0,
+                    "2012": 0.0
                 },
                 "recette_annuelle": {
                     "2022": 0.0,
                     "2012": 0.0
                 },
                 "sous-postes": {
-                    " Transferts aux entreprises ": {
+                    " Enregistrement, timbre, autres contributions et taxes indirectes ": {
                         "d\u00e9pense_annuelle": {
-                            "2022": -265665535.14,
-                            "2012": -376998.0
-                        },
-                        "recette_annuelle": {
                             "2022": 0.0,
-                            "2012": 0.0
-                        }
-                    }
-                }
-            },
-            " Dettes non financi\u00e8res ": {
-                "d\u00e9pense_annuelle": {
-                    "2022": -158973672.96,
-                    "2012": -328856.67
-                },
-                "recette_annuelle": {
-                    "2022": 0.0,
-                    "2012": 0.0
-                },
-                "sous-postes": {
-                    " Dettes d'intervention ": {
-                        "d\u00e9pense_annuelle": {
-                            "2022": -158973672.96,
-                            "2012": -328856.67
-                        },
-                        "recette_annuelle": {
-                            "2022": 0.0,
-                            "2012": 0.0
-                        }
-                    }
-                }
-            },
-            " Engagements hors bilan ": {
-                "d\u00e9pense_annuelle": {
-                    "2022": -200709562.88,
-                    "2012": -41614365.1
-                },
-                "recette_annuelle": {
-                    "2022": 0.0,
-                    "2012": 0.0
-                },
-                "sous-postes": {
-                    " Contrepartie des engagements ": {
-                        "d\u00e9pense_annuelle": {
-                            "2022": -200709562.88,
-                            "2012": -41614365.1
-                        },
-                        "recette_annuelle": {
-                            "2022": 0.0,
-                            "2012": 0.0
-                        }
-                    }
-                }
-            },
-            " Immobilisations financi\u00e8res ": {
-                "d\u00e9pense_annuelle": {
-                    "2022": -146924149.91,
-                    "2012": 0.0
-                },
-                "recette_annuelle": {
-                    "2022": 0.0,
-                    "2012": 0.0
-                },
-                "sous-postes": {
-                    " Fonds sans personnalit\u00e9 juridique ": {
-                        "d\u00e9pense_annuelle": {
-                            "2022": -146924149.91,
                             "2012": 0.0
                         },
                         "recette_annuelle": {
@@ -96,21 +30,33 @@
                         }
                     }
                 }
-            },
-            " Produits d'intervention ": {
+            }
+        }
+    },
+    "Inconnu": {
+        "d\u00e9pense_annuelle": {
+            "2022": -40265152371.60999,
+            "2012": -37621730694.009995
+        },
+        "recette_annuelle": {
+            "2022": 0.0,
+            "2012": 0.0
+        },
+        "postes": {
+            " Produits r\u00e9galiens nets ": {
                 "d\u00e9pense_annuelle": {
-                    "2022": -327970538.92,
-                    "2012": -224976623.26
+                    "2022": -1.65,
+                    "2012": 0.0
                 },
                 "recette_annuelle": {
                     "2022": 0.0,
                     "2012": 0.0
                 },
                 "sous-postes": {
-                    " Reprises sur provisions et d\u00e9pr\u00e9ciations ": {
+                    " Enregistrement, timbre, autres contributions et taxes indirectes ": {
                         "d\u00e9pense_annuelle": {
-                            "2022": -327970538.92,
-                            "2012": -224976623.26
+                            "2022": -1.65,
+                            "2012": 0.0
                         },
                         "recette_annuelle": {
                             "2022": 0.0,
@@ -118,21 +64,33 @@
                         }
                     }
                 }
-            },
-            " Produits de fonctionnement ": {
+            }
+        }
+    },
+    "Justice": {
+        "d\u00e9pense_annuelle": {
+            "2022": 0.0,
+            "2012": 0.0
+        },
+        "recette_annuelle": {
+            "2022": 0.0,
+            "2012": 0.0
+        },
+        "postes": {
+            " Produits r\u00e9galiens nets ": {
                 "d\u00e9pense_annuelle": {
-                    "2022": -234016003.88,
-                    "2012": -84300000.0
+                    "2022": 0.0,
+                    "2012": 0.0
                 },
                 "recette_annuelle": {
                     "2022": 0.0,
                     "2012": 0.0
                 },
                 "sous-postes": {
-                    " Reprises sur provisions et d\u00e9pr\u00e9ciations ": {
+                    " Enregistrement, timbre, autres contributions et taxes indirectes ": {
                         "d\u00e9pense_annuelle": {
-                            "2022": -234016003.88,
-                            "2012": -84300000.0
+                            "2022": 0.0,
+                            "2012": 0.0
                         },
                         "recette_annuelle": {
                             "2022": 0.0,
@@ -140,21 +98,33 @@
                         }
                     }
                 }
-            },
-            " Provisions ": {
+            }
+        }
+    },
+    "Transition \u00e9cologique": {
+        "d\u00e9pense_annuelle": {
+            "2022": 0.0,
+            "2012": -61518.88
+        },
+        "recette_annuelle": {
+            "2022": 0.0,
+            "2012": 0.0
+        },
+        "postes": {
+            " Produits r\u00e9galiens nets ": {
                 "d\u00e9pense_annuelle": {
-                    "2022": -355327582.11,
-                    "2012": -140314326.1
+                    "2022": 0.0,
+                    "2012": -61518.88
                 },
                 "recette_annuelle": {
                     "2022": 0.0,
                     "2012": 0.0
                 },
                 "sous-postes": {
-                    " Provisions pour charges ": {
+                    " Enregistrement, timbre, autres contributions et taxes indirectes ": {
                         "d\u00e9pense_annuelle": {
-                            "2022": -355327582.11,
-                            "2012": -140314326.1
+                            "2022": 0.0,
+                            "2012": -61518.88
                         },
                         "recette_annuelle": {
                             "2022": 0.0,
@@ -162,21 +132,33 @@
                         }
                     }
                 }
-            },
-            " Solde des op\u00e9rations de l'exercice ": {
+            }
+        }
+    },
+    "Int\u00e9rieur": {
+        "d\u00e9pense_annuelle": {
+            "2022": -346449.0,
+            "2012": -5411117.0
+        },
+        "recette_annuelle": {
+            "2022": 0.0,
+            "2012": 0.0
+        },
+        "postes": {
+            " Produits r\u00e9galiens nets ": {
                 "d\u00e9pense_annuelle": {
-                    "2022": -182336168.62,
-                    "2012": -63546523.68
+                    "2022": -346449.0,
+                    "2012": 0.0
                 },
                 "recette_annuelle": {
                     "2022": 0.0,
                     "2012": 0.0
                 },
                 "sous-postes": {
-                    "   ": {
+                    " Enregistrement, timbre, autres contributions et taxes indirectes ": {
                         "d\u00e9pense_annuelle": {
-                            "2022": -182336168.62,
-                            "2012": -63546523.68
+                            "2022": -346449.0,
+                            "2012": 0.0
                         },
                         "recette_annuelle": {
                             "2022": 0.0,

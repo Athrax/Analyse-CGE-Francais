@@ -12,7 +12,6 @@
 #   consultez.
 #  ==============================================================================
 
-
 import matplotlib.pyplot as plt  # graphiques
 import numpy as np  # outils mathématiques
 import sys  # système
@@ -21,8 +20,7 @@ from fichier.gestionnaire_arborescence import parent, grand_parent, chemin
 from fichier.detection_donnees import detection_en_tete  # traitement du fichier source
 from fichier.gestionnaire_source import regroupe_donnees_ministere
 from fichier.gestionnaire_json import sauvegarder_json, importer_json
-import affichage.gestionnaire_affichage  # gestion de l'affichage
-
+from cli.menu import cli
 
 def run():
     """
@@ -38,8 +36,8 @@ def run():
     # Si un argument est donné (fichier source)
     # Alors on créer le dictionnaire des ministères
 
-    if len(sys.argv) > 1:
-        chemin_fichier_source = str(sys.argv[1])  # On enregistre le chemin du fichier csv
+    if (sys.argv[-1][0] != "-"):
+        chemin_fichier_source = str(sys.argv[-1])  # On enregistre le chemin du fichier csv
         info("Recherche du fichier passé en argument : {0}".format(chemin_fichier_source))
 
         try:  # On essaye de charger le fichier de donnees
@@ -69,6 +67,7 @@ def run():
         try:  # On vérifie si la base de donnée éxiste déja (donnees.json)
             db_ministere = importer_json(chemin_json=chemin(grand_parent(__file__), "docs", "db_ministere.json"))  # On essaye d'ouvrir la base de données (qu'on nommera db)
             debug("Base de donnée json importée")
+
         except FileNotFoundError:
             erreur("Aucune base de donnée n'existe",
                    "Veuillez executer le logiciel en précisant le chemin vers une source",
@@ -77,6 +76,13 @@ def run():
 
     # La base de donnée ministère a été créée ou a été importée
     # On peut maintenant exploiter les données
+
+    # On différencie l'execution en ligne de commande ou par interface graphique
+    if "-nogui" in sys.argv: # Si l'utilisateur lance le programme en ligne de commande
+        cli()
+    else:
+        #gui()
+        pass
 
     info("Fin du programme")
     return 0  # Fin du programme
