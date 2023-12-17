@@ -39,12 +39,16 @@ def affichage_bar(X, Y):
     return
 
 
-def affichage_pie(X):
+def affichage_pie(X, Y, titre):
     """
     Cette fonction affiche un diagramme en camembert à partir d'une liste X
 
     Args:
         X (list): Liste des valeurs à représenter
+        Y (list): Liste des labels
+        titre (string): Titre du graphique
     """
-
-    return
+    # On importe un modèle pour créer des graphiques camembert
+    plt.pie(X, labels=Y, autopct='%1.1f%%')
+    plt.title(titre)
+    plt.show()

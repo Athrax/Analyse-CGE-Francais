@@ -21,8 +21,6 @@ from fichier.detection_donnees import detection_en_tete  # traitement du fichier
 from fichier.gestionnaire_source import regroupe_donnees_ministere
 from fichier.gestionnaire_json import sauvegarder_json, importer_json
 from cli.menu import cli
-import affichage.gestionnaire_affichage  # gestion de l'affichage
-
 
 def run():
     """
@@ -38,8 +36,8 @@ def run():
     # Si un argument est donné (fichier source)
     # Alors on créer le dictionnaire des ministères
 
-    if len(sys.argv) > 1:
-        chemin_fichier_source = str(sys.argv[1])  # On enregistre le chemin du fichier csv
+    if (sys.argv[-1][0] != "-"):
+        chemin_fichier_source = str(sys.argv[-1])  # On enregistre le chemin du fichier csv
         info("Recherche du fichier passé en argument : {0}".format(chemin_fichier_source))
 
         try:  # On essaye de charger le fichier de donnees

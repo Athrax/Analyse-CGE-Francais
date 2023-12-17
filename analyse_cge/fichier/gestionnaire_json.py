@@ -12,6 +12,7 @@ def sauvegarder_json(dictionnaire, chemin_json):  # Sauvegarder en fichier json 
     try:
         with open(chemin_json, 'w') as json_file:
             json.dump(dictionnaire, json_file, indent=4)
+            json_file.flush() # On force a sauvegarder le fichier
             debug(f"Le fichier json à été sauvegardé : {chemin_json}")
 
     except IOError as err:
@@ -25,8 +26,7 @@ def importer_json(chemin_json):
             return json.load(json_file)
 
     except IOError as err:
-        print(os.listdir())
-        erreur(f"Impossible d'ouvrir le fichier {chemin_json}", f"{err}")
+        erreur(f"Impossible d'ouvrir le fichier {chemin_json}", err, f"Fichier de ce répertoire : {os.listdir()}")
         return 1
 
 

@@ -13,10 +13,12 @@
 #  ==============================================================================
 import sys
 
+import matplotlib.pyplot as plt
+
 from analyse_cge.journalisation.traces import info, debug, avert, erreur
 from analyse_cge.fichier.gestionnaire_json import importer_json
 from analyse_cge.fichier.gestionnaire_arborescence import chemin, parent, grand_parent
-from gestionnaire_commande import commande
+from analyse_cge.cli.gestionnaire_commande import commande
 
 
 def lf(n=1):
@@ -98,5 +100,3 @@ def importer_config_menus(chemin_fichier="config/menus_cli.json"):
 def cli():
     info("Bienvenue dans l'interface en ligne de commande du programme d'Analayse du CGE")
     affichage_menu()
-
-cli()
