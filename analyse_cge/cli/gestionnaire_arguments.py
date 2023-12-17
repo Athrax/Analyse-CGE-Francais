@@ -36,7 +36,7 @@ def arguments():
             try:
                 if args[i + 1][0] != "-":  # Alors on vérifie si le suivant est valeur
                     arguments[args[i]] = args[i + 1]  # Et dans ce cas on associe argument et valeur ensemble
-                    break
+                    continue
 
             except:  # Si on arrive à des arguments, alors on ne peut pas vérifier si le suivant est une valeur
                 pass  # Donc estime qu'il n'y a pas de valeur

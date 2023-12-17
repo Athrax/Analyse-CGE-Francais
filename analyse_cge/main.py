@@ -81,6 +81,7 @@ def run():
 
     # La base de donnée ministère a été créée ou a été importée
     # On peut maintenant exploiter les données
+    print(arguments())
 
     # On différencie l'execution en ligne de commande ou par interface graphique
     if "-nogui" in arguments(): # Si l'utilisateur lance le programme en ligne de commande
