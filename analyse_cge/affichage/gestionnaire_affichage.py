@@ -48,7 +48,9 @@ def affichage_pie(X, Y, titre):
         Y (list): Liste des labels
         titre (string): Titre du graphique
     """
+
     # On importe un modèle pour créer des graphiques camembert
     plt.pie(X, labels=Y, autopct='%1.1f%%')
     plt.title(titre)
     plt.show()
+    plt.close()

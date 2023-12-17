@@ -28,6 +28,7 @@ def regroupe_donnees_ministere(fichier_source, colonnes):
     Returns:
          dictionnaire_ministere (dict): Dictionnaire des données regroupées par ministère
     """
+    i=0
     dictionnaire_ministere = dict()
 
     info("Regroupement du contenu du fichier source par ministère...")
@@ -148,4 +149,7 @@ def regroupe_donnees_ministere(fichier_source, colonnes):
             f"dépense 2022 : {dictionnaire_ministere[cellule_ministere]['postes'][cellule_poste]['sous-postes'][cellule_sous_poste]['recette_annuelle']['2022']}, ",
             f"dépense 2012 : {dictionnaire_ministere[cellule_ministere]['postes'][cellule_poste]['sous-postes'][cellule_sous_poste]['recette_annuelle']['2012']}")
 
+        i = i + 1
+        if i == 30:
+            break
     return dictionnaire_ministere

@@ -22,11 +22,15 @@ from analyse_cge.cli.gestionnaire_commande import commande
 
 
 def lf(n=1):
-    while n >= 0: info(); n += -1
+    while n: info(); n -= 1
 
 
 def separateur():
     info("---")
+
+
+def effacer_console(n=10):
+    while n: print(""); n -=1
 
 
 def affichage_menu():
@@ -49,6 +53,7 @@ def affichage_menu():
         # On affiche le menu démandé
         # On déroule une liste créée avec tous les choix possibles et leur titre à partir du menu courant.
         # Je n'ai pas copié collé cette ligne depuis Internet, et d'ailleurs aucune ligne ne l'est dans ce programme
+
         info(*(f"{menu_courant[choix]['titre']}: [{choix}]" for choix in menu_courant))
 
         # On vérifie si une opération est à effectuer en arrivant dans le menu demandé
@@ -65,6 +70,8 @@ def affichage_menu():
 
         # On invite l'utilisateur à entrer la commande souhaitée
         entree = input("> ")
+        info("> " + entree)
+        effacer_console()
 
         # On traite l'entrée de l'utilisateur
         # On peut executer la commande quitter à tout moment, dans tous les menus
@@ -86,8 +93,6 @@ def affichage_menu():
         # car on ne change pas le chemin de menu, on passe juste.
         else:
             pass
-
-        # On vérifie si une fonction doit être executée ou non
 
 
 def importer_config_menus(chemin_fichier="config/menus_cli.json"):

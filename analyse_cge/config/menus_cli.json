@@ -21,10 +21,22 @@
             "titre": "Options et constantes du programme",
             "menu": {
                 "source": {
-                    "titre": "Source des données"
+                    "titre": "Source des données",
+                    "menu": {
+                        "retour": {
+                            "titre": "Rien à afficher dans ce menu",
+                            "operation": ""
+                        }
+                    }
                 },
                 "db": {
-                    "titre": "Base de donnéees"
+                    "titre": "Base de donnéees",
+                    "menu": {
+                        "retour": {
+                            "titre": "La base de donnée utilisée est la suivante : ",
+                            "operation": "afficher_db"
+                        }
+                    }
                 },
                 "retour": {
                     "titre": "Retour"

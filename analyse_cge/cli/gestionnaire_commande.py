@@ -16,13 +16,27 @@ from analyse_cge.fichier.gestionnaire_json import importer_json
 from analyse_cge.fichier.gestionnaire_arborescence import chemin, grand_parent
 
 
+def graph_ministere():
+    # Chargment de la base de donnée
+    db = importer_json(chemin(grand_parent(__file__), "..", "docs", "db_ministere.json"))
+
+    valeurs = [int(db[ministere]["recette_annuelle"]["2022"]) for ministere in [*db]]
+    labels = [*db]
+    titre = "Dépenses des ministères en 2022"
+
+    affichage_pie(valeurs, labels, titre)
+
+
+def afficher_db():
+    # Chargement de la base de donnée
+    db = importer_json(chemin(grand_parent(__file__), "..", "docs", "db_ministere.json"))
+    print(db)
+
+
 def commande(operation):
     if operation == "graph_ministere":
-        # Chargment de la base de donnée
-        db = importer_json(chemin(grand_parent(__file__), "..", "docs", "db_ministere.json"))
+        graph_ministere()
 
-        valeurs = [int(db[ministere]["recette_annuelle"]["2022"]) for ministere in [*db]]
-        labels = [*db]
-        titre = "Dépenses des ministères en 2022"
+    if operation == "afficher_db":
+        afficher_db()
 
-        affichage_pie(valeurs, labels, titre)
