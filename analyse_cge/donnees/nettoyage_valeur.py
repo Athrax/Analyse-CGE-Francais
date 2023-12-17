@@ -14,7 +14,7 @@
 from analyse_cge.journalisation.traces import debug, avert
 
 
-def savon(*valeurs):
+def savon_a_chiffres(*valeurs):
     """
     Cette fonction nettoie les données. Son rôle est de ne retourner que des nombre flotant signés.
     Elle est programmée pour :
@@ -33,7 +33,7 @@ def savon(*valeurs):
         return tuple(float(nombre) for nombre in valeurs)  # Ici, on convertit les string en float
 
     except ValueError as err:  # Si les valeurs ne sont pas des convertissables en float
-        try: # Alors on continue de les convertir :
+        try:  # Alors on continue de les convertir :
             # On convertit toutes nos valeurs en chaine de caractère pour les traiter également
             valeurs = tuple(str(valeur) for valeur in valeurs)
 
@@ -52,6 +52,7 @@ def savon(*valeurs):
             # On créer le tuple nettoyé et on le renvoi
             nombres_savonnes = tuple(float(valeur) for valeur in remplissage_cellule)
             debug(f"Valeurs nettoyées avec succès : {nombres_savonnes}")
+
             return nombres_savonnes
 
         except ValueError as err:  # La valeur semble ne pas contenir de nombre
@@ -61,3 +62,40 @@ def savon(*valeurs):
                   "Ces valeurs ont été rempalcées par 0",
                   err)
             return tuple(0.0 for valeur in valeurs)
+
+
+def savon_a_lettres(*valeurs):
+    """
+    Cette fonction nettoie les données textuelles. Son rôle est de nettoyer les caractère qui poseraient problème
+    dans une chaine de caractère
+    Elle est programmée pour :
+    - Effacer les esapces inutiles dans la cellule
+
+    Args:
+        valeurs (tuple): Valeurs a nettoyer.
+    Returns:
+        nombre (tuple): Tuple des string nettoyés
+    """
+    debug(f"Nettoyage des valeurs {valeurs} ...")
+    try:  # Alors on continue de les convertir :
+        # On convertit toutes nos valeurs en chaine de caractère pour les traiter également
+        valeurs = tuple(str(valeur) for valeur in valeurs)
+
+        # Supprime les espaces inutiles dans la cellule
+        suppression_espace = tuple(valeur.strip(" ") for valeur in valeurs)
+
+        debug(f"Valeurs nettoyées avec succès : {suppression_espace}")
+
+        # Si une seule valeur est donnée à nettoyer
+        if len(valeurs) == 1:
+            return suppression_espace[0]
+        else: # Si plusieurs, on renvoi un tuple
+            return suppression_espace
+
+    except ValueError as err:  # La valeur semble ne pas contenir de nombre
+        # Ces instructions sont executées si les valeurs de dépenses contient par exemple des lettres
+        # On remplace la valeur récupérée par 0
+        avert(f"Echec du nettoyage des valeurs : {valeurs}",
+              "Ces valeurs n'ont pas été néttoyées",
+              err)
+        return valeurs

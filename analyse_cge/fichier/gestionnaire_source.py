@@ -12,7 +12,7 @@
 #   consultez.
 #  ==============================================================================
 
-from analyse_cge.donnees.nettoyage_valeur import savon
+from analyse_cge.donnees.nettoyage_valeur import savon_a_chiffres, savon_a_lettres
 from analyse_cge.journalisation.traces import *
 from analyse_cge.fichier.detection_donnees import detection_cellules
 
@@ -28,7 +28,11 @@ def regroupe_donnees_ministere(fichier_source, colonnes):
     Returns:
          dictionnaire_ministere (dict): Dictionnaire des données regroupées par ministère
     """
-    i=0
+
+    # Afin de tester le programme plus facilement
+    # On introduit un compteur de ligne pour n'en traiter qu'un petit nombre
+    ligne_traiter = 30
+
     dictionnaire_ministere = dict()
 
     info("Regroupement du contenu du fichier source par ministère...")
@@ -42,10 +46,10 @@ def regroupe_donnees_ministere(fichier_source, colonnes):
             break  # On ne traite pas la ligne
 
         # On récupère les valeurs qui nous intéressent
-        cellule_ministere = cellules[colonnes["ministère"]]  # Ministère concerné par la ligne
-        cellule_poste = cellules[colonnes["postes"]]  # Poste concerné par la ligne
-        cellule_sous_poste = cellules[colonnes["sous-postes"]]  # Sous poste concerné par la ligne
-        balance_2022, balance_2012 = savon(cellules[colonnes["2022"]], cellules[colonnes["2012"]])  # Nettoyage des données
+        cellule_ministere = savon_a_lettres(cellules[colonnes["ministère"]])  # Ministère concerné par la ligne
+        cellule_poste = savon_a_lettres(cellules[colonnes["postes"]])  # Poste concerné par la ligne
+        cellule_sous_poste = savon_a_lettres(cellules[colonnes["sous-postes"]])  # Sous poste concerné par la ligne
+        balance_2022, balance_2012 = savon_a_chiffres(cellules[colonnes["2022"]], cellules[colonnes["2012"]])  # Nettoyage des données
 
         debug(f"Ligne à traiter : Ministère {cellule_ministere}, "
               f"poste : {cellule_poste}, "
@@ -149,7 +153,9 @@ def regroupe_donnees_ministere(fichier_source, colonnes):
             f"dépense 2022 : {dictionnaire_ministere[cellule_ministere]['postes'][cellule_poste]['sous-postes'][cellule_sous_poste]['recette_annuelle']['2022']}, ",
             f"dépense 2012 : {dictionnaire_ministere[cellule_ministere]['postes'][cellule_poste]['sous-postes'][cellule_sous_poste]['recette_annuelle']['2012']}")
 
-        i = i + 1
-        if i == 30:
+        ligne_traiter -= 1
+        if ligne_traiter <= 0 :
+            debug("Seul certaines lignes ont été traitées")
             break
+
     return dictionnaire_ministere
