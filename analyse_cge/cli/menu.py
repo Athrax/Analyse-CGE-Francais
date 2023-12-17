@@ -24,13 +24,14 @@ from analyse_cge.cli.gestionnaire_commande import commande
 def lf(n=1):
     while n >= 0: info(); n += -1
 
+
 def separateur():
     info("---")
 
 
 def affichage_menu():
     separateur()
-    menus = importer_config_menus() # Importe la configuration du menu
+    menus = importer_config_menus()  # Importe la configuration du menu
 
     # On créer une liste qui contient le chemin du menu à chaque instant
     chemin_menu = ["menu"]
@@ -42,14 +43,13 @@ def affichage_menu():
         menu_courant = menus
 
         # Et on parcours le menu étape après étape
-        for parcours in chemin_menu: # On liste le chemin du menu
-            menu_courant = menu_courant[parcours] # On se déplace au fur et à mesure
+        for parcours in chemin_menu:  # On liste le chemin du menu
+            menu_courant = menu_courant[parcours]  # On se déplace au fur et à mesure
 
         # On affiche le menu démandé
         # On déroule une liste créée avec tous les choix possibles et leur titre à partir du menu courant.
         # Je n'ai pas copié collé cette ligne depuis Internet, et d'ailleurs aucune ligne ne l'est dans ce programme
         info(*(f"{menu_courant[choix]['titre']}: [{choix}]" for choix in menu_courant))
-
 
         # On vérifie si une opération est à effectuer en arrivant dans le menu demandé
         # Une opération est effectué nécessairement lorsque l'utilisateur à choisit une option finale dans le menu
@@ -66,13 +66,16 @@ def affichage_menu():
         # On invite l'utilisateur à entrer la commande souhaitée
         entree = input("> ")
 
-        if entree == "quitter": # On peut executer la commande quitter à tout moment, dans tous les menus
+        # On traite l'entrée de l'utilisateur
+        # On peut executer la commande quitter à tout moment, dans tous les menus
+        if entree == "quitter":
             break
 
         # Si l'on souhaite acceder au menu précédent
-        elif entree == "retour" and len(chemin_menu) > 1:
-            chemin_menu.pop() # Mi chemin (on remonte aux paramtères du menu, comme le nom complet)
-            chemin_menu.pop() # Puis on revient au menu précédent
+        elif (entree == "retour" and len(chemin_menu) > 1) or (
+                ["retour"] == [*menu_courant] and entree not in [*menu_courant]):
+            chemin_menu.pop()  # Mi chemin (on remonte aux paramtères du menu, comme le nom complet)
+            chemin_menu.pop()  # Puis on revient au menu précédent
 
         # On vérifie si la commande tapée
         # On déballe les choix possible dans le menu actuel
@@ -86,9 +89,10 @@ def affichage_menu():
 
         # On vérifie si une fonction doit être executée ou non
 
+
 def importer_config_menus(chemin_fichier="config/menus_cli.json"):
     try:
-        menus = importer_json(chemin(grand_parent(__file__),chemin_fichier))
+        menus = importer_json(chemin(grand_parent(__file__), chemin_fichier))
         debug("Fichier de configuration des menus importé")
         return menus
 

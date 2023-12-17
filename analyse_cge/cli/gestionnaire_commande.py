@@ -21,7 +21,7 @@ def commande(operation):
         # Chargment de la base de donnée
         db = importer_json(chemin(grand_parent(__file__), "..", "docs", "db_ministere.json"))
 
-        valeurs = [int(-db[ministere]["dépense_annuelle"]["2022"]) for ministere in [*db]]
+        valeurs = [int(db[ministere]["recette_annuelle"]["2022"]) for ministere in [*db]]
         labels = [*db]
         titre = "Dépenses des ministères en 2022"
 
