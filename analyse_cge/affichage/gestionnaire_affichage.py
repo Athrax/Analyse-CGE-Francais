@@ -13,6 +13,7 @@
 #  ==============================================================================
 
 import matplotlib.pyplot as plt
+from analyse_cge.journalisation.traces import avert
 
 
 def affichage_X_Y(X, Y):
@@ -51,6 +52,13 @@ def affichage_pie(X, Y, titre):
 
     # On importe un modèle pour créer des graphiques camembert
     plt.pie(X, labels=Y, autopct='%1.1f%%')
-    plt.title(titre)
-    plt.show()
-    plt.close()
+
+    try:
+        plt.title(titre)
+    except Exception as exc:
+        avert("Echec de la génération du titre du graphique", exc)
+
+    try:
+        plt.show()
+    except Exception as exc:
+        avert("Echec de l'affichage du graphique", exc)

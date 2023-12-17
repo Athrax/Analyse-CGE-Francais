@@ -57,16 +57,19 @@ def affichage_menu():
         info(*(f"{menu_courant[choix]['titre']}: [{choix}]" for choix in menu_courant))
 
         # On vérifie si une opération est à effectuer en arrivant dans le menu demandé
-        # Une opération est effectué nécessairement lorsque l'utilisateur à choisit une option finale dans le menu
-        # Ainsi, les choix qui s'offrent à l'utiliseur sont réuit à "retour"
+        # Une opération est effectuée nécessairement lorsque l'utilisateur à choisit une option finale dans le menu
+        # Ainsi, les choix qui s'offrent à l'utiliseur sont réduit à "retour"
         # Si l'unique choix du menu actuel est "retour". Alors on vérifie si une action est à effectuer.
-        # Cette action est associée à la clef operation dans le menu "retour".
+        # Cette action est associée à la clef operation dans le dictionnaire associé à la cle "retour".
         if ["retour"] == [*menu_courant]:
             operation = menu_courant["retour"]["operation"]
             info(f"L'opération {operation} est demandée")
 
             # On appel le gestionnaire de commande
-            commande(operation)
+            try:
+                commande(operation)
+            except:
+                avert(f"La commande {operation} a échouée")
 
         # On invite l'utilisateur à entrer la commande souhaitée
         entree = input("> ")
@@ -79,6 +82,7 @@ def affichage_menu():
             break
 
         # Si l'on souhaite acceder au menu précédent
+        # Qu'on tape retour, ou qu'on tape n'importe quoi et que retour est le seul choix possible
         elif (entree == "retour" and len(chemin_menu) > 1) or (
                 ["retour"] == [*menu_courant] and entree not in [*menu_courant]):
             chemin_menu.pop()  # Mi chemin (on remonte aux paramtères du menu, comme le nom complet)
