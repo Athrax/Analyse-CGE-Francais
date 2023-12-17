@@ -11,10 +11,10 @@
 #   Vous devriez avoir reçu une copie de la licence avec ce programme. Sinon,
 #   consultez.
 #  ==============================================================================
-import sys
+from sys import exit
 from datetime import datetime
 import os.path
-
+from analyse_cge.cli.gestionnaire_arguments import arguments
 
 def log(niveau, message, temps_actuel):
     """
@@ -37,11 +37,11 @@ def log(niveau, message, temps_actuel):
             fichier_log.write(entree + "\n")
     except FileNotFoundError:  # Le dossier n'existe pas
         print(f"{date_heure} [{timestamp}]: ERREUR - Le dossier logs n'existe pas")
-        sys.exit(1)
+        exit(1)
 
 
 def debug(*message):
-    if "-v" in sys.argv:  # On affiche les messages d'information uniquement en mode verbose
+    if "-v" in arguments():  # On affiche les messages d'information uniquement en mode verbose
         temps_actuel = datetime.now()  # On récupère les données de temps actuel
         for ligne in message:
             log("DEBUG", ligne, temps_actuel)  # Pour chaque ligne envoyée, on affiche un message

@@ -17,12 +17,17 @@ from analyse_cge.fichier.gestionnaire_arborescence import chemin, grand_parent
 from analyse_cge.journalisation.traces import avert, debug
 
 
-def graph_ministere():
+def graph_ministere(ministere_inconnu):
     # Chargment de la base de donnée
     db = importer_json(chemin(grand_parent(__file__), "..", "docs", "db_ministere.json"))
 
-    valeurs = [-int(db[ministere]["dépense_annuelle"]["2022"]) for ministere in [*db]]
     labels = [*db]
+    if ministere_inconnu:
+        valeurs = [-int(db[ministere]["dépense_annuelle"]["2022"]) for ministere in [*db]]
+    else:
+        valeurs = [-int(db[ministere]["dépense_annuelle"]["2022"]) for ministere in [*db]
+                   if ministere != "Non renseigné"]
+        labels.pop(labels.index("Non renseigné"))
     titre = "Dépenses des ministères en 2022"
 
     try:
@@ -30,7 +35,7 @@ def graph_ministere():
         debug("Valeurs du graphique :", valeurs, "labels :", labels)
 
     except Exception as exc:
-        avert("Le graphique \"{titre}\" n'a pas pu être créer", exc)
+        avert(f"Le graphique \"{titre}\" n'a pas pu être créer", exc)
 
     except RuntimeWarning as warn:
         avert("Indication :", warn)
@@ -44,8 +49,11 @@ def afficher_db():
 
 
 def commande(operation):
-    if operation == "graph_ministere":
-        graph_ministere()
+    if operation == "graph_ministere_avec_inconnu":
+        graph_ministere(True)
+
+    if operation == "graph_ministere_sans_inconnu":
+        graph_ministere(False)
 
     if operation == "afficher_db":
         afficher_db()

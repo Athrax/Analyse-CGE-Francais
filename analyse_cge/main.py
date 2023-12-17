@@ -14,7 +14,8 @@
 
 import matplotlib.pyplot as plt  # graphiques
 import numpy as np  # outils mathématiques
-import sys  # système
+from sys import exit  # système
+from cli.gestionnaire_arguments import arguments # arguments
 from journalisation.traces import info, debug, erreur  # logs
 from fichier.gestionnaire_arborescence import parent, grand_parent, chemin
 from fichier.detection_donnees import detection_en_tete  # traitement du fichier source
@@ -22,11 +23,15 @@ from fichier.gestionnaire_source import regroupe_donnees_ministere
 from fichier.gestionnaire_json import sauvegarder_json, importer_json
 from cli.menu import cli
 
+
 def run():
     """
-    Fonction principale du logiciel.
+    Fonction principale du logic.
     Executée si main.py n'est pas appelée comme un module
     """
+
+    # On récupère les valeurs passées en arguments
+
 
     # Traitement du fichier source :
     # Si un fichier a été passé en argument lors de l'execution du code,
@@ -36,8 +41,8 @@ def run():
     # Si un argument est donné (fichier source)
     # Alors on créer le dictionnaire des ministères
 
-    if (sys.argv[-1][0] != "-"):
-        chemin_fichier_source = str(sys.argv[-1])  # On enregistre le chemin du fichier csv
+    if "-source" in arguments():
+        chemin_fichier_source = str(arguments()["-source"])  # On enregistre le chemin du fichier csv
         info("Recherche du fichier passé en argument : {0}".format(chemin_fichier_source))
 
         try:  # On essaye de charger le fichier de donnees
@@ -78,7 +83,7 @@ def run():
     # On peut maintenant exploiter les données
 
     # On différencie l'execution en ligne de commande ou par interface graphique
-    if "-nogui" in sys.argv: # Si l'utilisateur lance le programme en ligne de commande
+    if "-nogui" in arguments(): # Si l'utilisateur lance le programme en ligne de commande
         cli()
     else:
         #gui()
@@ -89,7 +94,7 @@ def run():
 
 if __name__ == '__main__':  # On vérifie si on execute bien le fichier directement et non comme un module
     info("Le programme démarre ...")
-    sys.exit(run())  # Si on ne l'execute pas comme un module, alors on démarre notre programme
+    exit(run())  # Si on ne l'execute pas comme un module, alors on démarre notre programme
 
 else:
     erreur("Impossible de démarrer le logiciel en tant que module", "Veuillez executer main.py directement.")

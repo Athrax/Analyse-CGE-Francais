@@ -6,9 +6,23 @@
                 "ministere": {
                     "titre": "Recettes et dépenses par ministère",
                     "menu": {
-                        "retour": {
-                            "titre": "Ce graphique représente les dépense et les recettes de létat par ministère, entre 2022 et 2012",
-                            "operation": "graph_ministere"
+                        "oui": {
+                            "titre": "Afficher les dépenses non classées",
+                            "menu": {
+                                "retour": {
+                                    "titre": "Ce graphique représente les dépense et les recettes de l'état par ministère, entre 2022 et 2012, en prenant en compte les dépenses sans attribution de ministère",
+                                    "operation": "graph_ministere_avec_inconnu"
+                                }
+                             }
+                        },
+                        "non": {
+                            "titre": "                                  ",
+                            "menu": {
+                                "retour": {
+                                    "titre": "Ce graphique représente les dépense et les recettes de l'état par ministère, entre 2022 et 2012",
+                                    "operation": "graph_ministere_sans_inconnu"
+                                }
+                             }
                         }
                     }
                 },
