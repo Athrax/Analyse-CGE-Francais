@@ -15,6 +15,7 @@ L'objectif de ce projet était de manipuler et d'exploiter les données d'un fic
 - Python
 - Bibliothèques Python pour le traitement de données (pandas, matplotlib, etc.)
 - Poetry pour la gestion des dépendances
+- Gliffy pour la rédaction d'algorithme
 
 ## Bibliothèques Utilisées
 - matplotlib.pyplot
@@ -35,6 +36,9 @@ Ce projet est destiné à des fins éducatives dans le cadre de la formation uni
 ## Auteurs
 - Lise Renaud
 - Aymeric Schaeffer
+
+## Sources
+https://www.budget.gouv.fr
 
 ## Licence
 Ce projet est sous licence open source - voir le fichier [LICENSE](LICENSE) pour plus de détails.

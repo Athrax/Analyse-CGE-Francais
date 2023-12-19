@@ -29,13 +29,13 @@ def arguments():
     # La structure est -[argument] [valeur (optionnel)]
 
     # On créer le dictionnaire contenant les arguments
-    arguments = {}
+    dict_arguments = {}
 
     for i in range(1, len(args[0:])):  # On observe chaque valeur donnée en argument
         if args[i][0] == "-":  # Si le début de l'agument étudié commence par un tiret
             try:
                 if args[i + 1][0] != "-":  # Alors on vérifie si le suivant est valeur
-                    arguments[args[i]] = args[i + 1]  # Et dans ce cas on associe argument et valeur ensemble
+                    dict_arguments[args[i]] = args[i + 1]  # Et dans ce cas on associe argument et valeur ensemble
                     continue
 
             except:  # Si on arrive à des arguments, alors on ne peut pas vérifier si le suivant est une valeur
@@ -43,6 +43,6 @@ def arguments():
 
             # S'il n'y a pas de valeur précisé après l'argument
             # Ou si on arrive à la fin des arguments donnés, alors on enregistre largument sans valeur
-            arguments[args[i]] = None
+            dict_arguments[args[i]] = None
 
-    return arguments  # On retourne le dictionnaire des arguments
+    return dict_arguments  # On retourne le dictionnaire des arguments
