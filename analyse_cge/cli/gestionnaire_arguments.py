@@ -39,10 +39,10 @@ def arguments():
                     continue
 
             except:  # Si on arrive à des arguments, alors on ne peut pas vérifier si le suivant est une valeur
-                pass  # Donc estime qu'il n'y a pas de valeur
+                pass  # Donc on estime qu'il n'y a pas de valeur
 
             # S'il n'y a pas de valeur précisé après l'argument
-            # Ou si on arrive à la fin des arguments donnés, alors on enregistre largument sans valeur
+            # Ou si on arrive à la fin des arguments données, alors on enregistre largument sans valeur
             dict_arguments[args[i]] = None
 
     return dict_arguments  # On retourne le dictionnaire des arguments
