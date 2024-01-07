@@ -28,7 +28,7 @@ def affichage_X_Y(X, Y):
     return
 
 
-def affichage_bar(X, Y, titre):
+def affichage_bar(X, Y):
     """
     Cette fonction affiche un diagramme en barre à partir de listes X et Y
 
@@ -37,30 +37,7 @@ def affichage_bar(X, Y, titre):
         Y (list): Valeurs ordonnées
     """
 
-    # On génère le graphique en barres
-    plt.bar(X, Y)
-
-    try:
-        # Ajout de titres et d'étiquettes
-        plt.title(titre)
-        plt.ylabel('Dépenses en €')
-
-        plt.xticks(rotation=25, ha="right")  # On tourne légerement les labels de l'axe x
-        plt.yscale('log')  # On définit l'échelle logarithmique sur l'axe y
-        plt.tight_layout()  # Ajuste automatiquement la disposition du graphique pour voir les labels en entier
-
-        palette = plt.get_cmap("Set2")  # On utilise une palette de couleur matplotlib
-
-        for i in range(len(X)): # Affichage des barres avec des couleurs différentes
-            plt.bar(X[i], Y[i], color=palette(i))
-
-    except Exception as exc:
-        avert("Echec de la génération du titre/étiquettes du graphique", exc)
-
-    try:
-        plt.show()
-    except Exception as exc:
-        avert("Echec de l'affichage du graphique", exc)
+    return
 
 
 def affichage_pie(X, Y, titre):
@@ -73,7 +50,7 @@ def affichage_pie(X, Y, titre):
         titre (string): Titre du graphique
     """
 
-    # On génère le graphique en camembert
+    # On importe un modèle pour créer des graphiques camembert
     plt.pie(X, labels=Y, autopct='%1.1f%%')
 
     try:

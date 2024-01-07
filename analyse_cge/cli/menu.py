@@ -45,18 +45,14 @@ def affichage_menu():
         # Sinon on ne peut pas effectuer de retour.
         # On part de la racine
         menu_courant = menus
-        menu_parent = menus
 
         # Et on parcours le menu étape après étape
         for parcours in chemin_menu:  # On liste le chemin du menu
-            menu_parent = menu_courant  # On se déplace au fur et à mesure
             menu_courant = menu_courant[parcours]  # On se déplace au fur et à mesure
 
         # On affiche le menu démandé
         # On déroule une liste créée avec tous les choix possibles et leur titre à partir du menu courant.
         # Je n'ai pas copié collé cette ligne depuis Internet, et d'ailleurs aucune ligne ne l'est dans ce programme
-        # On déroule les elements (séparés par des virgules) d'un tuple contenant un générateur (compréhension)
-        # des lignes à afficher correspondant aux choix du menu (menus_cli.json)
 
         info(*(f"{menu_courant[choix]['titre']}: [{choix}]" for choix in menu_courant))
 
@@ -65,16 +61,15 @@ def affichage_menu():
         # Ainsi, les choix qui s'offrent à l'utiliseur sont réduit à "retour"
         # Si l'unique choix du menu actuel est "retour". Alors on vérifie si une action est à effectuer.
         # Cette action est associée à la clef operation dans le dictionnaire associé à la cle "retour".
-        if ["retour"] == [*menu_courant]:  # Si la seule option possible dans le menu courant est choix, alors :
-            operation = menu_parent["operation"]
+        if ["retour"] == [*menu_courant]:
+            operation = menu_courant["retour"]["operation"]
             info(f"L'opération {operation} est demandée")
 
             # On appel le gestionnaire de commande
             try:
                 commande(operation)
-            except Exception as exc:
-                avert(f"La commande {operation} a échouée", exc,
-                      "Voir gestionnaire_commande.py ou menus_cli.json")
+            except:
+                avert(f"La commande {operation} a échouée")
 
         # On invite l'utilisateur à entrer la commande souhaitée
         entree = input("> ")

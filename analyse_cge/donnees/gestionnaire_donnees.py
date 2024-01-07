@@ -12,17 +12,3 @@
 #   consultez.
 #  ==============================================================================
 
-def trie_croissant_X_Y(X, Y):
-    """
-    Fonction que trie par ordre décroissante une liste de flotants
-    Args:
-        liste (list): Liste de flotants
-
-    Returns:
-        list (list): Liste des flotants triés par ordre décroissant
-    """
-
-    magasin = list(zip(Y, X))  # Forme une liste avec couples X et Y
-    magasin_trie = sorted(magasin)  # Trie les couples avec la première valeur de chaque couple (Y, X)
-    Y, X = zip(*magasin_trie)  # On dissocie les deux listes
-    return X, Y
