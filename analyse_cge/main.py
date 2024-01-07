@@ -32,6 +32,13 @@ def run():
 
     # On récupère les valeurs passées en arguments
 
+    if not arguments():
+        info("Utilisation : main.py -parametres")
+        info("Paramètres :",
+             "Fichier source : -source \"chemin_vers_fichier_csv\"",
+             "Interface en ligne de commande : -nogui",
+             "Mode verbeux : -v")
+        info("Exemple: main.py -source ../docs/source.csv -nogui")
 
     # Traitement du fichier source :
     # Si un fichier a été passé en argument lors de l'execution du code,
@@ -41,7 +48,7 @@ def run():
     # Si un argument est donné (fichier source)
     # Alors on créer le dictionnaire des ministères
 
-    if "-source" in arguments():
+    elif "-source" in arguments():
         chemin_fichier_source = str(arguments()["-source"])  # On enregistre le chemin du fichier csv
         info("Recherche du fichier passé en argument : {0}".format(chemin_fichier_source))
 
@@ -81,7 +88,7 @@ def run():
 
     # La base de donnée ministère a été créée ou a été importée
     # On peut maintenant exploiter les données
-    print(arguments())
+    # print(arguments())
 
     # On différencie l'execution en ligne de commande ou par interface graphique
     if "-nogui" in arguments(): # Si l'utilisateur lance le programme en ligne de commande
