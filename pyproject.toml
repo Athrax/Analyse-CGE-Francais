@@ -4,11 +4,11 @@ build-backend = "flit_core.buildapi"
 
 [tool.flit.metadata]
 module = "analyse_cge.main"
-author = ["Lise Renaud <lise.renaud77@gmail.com>", "Aymeric Schaeffer <schaeffer.aymeric@gmail.com>"]
+author = "Lise Renaud <lise.renaud77@gmail.com>, Aymeric Schaeffer <schaeffer.aymeric@gmail.com>"
 home-page = "https://github.com/Athrax/Analyse-CGE-Francais"
 description = "Analyse du CGE"
 
-classifiers = ["License :: OSI Approved :: MIT License"]
+classifiers = "License :: OSI Approved :: MIT License"
 
 [tool.flit.metadata.requires]
 python = ">=3.8"
