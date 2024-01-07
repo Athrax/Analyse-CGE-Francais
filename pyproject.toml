@@ -12,11 +12,9 @@ authors = [
 ]
 readme = "README.md"
 requires-python = ">=3.8"
-
-[tool.flit.metadata]
 classifiers = ["License :: OSI Approved :: MIT License"]
 
-[tool.flit.dependencies]
-python = ">=3.8"
+[tool.flit.metadata]
+requires-python = ">=3.8"
 numpy = "*"
 matplotlib = "*"
