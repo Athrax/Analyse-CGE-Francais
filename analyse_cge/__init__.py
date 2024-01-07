@@ -1,0 +1,1 @@
+"""Module principal du package analyse_cge."""
