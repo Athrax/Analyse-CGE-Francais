@@ -18,5 +18,3 @@ description = "Your project description"
 [dependencies]
 numpy = "*"
 matplotlib = "*"
-
-[tool.flit.metadata]
