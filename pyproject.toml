@@ -1,5 +1,16 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "analyse_cge.main"  # Remplacez "your_main_module" par le nom du module principal de votre application.
+
 [project]
-dependencies = [
-    "matplotlib",
-    "numpy"
-]
+name = "analyse_cge"
+version = "0.1.0"
+description = "Analyse de CGE"
+
+[dependencies]
+python = "^3.8"
+numpy = "*"
+matplotlib = "*"
