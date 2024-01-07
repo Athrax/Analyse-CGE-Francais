@@ -4,17 +4,16 @@ build-backend = "flit_core.buildapi"
 
 [project]
 name = "analyse_cge"
-version = "0.1.0"
-description = "Analyse CGE"
 authors = [
-    { name = "Lise Renaud", email = "lise.renaud77@gmail.com" },
-    { name = "Aymeric Schaeffer", email = "schaeffer.aymeric@gmail.com" }
+    {name = "Lise Renaud", email = "lise.renaud77@gmail.com"},
+    {name = "Aymeric Schaeffer", email = "schaeffer.aymeric@gmail.com"}
 ]
+
 readme = "README.md"
 requires-python = ">=3.8"
 classifiers = ["License :: OSI Approved :: MIT License"]
+version = "0.1.0"
 
-[tool.flit.metadata]
-requires-python = ">=3.8"
+[dependencies]
 numpy = "*"
 matplotlib = "*"
