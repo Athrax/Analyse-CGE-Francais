@@ -1,32 +1,22 @@
 [build-system]
-requires = [
-    "flit_core >=3.2,<4",
-]
+requires = ["flit_core >=3.2,<4"]
 build-backend = "flit_core.buildapi"
 
 [project]
 name = "analyse_cge"
+version = "0.1.0"
+description = "Analyse CGE"
 authors = [
     { name = "Lise Renaud", email = "lise.renaud77@gmail.com" },
     { name = "Aymeric Schaeffer", email = "schaeffer.aymeric@gmail.com" }
 ]
-
 readme = "README.md"
 requires-python = ">=3.8"
+
+[tool.flit.metadata]
 classifiers = ["License :: OSI Approved :: MIT License"]
-dynamic = ["version", "description"]
 
-dependencies = [
-    "numpy",
-    "matplotlib",
-]
-
-[project.urls]  # Optional
-"Homepage" = "https://github.com/Athrax/Analyse-CGE-Francais"
-
-[project.optional-dependencies]
-test = [
-]
-
-deploy = [
-]
+[tool.flit.dependencies]
+python = ">=3.8"
+numpy = "*"
+matplotlib = "*"
