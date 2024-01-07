@@ -5,7 +5,7 @@ build-backend = "flit_core.buildapi"
 [tool.flit.metadata]
 module = "main.py"  # Remplacez "main.py" par le nom du module principal de votre application.
 author = "LR AS"
-
-[tool.flit.metadata.dependencies]
-numpy = "*"
-matplotlib = "*"
+dependencies = [
+    "matplotlib",
+    "numpy"
+]
