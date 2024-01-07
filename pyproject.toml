@@ -5,7 +5,7 @@ build-backend = "flit_core.buildapi"
 [project]
 name = "analyse_cge"
 description = "Analyse CGE"
-author = "LR AS"
+author = "Lise Renaud, Aymeric Schaeffer"
 version = "0.1.0"
 dependencies = [
     "matplotlib",
