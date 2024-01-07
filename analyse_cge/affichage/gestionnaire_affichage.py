@@ -13,7 +13,7 @@
 #  ==============================================================================
 
 import matplotlib.pyplot as plt
-from analyse_cge.journalisation.traces import avert
+from journalisation.traces import avert
 
 
 def affichage_X_Y(X, Y):
@@ -58,7 +58,7 @@ def affichage_bar(X, Y, titre):
         avert("Echec de la génération du titre/étiquettes du graphique", exc)
 
     try:
-        plt.show()
+        plt.show(block=False)
     except Exception as exc:
         avert("Echec de l'affichage du graphique", exc)
 
@@ -82,6 +82,6 @@ def affichage_pie(X, Y, titre):
         avert("Echec de la génération du titre du graphique", exc)
 
     try:
-        plt.show()
+        plt.show(block=False)
     except Exception as exc:
         avert("Echec de l'affichage du graphique", exc)

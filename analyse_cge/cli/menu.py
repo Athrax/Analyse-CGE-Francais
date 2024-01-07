@@ -15,10 +15,10 @@ import sys
 
 import matplotlib.pyplot as plt
 
-from analyse_cge.journalisation.traces import info, debug, avert, erreur
-from analyse_cge.fichier.gestionnaire_json import importer_json
-from analyse_cge.fichier.gestionnaire_arborescence import chemin, parent, grand_parent
-from analyse_cge.cli.gestionnaire_commande import commande
+from journalisation.traces import info, debug, avert, erreur
+from fichier.gestionnaire_json import importer_json
+from fichier.gestionnaire_arborescence import chemin, parent, grand_parent
+from cli.gestionnaire_commande import commande
 
 
 def lf(n=1):
@@ -29,7 +29,7 @@ def separateur():
     info("---")
 
 
-def effacer_console(n=10):
+def effacer_console(n=50):
     while n: print(""); n -=1
 
 
@@ -65,7 +65,7 @@ def affichage_menu():
         # Ainsi, les choix qui s'offrent à l'utiliseur sont réduit à "retour"
         # Si l'unique choix du menu actuel est "retour". Alors on vérifie si une action est à effectuer.
         # Cette action est associée à la clef operation dans le dictionnaire associé à la cle "retour".
-        if ["retour"] == [*menu_courant]:  # Si la seule option possible dans le menu courant est choix, alors :
+        if ["retour"] == [*menu_courant]:  # Si la seule option possible dans le menu courant est retour, alors :
             operation = menu_parent["operation"]
             info(f"L'opération {operation} est demandée")
 

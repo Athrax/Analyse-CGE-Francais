@@ -11,11 +11,11 @@
 #   Vous devriez avoir reçu une copie de la licence avec ce programme. Sinon,
 #   consultez.
 #  ==============================================================================
-from analyse_cge.affichage.gestionnaire_affichage import *
-from analyse_cge.fichier.gestionnaire_json import importer_json
-from analyse_cge.fichier.gestionnaire_arborescence import chemin, grand_parent
-from analyse_cge.journalisation.traces import avert, debug, info
-from analyse_cge.donnees.gestionnaire_donnees import trie_croissant_X_Y
+from affichage.gestionnaire_affichage import *
+from fichier.gestionnaire_json import importer_json
+from fichier.gestionnaire_arborescence import chemin, grand_parent
+from journalisation.traces import avert, debug, info
+from donnees.gestionnaire_donnees import trie_croissant_X_Y
 
 
 def graph_ministere(ministere_inconnu):
@@ -51,7 +51,7 @@ def graph_poste():
         info(f"{liste_ministeres[i]}: [{str(i)}]")
 
     # On demande le choix du ministere à l'utilisateur
-    from analyse_cge.cli.menu import effacer_console  # Pour eviter les boucles d'appel, on importe la fonction ici
+    from cli.menu import effacer_console  # Pour eviter les boucles d'appel, on importe la fonction ici
     while True:
         try:
             entree = int(input("> "))

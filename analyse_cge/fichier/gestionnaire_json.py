@@ -1,7 +1,7 @@
 import json
 import os
 
-from analyse_cge.journalisation.traces import *
+from journalisation.traces import *
 
 
 def sauvegarder_json(dictionnaire, chemin_json):  # Sauvegarder en fichier json un dictionnaire
