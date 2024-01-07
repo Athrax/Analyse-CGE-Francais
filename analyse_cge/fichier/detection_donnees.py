@@ -12,7 +12,7 @@
 #   consultez.
 #  ==============================================================================
 import csv
-from analyse_cge.journalisation.traces import *
+from journalisation.traces import *
 
 
 def detection_en_tete(fichier_source):
