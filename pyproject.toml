@@ -15,8 +15,7 @@ dependencies = [
     "matplotlib",
     "numpy"
 ]
+dynamic = ["version"]
 
 [project.urls]  # Optional
 "Homepage" = "https://github.com/Athrax/Analyse-CGE-Francais"
-
-
