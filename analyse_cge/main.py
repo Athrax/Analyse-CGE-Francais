@@ -11,17 +11,14 @@
 #   Vous devriez avoir reçu une copie de la licence avec ce programme. Sinon,
 #   consultez.
 #  ==============================================================================
-
-import matplotlib.pyplot as plt  # graphiques
-import numpy as np  # outils mathématiques
 from sys import exit  # système
-from cli.gestionnaire_arguments import arguments # arguments
-from journalisation.traces import info, debug, erreur  # logs
-from fichier.gestionnaire_arborescence import parent, grand_parent, chemin
-from fichier.detection_donnees import detection_en_tete  # traitement du fichier source
-from fichier.gestionnaire_source import regroupe_donnees_ministere
-from fichier.gestionnaire_json import sauvegarder_json, importer_json
-from cli.menu import cli
+from analyse_cge.cli.gestionnaire_arguments import arguments # arguments
+from analyse_cge.journalisation.traces import info, debug, erreur  # logs
+from analyse_cge.fichier.gestionnaire_arborescence import parent, grand_parent, chemin
+from analyse_cge.fichier.detection_donnees import detection_en_tete  # traitement du fichier source
+from analyse_cge.fichier.gestionnaire_source import regroupe_donnees_ministere
+from analyse_cge.fichier.gestionnaire_json import sauvegarder_json, importer_json
+from analyse_cge.cli.menu import cli
 
 
 def run():

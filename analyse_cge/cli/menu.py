@@ -12,9 +12,6 @@
 #   consultez.
 #  ==============================================================================
 import sys
-
-import matplotlib.pyplot as plt
-
 from analyse_cge.journalisation.traces import info, debug, avert, erreur
 from analyse_cge.fichier.gestionnaire_json import importer_json
 from analyse_cge.fichier.gestionnaire_arborescence import chemin, parent, grand_parent

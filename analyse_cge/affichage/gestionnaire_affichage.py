@@ -11,7 +11,6 @@
 #   Vous devriez avoir reçu une copie de la licence avec ce programme. Sinon,
 #   consultez.
 #  ==============================================================================
-
 import matplotlib.pyplot as plt
 from analyse_cge.journalisation.traces import avert
 

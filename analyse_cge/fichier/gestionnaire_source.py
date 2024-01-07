@@ -11,10 +11,9 @@
 #   Vous devriez avoir reçu une copie de la licence avec ce programme. Sinon,
 #   consultez.
 #  ==============================================================================
-
-from donnees.nettoyage_valeur import savon_a_chiffres, savon_a_lettres
-from journalisation.traces import *
-from fichier.detection_donnees import detection_cellules
+from analyse_cge.donnees.nettoyage_valeur import savon_a_chiffres, savon_a_lettres
+from analyse_cge.journalisation.traces import *
+from analyse_cge.fichier.detection_donnees import detection_cellules
 
 
 def regroupe_donnees_ministere(fichier_source, colonnes, ligne_traiter=-1):

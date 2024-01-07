@@ -14,7 +14,7 @@ L'objectif de ce projet était de manipuler et d'exploiter les données d'un fic
 ## Technologies Utilisées
 - Python
 - Bibliothèques Python pour le traitement de données (pandas, matplotlib, etc.)
-- Poetry pour la gestion des dépendances
+- ~~Poetry pour la gestion des dépendances~~
 - Gliffy pour la rédaction d'algorithme
 
 ## Bibliothèques Utilisées
@@ -27,7 +27,7 @@ L'objectif de ce projet était de manipuler et d'exploiter les données d'un fic
 
 ## Comment Utiliser
 1. Clônez le dépôt vers votre machine locale.
-2. Les dépendances et l'interpréteur s'installent automatiquement. Le cas échéant, assurez-vous d'avoir les dépendances Python installées (voir `pyproject.toml`).
+2. Les dépendances et l'interpréteur s'installent automatiquement. Le cas échéant, assurez-vous d'avoir les dépendances Python installées
 3. Exécutez le script principal pour traiter les données du bilan comptable (`analyse-cge/main.py`)
 
 ## Remarques
