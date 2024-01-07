@@ -12,10 +12,10 @@ L'objectif de ce projet était de manipuler et d'exploiter les données d'un fic
 - **Exploitation des résultats :** Génération de statistiques, graphiques ou rapports basés sur les données triées.
 
 ## Technologies Utilisées
-- Python
-- Bibliothèques Python pour le traitement de données (pandas, matplotlib, etc.)
-- ~~Poetry pour la gestion des dépendances~~
-- Gliffy pour la rédaction d'algorithme
+- Python 3.11
+- Bibliothèques Python pour le traitement de données (**matplotlib**, numpy, etc.)
+- **Flit** pour la gestion des dépendances
+- **Gliffy** pour la rédaction d'algorithme
 
 ## Bibliothèques Utilisées
 - matplotlib.pyplot
@@ -26,9 +26,18 @@ L'objectif de ce projet était de manipuler et d'exploiter les données d'un fic
 - json
 
 ## Comment Utiliser
+### Avec PyCharm
 1. Clônez le dépôt vers votre machine locale.
 2. Les dépendances et l'interpréteur s'installent automatiquement. Le cas échéant, assurez-vous d'avoir les dépendances Python installées
 3. Exécutez le script principal pour traiter les données du bilan comptable (`analyse-cge/main.py`)
+### Depuis un shell macOS ou Linux
+1. Clônez le dépôt vers votre machine locale. `git clone https://github.com/Athrax/Analyse-CGE-Francais.git`
+2. Déplacez vous a la racine du projet. `cd Analyse-CGE-Francais`
+3. Créez l'environnement virtuel de développement. `python3.11 -m venv .venv`
+4. Activez le. `source .venv/bin/activate`
+5. Installez le gestionnaire de dépendances. `pip install flit `
+6. Installez les dépendances. `python -m flit install`
+7. Lancez le script. `python3.11 analyse_cge/main.py -nogui`
 
 ## Remarques
 Ce projet est destiné à des fins éducatives dans le cadre de la formation universitaire. N'hésitez pas à explorer le code source, à suggérer des améliorations ou à poser des questions.

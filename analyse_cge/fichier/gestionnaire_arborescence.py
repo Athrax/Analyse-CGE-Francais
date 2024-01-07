@@ -26,5 +26,11 @@ def grand_parent(fichier):
     return os.path.abspath(chemin_grand_parent)
 
 
+def arriere_grand_parent(fichier):
+    chemin_fichier = os.path.abspath(fichier)  # On récupère le chemin absolu
+    chemin_grand_parent = os.path.join(chemin_fichier, os.path.pardir, os.path.pardir, os.path.pardir)
+    return os.path.abspath(chemin_grand_parent)
+
+
 def chemin(*entrees):
     return os.path.join(*entrees)
