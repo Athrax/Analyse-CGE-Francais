@@ -6,7 +6,7 @@ build-backend = "flit_core.buildapi"
 name = "analyse_cge"
 author = "LR AS"
 version = "0.1.0"
-dynamic = "dependencies"
+dynamic = ["dependencies"]
 dependencies = [
     "matplotlib",
     "numpy"
