@@ -15,6 +15,7 @@ from sys import exit
 from datetime import datetime
 import os.path
 from analyse_cge.cli.gestionnaire_arguments import arguments
+from analyse_cge.fichier.gestionnaire_arborescence import *
 
 
 def log(niveau, message, temps_actuel):
@@ -33,7 +34,7 @@ def log(niveau, message, temps_actuel):
     print(entree)  # On affiche dans la console l'info
 
     try:
-        with open(os.path.join(os.path.dirname(os.path.dirname(__file__)), "logs", "latest.log"),
+        with open(chemin(grand_parent(parent(__file__)), "logs", "latest.log"),
                   'a') as fichier_log:  # On ouvre le dernier fichier de journalisation ou le créer
             fichier_log.write(entree + "\n")
     except FileNotFoundError:  # Le dossier n'existe pas
