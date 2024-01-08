@@ -8,21 +8,39 @@
                     "menu": {
                         "oui": {
                             "titre": "Afficher les dépenses non classées",
+                            "operation": "graph_ministere_avec_inconnu",
                             "menu": {
                                 "retour": {
-                                    "titre": "Ce graphique représente les dépense et les recettes de l'état par ministère, entre 2022 et 2012, en prenant en compte les dépenses sans attribution de ministère",
-                                    "operation": "graph_ministere_avec_inconnu"
+                                    "titre": "Ce graphique représente les dépense et les recettes de l'état par ministère, entre 2022 et 2012, en prenant en compte les dépenses sans attribution de ministère"
                                 }
                              }
                         },
                         "non": {
                             "titre": "                                  ",
+                            "operation": "graph_ministere_sans_inconnu",
                             "menu": {
                                 "retour": {
-                                    "titre": "Ce graphique représente les dépense et les recettes de l'état par ministère, entre 2022 et 2012",
-                                    "operation": "graph_ministere_sans_inconnu"
+                                    "titre": "Ce graphique représente les dépense et les recettes de l'état par ministère, entre 2022 et 2012"
                                 }
                              }
+                        }
+                    }
+                },
+                "poste": {
+                    "titre": "Dépenses d'un ministère par poste",
+                    "menu": {
+                        "choix": {
+                            "titre": "Indiquer le ministère souhaité",
+                            "operation" : "graph_poste_par_ministere",
+                            "menu": {
+                                "retour": {
+                                    "titre": "Retour"
+
+                                }
+                            }
+                        },
+                        "retour": {
+                            "titre": "Retour"
                         }
                     }
                 },
@@ -36,19 +54,19 @@
             "menu": {
                 "source": {
                     "titre": "Source des données",
+                            "operation": "",
                     "menu": {
                         "retour": {
-                            "titre": "Rien à afficher dans ce menu",
-                            "operation": ""
+                            "titre": "Rien à afficher dans ce menu"
                         }
                     }
                 },
                 "db": {
                     "titre": "Base de donnéees",
+                    "operation": "afficher_db",
                     "menu": {
                         "retour": {
-                            "titre": "La base de donnée utilisée est la suivante : ",
-                            "operation": "afficher_db"
+                            "titre": "La base de donnée utilisée est la suivante : "
                         }
                     }
                 },

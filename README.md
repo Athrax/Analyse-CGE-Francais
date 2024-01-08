@@ -14,7 +14,7 @@ L'objectif de ce projet était de manipuler et d'exploiter les données d'un fic
 ## Technologies Utilisées
 - Python
 - Bibliothèques Python pour le traitement de données (pandas, matplotlib, etc.)
-- ~~Poetry pour la gestion des dépendances~~
+- Poetry pour la gestion des dépendances
 - Gliffy pour la rédaction d'algorithme
 
 ## Bibliothèques Utilisées
