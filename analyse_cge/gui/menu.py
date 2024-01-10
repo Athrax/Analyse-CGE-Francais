@@ -12,19 +12,37 @@
 #   consultez.
 #  ==============================================================================
 
-import customtkinter as tk
+from tkinter import *
+import customtkinter
 
-tk.set_appearance_mode("System")  # Modes: system (default), light, dark
-tk.set_default_color_theme("blue")  # Themes: blue (default), dark-blue, green
+customtkinter.set_appearance_mode("System")  # Modes: system (default), light, dark
+customtkinter.set_default_color_theme("blue")  # Themes: blue (default), dark-blue, green
 
-app = tk.CTk()  # create CTk window like you do with the Tk window
-app.geometry("700x800")
+app = customtkinter.CTk()  # create CTk window like you do with the Tk window
+app.geometry("1000x550")
+app.resizable(0, 0)
+
 
 def button_function():
     print("button pressed")
 
+
 # Use CTkButton instead of tkinter Button
-button = tk.CTkButton(master=app, text="CTkButton", command=button_function)
-button.place(relx=0.5, rely=0.5, anchor=tk.CENTER)
+button = customtkinter.CTkButton(master=app, text="Menu", command=button_function)
+button.place(relx=0, rely=0, anchor=customtkinter.NW)
+button.configure(height=50, width=120)
+
+button1 = customtkinter.CTkButton(master=app, text="Evolution", command=button_function)
+button1.place(relx=0, rely=0.10, anchor=customtkinter.NW)
+button1.configure(height=50, width=120)
+
+button2 = customtkinter.CTkButton(master=app, text="Ministeres", command=button_function)
+button2.place(relx=0, rely=0.20, anchor=customtkinter.NW)
+button2.configure(height=50, width=120)
+
+button4 = customtkinter.CTkButton(master=app, text="Etat", command=button_function)
+button4.place(relx=0, rely=0.30, anchor=customtkinter.NW)
+button4.configure(height=50, width=120)
+
 
 app.mainloop()

@@ -73,6 +73,10 @@ def graph_poste():
     Xtrie, Ytrie = trie_croissant_X_Y(X, Y)
     affichage_bar(Xtrie, Ytrie, titre)
 
+def graphe_temp_ministere():
+    db = importer_json(chemin(grand_parent(__file__), "..", "docs", "db_ministere.json"))
+
+
 
 def afficher_db():
     # Chargement de la base de donnée
