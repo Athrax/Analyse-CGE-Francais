@@ -12,6 +12,7 @@
 #   consultez.
 #  ==============================================================================
 import csv
+from sys import exit
 from analyse_cge.journalisation.traces import *
 
 
@@ -32,20 +33,28 @@ def detection_en_tete(fichier_source):
         en_tete_source = fichier_source.readline().lower().split(',')
     except UnicodeDecodeError:
         erreur("Impossible de lire le fichier source", "Seul le codec UTF-8 est autorisé")
-        sys.exit(2)
+        exit(2)
 
     # On précise les colonne du fichier qui nous intéressent
-    en_tete_utiles = ["postes", "sous-postes", "ministère", "2022", "2012"]
+    en_tete_utiles = ["postes", "sous-postes", "ministère", "2022", "2021", "2020", "2019", "2018", "2017", "2016",
+                      "2015", "2014", "2013", "2012"]
     colonnes = dict()  # Création d'un dictionnaire des colonnes utiles
 
+    # On recherche les index colonnes qui nous intéressent
+    # On lit chaque valeur de l'entete et si une en-tête utile précisée ci dessous est comprise dedans,
+    # alors on enregistre son index dans un dictionnaire avec pour correspondance: nom de l'en-tête = index
+    # On ne reprend pas l'analyse du début a chaque fois,
+    # on repart de la dernière occurence trouvée (index_debut_analyse)
     debug("Détection des colonnes du fichier source ...")
+    index_debut_analyse = 0
     for en_tete_recherchee in en_tete_utiles:   # Pour chaque en-tête que nous cherchons
-        for i in range(len(en_tete_source)):     # On vérifie si l'entete du fichier
+        for i in range(index_debut_analyse, len(en_tete_source)):     # On vérifie si l'entete du fichier
             if en_tete_recherchee in en_tete_source[i]:  # est recherchée
-                colonnes[en_tete_recherchee] = i  # Si oui, on enregistre son indice
+                colonnes[en_tete_recherchee] = int(i)  # Si oui, on enregistre son indice
+                index_debut_analyse = i+1  # Permet de continuer l'analyser à partir de là où on s'est arreté
                 break
 
-    debug(f"Colonnes: {colonnes}")  # On affiches les colonnes et leur indices
+    avert(f"Colonnes: {colonnes}")  # On affiches les colonnes et leur indices
     return colonnes
 
 
@@ -58,7 +67,7 @@ def detection_cellules(ligne):
     L'objectif de cette fonction est de traiter correctement le decoupage de cellule
     afin de ne pas séparer en deux l'une d'elles.
     Nous utilisons un module de traitement de fichier csv appelé StringIO,
-    de la biliothèque io de python.
+    importé depuis la biliothèque io de python.
 
     Args:
         ligne (str): La ligne du fichier à découper en cellules

@@ -30,7 +30,10 @@ def savon_a_chiffres(*valeurs):
     debug(f"Nettoyage des valeurs {valeurs} ...")
     try:
         # Essaye directement de convertir en float la valeur à traiter
-        return tuple(float(nombre) for nombre in valeurs)  # Ici, on convertit les string en float
+        if len(valeurs) == 1:
+            return float(valeurs[0])
+        else:
+            return tuple(float(nombre) for nombre in valeurs)  # Ici, on convertit les string en float
 
     except ValueError as err:  # Si les valeurs ne sont pas des convertissables en float
         try:  # Alors on continue de les convertir :
@@ -50,18 +53,22 @@ def savon_a_chiffres(*valeurs):
                 for valeur in remplacement_virgule)
 
             # On créer le tuple nettoyé et on le renvoi
-            nombres_savonnes = tuple(float(valeur) for valeur in remplissage_cellule)
-            debug(f"Valeurs nettoyées avec succès : {nombres_savonnes}")
+            if len(valeurs) == 1:
+                nombres_savonnes = float(remplissage_cellule[0])
+            else:
+                # Ici, on convertit les string en float
+                nombres_savonnes = tuple(float(valeur) for valeur in remplissage_cellule)
 
+            debug(f"Valeurs nettoyées avec succès : {nombres_savonnes}")
             return nombres_savonnes
 
         except ValueError as err:  # La valeur semble ne pas contenir de nombre
             # Ces instructions sont executées si les valeurs de dépenses contient par exemple des lettres
             # On remplace la valeur récupérée par 0
-            avert(f"Echec du nettoyage des valeurs : {valeurs}",
+            debug(f"Echec du nettoyage des valeurs : {valeurs}",
                   "Ces valeurs ont été rempalcées par 0",
                   err)
-            return tuple(0.0 for valeur in valeurs)
+            return tuple(0.0 for _ in valeurs)
 
 
 def savon_a_lettres(*valeurs):

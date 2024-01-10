@@ -16,9 +16,26 @@ from analyse_cge.journalisation.traces import *
 from analyse_cge.fichier.detection_donnees import detection_cellules
 
 
+def recuperation_balances(cellules, colonnes):
+    """
+    Permet de récupérer les balances de toutes les années précisées ci dessous
+    La fonction renvoie la liste des balances des années
+    Args:
+        cellules (list): Liste des cellules des en-têtes
+        colonnes (dict): Dictionnnaire des index des colonnes à partir de leur nom
+
+    Return:
+        (dict): (str):(float)
+    """
+    # On créer un dictionnaire en compréhension de la manière suivante :
+    # "année": balance de l'année pour la ligne étudiée
+    # On nettoie les données ici pour être certain de bien renvoyer une valeur sous forme de float
+    return {f"{i}": savon_a_chiffres(cellules[colonnes[str(i)]]) for i in range(2012,2022)}
+
+
 def regroupe_donnees_ministere(fichier_source, colonnes, ligne_traiter=-1):
     """
-    Créatio du ctionnaire en regroupant les donnees du fichier source par ministère dans un dictionnaire
+    Création du ctionnaire en regroupant les donnees du fichier source par ministère dans un dictionnaire
     Afin de tester le programme plus facilement
     On introduit un compteur de ligne pour n'en traiter qu'un petit nombre
     par défaut = -1 pour ne pas tomber à 0 et arreter la lecture s'il n'est pas précisé
@@ -31,7 +48,6 @@ def regroupe_donnees_ministere(fichier_source, colonnes, ligne_traiter=-1):
     Returns:
          dictionnaire_ministere (dict): Dictionnaire des données regroupées par ministère
     """
-
     dictionnaire_ministere = dict()
 
     info("Regroupement du contenu du fichier source par ministère...")
@@ -49,13 +65,20 @@ def regroupe_donnees_ministere(fichier_source, colonnes, ligne_traiter=-1):
         cellule_ministere = savon_a_lettres(cellules[colonnes["ministère"]])  # Ministère concerné par la ligne
         cellule_poste = savon_a_lettres(cellules[colonnes["postes"]])  # Poste concerné par la ligne
         cellule_sous_poste = savon_a_lettres(cellules[colonnes["sous-postes"]])  # Sous poste concerné par la ligne
-        balance_2022, balance_2012 = savon_a_chiffres(cellules[colonnes["2022"]], cellules[colonnes["2012"]])  # Nettoyage des données
+        # balance_2022, balance_2012 = savon_a_chiffres(cellules[colonnes["2022"]], cellules[colonnes["2012"]])  # Nettoyage des données
+        # On créer une liste avec les valeurs des balances années, puis on nettoie ces valeurs
+        balances = recuperation_balances(cellules, colonnes)
+
+        # On créer un dictionnaires avec des dépenses et recettes vides pour toutes les années sur la ligne étudiée
+        # Il nous sert ensuite à initialiser le dictionnaire-base de donnée
+        dictionnaire_vide_annees = colonnes
+        for annee in dictionnaire_vide_annees:
+            dictionnaire_ministere[annee] = 0
 
         debug(f"[l{ligne_traiter}] Traitement de la ligne : Ministère \"{cellule_ministere}\”, ",
               f"poste : \"{cellule_poste}\", ",
               f"sous-poste : \"{cellule_sous_poste}\", ",
-              f"dep_2022 : \"{balance_2022}\", ",
-              f"dep_2012 : \"{balance_2012}\"")
+              f"balance : \"{balances}\"")
 
         # On prépare les données récupérée pour la création du dictionnaire
         # On gère les cases vides
@@ -77,15 +100,8 @@ def regroupe_donnees_ministere(fichier_source, colonnes, ligne_traiter=-1):
             # On créer le dictionnaire du ministère
             dictionnaire_ministere[cellule_ministere] = dict()
 
-            # On créer les dictionnaires des dépenses et recettes pour les deux années
-            dictionnaire_ministere[cellule_ministere]["dépense_annuelle"] = {
-                "2022": 0.0,
-                "2012": 0.0
-            }
-            dictionnaire_ministere[cellule_ministere]["recette_annuelle"] = {
-                "2022": 0.0,
-                "2012": 0.0
-            }
+            dictionnaire_ministere[cellule_ministere]["dépense_annuelle"] = dictionnaire_vide_annees
+            dictionnaire_ministere[cellule_ministere]["recette_annuelle"] = dictionnaire_vide_annees
 
             # On créer un dictionnaire vide qui accueillera les postes du ministère
             dictionnaire_ministere[cellule_ministere]["postes"] = dict()
@@ -99,14 +115,10 @@ def regroupe_donnees_ministere(fichier_source, colonnes, ligne_traiter=-1):
             dictionnaire_ministere[cellule_ministere]["postes"][cellule_poste] = dict()
 
             # On créer le dictionnaire des dépenses et recettes par poste du ministère pour les deux années
-            dictionnaire_ministere[cellule_ministere]["postes"][cellule_poste]["dépense_annuelle"] = {
-                "2022": 0.0,
-                "2012": 0.0
-            }
-            dictionnaire_ministere[cellule_ministere]["postes"][cellule_poste]["recette_annuelle"] = {
-                "2022": 0.0,
-                "2012": 0.0
-            }
+            dictionnaire_ministere[cellule_ministere]["postes"][cellule_poste]["dépense_annuelle"] = (
+                dictionnaire_vide_annees)
+            dictionnaire_ministere[cellule_ministere]["postes"][cellule_poste]["recette_annuelle"] = (
+                dictionnaire_vide_annees)
 
             # On créer le dictionnaire des sous-postes de ce poste
             dictionnaire_ministere[cellule_ministere]["postes"][cellule_poste]["sous-postes"] = dict()
@@ -121,38 +133,23 @@ def regroupe_donnees_ministere(fichier_source, colonnes, ligne_traiter=-1):
                 cellule_sous_poste] = dict()
 
             # On créer le dictionnaire des dépenses par sous-poste du poste du ministère pour les deux années
-            dictionnaire_ministere[cellule_ministere]["postes"][cellule_poste]["sous-postes"][cellule_sous_poste]["dépense_annuelle"] = {
-                "2022": 0.0,
-                "2012": 0.0
-            }
-            dictionnaire_ministere[cellule_ministere]["postes"][cellule_poste]["sous-postes"][cellule_sous_poste]["recette_annuelle"] = {
-                "2022": 0.0,
-                "2012": 0.0
-            }
+            dictionnaire_ministere[cellule_ministere]["postes"][cellule_poste]["sous-postes"][cellule_sous_poste][
+                "dépense_annuelle"] = dictionnaire_vide_annees
+            dictionnaire_ministere[cellule_ministere]["postes"][cellule_poste]["sous-postes"][cellule_sous_poste][
+                "recette_annuelle"] = dictionnaire_vide_annees
 
         # Ajout des données aux ministères
         # Ajout de la dépense et/ou de la recette de la ligne
         # On les ajoutes à la somme du minitère, du poste, et du sous poste
-
-        # 2022
-        if balance_2022 >= 0:  # S'il s'agit d'une recette
-            dictionnaire_ministere[cellule_ministere]["recette_annuelle"]["2022"] += balance_2022
-            dictionnaire_ministere[cellule_ministere]["postes"][cellule_poste]["recette_annuelle"]["2022"] += balance_2022
-            dictionnaire_ministere[cellule_ministere]["postes"][cellule_poste]["sous-postes"][cellule_sous_poste]["recette_annuelle"]["2022"] += balance_2022
-        if balance_2022 < 0:  # S'il s'agit d'une dépense
-            dictionnaire_ministere[cellule_ministere]["dépense_annuelle"]["2022"] += balance_2022
-            dictionnaire_ministere[cellule_ministere]["postes"][cellule_poste]["dépense_annuelle"]["2022"] += balance_2022
-            dictionnaire_ministere[cellule_ministere]["postes"][cellule_poste]["sous-postes"][cellule_sous_poste]["dépense_annuelle"]["2022"] += balance_2022
-
-        # 2012
-        if balance_2022 >= 0:  # S'il s'agit d'une recette
-            dictionnaire_ministere[cellule_ministere]["recette_annuelle"]["2012"] += balance_2012
-            dictionnaire_ministere[cellule_ministere]["postes"][cellule_poste]["recette_annuelle"]["2022"] += balance_2012
-            dictionnaire_ministere[cellule_ministere]["postes"][cellule_poste]["sous-postes"][cellule_sous_poste]["recette_annuelle"]["2012"] += balance_2012
-        if balance_2012 < 0:  # S'il s'agit d'une recette
-            dictionnaire_ministere[cellule_ministere]["dépense_annuelle"]["2012"] += balance_2012
-            dictionnaire_ministere[cellule_ministere]["postes"][cellule_poste]["dépense_annuelle"]["2012"] += balance_2012
-            dictionnaire_ministere[cellule_ministere]["postes"][cellule_poste]["sous-postes"][cellule_sous_poste]["dépense_annuelle"]["2012"] += balance_2012
+        for annee, balance in balances.items():
+            if balance >= 0:  # S'il s'agit d'une recette
+                dictionnaire_ministere[cellule_ministere]["recette_annuelle"][annee] += balance
+                dictionnaire_ministere[cellule_ministere]["postes"][cellule_poste]["recette_annuelle"][annee] += balance
+                dictionnaire_ministere[cellule_ministere]["postes"][cellule_poste]["sous-postes"][cellule_sous_poste]["recette_annuelle"][annee] += balance
+            if balance < 0:  # S'il s'agit d'une dépense
+                dictionnaire_ministere[cellule_ministere]["dépense_annuelle"][annee] += balance
+                dictionnaire_ministere[cellule_ministere]["postes"][cellule_poste]["dépense_annuelle"][annee] += balance
+                dictionnaire_ministere[cellule_ministere]["postes"][cellule_poste]["sous-postes"][cellule_sous_poste]["dépense_annuelle"][annee] += balance
 
         debug(f"Nouvel état pour le ministère \"{cellule_ministere}\", ",
             f"dépense 2022 : {dictionnaire_ministere[cellule_ministere]['dépense_annuelle']['2022']}, ",
@@ -171,7 +168,7 @@ def regroupe_donnees_ministere(fichier_source, colonnes, ligne_traiter=-1):
             f"dépense 2012 : {dictionnaire_ministere[cellule_ministere]['postes'][cellule_poste]['sous-postes'][cellule_sous_poste]['recette_annuelle']['2012']}")
 
         ligne_traiter -= 1
-        if ligne_traiter == 0 :
+        if ligne_traiter == 0:
             debug("Seul certaines lignes ont été traitées")
             break
 
