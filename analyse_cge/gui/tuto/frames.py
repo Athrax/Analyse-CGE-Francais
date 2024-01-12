@@ -25,22 +25,20 @@ class CadreTitre(ctk.CTkFrame):
 
 class CadrePrincipal(ctk.CTkFrame):
     def __init__(self, master):
-        super().__init__(master)
+        super().__init__(master, fg_color="darkblue")
 
         # Importer les différents menus
+        self.grid_columnconfigure(0, weight=1)
+        self.grid_rowconfigure(0, weight=1)
+
         self.cadre_graphique_evolution_un_ministere = MenuEvolutionUnMinistere(self)
         self.cadre_graphique_evolution_un_ministere.grid(column=0, row=0, sticky="nswe")
-
-
-
         # Placer celui demandé en haut de la pile
-
-
 
 
 class MenuEvolutionUnMinistere(ctk.CTkFrame):
     def __init__(self, master):
-        super().__init__(master)
+        super().__init__(master, fg_color="black")
 
         self.graphique_figure = Figure()
         self.graphique_axes = self.graphique_figure.add_subplot(111)
@@ -48,15 +46,6 @@ class MenuEvolutionUnMinistere(ctk.CTkFrame):
         self.canvas = FigureCanvasTkAgg(self.graphique_figure, self)
         self.canvas.draw()
         self.canvas.get_tk_widget().pack(side=ctk.TOP, fill=ctk.BOTH, expand=1)
-
-        self.bind("<Configure>", self.au_redimmensionnement)
-
-    def au_redimmensionnement(self, event):
-        width = self.winfo_width()
-        height = self.winfo_height()
-        self.graphique_figure.set_size_inches(width / 100, height / 100)
-        self.canvas.draw()
-        print(f"redim")
 
 
 class FenetrePrincipale(ctk.CTk):
@@ -77,7 +66,7 @@ class FenetrePrincipale(ctk.CTk):
 
         self.cadre_principal = CadrePrincipal(self)
         self.cadre_principal.grid(row=1, column=1, padx=(0,10), pady=(10, 0), sticky="nsew")
-        self.cadre_principal.configure(fg_color="transparent")
+        # self.cadre_principal.configure(fg_color="transparent")
 
         self.bouton = ctk.CTkButton(self, text="my button")
         self.bouton.grid(row=2, column=0, padx=10, pady=10, sticky="ew", columnspan=2)
