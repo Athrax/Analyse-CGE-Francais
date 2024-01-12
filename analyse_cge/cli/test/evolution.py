@@ -29573,28 +29573,62 @@ db = {
 # graphe.legend()
 
 ministere_l = [*db]
+ministere_l.append('Etat')
 print(ministere_l)
-
-print("Choisissez votre ministère (1-12) :")
-for i in range(len(ministere_l)-1):
+print("Choisissez votre ministère (1-17) :")
+for i in range(len(ministere_l)):
     print(f"{i}:{ministere_l[i]}")
 choix = int(input("Quel est vôtre choix ? \n"))
 
 
 X, Y  = [], []
 W, Z = [], []
-for annee, valeurs_d in db[ministere_l[choix]]["dépense_annuelle"].items():
-    print(f"{annee} : {valeurs_d}")
-    X.append(annee)
-    Y.append(valeurs_d)
+if ministere_l[choix] == 'Etat':
+    for t in range(len(ministere_l)-2):
+        p=-1
+        for annee, valeurs_d in db[ministere_l[t]]["dépense_annuelle"].items():
+            print(f"{annee} : {valeurs_d}")
+            p+=1
+            if t == 0:
+                X.append(annee)
+                Y.append(valeurs_d)
+            else :
+                Y[p]= Y[p] + valeurs_d
+        for annee, valeurs_r in db[ministere_l[t]]["recette_annuelle"].items():
+            print(f"{annee} : {valeurs_r}")
+            Z.append(valeurs_r)
+            if t == 0:
+                X.append(annee)
+                Z.append(valeurs_r)
+            else:
+                Z[p] = Z[p] + valeurs_r
 
-for annee, valeurs_r in db[ministere_l[choix]]["recette_annuelle"].items():
-    print(f"{annee} : {valeurs_r}")
-    Z.append(valeurs_r)
+    plt.grid(axis='y')
+
+    plt.plot(X, Z, label="recettes")  # recettes
+    plt.plot(X, Y, label="dépenses")  # dépenses
+
+    plt.title(f"Dépenses et recettes du ministères est l' {ministere_l[choix]}")
+    plt.legend()
+    plt.show()
+else:
+
+    for annee, valeurs_d in db[ministere_l[choix]]["dépense_annuelle"].items():
+        print(f"{annee} : {valeurs_d}")
+        X.append(annee)
+        Y.append(valeurs_d)
+
+    for annee, valeurs_r in db[ministere_l[choix]]["recette_annuelle"].items():
+        print(f"{annee} : {valeurs_r}")
+        Z.append(valeurs_r)
+
+    plt.grid(axis='y')
+
+    plt.plot(X, Z, label="recettes")#recettes
+    plt.plot(X, Y, label="dépenses")#dépenses
+
+    plt.title(f"Dépenses et recettes du ministères des {ministere_l[choix]}")
+    plt.legend()
+    plt.show()
 
 
-plt.plot(X, Y,label="recettes")#recettes
-plt.plot(X, Z, label="depenses")#depenses
-plt.title(f"Dépenses et recettes du ministères des {ministere_l[choix]}")
-plt.legend()
-plt.show()
