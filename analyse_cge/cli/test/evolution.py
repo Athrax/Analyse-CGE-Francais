@@ -29577,7 +29577,7 @@ print(ministere_l)
 
 print("Choisissez votre ministère (1-12) :")
 for i in range(len(ministere_l)-1):
-    print(f"{i}:{ministere_l}")
+    print(f"{i}:{ministere_l[i]}")
 choix = int(input("Quel est vôtre choix ? \n"))
 
 
@@ -29593,9 +29593,8 @@ for annee, valeurs_r in db[ministere_l[choix]]["recette_annuelle"].items():
     Z.append(valeurs_r)
 
 
-
 plt.plot(X, Y,label="recettes")#recettes
 plt.plot(X, Z, label="depenses")#depenses
-plt.title("Dépenses et recettes du ministères des",db[ministere_l[choix]])
+plt.title(f"Dépenses et recettes du ministères des {ministere_l[choix]}")
 plt.legend()
 plt.show()
