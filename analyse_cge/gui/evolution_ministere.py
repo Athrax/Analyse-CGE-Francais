@@ -1,5 +1,5 @@
 dictionnaire = {
-    "Culture": {
+      "Culture": {
         "d\u00e9pense_annuelle": {
             "postes": 0,
             "sous-postes": 1,
