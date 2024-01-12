@@ -1,7 +1,6 @@
 import tkinter as tk
 import matplotlib.pyplot as plt
 from matplotlib.figure import Figure
-import mplcursors
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 from analyse_cge.cli.gestionnaire_commande import graph_ministere
 from analyse_cge.fichier.gestionnaire_json import importer_json
@@ -24,7 +23,6 @@ class MatplotlibTkinterApp(tk.Tk):
         self.canvas = FigureCanvasTkAgg(self.fig, master=self)
         self.canvas.draw()
         self.canvas.get_tk_widget().pack(side=tk.TOP, fill=tk.NONE)
-
 
 
     def graph_ministere(self, ministere_inconnu):

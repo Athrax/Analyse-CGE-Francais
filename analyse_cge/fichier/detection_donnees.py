@@ -54,7 +54,7 @@ def detection_en_tete(fichier_source):
                 index_debut_analyse = i+1  # Permet de continuer l'analyser à partir de là où on s'est arreté
                 break
 
-    avert(f"Colonnes: {colonnes}")  # On affiches les colonnes et leur indices
+    debug(f"Colonnes: {colonnes}")  # On affiches les colonnes et leur indices
     return colonnes
 
 

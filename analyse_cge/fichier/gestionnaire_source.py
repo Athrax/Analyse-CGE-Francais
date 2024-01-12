@@ -65,15 +65,14 @@ def regroupe_donnees_ministere(fichier_source, colonnes, ligne_traiter=-1):
         cellule_ministere = savon_a_lettres(cellules[colonnes["ministère"]])  # Ministère concerné par la ligne
         cellule_poste = savon_a_lettres(cellules[colonnes["postes"]])  # Poste concerné par la ligne
         cellule_sous_poste = savon_a_lettres(cellules[colonnes["sous-postes"]])  # Sous poste concerné par la ligne
-        # balance_2022, balance_2012 = savon_a_chiffres(cellules[colonnes["2022"]], cellules[colonnes["2012"]])  # Nettoyage des données
         # On créer une liste avec les valeurs des balances années, puis on nettoie ces valeurs
         balances = recuperation_balances(cellules, colonnes)
 
         # On créer un dictionnaires avec des dépenses et recettes vides pour toutes les années sur la ligne étudiée
         # Il nous sert ensuite à initialiser le dictionnaire-base de donnée
-        dictionnaire_vide_annees = colonnes
+        dictionnaire_vide_annees = colonnes.copy()
         for annee in dictionnaire_vide_annees:
-            dictionnaire_ministere[annee] = 0
+            dictionnaire_ministere[annee] = 0.0
 
         debug(f"[l{ligne_traiter}] Traitement de la ligne : Ministère \"{cellule_ministere}\”, ",
               f"poste : \"{cellule_poste}\", ",
@@ -111,7 +110,7 @@ def regroupe_donnees_ministere(fichier_source, colonnes, ligne_traiter=-1):
         if cellule_poste not in dictionnaire_ministere[cellule_ministere]:
             debug(f"Création du nouveau poste {cellule_poste} pour le ministère {cellule_ministere}")
 
-            # On créer le dctionnaire du poste
+            # On créer le dictionnaire du poste
             dictionnaire_ministere[cellule_ministere]["postes"][cellule_poste] = dict()
 
             # On créer le dictionnaire des dépenses et recettes par poste du ministère pour les deux années
