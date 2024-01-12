@@ -1,5 +1,6 @@
 import customtkinter
 
+
 class PageSwitcherApp(customtkinter.CTk):
     def __init__(self):
         super().__init__()

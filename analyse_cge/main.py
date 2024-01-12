@@ -74,7 +74,8 @@ def run():
 
     else:
         try:  # On vérifie si la base de donnée éxiste déja (donnees.json)
-            db_ministere = importer_json(chemin_json=chemin(grand_parent(__file__), "docs", "db_ministere.json"))  # On essaye d'ouvrir la base de données (qu'on nommera db)
+            db_ministere = importer_json(chemin_json=chemin(grand_parent(__file__), "docs",
+                                                            "db_ministere.json"))  # On essaye d'ouvrir la base de données (qu'on nommera db)
             debug("Base de donnée json importée")
 
         except FileNotFoundError:

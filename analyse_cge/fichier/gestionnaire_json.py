@@ -39,6 +39,7 @@ def importer_json(chemin_json):
 
     except IOError as err:
         erreur(f"Impossible d'ouvrir le fichier {chemin_json}", err, f"Fichier de ce répertoire : {os.listdir()}")
+
         return 1
 
 
