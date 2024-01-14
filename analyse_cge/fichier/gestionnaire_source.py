@@ -30,7 +30,8 @@ def recuperation_balances(cellules, colonnes):
     # On créer un dictionnaire en compréhension de la manière suivante :
     # "année": balance de l'année pour la ligne étudiée
     # On nettoie les données ici pour être certain de bien renvoyer une valeur sous forme de float
-    return {f"{i}": savon_a_chiffres(cellules[colonnes[str(i)]]) for i in range(2012,2022)}
+    liste_annees = list(colonnes.keys())[3:]  # On recupere toutes les années présant dans la source
+    return {f"{annee}": savon_a_chiffres(cellules[colonnes[str(annee)]]) for annee in liste_annees}
 
 
 def regroupe_donnees_ministere(fichier_source, colonnes, ligne_traiter=-1):
@@ -50,6 +51,13 @@ def regroupe_donnees_ministere(fichier_source, colonnes, ligne_traiter=-1):
     """
     dictionnaire_ministere = dict()
 
+    # On créer un dictionnaires avec des dépenses et recettes vides pour toutes les années sur la ligne étudiée
+    # Il nous sert ensuite à initialiser le dictionnaire-base de donnée
+    # On prend soin de ne prendre que les années pour créer le dictionnaire, d'où le slicing
+    dictionnaire_vide_annees = dict()
+    for annee in list(colonnes.keys())[3:]:
+        dictionnaire_vide_annees[annee] = 0.0
+
     info("Regroupement du contenu du fichier source par ministère...")
     for ligne in fichier_source:  # On lit ligne après ligne le fichier source
 
@@ -67,12 +75,6 @@ def regroupe_donnees_ministere(fichier_source, colonnes, ligne_traiter=-1):
         cellule_sous_poste = savon_a_lettres(cellules[colonnes["sous-postes"]])  # Sous poste concerné par la ligne
         # On créer une liste avec les valeurs des balances années, puis on nettoie ces valeurs
         balances = recuperation_balances(cellules, colonnes)
-
-        # On créer un dictionnaires avec des dépenses et recettes vides pour toutes les années sur la ligne étudiée
-        # Il nous sert ensuite à initialiser le dictionnaire-base de donnée
-        dictionnaire_vide_annees = colonnes.copy()
-        for annee in dictionnaire_vide_annees:
-            dictionnaire_ministere[annee] = 0.0
 
         debug(f"[l{ligne_traiter}] Traitement de la ligne : Ministère \"{cellule_ministere}\”, ",
               f"poste : \"{cellule_poste}\", ",
@@ -99,8 +101,8 @@ def regroupe_donnees_ministere(fichier_source, colonnes, ligne_traiter=-1):
             # On créer le dictionnaire du ministère
             dictionnaire_ministere[cellule_ministere] = dict()
 
-            dictionnaire_ministere[cellule_ministere]["dépense_annuelle"] = dictionnaire_vide_annees
-            dictionnaire_ministere[cellule_ministere]["recette_annuelle"] = dictionnaire_vide_annees
+            dictionnaire_ministere[cellule_ministere]["dépense_annuelle"] = dictionnaire_vide_annees.copy()
+            dictionnaire_ministere[cellule_ministere]["recette_annuelle"] = dictionnaire_vide_annees.copy()
 
             # On créer un dictionnaire vide qui accueillera les postes du ministère
             dictionnaire_ministere[cellule_ministere]["postes"] = dict()
@@ -115,9 +117,9 @@ def regroupe_donnees_ministere(fichier_source, colonnes, ligne_traiter=-1):
 
             # On créer le dictionnaire des dépenses et recettes par poste du ministère pour les deux années
             dictionnaire_ministere[cellule_ministere]["postes"][cellule_poste]["dépense_annuelle"] = (
-                dictionnaire_vide_annees)
+                dictionnaire_vide_annees.copy())
             dictionnaire_ministere[cellule_ministere]["postes"][cellule_poste]["recette_annuelle"] = (
-                dictionnaire_vide_annees)
+                dictionnaire_vide_annees.copy())
 
             # On créer le dictionnaire des sous-postes de ce poste
             dictionnaire_ministere[cellule_ministere]["postes"][cellule_poste]["sous-postes"] = dict()
@@ -133,19 +135,19 @@ def regroupe_donnees_ministere(fichier_source, colonnes, ligne_traiter=-1):
 
             # On créer le dictionnaire des dépenses par sous-poste du poste du ministère pour les deux années
             dictionnaire_ministere[cellule_ministere]["postes"][cellule_poste]["sous-postes"][cellule_sous_poste][
-                "dépense_annuelle"] = dictionnaire_vide_annees
+                "dépense_annuelle"] = dictionnaire_vide_annees.copy()
             dictionnaire_ministere[cellule_ministere]["postes"][cellule_poste]["sous-postes"][cellule_sous_poste][
-                "recette_annuelle"] = dictionnaire_vide_annees
+                "recette_annuelle"] = dictionnaire_vide_annees.copy()
 
         # Ajout des données aux ministères
         # Ajout de la dépense et/ou de la recette de la ligne
         # On les ajoutes à la somme du minitère, du poste, et du sous poste
         for annee, balance in balances.items():
-            if balance >= 0:  # S'il s'agit d'une recette
+            if balance >= 0:  # Il s'agit d'une recette
                 dictionnaire_ministere[cellule_ministere]["recette_annuelle"][annee] += balance
                 dictionnaire_ministere[cellule_ministere]["postes"][cellule_poste]["recette_annuelle"][annee] += balance
                 dictionnaire_ministere[cellule_ministere]["postes"][cellule_poste]["sous-postes"][cellule_sous_poste]["recette_annuelle"][annee] += balance
-            if balance < 0:  # S'il s'agit d'une dépense
+            if balance < 0:  # Il s'agit d'une dépense
                 dictionnaire_ministere[cellule_ministere]["dépense_annuelle"][annee] += balance
                 dictionnaire_ministere[cellule_ministere]["postes"][cellule_poste]["dépense_annuelle"][annee] += balance
                 dictionnaire_ministere[cellule_ministere]["postes"][cellule_poste]["sous-postes"][cellule_sous_poste]["dépense_annuelle"][annee] += balance

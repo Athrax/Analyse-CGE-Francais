@@ -35,7 +35,9 @@ def detection_en_tete(fichier_source):
         erreur("Impossible de lire le fichier source", "Seul le codec UTF-8 est autorisé")
         exit(2)
 
-    # On précise les colonne du fichier qui nous intéressent
+    # On précise les colonne du fichier qui nous intéressent :
+    # Les colonnes du fichier source sont détectées à partir de ces entrées
+    # et sont aussi les clés que l'on manipulera par la suite.
     en_tete_utiles = ["postes", "sous-postes", "ministère", "2022", "2021", "2020", "2019", "2018", "2017", "2016",
                       "2015", "2014", "2013", "2012"]
     colonnes = dict()  # Création d'un dictionnaire des colonnes utiles

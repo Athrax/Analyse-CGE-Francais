@@ -46,8 +46,8 @@ def graph_poste():
     db = importer_json(chemin(grand_parent(__file__), "..", "docs", "db_ministere.json"))
 
     # On affiche les choix des ministères
-    liste_ministeres = [*db] # On créer une liste avec tous les ministères
-    for i in range(len(db)): # On la parcours associer un nombre a chaque ministère
+    liste_ministeres = [*db]  # On créer une liste avec tous les ministères
+    for i in range(len(db)):  # On la parcours associer un nombre a chaque ministère
         info(f"{liste_ministeres[i]}: [{str(i)}]")
 
     # On demande le choix du ministere à l'utilisateur
@@ -73,9 +73,9 @@ def graph_poste():
     Xtrie, Ytrie = trie_croissant_X_Y(X, Y)
     affichage_bar(Xtrie, Ytrie, titre)
 
+
 def graphe_temp_ministere():
     db = importer_json(chemin(grand_parent(__file__), "..", "docs", "db_ministere.json"))
-
 
 
 def afficher_db():

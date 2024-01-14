@@ -29580,24 +29580,20 @@ for i in range(len(ministere_l)):
     print(f"{i}:{ministere_l[i]}")
 choix = int(input("Quel est vôtre choix ? \n"))
 
+X = [string(annee) for annee in range(2012, 2023)]
+Y, Z  = [], []
 
-X, Y  = [], []
-W, Z = [], []
 if ministere_l[choix] == 'Etat':
-    for t in range(len(ministere_l)-2):
-        p=-1
-        for annee, valeurs_d in db[ministere_l[t]]["dépense_annuelle"].items():
+    for cpt_ministere in range(len(ministere_l)-1):
+        for annee, valeurs_d in db[ministere_l[cpt_ministere]]["dépense_annuelle"].items():
             print(f"{annee} : {valeurs_d}")
-            p+=1
-            if t == 0:
-                X.append(annee)
-                Y.append(valeurs_d)
-            else :
-                Y[p]= Y[p] + valeurs_d
-        for annee, valeurs_r in db[ministere_l[t]]["recette_annuelle"].items():
+
+
+
+        for annee, valeurs_r in db[ministere_l[cpt_ministere]]["recette_annuelle"].items():
             print(f"{annee} : {valeurs_r}")
             Z.append(valeurs_r)
-            if t == 0:
+            if cpt_ministere == 0:
                 X.append(annee)
                 Z.append(valeurs_r)
             else:
