@@ -11,13 +11,14 @@
 #   Vous devriez avoir reçu une copie de la licence avec ce programme. Sinon,
 #   consultez.
 #  ==============================================================================
-from sys import exit  # système
-from analyse_cge.cli.gestionnaire_arguments import arguments # arguments
+import os.path
+import sys  # système
+from analyse_cge.cli.gestionnaire_arguments import arguments  # arguments
 from analyse_cge.journalisation.traces import info, debug, erreur  # logs
-from analyse_cge.fichier.gestionnaire_arborescence import parent, grand_parent, chemin
-from analyse_cge.fichier.detection_donnees import detection_en_tete  # traitement du fichier source
-from analyse_cge.fichier.gestionnaire_source import regroupe_donnees_ministere
-from analyse_cge.fichier.gestionnaire_json import sauvegarder_json, importer_json
+from analyse_cge.source.gestionnaire_arborescence import parent, grand_parent, chemin
+from analyse_cge.source.detection_donnees import detection_en_tete  # traitement du fichier source
+from analyse_cge.source.gestionnaire_source import regroupe_donnees_ministere
+from analyse_cge.source.gestionnaire_json import sauvegarder_json
 from analyse_cge.cli.menu import cli
 
 
@@ -31,6 +32,7 @@ def run():
 
     if not arguments():
         info("Utilisation : main.py -parametres")
+
         info("Paramètres :",
              "Fichier source : -source \"chemin_vers_fichier_csv\"",
              "Interface en ligne de commande : -nogui",
@@ -59,7 +61,7 @@ def run():
             # On regroupe les données par ministère
             db_ministere = regroupe_donnees_ministere(fichier_source, colonnes_a_traiter)  # On créer un dictionnaire
             # On enregistre la base de donnée créée
-            sauvegarder_json(db_ministere, chemin(grand_parent(__file__), "docs", "db_ministere.json"))
+            sauvegarder_json(db_ministere, chemin("donnees", "db_ministere.json"))
 
         except FileNotFoundError:  # Si le fichier n'est pas trouvé
             erreur("Le fichier {0} est introuvable".format(chemin_fichier_source))
@@ -71,36 +73,30 @@ def run():
 
     # Si aucun chemin vers un fichier source n'a été donné
     # Alors on importe le dictionnaire déja créé
-
     else:
-        try:  # On vérifie si la base de donnée éxiste déja (donnees.json)
-            db_ministere = importer_json(chemin_json=chemin(grand_parent(__file__), "docs",
-                                                            "db_ministere.json"))  # On essaye d'ouvrir la base de données (qu'on nommera db)
-            debug("Base de donnée json importée")
-
-        except FileNotFoundError:
+        if os.path.exists(chemin("donnees", "db_ministere.json")):
             erreur("Aucune base de donnée n'existe",
                    "Veuillez executer le logiciel en précisant le chemin vers une source",
                    "Elle doit être au format csv, séparé par des virgules")
-            return 2  # Erreur générique (non spécifiée)
+            sys.exit(1)  # Erreur générique (non spécifiée)
 
     # La base de donnée ministère a été créée ou a été importée
     # On peut maintenant exploiter les données
     # print(arguments())
 
     # On différencie l'execution en ligne de commande ou par interface graphique
-    if "-nogui" in arguments(): # Si l'utilisateur lance le programme en ligne de commande
+    if "-nogui" in arguments():  # Si l'utilisateur lance le programme en ligne de commande
         cli()
     else:
         #gui()
         pass
 
-    info("Fin du programme")
+    info("Fin du programme", "Merci d'avoir utiliser notre programme Analyse CGE", "Fait par : Lise Renaud et Aymeric Schaeffer")
     return 0  # Fin du programme
 
 if __name__ == '__main__':  # On vérifie si on execute bien le fichier directement et non comme un module
     info("Le programme démarre ...")
-    exit(run())  # Si on ne l'execute pas comme un module, alors on démarre notre programme
+    sys.exit(run())  # Si on ne l'execute pas comme un module, alors on démarre notre programme
 
 else:
     erreur("Impossible de démarrer le logiciel en tant que module", "Veuillez executer main.py directement.")

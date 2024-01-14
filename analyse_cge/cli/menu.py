@@ -13,9 +13,10 @@
 #  ==============================================================================
 import sys
 from analyse_cge.journalisation.traces import info, debug, avert, erreur
-from analyse_cge.fichier.gestionnaire_json import importer_json
-from analyse_cge.fichier.gestionnaire_arborescence import chemin, parent, grand_parent
+from analyse_cge.source.gestionnaire_json import importer_json
+from analyse_cge.source.gestionnaire_arborescence import chemin, parent, grand_parent
 from analyse_cge.cli.gestionnaire_commande import commande
+from analyse_cge.source.gestionnaire_source import dictionnaire_vide_annees
 
 
 def lf(n=1):
@@ -31,6 +32,7 @@ def effacer_console(n=50):
 
 
 def affichage_menu():
+    choix = ""
     separateur()
     menus = importer_config_menus()  # Importe la configuration du menu
 
@@ -53,8 +55,13 @@ def affichage_menu():
         # On déroule une liste créée avec tous les choix possibles et leur titre à partir du menu courant.
         # On déroule les elements (séparés par des virgules) d'un tuple contenant un générateur (compréhension)
         # des lignes à afficher correspondant aux choix du menu (menus_cli.json)
-
-        info(*(f"{menu_courant[choix]['titre']}: [{choix}]" for choix in menu_courant))
+        if not "choix_annee" in [*menu_courant]:
+            info(*(f"{menu_courant[choix]['titre']}: [{choix}]" for choix in menu_courant))
+        else:  # Si l'entrée correspondait à un parametre (choix) plutot qu'un menu
+            annee_min = [*dictionnaire_vide_annees][-1]
+            annee_max = [*dictionnaire_vide_annees][0]
+            info(f"{menu_courant['choix_annee']['titre']}")
+            info(f"Années possibles : entre {annee_min} et {annee_max}")
 
         # On vérifie si une opération est à effectuer en arrivant dans le menu demandé
         # Une opération est effectuée nécessairement lorsque l'utilisateur à choisit une option finale dans le menu
@@ -63,19 +70,20 @@ def affichage_menu():
         # Cette action est associée à la clef operation dans le dictionnaire associé à la cle "retour".
         if ["retour"] == [*menu_courant]:  # Si la seule option possible dans le menu courant est choix, alors :
             operation = menu_parent["operation"]
-            info(f"L'opération {operation} est demandée")
+            debug(f"L'opération {operation} est demandée")
 
             # On appel le gestionnaire de commande
             try:
-                commande(operation)
+                commande(operation, choix)
             except Exception as exc:
-                avert(f"La commande {operation} a échouée", exc,
-                      "Voir gestionnaire_commande.py ou menus_cli.json")
+                avert(f"La commande {operation} a échouée", f"Erreur: {exc}",
+                      "Veuillez entrer une commande ou paramètres valide",
+                      "Retour [retour]")
 
         # On invite l'utilisateur à entrer la commande souhaitée
         entree = input("> ")
-        info("> " + entree)
-        effacer_console()
+        info("> " + entree)  # On journalise l'entrée
+        effacer_console()  # Puis on la cache pour l'utilisateur
 
         # On traite l'entrée de l'utilisateur
         # On peut executer la commande quitter à tout moment, dans tous les menus
@@ -89,7 +97,14 @@ def affichage_menu():
             chemin_menu.pop()  # Mi chemin (on remonte aux paramtères du menu, comme le nom complet)
             chemin_menu.pop()  # Puis on revient au menu précédent
 
-        # On vérifie si la commande tapée
+        # Dans le cas ou le menu demande à entrer une valeur ou choix propre à la volonté de l'utilisateur
+        # alors il ne faut pas le considérer comme le nom d'un menu mais plutot comme une variable à retenir
+        # Exemple: Demander à l'utilisateur une année. Il ne faut pas ouvrir un menu avec l'entrée, mais l'enregistrer.
+        elif "choix_annee" in [*menu_courant]:
+            choix = entree
+            chemin_menu += ["choix_annee", "menu"]
+
+        # On vérifie si la commande entrée existe
         # On déballe les choix possible dans le menu actuel
         elif entree in [*menu_courant]:
             chemin_menu += [entree, "menu"]
@@ -100,9 +115,10 @@ def affichage_menu():
             pass
 
 
-def importer_config_menus(chemin_fichier="config/menus_cli.json"):
+def importer_config_menus():
     try:
-        menus = importer_json(chemin(grand_parent(__file__), chemin_fichier))
+        # Le chemin est relatif pa rapport à main.py
+        menus = importer_json(chemin("config", "menus_cli.json"))
         debug("Fichier de configuration des menus importé")
         return menus
 

@@ -12,24 +12,22 @@
 #   consultez.
 #  ==============================================================================
 from analyse_cge.affichage.gestionnaire_affichage import *
-from analyse_cge.fichier.gestionnaire_json import importer_json
-from analyse_cge.fichier.gestionnaire_arborescence import chemin, grand_parent
+from analyse_cge.source.gestionnaire_json import importer_json
+from analyse_cge.source.gestionnaire_arborescence import chemin, grand_parent
 from analyse_cge.journalisation.traces import avert, debug, info
 from analyse_cge.donnees.gestionnaire_donnees import trie_croissant_X_Y
+from analyse_cge.donnees.db import db
 
 
-def graph_ministere(ministere_inconnu):
-    # Chargment de la base de donnée
-    db = importer_json(chemin(grand_parent(__file__), "..", "docs", "db_ministere.json"))
-
+def graph_ministeres(ministere_inconnu, annee):
     labels = [*db]
     if ministere_inconnu:
-        valeurs = [-int(db[ministere]["dépense_annuelle"]["2022"]) for ministere in [*db]]
+        valeurs = [-int(db[ministere]["dépense_annuelle"][annee]) for ministere in [*db]]
     else:
-        valeurs = [-int(db[ministere]["dépense_annuelle"]["2022"]) for ministere in [*db]
+        valeurs = [-int(db[ministere]["dépense_annuelle"][annee]) for ministere in [*db]
                    if ministere != "Non renseigné"]
         labels.pop(labels.index("Non renseigné"))
-    titre = "Dépenses des ministères en 2022"
+    titre = f"Dépenses des ministères en {annee}"
 
     try:
         affichage_pie(valeurs, labels, titre)
@@ -42,9 +40,7 @@ def graph_ministere(ministere_inconnu):
         avert("Indication :", warn)
 
 
-def graph_poste():
-    db = importer_json(chemin(grand_parent(__file__), "..", "docs", "db_ministere.json"))
-
+def graph_postes(annee):
     # On affiche les choix des ministères
     liste_ministeres = [*db]  # On créer une liste avec tous les ministères
     for i in range(len(db)):  # On la parcours associer un nombre a chaque ministère
@@ -54,45 +50,44 @@ def graph_poste():
     from analyse_cge.cli.menu import effacer_console  # Pour eviter les boucles d'appel, on importe la fonction ici
     while True:
         try:
-            entree = int(input("> "))
+            entree = int(input("> "))  # On ne récupère l'entrée que si c'est un nombre
             break
         except:
             pass
     info("> " + str(entree))
     effacer_console()
-    info(f"Ce graphique représente les dépenses du ministère \"{liste_ministeres[entree]}\" par poste en 2022.")
+    info(f"Ce graphique représente les dépenses du ministère \"{liste_ministeres[entree]}\" par poste en {annee}.")
 
-    titre = (f"Dépense du ministère \"{liste_ministeres[entree]}\" par poste en 2022")
+    titre = (f"Dépense du ministère \"{liste_ministeres[entree]}\" par poste en {annee}")
     X = [clef
          for clef, poste in db[liste_ministeres[entree]]["postes"].items()
-         if poste["dépense_annuelle"]["2022"]]  # On liste les postes
-    Y = [-poste["dépense_annuelle"]["2022"]
+         if poste["dépense_annuelle"][annee]]  # On liste les postes
+    Y = [-poste["dépense_annuelle"][annee]
          for clef, poste in db[liste_ministeres[entree]]["postes"].items()
-         if poste["dépense_annuelle"]["2022"]]  # On récupère les dépenses
+         if poste["dépense_annuelle"][annee]]  # On récupère les dépenses
 
     Xtrie, Ytrie = trie_croissant_X_Y(X, Y)
     affichage_bar(Xtrie, Ytrie, titre)
 
 
 def graphe_temp_ministere():
-    db = importer_json(chemin(grand_parent(__file__), "..", "docs", "db_ministere.json"))
+    pass
 
 
 def afficher_db():
     # Chargement de la base de donnée
-    db = importer_json(chemin(grand_parent(__file__), "..", "docs", "db_ministere.json"))
     print(db)
 
 
-def commande(operation):
+def commande(operation, parametre):
     if operation == "graph_ministere_avec_inconnu":
-        graph_ministere(True)
+        graph_ministeres(True, parametre)
 
     if operation == "graph_ministere_sans_inconnu":
-        graph_ministere(False)
+        graph_ministeres(False, parametre)
 
     if operation == "afficher_db":
         afficher_db()
 
     if operation == "graph_poste_par_ministere":
-        graph_poste()
+        graph_postes(parametre)

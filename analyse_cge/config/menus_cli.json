@@ -6,41 +6,48 @@
                 "ministere": {
                     "titre": "Recettes et dépenses par ministère",
                     "menu": {
-                        "oui": {
-                            "titre": "Afficher les dépenses non classées",
-                            "operation": "graph_ministere_avec_inconnu",
+                        "choix_annee": {
+                            "titre": "Veuillez spécifier une année",
                             "menu": {
-                                "retour": {
-                                    "titre": "Ce graphique représente les dépense et les recettes de l'état par ministère, entre 2022 et 2012, en prenant en compte les dépenses sans attribution de ministère"
+                                "oui": {
+                                    "titre": "Afficher les dépenses inconnues",
+                                    "operation": "graph_ministere_avec_inconnu",
+                                    "menu": {
+                                        "retour": {
+                                            "titre": "Ce graphique représente les dépense et les recettes de l'état par ministère, en prenant en compte les dépenses sans attribution de ministère"
+                                        }
+                                     }
+                                },
+                                "non": {
+                                    "titre": "Ne pas afficher les dépenses inconnues",
+                                    "operation": "graph_ministere_sans_inconnu",
+                                    "menu": {
+                                        "retour": {
+                                            "titre": "Ce graphique représente les dépense et les recettes de l'état par ministère"
+                                        }
+                                     }
                                 }
-                             }
-                        },
-                        "non": {
-                            "titre": "                                  ",
-                            "operation": "graph_ministere_sans_inconnu",
-                            "menu": {
-                                "retour": {
-                                    "titre": "Ce graphique représente les dépense et les recettes de l'état par ministère, entre 2022 et 2012"
-                                }
-                             }
+                            }
                         }
                     }
                 },
                 "poste": {
                     "titre": "Dépenses d'un ministère par poste",
                     "menu": {
-                        "choix": {
-                            "titre": "Indiquer le ministère souhaité",
-                            "operation" : "graph_poste_par_ministere",
+                        "choix_annee": {
+                            "titre" : "Veuillez spécifier une année",
                             "menu": {
-                                "retour": {
-                                    "titre": "Retour"
+                                "liste": {
+                                    "titre": "Veuillez indiquer le ministère souhaité d'après la liste suivante",
+                                    "operation" : "graph_poste_par_ministere",
+                                    "menu": {
+                                        "retour": {
+                                            "titre": "Retour"
 
+                                        }
+                                    }
                                 }
                             }
-                        },
-                        "retour": {
-                            "titre": "Retour"
                         }
                     }
                 },

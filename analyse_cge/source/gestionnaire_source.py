@@ -13,7 +13,9 @@
 #  ==============================================================================
 from analyse_cge.donnees.nettoyage_valeur import savon_a_chiffres, savon_a_lettres
 from analyse_cge.journalisation.traces import *
-from analyse_cge.fichier.detection_donnees import detection_cellules
+from analyse_cge.source.detection_donnees import detection_cellules
+
+dictionnaire_vide_annees = dict()
 
 
 def recuperation_balances(cellules, colonnes):
@@ -54,7 +56,7 @@ def regroupe_donnees_ministere(fichier_source, colonnes, ligne_traiter=-1):
     # On créer un dictionnaires avec des dépenses et recettes vides pour toutes les années sur la ligne étudiée
     # Il nous sert ensuite à initialiser le dictionnaire-base de donnée
     # On prend soin de ne prendre que les années pour créer le dictionnaire, d'où le slicing
-    dictionnaire_vide_annees = dict()
+
     for annee in list(colonnes.keys())[3:]:
         dictionnaire_vide_annees[annee] = 0.0
 
@@ -146,27 +148,29 @@ def regroupe_donnees_ministere(fichier_source, colonnes, ligne_traiter=-1):
             if balance >= 0:  # Il s'agit d'une recette
                 dictionnaire_ministere[cellule_ministere]["recette_annuelle"][annee] += balance
                 dictionnaire_ministere[cellule_ministere]["postes"][cellule_poste]["recette_annuelle"][annee] += balance
-                dictionnaire_ministere[cellule_ministere]["postes"][cellule_poste]["sous-postes"][cellule_sous_poste]["recette_annuelle"][annee] += balance
+                dictionnaire_ministere[cellule_ministere]["postes"][cellule_poste]["sous-postes"][cellule_sous_poste][
+                    "recette_annuelle"][annee] += balance
             if balance < 0:  # Il s'agit d'une dépense
                 dictionnaire_ministere[cellule_ministere]["dépense_annuelle"][annee] += balance
                 dictionnaire_ministere[cellule_ministere]["postes"][cellule_poste]["dépense_annuelle"][annee] += balance
-                dictionnaire_ministere[cellule_ministere]["postes"][cellule_poste]["sous-postes"][cellule_sous_poste]["dépense_annuelle"][annee] += balance
+                dictionnaire_ministere[cellule_ministere]["postes"][cellule_poste]["sous-postes"][cellule_sous_poste][
+                    "dépense_annuelle"][annee] += balance
 
-        debug(f"Nouvel état pour le ministère \"{cellule_ministere}\", ",
-            f"dépense 2022 : {dictionnaire_ministere[cellule_ministere]['dépense_annuelle']['2022']}, ",
-            f"dépense 2012 : {dictionnaire_ministere[cellule_ministere]['dépense_annuelle']['2012']}, ",
-            f"recette 2022 : {dictionnaire_ministere[cellule_ministere]['recette_annuelle']['2022']}, ",
-            f"recette 2012 : {dictionnaire_ministere[cellule_ministere]['recette_annuelle']['2012']}, ",
-            f"poste : \"{cellule_poste}\", ",
-            f"dépense 2022 : {dictionnaire_ministere[cellule_ministere]['postes'][cellule_poste]['dépense_annuelle']['2022']}, ",
-            f"dépense 2012 : {dictionnaire_ministere[cellule_ministere]['postes'][cellule_poste]['dépense_annuelle']['2012']}, ",
-            f"recette 2022 : {dictionnaire_ministere[cellule_ministere]['postes'][cellule_poste]['recette_annuelle']['2022']}, ",
-            f"recette 2012 : {dictionnaire_ministere[cellule_ministere]['postes'][cellule_poste]['recette_annuelle']['2012']}, ",
-            f"sous-poste : \"{cellule_sous_poste}\", ",
-            f"dépense 2022 : {dictionnaire_ministere[cellule_ministere]['postes'][cellule_poste]['sous-postes'][cellule_sous_poste]['dépense_annuelle']['2022']}, ",
-            f"dépense 2012 : {dictionnaire_ministere[cellule_ministere]['postes'][cellule_poste]['sous-postes'][cellule_sous_poste]['dépense_annuelle']['2012']}, ",
-            f"dépense 2022 : {dictionnaire_ministere[cellule_ministere]['postes'][cellule_poste]['sous-postes'][cellule_sous_poste]['recette_annuelle']['2022']}, ",
-            f"dépense 2012 : {dictionnaire_ministere[cellule_ministere]['postes'][cellule_poste]['sous-postes'][cellule_sous_poste]['recette_annuelle']['2012']}")
+        # debug(f"Nouvel état pour le ministère \"{cellule_ministere}\", ",
+        #     f"dépense 2022 : {dictionnaire_ministere[cellule_ministere]['dépense_annuelle']['2022']}, ",
+        #     f"dépense 2012 : {dictionnaire_ministere[cellule_ministere]['dépense_annuelle']['2012']}, ",
+        #     f"recette 2022 : {dictionnaire_ministere[cellule_ministere]['recette_annuelle']['2022']}, ",
+        #     f"recette 2012 : {dictionnaire_ministere[cellule_ministere]['recette_annuelle']['2012']}, ",
+        #     f"poste : \"{cellule_poste}\", ",
+        #     f"dépense 2022 : {dictionnaire_ministere[cellule_ministere]['postes'][cellule_poste]['dépense_annuelle']['2022']}, ",
+        #     f"dépense 2012 : {dictionnaire_ministere[cellule_ministere]['postes'][cellule_poste]['dépense_annuelle']['2012']}, ",
+        #     f"recette 2022 : {dictionnaire_ministere[cellule_ministere]['postes'][cellule_poste]['recette_annuelle']['2022']}, ",
+        #     f"recette 2012 : {dictionnaire_ministere[cellule_ministere]['postes'][cellule_poste]['recette_annuelle']['2012']}, ",
+        #     f"sous-poste : \"{cellule_sous_poste}\", ",
+        #     f"dépense 2022 : {dictionnaire_ministere[cellule_ministere]['postes'][cellule_poste]['sous-postes'][cellule_sous_poste]['dépense_annuelle']['2022']}, ",
+        #     f"dépense 2012 : {dictionnaire_ministere[cellule_ministere]['postes'][cellule_poste]['sous-postes'][cellule_sous_poste]['dépense_annuelle']['2012']}, ",
+        #     f"dépense 2022 : {dictionnaire_ministere[cellule_ministere]['postes'][cellule_poste]['sous-postes'][cellule_sous_poste]['recette_annuelle']['2022']}, ",
+        #     f"dépense 2012 : {dictionnaire_ministere[cellule_ministere]['postes'][cellule_poste]['sous-postes'][cellule_sous_poste]['recette_annuelle']['2012']}")
 
         ligne_traiter -= 1
         if ligne_traiter == 0:
