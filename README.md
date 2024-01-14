@@ -25,10 +25,43 @@ L'objectif de ce projet était de manipuler et d'exploiter les données d'un fic
 - datetime
 - json
 
-## Comment Utiliser
+## Comment Utiliser dans PyCharm
 1. Clônez le dépôt vers votre machine locale.
 2. Les dépendances et l'interpréteur s'installent automatiquement. Le cas échéant, assurez-vous d'avoir les dépendances Python installées
-3. Exécutez le script principal pour traiter les données du bilan comptable (`analyse-cge/main.py`)
+3. Exécutez le script principal pour traiter les données du bilan comptable (`analyse-cge/main.py`) en utilisant les options nécessaires
+
+## Comment Utiliser dans un terminal
+1. Clônez le dépôt vers votre machine locale.
+   ```bash
+   git clone https://github.com/Athrax/Analyse-CGE-Francais.git
+   ```
+2. Placez vous dans le dossier du projet
+   ```bash
+   cd [votre chemin]/Analyse-CGE-Francais
+   ```
+3. Créez un environnement virtuel pour le projet
+   ```bash
+   python -m venv .venv
+   ```
+4. Activez l'environnement virtuel
+   ```bash
+   source .venv/bin/activate && export PYTHONPATH=./:$PYTHONPATH
+   ```
+5. Installez les dépendances
+   ```bash
+   python -m pip install matplotlib
+   
+   ```
+6. Lancer le programme
+   ```bash
+   python analyse-cge/main.py -nogui
+   ```
+
+Vous pouvez recréer la base de donnée a partir du fichier source avec l'option -source suivi du chemin vers le fichier source.csv
+Exemple : `python analyse-cge/main.py -nogui -source analyse-cge/source/source.csv`
+> **command not found: python**
+En fonction de votre système d'exploitation, il se pourrait que la commande pour lancer python puisse être ```python3```, ```python3.9``` ou ```pyhton3.11``` par exemple.
+
 
 ## Remarques
 Ce projet est destiné à des fins éducatives dans le cadre de la formation universitaire. N'hésitez pas à explorer le code source, à suggérer des améliorations ou à poser des questions.
