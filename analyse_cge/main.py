@@ -74,7 +74,7 @@ def run():
     # Si aucun chemin vers un fichier source n'a été donné
     # Alors on importe le dictionnaire déja créé
     else:
-        if os.path.exists(chemin("donnees", "db_ministere.json")):
+        if not os.path.exists(chemin("donnees", "db_ministere.json")):
             erreur("Aucune base de donnée n'existe",
                    "Veuillez executer le logiciel en précisant le chemin vers une source",
                    "Elle doit être au format csv, séparé par des virgules")

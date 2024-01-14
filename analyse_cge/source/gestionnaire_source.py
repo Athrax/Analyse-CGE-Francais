@@ -15,8 +15,6 @@ from analyse_cge.donnees.nettoyage_valeur import savon_a_chiffres, savon_a_lettr
 from analyse_cge.journalisation.traces import *
 from analyse_cge.source.detection_donnees import detection_cellules
 
-dictionnaire_vide_annees = dict()
-
 
 def recuperation_balances(cellules, colonnes):
     """
@@ -57,6 +55,7 @@ def regroupe_donnees_ministere(fichier_source, colonnes, ligne_traiter=-1):
     # Il nous sert ensuite à initialiser le dictionnaire-base de donnée
     # On prend soin de ne prendre que les années pour créer le dictionnaire, d'où le slicing
 
+    dictionnaire_vide_annees = dict()
     for annee in list(colonnes.keys())[3:]:
         dictionnaire_vide_annees[annee] = 0.0
 

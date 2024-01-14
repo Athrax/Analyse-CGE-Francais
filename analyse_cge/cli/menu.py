@@ -16,7 +16,7 @@ from analyse_cge.journalisation.traces import info, debug, avert, erreur
 from analyse_cge.source.gestionnaire_json import importer_json
 from analyse_cge.source.gestionnaire_arborescence import chemin, parent, grand_parent
 from analyse_cge.cli.gestionnaire_commande import commande
-from analyse_cge.source.gestionnaire_source import dictionnaire_vide_annees
+from analyse_cge.source.detection_donnees import en_tete_utiles
 
 
 def lf(n=1):
@@ -58,8 +58,8 @@ def affichage_menu():
         if not "choix_annee" in [*menu_courant]:
             info(*(f"{menu_courant[choix]['titre']}: [{choix}]" for choix in menu_courant))
         else:  # Si l'entrée correspondait à un parametre (choix) plutot qu'un menu
-            annee_min = [*dictionnaire_vide_annees][-1]
-            annee_max = [*dictionnaire_vide_annees][0]
+            annee_min = en_tete_utiles[-1]
+            annee_max = en_tete_utiles[3]
             info(f"{menu_courant['choix_annee']['titre']}")
             info(f"Années possibles : entre {annee_min} et {annee_max}")
 

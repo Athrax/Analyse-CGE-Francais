@@ -1,0 +1,65 @@
+14-01-2024 17:04:19 [1705248259702]: INFO - Le programme démarre ...
+14-01-2024 17:04:19 [1705248259702]: INFO - Recherche du fichier passé en argument : source/source.csv
+14-01-2024 17:04:19 [1705248259702]: INFO - Fichier ouvert avec succès
+14-01-2024 17:04:19 [1705248259702]: INFO - Création de la base de donnée à partir de la source ...
+14-01-2024 17:04:19 [1705248259702]: INFO - Regroupement du contenu du fichier source par ministère...
+14-01-2024 17:04:19 [1705248259704]: INFO - Création d'un nouveau ministère Économie, finances et relance
+14-01-2024 17:04:19 [1705248259704]: INFO - Création d'un nouveau ministère Non renseigné
+14-01-2024 17:04:19 [1705248259705]: INFO - Création d'un nouveau ministère Justice
+14-01-2024 17:04:19 [1705248259706]: INFO - Création d'un nouveau ministère Transition écologique
+14-01-2024 17:04:19 [1705248259707]: INFO - Création d'un nouveau ministère Intérieur
+14-01-2024 17:04:19 [1705248259710]: INFO - Création d'un nouveau ministère Agriculture et alimentation
+14-01-2024 17:04:19 [1705248259719]: INFO - Création d'un nouveau ministère Travail, emploi et insertion
+14-01-2024 17:04:19 [1705248259719]: INFO - Création d'un nouveau ministère Cohésion des territoires et relations avec les collectivités territoriales
+14-01-2024 17:04:19 [1705248259721]: INFO - Création d'un nouveau ministère Services du Premier ministre
+14-01-2024 17:04:19 [1705248259728]: INFO - Création d'un nouveau ministère Outre-Mer
+14-01-2024 17:04:19 [1705248259734]: INFO - Création d'un nouveau ministère Culture
+14-01-2024 17:04:19 [1705248259736]: INFO - Création d'un nouveau ministère Armées
+14-01-2024 17:04:19 [1705248259743]: INFO - Création d'un nouveau ministère Mer
+14-01-2024 17:04:19 [1705248259746]: INFO - Création d'un nouveau ministère Éducation nationale, jeunesse et sports
+14-01-2024 17:04:19 [1705248259747]: INFO - Création d'un nouveau ministère Transformation et de la fonction publiques
+14-01-2024 17:04:19 [1705248259752]: INFO - Création d'un nouveau ministère Solidarités et santé
+14-01-2024 17:04:19 [1705248259762]: INFO - Création d'un nouveau ministère Enseignement supérieur, recherche et innovation
+14-01-2024 17:04:19 [1705248259774]: INFO - Création d'un nouveau ministère Europe et affaires étrangères
+14-01-2024 17:04:30 [1705248270461]: INFO - Bienvenue dans l'interface en ligne de commande du programme d'Analayse du CGE
+14-01-2024 17:04:30 [1705248270461]: INFO - ---
+14-01-2024 17:04:30 [1705248270464]: INFO - Affichage des graphiques: [graphique]
+14-01-2024 17:04:30 [1705248270464]: INFO - Options et constantes du programme: [options]
+14-01-2024 17:04:30 [1705248270464]: INFO - Quitter le logiciel: [quitter]
+14-01-2024 17:04:36 [1705248276904]: INFO - > quitter
+14-01-2024 17:04:36 [1705248276904]: INFO - Fin du programme
+14-01-2024 17:04:36 [1705248276904]: INFO - Merci d'avoir utiliser notre programme Analyse CGE
+14-01-2024 17:04:36 [1705248276904]: INFO - Fait par : Lise Renaud et Aymeric Schaeffer
+14-01-2024 17:04:53 [1705248293980]: INFO - Le programme démarre ...
+14-01-2024 17:04:53 [1705248293980]: ERREUR - Aucune base de donnée n'existe
+14-01-2024 17:04:53 [1705248293980]: ERREUR - Veuillez executer le logiciel en précisant le chemin vers une source
+14-01-2024 17:04:53 [1705248293980]: ERREUR - Elle doit être au format csv, séparé par des virgules
+14-01-2024 17:07:52 [1705248472721]: INFO - Le programme démarre ...
+14-01-2024 17:07:52 [1705248472721]: INFO - Bienvenue dans l'interface en ligne de commande du programme d'Analayse du CGE
+14-01-2024 17:07:52 [1705248472723]: INFO - ---
+14-01-2024 17:07:52 [1705248472723]: INFO - Affichage des graphiques: [graphique]
+14-01-2024 17:07:52 [1705248472723]: INFO - Options et constantes du programme: [options]
+14-01-2024 17:07:52 [1705248472723]: INFO - Quitter le logiciel: [quitter]
+14-01-2024 17:08:01 [1705248481450]: INFO - > graphique
+14-01-2024 17:08:01 [1705248481450]: INFO - Recettes et dépenses par ministère: [ministere]
+14-01-2024 17:08:01 [1705248481450]: INFO - Dépenses d'un ministère par poste: [poste]
+14-01-2024 17:08:01 [1705248481450]: INFO - Retour: [retour]
+14-01-2024 17:08:04 [1705248484017]: INFO - > ministere
+14-01-2024 17:17:30 [1705249050090]: INFO - Le programme démarre ...
+14-01-2024 17:17:30 [1705249050090]: INFO - Bienvenue dans l'interface en ligne de commande du programme d'Analayse du CGE
+14-01-2024 17:17:30 [1705249050092]: INFO - ---
+14-01-2024 17:17:30 [1705249050092]: INFO - Affichage des graphiques: [graphique]
+14-01-2024 17:17:30 [1705249050092]: INFO - Options et constantes du programme: [options]
+14-01-2024 17:17:30 [1705249050092]: INFO - Quitter le logiciel: [quitter]
+14-01-2024 17:17:34 [1705249054190]: INFO - > graphique
+14-01-2024 17:17:34 [1705249054190]: INFO - Recettes et dépenses par ministère: [ministere]
+14-01-2024 17:17:34 [1705249054190]: INFO - Dépenses d'un ministère par poste: [poste]
+14-01-2024 17:17:34 [1705249054190]: INFO - Retour: [retour]
+14-01-2024 17:17:36 [1705249056024]: INFO - > ministere
+14-01-2024 17:17:36 [1705249056024]: INFO - Veuillez spécifier une année
+14-01-2024 17:17:36 [1705249056026]: INFO - Années possibles : entre 2012 et 2022
+14-01-2024 17:17:38 [1705249058200]: INFO - > 2012
+14-01-2024 17:17:38 [1705249058200]: INFO - Afficher les dépenses inconnues: [oui]
+14-01-2024 17:17:38 [1705249058200]: INFO - Ne pas afficher les dépenses inconnues: [non]
+14-01-2024 17:17:39 [1705249059879]: INFO - > non
+14-01-2024 17:17:39 [1705249059880]: INFO - Ce graphique représente les dépense et les recettes de l'état par ministère: [retour]
