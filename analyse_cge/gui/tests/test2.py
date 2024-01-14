@@ -2,11 +2,11 @@ import tkinter as tk
 import matplotlib.pyplot as plt
 from matplotlib.figure import Figure
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
-from analyse_cge.cli.gestionnaire_commande import graph_ministeres
-from analyse_cge.source.gestionnaire_json import importer_json
-from analyse_cge.source.gestionnaire_arborescence import chemin, grand_parent
-from analyse_cge.affichage.gestionnaire_affichage import affichage_pie
-from analyse_cge.journalisation.traces import *
+from cli.gestionnaire_commande import graph_ministeres
+from source.gestionnaire_json import importer_json
+from source.gestionnaire_arborescence import chemin, grand_parent
+from affichage.gestionnaire_affichage import affichage_pie
+from journalisation.traces import *
 
 
 class MatplotlibTkinterApp(tk.Tk):

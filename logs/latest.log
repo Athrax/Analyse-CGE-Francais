@@ -63,3 +63,39 @@
 14-01-2024 17:17:38 [1705249058200]: INFO - Ne pas afficher les dépenses inconnues: [non]
 14-01-2024 17:17:39 [1705249059879]: INFO - > non
 14-01-2024 17:17:39 [1705249059880]: INFO - Ce graphique représente les dépense et les recettes de l'état par ministère: [retour]
+14-01-2024 17:25:11 [1705249511566]: INFO - Le programme démarre ...
+14-01-2024 17:25:11 [1705249511567]: INFO - Bienvenue dans l'interface en ligne de commande du programme d'Analayse du CGE
+14-01-2024 17:25:11 [1705249511567]: INFO - ---
+14-01-2024 17:25:11 [1705249511568]: INFO - Affichage des graphiques: [graphique]
+14-01-2024 17:25:11 [1705249511568]: INFO - Options et constantes du programme: [options]
+14-01-2024 17:25:11 [1705249511568]: INFO - Quitter le logiciel: [quitter]
+14-01-2024 17:27:06 [1705249626685]: INFO - Le programme démarre ...
+14-01-2024 17:27:06 [1705249626685]: INFO - Bienvenue dans l'interface en ligne de commande du programme d'Analayse du CGE
+14-01-2024 17:27:06 [1705249626686]: INFO - ---
+14-01-2024 17:27:06 [1705249626686]: INFO - Affichage des graphiques: [graphique]
+14-01-2024 17:27:06 [1705249626686]: INFO - Options et constantes du programme: [options]
+14-01-2024 17:27:06 [1705249626686]: INFO - Quitter le logiciel: [quitter]
+14-01-2024 17:27:13 [1705249633990]: INFO - Le programme démarre ...
+14-01-2024 17:27:13 [1705249633990]: INFO - Bienvenue dans l'interface en ligne de commande du programme d'Analayse du CGE
+14-01-2024 17:27:13 [1705249633990]: INFO - ---
+14-01-2024 17:27:13 [1705249633991]: INFO - Affichage des graphiques: [graphique]
+14-01-2024 17:27:13 [1705249633991]: INFO - Options et constantes du programme: [options]
+14-01-2024 17:27:13 [1705249633991]: INFO - Quitter le logiciel: [quitter]
+14-01-2024 17:39:16 [1705250356934]: INFO - Le programme démarre ...
+14-01-2024 17:39:16 [1705250356935]: INFO - Bienvenue dans l'interface en ligne de commande du programme d'Analayse du CGE
+14-01-2024 17:39:16 [1705250356935]: INFO - ---
+14-01-2024 17:39:16 [1705250356935]: INFO - Affichage des graphiques: [graphique]
+14-01-2024 17:39:16 [1705250356935]: INFO - Options et constantes du programme: [options]
+14-01-2024 17:39:16 [1705250356935]: INFO - Quitter le logiciel: [quitter]
+14-01-2024 17:39:20 [1705250360565]: INFO - > graphique
+14-01-2024 17:39:20 [1705250360566]: INFO - Recettes et dépenses par ministère: [ministere]
+14-01-2024 17:39:20 [1705250360566]: INFO - Dépenses d'un ministère par poste: [poste]
+14-01-2024 17:39:20 [1705250360566]: INFO - Retour: [retour]
+14-01-2024 17:39:22 [1705250362694]: INFO - > ministere
+14-01-2024 17:39:22 [1705250362695]: INFO - Veuillez spécifier une année
+14-01-2024 17:39:22 [1705250362696]: INFO - Années possibles : entre 2012 et 2022
+14-01-2024 17:39:24 [1705250364623]: INFO - > 2012
+14-01-2024 17:39:24 [1705250364624]: INFO - Afficher les dépenses inconnues: [oui]
+14-01-2024 17:39:24 [1705250364624]: INFO - Ne pas afficher les dépenses inconnues: [non]
+14-01-2024 17:39:26 [1705250366286]: INFO - > oui
+14-01-2024 17:39:26 [1705250366286]: INFO - Ce graphique représente les dépense et les recettes de l'état par ministère, en prenant en compte les dépenses sans attribution de ministère: [retour]

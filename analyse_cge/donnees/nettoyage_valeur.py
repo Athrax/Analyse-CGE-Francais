@@ -11,7 +11,7 @@
 #   Vous devriez avoir reçu une copie de la licence avec ce programme. Sinon,
 #   consultez.
 #  ==============================================================================
-from analyse_cge.journalisation.traces import debug, avert
+from journalisation.traces import debug, avert
 
 
 def savon_a_chiffres(*valeurs):

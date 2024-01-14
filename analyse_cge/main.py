@@ -13,13 +13,13 @@
 #  ==============================================================================
 import os.path
 import sys  # système
-from analyse_cge.cli.gestionnaire_arguments import arguments  # arguments
-from analyse_cge.journalisation.traces import info, debug, erreur  # logs
-from analyse_cge.source.gestionnaire_arborescence import parent, grand_parent, chemin
-from analyse_cge.source.detection_donnees import detection_en_tete  # traitement du fichier source
-from analyse_cge.source.gestionnaire_source import regroupe_donnees_ministere
-from analyse_cge.source.gestionnaire_json import sauvegarder_json
-from analyse_cge.cli.menu import cli
+from cli.gestionnaire_arguments import arguments  # arguments
+from journalisation.traces import info, debug, erreur  # logs
+from source.gestionnaire_arborescence import parent, grand_parent, chemin
+from source.detection_donnees import detection_en_tete  # traitement du fichier source
+from source.gestionnaire_source import regroupe_donnees_ministere
+from source.gestionnaire_json import sauvegarder_json
+from cli.menu import cli
 
 
 def run():

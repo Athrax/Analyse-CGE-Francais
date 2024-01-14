@@ -12,11 +12,11 @@
 #   consultez.
 #  ==============================================================================
 import sys
-from analyse_cge.journalisation.traces import info, debug, avert, erreur
-from analyse_cge.source.gestionnaire_json import importer_json
-from analyse_cge.source.gestionnaire_arborescence import chemin, parent, grand_parent
-from analyse_cge.cli.gestionnaire_commande import commande
-from analyse_cge.source.detection_donnees import en_tete_utiles
+from journalisation.traces import info, debug, avert, erreur
+from source.gestionnaire_json import importer_json
+from source.gestionnaire_arborescence import chemin, parent, grand_parent
+from cli.gestionnaire_commande import commande
+from source.detection_donnees import en_tete_utiles
 
 
 def lf(n=1):

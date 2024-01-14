@@ -14,8 +14,8 @@
 from sys import exit
 from datetime import datetime
 import os.path
-from analyse_cge.cli.gestionnaire_arguments import arguments
-from analyse_cge.source.gestionnaire_arborescence import *
+from cli.gestionnaire_arguments import arguments
+from source.gestionnaire_arborescence import *
 
 
 def log(niveau, message, temps_actuel):

@@ -12,7 +12,7 @@
 #   consultez.
 #  ==============================================================================
 import matplotlib.pyplot as plt
-from analyse_cge.journalisation.traces import avert
+from journalisation.traces import avert
 
 
 def affichage_X_Y(X, Y):

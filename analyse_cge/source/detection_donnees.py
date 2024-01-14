@@ -13,7 +13,7 @@
 #  ==============================================================================
 import csv
 from sys import exit
-from analyse_cge.journalisation.traces import *
+from journalisation.traces import *
 
 # On précise les colonne du fichier qui nous intéressent :
 # Les colonnes du fichier source sont détectées à partir de ces entrées

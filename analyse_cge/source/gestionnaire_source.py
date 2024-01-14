@@ -11,9 +11,9 @@
 #   Vous devriez avoir reçu une copie de la licence avec ce programme. Sinon,
 #   consultez.
 #  ==============================================================================
-from analyse_cge.donnees.nettoyage_valeur import savon_a_chiffres, savon_a_lettres
-from analyse_cge.journalisation.traces import *
-from analyse_cge.source.detection_donnees import detection_cellules
+from donnees.nettoyage_valeur import savon_a_chiffres, savon_a_lettres
+from journalisation.traces import *
+from source.detection_donnees import detection_cellules
 
 
 def recuperation_balances(cellules, colonnes):
