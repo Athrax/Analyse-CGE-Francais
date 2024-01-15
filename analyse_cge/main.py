@@ -19,6 +19,7 @@ from source.gestionnaire_arborescence import parent, grand_parent, chemin
 from source.detection_donnees import detection_en_tete  # traitement du fichier source
 from source.gestionnaire_source import regroupe_donnees_ministere
 from source.gestionnaire_json import sauvegarder_json
+from gui.gestionnaire_gui import FenetrePrincipale
 from cli.menu import cli
 
 
@@ -31,13 +32,13 @@ def run():
     # On récupère les valeurs passées en arguments
 
     if not arguments():
-        info("Utilisation : main.py -parametres")
+        info("","Utilisation : main.py -parametres","")
 
         info("Paramètres :",
              "Fichier source : -source \"chemin_vers_fichier_csv\"",
              "Interface en ligne de commande : -nogui",
-             "Mode verbeux : -v")
-        info("Exemple: main.py -source ../docs/source.csv -nogui")
+             "Mode verbeux : -v","")
+        info("Exemple: main.py -source ../docs/source.csv -nogui","")
 
     # Traitement du fichier source :
     # Si un fichier a été passé en argument lors de l'execution du code,
@@ -89,8 +90,9 @@ def run():
     if "-nogui" in arguments():  # Si l'utilisateur lance le programme en ligne de commande
         cli()
     else:
-        #gui()
-        pass
+        info("Lancement de l'interface graphique")
+        app = FenetrePrincipale()
+        app.mainloop()
 
     info("Fin du programme", "Merci d'avoir utiliser notre programme Analyse CGE", "Fait par : Lise Renaud et Aymeric Schaeffer")
     return 0  # Fin du programme

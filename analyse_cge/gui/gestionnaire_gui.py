@@ -251,7 +251,3 @@ class FenetrePrincipale(ctk.CTk):
         self.cadre_principal = CadrePrincipal(self)
         self.cadre_principal.grid(row=1, column=1, padx=(0, 10), pady=(10, 10), sticky="nsew")
         # self.cadre_principal.configure(fg_color="transparent")
-
-
-app = FenetrePrincipale()
-app.mainloop()
