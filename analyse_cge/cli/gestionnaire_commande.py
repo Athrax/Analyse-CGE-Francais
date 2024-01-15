@@ -16,6 +16,7 @@ from journalisation.traces import avert, debug, info
 from donnees.gestionnaire_donnees import trie_croissant_X_Y
 from source.detection_donnees import en_tete_utiles
 from donnees.db import db, db_etat
+from cli.test.camembert_autre  import pie_autre
 
 
 def graph_ministeres(ministere_inconnu, annee, dep_ou_rec="Dépenses"):
@@ -42,7 +43,7 @@ def graph_ministeres(ministere_inconnu, annee, dep_ou_rec="Dépenses"):
 
     try:
         debug("Valeurs du graphique :", valeurs, "labels :", labels)
-        return affichage_pie(valeurs, labels, titre)
+        return affichage_pie(valeurs, labels, titre),pie_autre(valeurs, labels, titre)
 
     except Exception as exc:
         avert(f"Le graphique \"{titre}\" n'a pas pu être créer", exc)
