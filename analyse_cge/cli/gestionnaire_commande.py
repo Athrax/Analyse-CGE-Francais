@@ -175,11 +175,11 @@ def graph_pie_autre(ministere_inconnu, annee, dep_ou_rec="Dépenses"):
 
 def commande(operation, parametre):
     if operation == "graph_ministere_avec_inconnu":
-        graph = affichage_pie_autre(True, parametre)
+        graph = graph_ministeres(True, parametre)
         plt.show()
 
     elif operation == "graph_ministere_sans_inconnu":
-        graph = affichage_pie_autre(False, parametre)
+        graph = graph_ministeres(False, parametre)
         plt.show()
 
     elif operation == "graph_poste_par_ministere":
