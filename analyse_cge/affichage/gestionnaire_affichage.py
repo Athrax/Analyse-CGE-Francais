@@ -15,7 +15,7 @@ import matplotlib.pyplot as plt
 from journalisation.traces import avert
 
 
-def affichage_X_Y(X, Y):
+def affichage_X_Y(X, Y, titre):
     """
     Cette fonction affiche un graph linéaire.
 
@@ -25,6 +25,39 @@ def affichage_X_Y(X, Y):
     """
 
     return
+
+
+def affichage_X_Y1_Y2(X, echelle, Y1, Y2, titre, label_Y1, label_Y2):
+    """
+    Cette fonction affiche un graph linéaire, avec légende, titre, et lignes horizontales
+    Les données sont affichées en millions
+
+    Args:
+        X (list): Valeurs abscisse
+        Y1 (list): Valeurs ordonnées
+        Y2 (list): Valeurs ordonnées
+    """
+    # On génère le graphique en camembert
+    plt.plot(X, Y1, label=label_Y1)
+    plt.plot(X, Y2, label=label_Y2)
+
+    plt.legend()
+    plt.grid(axis='y')
+    plt.xticks(X)
+
+    plt.ylabel('en Milliards €')
+    if echelle == "semilog":
+        # Ajuster les paramètres de l'axe y
+        plt.yscale('log')  # On définit l'échelle logarithmique sur l'axe y
+        plt.locator_params(axis='y', numticks=10)  # Ajustez numticks selon vos besoins
+
+
+    try:
+        plt.title(titre)
+    except Exception as exc:
+        avert("Echec de la génération du titre du graphique", exc)
+
+    return plt
 
 
 def affichage_bar(X, Y, titre):
@@ -56,10 +89,7 @@ def affichage_bar(X, Y, titre):
     except Exception as exc:
         avert("Echec de la génération du titre/étiquettes du graphique", exc)
 
-    try:
-        plt.show()
-    except Exception as exc:
-        avert("Echec de l'affichage du graphique", exc)
+    return plt
 
 
 def affichage_pie(X, Y, titre):
@@ -80,7 +110,4 @@ def affichage_pie(X, Y, titre):
     except Exception as exc:
         avert("Echec de la génération du titre du graphique", exc)
 
-    try:
-        plt.show()
-    except Exception as exc:
-        avert("Echec de l'affichage du graphique", exc)
+    return plt

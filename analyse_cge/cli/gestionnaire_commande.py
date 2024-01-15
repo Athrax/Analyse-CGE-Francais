@@ -12,11 +12,10 @@
 #   consultez.
 #  ==============================================================================
 from affichage.gestionnaire_affichage import *
-from source.gestionnaire_json import importer_json
-from source.gestionnaire_arborescence import chemin, grand_parent
 from journalisation.traces import avert, debug, info
 from donnees.gestionnaire_donnees import trie_croissant_X_Y
-from donnees.db import db
+from source.detection_donnees import en_tete_utiles
+from donnees.db import db, db_etat
 
 
 def graph_ministeres(ministere_inconnu, annee):
@@ -30,7 +29,9 @@ def graph_ministeres(ministere_inconnu, annee):
     titre = f"Dépenses des ministères en {annee}"
 
     try:
-        affichage_pie(valeurs, labels, titre)
+        return affichage_pie(valeurs, labels, titre)
+
+
         debug("Valeurs du graphique :", valeurs, "labels :", labels)
 
     except Exception as exc:
@@ -58,7 +59,7 @@ def graph_postes(annee):
     effacer_console()
     info(f"Ce graphique représente les dépenses du ministère \"{liste_ministeres[entree]}\" par poste en {annee}.")
 
-    titre = (f"Dépense du ministère \"{liste_ministeres[entree]}\" par poste en {annee}")
+    titre = f"Dépense du ministère \"{liste_ministeres[entree]}\" par poste en {annee}"
     X = [clef
          for clef, poste in db[liste_ministeres[entree]]["postes"].items()
          if poste["dépense_annuelle"][annee]]  # On liste les postes
@@ -67,11 +68,8 @@ def graph_postes(annee):
          if poste["dépense_annuelle"][annee]]  # On récupère les dépenses
 
     Xtrie, Ytrie = trie_croissant_X_Y(X, Y)
-    affichage_bar(Xtrie, Ytrie, titre)
+    return affichage_bar(Xtrie, Ytrie, titre)
 
-
-def graphe_temp_ministere():
-    pass
 
 
 def afficher_db():
@@ -79,15 +77,68 @@ def afficher_db():
     print(db)
 
 
+def graph_etat_evolution(echelle="semilog"):
+    labels = [int(annee) for annee in en_tete_utiles[3:]]  # Contient toutes les années
+    sorted(labels, reverse=True)
+    titre = f"Évolution des dépenses et recettes de l'État"
+
+    depenses = [-dep_annee/10e9 for dep_annee in db_etat["dépenses"].values()]
+    recettes = [rec_annee/10e9 for rec_annee in db_etat["recettes"].values()]
+    return affichage_X_Y1_Y2(labels, echelle, depenses, recettes, titre, "Dépenses", "Recettes")
+
+
+def graph_ministere_evolution(ministere=None, echelle="semilog"):
+    # Si aucun ministère n'a été passé en argument (cas de l'interface graphique), le demander en cli
+    if not ministere:
+        # On affiche les choix des ministères
+        liste_ministeres = [*db]  # On créer une liste avec tous les ministères
+        for i in range(len(db)):  # On la parcours associer un nombre a chaque ministère
+            info(f"{liste_ministeres[i]}: [{str(i)}]")
+
+        # On demande le choix du ministere à l'utilisateur
+        from cli.menu import effacer_console  # Pour eviter les boucles d'appel, on importe la fonction ici
+        while True:
+            try:
+                entree = int(input("> "))  # On ne récupère l'entrée que si c'est un nombre
+                break
+            except:
+                pass
+        info("> " + str(entree))
+        ministere = liste_ministeres[entree]
+        effacer_console()
+        info(f"Ce graphique représente les dépense et les recettes du ministère \"{ministere}\" au fil des ans")
+
+    titre = f"Évolution des dépenses et recettes du ministère \n\"{ministere}\""
+    labels = [int(annee) for annee in en_tete_utiles[3:]]  # Contient toutes les années
+    sorted(labels, reverse=True)
+    depenses = [-db[ministere]["dépense_annuelle"][str(annee)]/10e9 for annee in labels]
+    recettes = [db[ministere]["recette_annuelle"][str(annee)]/10e9 for annee in labels]
+    return affichage_X_Y1_Y2(labels, echelle, depenses, recettes, titre, "Dépenses", "Recettes")
+
+
 def commande(operation, parametre):
     if operation == "graph_ministere_avec_inconnu":
-        graph_ministeres(True, parametre)
+        graph = graph_ministeres(True, parametre)
+        graph.show()
 
-    if operation == "graph_ministere_sans_inconnu":
-        graph_ministeres(False, parametre)
+    elif operation == "graph_ministere_sans_inconnu":
+        graph = graph_ministeres(False, parametre)
+        graph.show()
 
-    if operation == "afficher_db":
+    elif operation == "graph_poste_par_ministere":
+        graph = graph_postes(parametre)
+        graph.show()
+
+    elif operation == "graph_etat_evolution_sans_inconnu":
+        graph = graph_etat_evolution()
+        graph.show()
+
+    elif operation == "graph_ministere_evolution_sans_inconnu":
+        graph = graph_ministere_evolution()
+        graph.show()
+
+    elif operation == "afficher_db":
         afficher_db()
 
-    if operation == "graph_poste_par_ministere":
-        graph_postes(parametre)
+    else:
+        pass

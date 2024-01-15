@@ -29608,6 +29608,7 @@ if ministere_l[choix] == 'Etat':
     plt.plot(X, Y, label="dépenses")  # dépenses
 
     plt.title(f"Dépenses et recettes du ministères est l' {ministere_l[choix]}")
+
     plt.legend()
     plt.show()
 else:

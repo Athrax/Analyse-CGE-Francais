@@ -59,6 +59,11 @@ def regroupe_donnees_ministere(fichier_source, colonnes, ligne_traiter=-1):
     for annee in list(colonnes.keys())[3:]:
         dictionnaire_vide_annees[annee] = 0.0
 
+    dictionnaire_etat = {
+        "dépenses": dictionnaire_vide_annees.copy(),
+        "recettes": dictionnaire_vide_annees.copy()
+    }
+
     info("Regroupement du contenu du fichier source par ministère...")
     for ligne in fichier_source:  # On lit ligne après ligne le fichier source
 
@@ -149,11 +154,14 @@ def regroupe_donnees_ministere(fichier_source, colonnes, ligne_traiter=-1):
                 dictionnaire_ministere[cellule_ministere]["postes"][cellule_poste]["recette_annuelle"][annee] += balance
                 dictionnaire_ministere[cellule_ministere]["postes"][cellule_poste]["sous-postes"][cellule_sous_poste][
                     "recette_annuelle"][annee] += balance
+                dictionnaire_etat["recettes"][annee] += balance
             if balance < 0:  # Il s'agit d'une dépense
                 dictionnaire_ministere[cellule_ministere]["dépense_annuelle"][annee] += balance
                 dictionnaire_ministere[cellule_ministere]["postes"][cellule_poste]["dépense_annuelle"][annee] += balance
                 dictionnaire_ministere[cellule_ministere]["postes"][cellule_poste]["sous-postes"][cellule_sous_poste][
                     "dépense_annuelle"][annee] += balance
+                dictionnaire_etat["dépenses"][annee] += balance
+
 
         # debug(f"Nouvel état pour le ministère \"{cellule_ministere}\", ",
         #     f"dépense 2022 : {dictionnaire_ministere[cellule_ministere]['dépense_annuelle']['2022']}, ",
@@ -176,4 +184,4 @@ def regroupe_donnees_ministere(fichier_source, colonnes, ligne_traiter=-1):
             debug("Seul certaines lignes ont été traitées")
             break
 
-    return dictionnaire_ministere
+    return dictionnaire_ministere, dictionnaire_etat

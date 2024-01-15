@@ -18,6 +18,8 @@ from journalisation.traces import *
 # On précise les colonne du fichier qui nous intéressent :
 # Les colonnes du fichier source sont détectées à partir de ces entrées
 # et sont aussi les clés que l'on manipulera par la suite.
+
+# Il est nécessaire de rentrer les années dans l'ordre décroissant, indépendamment de l'odre du fichier source.
 en_tete_utiles = ["postes", "sous-postes", "ministère", "2022", "2021", "2020", "2019", "2018", "2017", "2016",
                   "2015", "2014", "2013", "2012"]
 

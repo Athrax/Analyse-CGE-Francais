@@ -3,6 +3,29 @@
         "graphique": {
             "titre": "Affichage des graphiques",
             "menu": {
+                "evolution": {
+                    "titre": "Évolution au cours des ans des dépenses et recettes",
+                    "menu": {
+                        "etat":{
+                            "titre": "Dépenses et recettes de l'état au fil des ans",
+                            "operation": "graph_etat_evolution_sans_inconnu",
+                            "menu": {
+                                "retour": {
+                                    "titre": "Ce graphique représente les dépense et les recettes de l'état au fil des ans"
+                                }
+                            }
+                        },
+                        "ministere": {
+                            "titre": "Dépenses et recettes d'un ministère au fil des ans",
+                            "operation": "graph_ministere_evolution_sans_inconnu",
+                            "menu": {
+                                "retour": {
+                                    "titre": "Retour"
+                                }
+                            }
+                        }
+                    }
+                },
                 "ministere": {
                     "titre": "Recettes et dépenses par ministère",
                     "menu": {
@@ -16,7 +39,7 @@
                                         "retour": {
                                             "titre": "Ce graphique représente les dépense et les recettes de l'état par ministère, en prenant en compte les dépenses sans attribution de ministère"
                                         }
-                                     }
+                                    }
                                 },
                                 "non": {
                                     "titre": "Ne pas afficher les dépenses inconnues",
@@ -36,16 +59,11 @@
                     "menu": {
                         "choix_annee": {
                             "titre" : "Veuillez spécifier une année",
+                            "operation" : "graph_poste_par_ministere",
                             "menu": {
-                                "liste": {
-                                    "titre": "Veuillez indiquer le ministère souhaité d'après la liste suivante",
-                                    "operation" : "graph_poste_par_ministere",
-                                    "menu": {
-                                        "retour": {
-                                            "titre": "Retour"
+                                "retour": {
+                                    "titre": "Retour"
 
-                                        }
-                                    }
                                 }
                             }
                         }

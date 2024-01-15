@@ -59,9 +59,10 @@ def run():
             colonnes_a_traiter = detection_en_tete(fichier_source)  # On cherche l'indice des colonnes à traiter
 
             # On regroupe les données par ministère
-            db_ministere = regroupe_donnees_ministere(fichier_source, colonnes_a_traiter)  # On créer un dictionnaire
+            db_ministere, db_etat = regroupe_donnees_ministere(fichier_source, colonnes_a_traiter)  # On créer un dictionnaire
             # On enregistre la base de donnée créée
             sauvegarder_json(db_ministere, chemin("donnees", "db_ministere.json"))
+            sauvegarder_json(db_etat, chemin("donnees", "db_etat.json"))
 
         except FileNotFoundError:  # Si le fichier n'est pas trouvé
             erreur("Le fichier {0} est introuvable".format(chemin_fichier_source))
@@ -74,8 +75,8 @@ def run():
     # Si aucun chemin vers un fichier source n'a été donné
     # Alors on importe le dictionnaire déja créé
     else:
-        if not os.path.exists(chemin("donnees", "db_ministere.json")):
-            erreur("Aucune base de donnée n'existe",
+        if not (os.path.exists(chemin("donnees", "db_ministere.json")) and os.path.exists(chemin("donnees", "db_etat.json"))):
+            erreur("Il manque une base de données",
                    "Veuillez executer le logiciel en précisant le chemin vers une source",
                    "Elle doit être au format csv, séparé par des virgules")
             sys.exit(1)  # Erreur générique (non spécifiée)
