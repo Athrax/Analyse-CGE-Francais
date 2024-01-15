@@ -1,6 +1,9 @@
 import matplotlib.pyplot as plt
 import numpy as np
 from matplotlib.patches import ConnectionPatch
+# Mettre dans gestionnaire_commandes
+# from cli.test.camembert_autre  import pie_autre
+# pie_autre(valeurs, labels, titre)
 
 
 #faire le total
