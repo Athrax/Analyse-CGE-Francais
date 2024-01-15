@@ -26,13 +26,13 @@ def pie_autre(valeurs,labels,titre):
     for i in range(len(valeurs)-1):
         if valeurs[i] <= total * 0.05 :
             total_autre += valeurs[i]
-            liste_autre.append(valeurs[i] / total)
+            liste_autre.append(valeurs[i] )
             labels_autre.append(labels[i])
         else:
-            valeurs_1.append(valeurs[i] / total)
+            valeurs_1.append(valeurs[i])
             labels_1.append(labels[i])
 
-    valeurs_1.append(total_autre / total)
+    valeurs_1.append(total_autre)
     labels_1.append("Autre")
     affichage_autre(liste_autre,labels_autre,valeurs_1,labels_1,titre)
 
