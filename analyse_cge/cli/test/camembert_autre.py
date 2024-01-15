@@ -13,11 +13,11 @@ from matplotlib.patches import ConnectionPatch
 
 
 def pie_autre(valeurs,labels,titre):
-    liste_autre=[]
-    labels_autre=[]
+    liste_autre = []
+    labels_autre = []
 
-    valeurs_1=[]
-    labels_1=[]
+    valeurs_1 = []
+    labels_1 = []
     total = 0
     total_autre= 0
 
@@ -89,4 +89,4 @@ def affichage_autre(liste_autre,labels_autre,valeurs_1,labels_1,titre):
 
     plt.show()
 
-
+pie_autre(valeurs,labels,titre)

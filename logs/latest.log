@@ -5714,3 +5714,883 @@
 15-01-2024 15:14:57 [1705328097251]: INFO - Fin du programme
 15-01-2024 15:14:57 [1705328097251]: INFO - Merci d'avoir utiliser notre programme Analyse CGE
 15-01-2024 15:14:57 [1705328097251]: INFO - Fait par : Lise Renaud et Aymeric Schaeffer
+15-01-2024 16:12:42 [1705331562076]: INFO - Le programme démarre ...
+15-01-2024 16:12:42 [1705331562077]: INFO - 
+15-01-2024 16:12:42 [1705331562077]: INFO - Utilisation : main.py -parametres
+15-01-2024 16:12:42 [1705331562077]: INFO - 
+15-01-2024 16:12:42 [1705331562077]: INFO - Paramètres :
+15-01-2024 16:12:42 [1705331562077]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 16:12:42 [1705331562077]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 16:12:42 [1705331562077]: INFO - Mode verbeux : -v
+15-01-2024 16:12:42 [1705331562077]: INFO - 
+15-01-2024 16:12:42 [1705331562078]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 16:12:42 [1705331562078]: INFO - 
+15-01-2024 16:12:42 [1705331562078]: INFO - Lancement de l'interface graphique
+15-01-2024 16:12:51 [1705331571065]: INFO - Fin du programme
+15-01-2024 16:12:51 [1705331571065]: INFO - Merci d'avoir utiliser notre programme Analyse CGE
+15-01-2024 16:12:51 [1705331571065]: INFO - Fait par : Lise Renaud et Aymeric Schaeffer
+15-01-2024 17:38:43 [1705336723531]: INFO - Le programme démarre ...
+15-01-2024 17:38:43 [1705336723532]: INFO - 
+15-01-2024 17:38:43 [1705336723532]: INFO - Utilisation : main.py -parametres
+15-01-2024 17:38:43 [1705336723532]: INFO - 
+15-01-2024 17:38:43 [1705336723533]: INFO - Paramètres :
+15-01-2024 17:38:43 [1705336723533]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 17:38:43 [1705336723533]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 17:38:43 [1705336723533]: INFO - Mode verbeux : -v
+15-01-2024 17:38:43 [1705336723533]: INFO - 
+15-01-2024 17:38:43 [1705336723534]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 17:38:43 [1705336723534]: INFO - 
+15-01-2024 17:38:43 [1705336723534]: INFO - Lancement de l'interface graphique
+15-01-2024 18:18:03 [1705339083506]: INFO - Fin du programme
+15-01-2024 18:18:03 [1705339083506]: INFO - Merci d'avoir utiliser notre programme Analyse CGE
+15-01-2024 18:18:03 [1705339083506]: INFO - Fait par : Lise Renaud et Aymeric Schaeffer
+15-01-2024 19:54:23 [1705344863820]: INFO - Le programme démarre ...
+15-01-2024 19:54:23 [1705344863821]: INFO - 
+15-01-2024 19:54:23 [1705344863821]: INFO - Utilisation : main.py -parametres
+15-01-2024 19:54:23 [1705344863821]: INFO - 
+15-01-2024 19:54:23 [1705344863821]: INFO - Paramètres :
+15-01-2024 19:54:23 [1705344863821]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 19:54:23 [1705344863821]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 19:54:23 [1705344863821]: INFO - Mode verbeux : -v
+15-01-2024 19:54:23 [1705344863821]: INFO - 
+15-01-2024 19:54:23 [1705344863822]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 19:54:23 [1705344863822]: INFO - 
+15-01-2024 19:54:23 [1705344863822]: INFO - Lancement de l'interface graphique
+15-01-2024 19:54:28 [1705344868532]: INFO - Fin du programme
+15-01-2024 19:54:28 [1705344868532]: INFO - Merci d'avoir utiliser notre programme Analyse CGE
+15-01-2024 19:54:28 [1705344868532]: INFO - Fait par : Lise Renaud et Aymeric Schaeffer
+15-01-2024 19:57:00 [1705345020761]: INFO - Le programme démarre ...
+15-01-2024 19:57:00 [1705345020762]: INFO - 
+15-01-2024 19:57:00 [1705345020762]: INFO - Utilisation : main.py -parametres
+15-01-2024 19:57:00 [1705345020762]: INFO - 
+15-01-2024 19:57:00 [1705345020762]: INFO - Paramètres :
+15-01-2024 19:57:00 [1705345020762]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 19:57:00 [1705345020762]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 19:57:00 [1705345020762]: INFO - Mode verbeux : -v
+15-01-2024 19:57:00 [1705345020762]: INFO - 
+15-01-2024 19:57:00 [1705345020763]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 19:57:00 [1705345020763]: INFO - 
+15-01-2024 19:57:00 [1705345020763]: INFO - Lancement de l'interface graphique
+15-01-2024 19:57:05 [1705345025490]: INFO - Fin du programme
+15-01-2024 19:57:05 [1705345025490]: INFO - Merci d'avoir utiliser notre programme Analyse CGE
+15-01-2024 19:57:05 [1705345025490]: INFO - Fait par : Lise Renaud et Aymeric Schaeffer
+15-01-2024 19:57:19 [1705345039793]: INFO - Le programme démarre ...
+15-01-2024 19:57:19 [1705345039794]: INFO - Bienvenue dans l'interface en ligne de commande du programme d'Analayse du CGE
+15-01-2024 19:57:19 [1705345039796]: INFO - ---
+15-01-2024 19:57:19 [1705345039796]: INFO - Affichage des graphiques: [graphique]
+15-01-2024 19:57:19 [1705345039796]: INFO - Options et constantes du programme: [options]
+15-01-2024 19:57:19 [1705345039796]: INFO - Quitter le logiciel: [quitter]
+15-01-2024 19:57:25 [1705345045672]: INFO - > graphique
+15-01-2024 19:57:25 [1705345045672]: INFO - Évolution au cours des ans des dépenses et recettes: [evolution]
+15-01-2024 19:57:25 [1705345045672]: INFO - Recettes et dépenses par ministère: [ministere]
+15-01-2024 19:57:25 [1705345045672]: INFO - Dépenses d'un ministère par poste: [poste]
+15-01-2024 19:57:25 [1705345045672]: INFO - Retour: [retour]
+15-01-2024 19:57:28 [1705345048703]: INFO - > ministere
+15-01-2024 19:57:28 [1705345048703]: INFO - Veuillez spécifier une année
+15-01-2024 19:57:28 [1705345048705]: INFO - Années possibles : entre 2012 et 2022
+15-01-2024 19:57:31 [1705345051088]: INFO - > 2012
+15-01-2024 19:57:31 [1705345051089]: INFO - Afficher les dépenses inconnues: [oui]
+15-01-2024 19:57:31 [1705345051089]: INFO - Ne pas afficher les dépenses inconnues: [non]
+15-01-2024 19:57:32 [1705345052615]: INFO - > non
+15-01-2024 19:57:32 [1705345052616]: INFO - Ce graphique représente les dépense et les recettes de l'état par ministère: [retour]
+15-01-2024 20:06:26 [1705345586943]: INFO - Le programme démarre ...
+15-01-2024 20:06:26 [1705345586944]: INFO - Bienvenue dans l'interface en ligne de commande du programme d'Analayse du CGE
+15-01-2024 20:06:26 [1705345586944]: INFO - ---
+15-01-2024 20:06:26 [1705345586945]: INFO - Affichage des graphiques: [graphique]
+15-01-2024 20:06:26 [1705345586945]: INFO - Options et constantes du programme: [options]
+15-01-2024 20:06:26 [1705345586945]: INFO - Quitter le logiciel: [quitter]
+15-01-2024 20:06:38 [1705345598478]: INFO - > graphique
+15-01-2024 20:06:38 [1705345598478]: INFO - Évolution au cours des ans des dépenses et recettes: [evolution]
+15-01-2024 20:06:38 [1705345598478]: INFO - Recettes et dépenses par ministère: [ministere]
+15-01-2024 20:06:38 [1705345598478]: INFO - Dépenses d'un ministère par poste: [poste]
+15-01-2024 20:06:38 [1705345598478]: INFO - Retour: [retour]
+15-01-2024 20:06:41 [1705345601845]: INFO - > ministere
+15-01-2024 20:06:41 [1705345601848]: INFO - Veuillez spécifier une année
+15-01-2024 20:06:41 [1705345601848]: INFO - Années possibles : entre 2012 et 2022
+15-01-2024 20:06:45 [1705345605453]: INFO - > 2012
+15-01-2024 20:06:45 [1705345605454]: INFO - Afficher les dépenses inconnues: [oui]
+15-01-2024 20:06:45 [1705345605454]: INFO - Ne pas afficher les dépenses inconnues: [non]
+15-01-2024 20:06:47 [1705345607166]: INFO - > non
+15-01-2024 20:06:47 [1705345607166]: INFO - Ce graphique représente les dépense et les recettes de l'état par ministère: [retour]
+15-01-2024 20:06:47 [1705345607225]: AVERTISSEMENT - Le graphique "Dépenses des ministères en 2012" n'a pas pu être créer
+15-01-2024 20:06:47 [1705345607225]: AVERTISSEMENT - 'explode' must be of length 'x'
+15-01-2024 20:08:08 [1705345688923]: INFO - Le programme démarre ...
+15-01-2024 20:08:08 [1705345688924]: INFO - Bienvenue dans l'interface en ligne de commande du programme d'Analayse du CGE
+15-01-2024 20:08:08 [1705345688924]: INFO - ---
+15-01-2024 20:08:08 [1705345688925]: INFO - Affichage des graphiques: [graphique]
+15-01-2024 20:08:08 [1705345688925]: INFO - Options et constantes du programme: [options]
+15-01-2024 20:08:08 [1705345688925]: INFO - Quitter le logiciel: [quitter]
+15-01-2024 20:08:11 [1705345691323]: INFO - > graphique
+15-01-2024 20:08:11 [1705345691323]: INFO - Évolution au cours des ans des dépenses et recettes: [evolution]
+15-01-2024 20:08:11 [1705345691323]: INFO - Recettes et dépenses par ministère: [ministere]
+15-01-2024 20:08:11 [1705345691323]: INFO - Dépenses d'un ministère par poste: [poste]
+15-01-2024 20:08:11 [1705345691323]: INFO - Retour: [retour]
+15-01-2024 20:08:14 [1705345694245]: INFO - > ministere
+15-01-2024 20:08:14 [1705345694245]: INFO - Veuillez spécifier une année
+15-01-2024 20:08:14 [1705345694247]: INFO - Années possibles : entre 2012 et 2022
+15-01-2024 20:08:16 [1705345696884]: INFO - > 2012
+15-01-2024 20:08:16 [1705345696885]: INFO - Afficher les dépenses inconnues: [oui]
+15-01-2024 20:08:16 [1705345696885]: INFO - Ne pas afficher les dépenses inconnues: [non]
+15-01-2024 20:08:18 [1705345698476]: INFO - > non
+15-01-2024 20:08:18 [1705345698476]: INFO - Ce graphique représente les dépense et les recettes de l'état par ministère: [retour]
+15-01-2024 20:09:14 [1705345754746]: INFO - Le programme démarre ...
+15-01-2024 20:09:14 [1705345754746]: INFO - Bienvenue dans l'interface en ligne de commande du programme d'Analayse du CGE
+15-01-2024 20:09:14 [1705345754746]: INFO - ---
+15-01-2024 20:09:14 [1705345754746]: INFO - Affichage des graphiques: [graphique]
+15-01-2024 20:09:14 [1705345754746]: INFO - Options et constantes du programme: [options]
+15-01-2024 20:09:14 [1705345754746]: INFO - Quitter le logiciel: [quitter]
+15-01-2024 20:09:17 [1705345757602]: INFO - > graphique
+15-01-2024 20:09:17 [1705345757602]: INFO - Évolution au cours des ans des dépenses et recettes: [evolution]
+15-01-2024 20:09:17 [1705345757602]: INFO - Recettes et dépenses par ministère: [ministere]
+15-01-2024 20:09:17 [1705345757602]: INFO - Dépenses d'un ministère par poste: [poste]
+15-01-2024 20:09:17 [1705345757602]: INFO - Retour: [retour]
+15-01-2024 20:09:20 [1705345760043]: INFO - > minisetre
+15-01-2024 20:09:20 [1705345760043]: INFO - Évolution au cours des ans des dépenses et recettes: [evolution]
+15-01-2024 20:09:20 [1705345760043]: INFO - Recettes et dépenses par ministère: [ministere]
+15-01-2024 20:09:20 [1705345760043]: INFO - Dépenses d'un ministère par poste: [poste]
+15-01-2024 20:09:20 [1705345760043]: INFO - Retour: [retour]
+15-01-2024 20:09:21 [1705345761897]: INFO - > ministere
+15-01-2024 20:09:21 [1705345761898]: INFO - Veuillez spécifier une année
+15-01-2024 20:09:21 [1705345761900]: INFO - Années possibles : entre 2012 et 2022
+15-01-2024 20:09:23 [1705345763571]: INFO - > 2012
+15-01-2024 20:09:23 [1705345763571]: INFO - Afficher les dépenses inconnues: [oui]
+15-01-2024 20:09:23 [1705345763571]: INFO - Ne pas afficher les dépenses inconnues: [non]
+15-01-2024 20:09:25 [1705345765001]: INFO - > non
+15-01-2024 20:09:25 [1705345765002]: INFO - Ce graphique représente les dépense et les recettes de l'état par ministère: [retour]
+15-01-2024 20:09:49 [1705345789856]: INFO - Le programme démarre ...
+15-01-2024 20:09:49 [1705345789856]: INFO - Bienvenue dans l'interface en ligne de commande du programme d'Analayse du CGE
+15-01-2024 20:09:49 [1705345789857]: INFO - ---
+15-01-2024 20:09:49 [1705345789857]: INFO - Affichage des graphiques: [graphique]
+15-01-2024 20:09:49 [1705345789857]: INFO - Options et constantes du programme: [options]
+15-01-2024 20:09:49 [1705345789857]: INFO - Quitter le logiciel: [quitter]
+15-01-2024 20:09:53 [1705345793361]: INFO - > graphique
+15-01-2024 20:09:53 [1705345793361]: INFO - Évolution au cours des ans des dépenses et recettes: [evolution]
+15-01-2024 20:09:53 [1705345793361]: INFO - Recettes et dépenses par ministère: [ministere]
+15-01-2024 20:09:53 [1705345793361]: INFO - Dépenses d'un ministère par poste: [poste]
+15-01-2024 20:09:53 [1705345793361]: INFO - Retour: [retour]
+15-01-2024 20:09:58 [1705345798115]: INFO - > ministere
+15-01-2024 20:09:58 [1705345798116]: INFO - Veuillez spécifier une année
+15-01-2024 20:09:58 [1705345798117]: INFO - Années possibles : entre 2012 et 2022
+15-01-2024 20:09:59 [1705345799729]: INFO - > 2012
+15-01-2024 20:09:59 [1705345799729]: INFO - Afficher les dépenses inconnues: [oui]
+15-01-2024 20:09:59 [1705345799729]: INFO - Ne pas afficher les dépenses inconnues: [non]
+15-01-2024 20:10:01 [1705345801314]: INFO - > non
+15-01-2024 20:10:01 [1705345801314]: INFO - Ce graphique représente les dépense et les recettes de l'état par ministère: [retour]
+15-01-2024 20:10:35 [1705345835412]: INFO - Le programme démarre ...
+15-01-2024 20:10:35 [1705345835412]: INFO - Bienvenue dans l'interface en ligne de commande du programme d'Analayse du CGE
+15-01-2024 20:10:35 [1705345835413]: INFO - ---
+15-01-2024 20:10:35 [1705345835413]: INFO - Affichage des graphiques: [graphique]
+15-01-2024 20:10:35 [1705345835413]: INFO - Options et constantes du programme: [options]
+15-01-2024 20:10:35 [1705345835413]: INFO - Quitter le logiciel: [quitter]
+15-01-2024 20:10:37 [1705345837800]: INFO - > graphique
+15-01-2024 20:10:37 [1705345837801]: INFO - Évolution au cours des ans des dépenses et recettes: [evolution]
+15-01-2024 20:10:37 [1705345837801]: INFO - Recettes et dépenses par ministère: [ministere]
+15-01-2024 20:10:37 [1705345837801]: INFO - Dépenses d'un ministère par poste: [poste]
+15-01-2024 20:10:37 [1705345837801]: INFO - Retour: [retour]
+15-01-2024 20:10:41 [1705345841800]: INFO - > ministere
+15-01-2024 20:10:41 [1705345841800]: INFO - Veuillez spécifier une année
+15-01-2024 20:10:41 [1705345841802]: INFO - Années possibles : entre 2012 et 2022
+15-01-2024 20:10:43 [1705345843361]: INFO - > 2012
+15-01-2024 20:10:43 [1705345843362]: INFO - Afficher les dépenses inconnues: [oui]
+15-01-2024 20:10:43 [1705345843362]: INFO - Ne pas afficher les dépenses inconnues: [non]
+15-01-2024 20:10:44 [1705345844873]: INFO - > non
+15-01-2024 20:10:44 [1705345844873]: INFO - Ce graphique représente les dépense et les recettes de l'état par ministère: [retour]
+15-01-2024 20:13:20 [1705346000337]: INFO - Le programme démarre ...
+15-01-2024 20:13:20 [1705346000338]: INFO - Bienvenue dans l'interface en ligne de commande du programme d'Analayse du CGE
+15-01-2024 20:13:20 [1705346000338]: INFO - ---
+15-01-2024 20:13:20 [1705346000339]: INFO - Affichage des graphiques: [graphique]
+15-01-2024 20:13:20 [1705346000339]: INFO - Options et constantes du programme: [options]
+15-01-2024 20:13:20 [1705346000339]: INFO - Quitter le logiciel: [quitter]
+15-01-2024 20:13:23 [1705346003525]: INFO - > graphique
+15-01-2024 20:13:23 [1705346003525]: INFO - Évolution au cours des ans des dépenses et recettes: [evolution]
+15-01-2024 20:13:23 [1705346003525]: INFO - Recettes et dépenses par ministère: [ministere]
+15-01-2024 20:13:23 [1705346003525]: INFO - Dépenses d'un ministère par poste: [poste]
+15-01-2024 20:13:23 [1705346003525]: INFO - Retour: [retour]
+15-01-2024 20:13:25 [1705346005941]: INFO - > ministere
+15-01-2024 20:13:25 [1705346005941]: INFO - Veuillez spécifier une année
+15-01-2024 20:13:25 [1705346005943]: INFO - Années possibles : entre 2012 et 2022
+15-01-2024 20:13:28 [1705346008126]: INFO - > 2012
+15-01-2024 20:13:28 [1705346008126]: INFO - Afficher les dépenses inconnues: [oui]
+15-01-2024 20:13:28 [1705346008126]: INFO - Ne pas afficher les dépenses inconnues: [non]
+15-01-2024 20:13:29 [1705346009350]: INFO - > non
+15-01-2024 20:13:29 [1705346009350]: INFO - Ce graphique représente les dépense et les recettes de l'état par ministère: [retour]
+15-01-2024 20:14:22 [1705346062155]: INFO - Le programme démarre ...
+15-01-2024 20:14:22 [1705346062155]: INFO - Bienvenue dans l'interface en ligne de commande du programme d'Analayse du CGE
+15-01-2024 20:14:22 [1705346062156]: INFO - ---
+15-01-2024 20:14:22 [1705346062156]: INFO - Affichage des graphiques: [graphique]
+15-01-2024 20:14:22 [1705346062156]: INFO - Options et constantes du programme: [options]
+15-01-2024 20:14:22 [1705346062156]: INFO - Quitter le logiciel: [quitter]
+15-01-2024 20:14:24 [1705346064981]: INFO - > graphique
+15-01-2024 20:14:24 [1705346064982]: INFO - Évolution au cours des ans des dépenses et recettes: [evolution]
+15-01-2024 20:14:24 [1705346064982]: INFO - Recettes et dépenses par ministère: [ministere]
+15-01-2024 20:14:24 [1705346064982]: INFO - Dépenses d'un ministère par poste: [poste]
+15-01-2024 20:14:24 [1705346064982]: INFO - Retour: [retour]
+15-01-2024 20:14:28 [1705346068095]: INFO - > ministere
+15-01-2024 20:14:28 [1705346068095]: INFO - Veuillez spécifier une année
+15-01-2024 20:14:28 [1705346068097]: INFO - Années possibles : entre 2012 et 2022
+15-01-2024 20:14:31 [1705346071861]: INFO - > 2012
+15-01-2024 20:14:31 [1705346071862]: INFO - Afficher les dépenses inconnues: [oui]
+15-01-2024 20:14:31 [1705346071862]: INFO - Ne pas afficher les dépenses inconnues: [non]
+15-01-2024 20:14:32 [1705346072749]: INFO - > non
+15-01-2024 20:14:32 [1705346072749]: INFO - Ce graphique représente les dépense et les recettes de l'état par ministère: [retour]
+15-01-2024 20:16:15 [1705346175569]: INFO - Le programme démarre ...
+15-01-2024 20:16:15 [1705346175569]: INFO - Bienvenue dans l'interface en ligne de commande du programme d'Analayse du CGE
+15-01-2024 20:16:15 [1705346175569]: INFO - ---
+15-01-2024 20:16:15 [1705346175570]: INFO - Affichage des graphiques: [graphique]
+15-01-2024 20:16:15 [1705346175570]: INFO - Options et constantes du programme: [options]
+15-01-2024 20:16:15 [1705346175570]: INFO - Quitter le logiciel: [quitter]
+15-01-2024 20:16:17 [1705346177458]: INFO - > graphique
+15-01-2024 20:16:17 [1705346177458]: INFO - Évolution au cours des ans des dépenses et recettes: [evolution]
+15-01-2024 20:16:17 [1705346177458]: INFO - Recettes et dépenses par ministère: [ministere]
+15-01-2024 20:16:17 [1705346177458]: INFO - Dépenses d'un ministère par poste: [poste]
+15-01-2024 20:16:17 [1705346177458]: INFO - Retour: [retour]
+15-01-2024 20:16:19 [1705346179841]: INFO - > ministere
+15-01-2024 20:16:19 [1705346179842]: INFO - Veuillez spécifier une année
+15-01-2024 20:16:19 [1705346179843]: INFO - Années possibles : entre 2012 et 2022
+15-01-2024 20:16:21 [1705346181674]: INFO - > 2012
+15-01-2024 20:16:21 [1705346181675]: INFO - Afficher les dépenses inconnues: [oui]
+15-01-2024 20:16:21 [1705346181675]: INFO - Ne pas afficher les dépenses inconnues: [non]
+15-01-2024 20:16:24 [1705346184899]: INFO - > non
+15-01-2024 20:16:24 [1705346184900]: INFO - Ce graphique représente les dépense et les recettes de l'état par ministère: [retour]
+15-01-2024 20:17:25 [1705346245738]: INFO - Le programme démarre ...
+15-01-2024 20:17:25 [1705346245739]: INFO - Bienvenue dans l'interface en ligne de commande du programme d'Analayse du CGE
+15-01-2024 20:17:25 [1705346245739]: INFO - ---
+15-01-2024 20:17:25 [1705346245739]: INFO - Affichage des graphiques: [graphique]
+15-01-2024 20:17:25 [1705346245739]: INFO - Options et constantes du programme: [options]
+15-01-2024 20:17:25 [1705346245739]: INFO - Quitter le logiciel: [quitter]
+15-01-2024 20:17:28 [1705346248505]: INFO - > graphique
+15-01-2024 20:17:28 [1705346248505]: INFO - Évolution au cours des ans des dépenses et recettes: [evolution]
+15-01-2024 20:17:28 [1705346248505]: INFO - Recettes et dépenses par ministère: [ministere]
+15-01-2024 20:17:28 [1705346248505]: INFO - Dépenses d'un ministère par poste: [poste]
+15-01-2024 20:17:28 [1705346248505]: INFO - Retour: [retour]
+15-01-2024 20:17:30 [1705346250402]: INFO - > evolution
+15-01-2024 20:17:30 [1705346250402]: INFO - Dépenses et recettes de l'état au fil des ans: [etat]
+15-01-2024 20:17:30 [1705346250402]: INFO - Dépenses et recettes d'un ministère au fil des ans: [ministere]
+15-01-2024 20:17:33 [1705346253049]: INFO - > retour
+15-01-2024 20:17:33 [1705346253050]: INFO - Évolution au cours des ans des dépenses et recettes: [evolution]
+15-01-2024 20:17:33 [1705346253050]: INFO - Recettes et dépenses par ministère: [ministere]
+15-01-2024 20:17:33 [1705346253050]: INFO - Dépenses d'un ministère par poste: [poste]
+15-01-2024 20:17:33 [1705346253050]: INFO - Retour: [retour]
+15-01-2024 20:17:35 [1705346255945]: INFO - > ministere
+15-01-2024 20:17:35 [1705346255945]: INFO - Veuillez spécifier une année
+15-01-2024 20:17:35 [1705346255947]: INFO - Années possibles : entre 2012 et 2022
+15-01-2024 20:17:38 [1705346258594]: INFO - > 2012
+15-01-2024 20:17:38 [1705346258594]: INFO - Afficher les dépenses inconnues: [oui]
+15-01-2024 20:17:38 [1705346258594]: INFO - Ne pas afficher les dépenses inconnues: [non]
+15-01-2024 20:17:39 [1705346259969]: INFO - > non
+15-01-2024 20:17:39 [1705346259970]: INFO - Ce graphique représente les dépense et les recettes de l'état par ministère: [retour]
+15-01-2024 20:17:47 [1705346267700]: INFO - Le programme démarre ...
+15-01-2024 20:17:47 [1705346267701]: INFO - Bienvenue dans l'interface en ligne de commande du programme d'Analayse du CGE
+15-01-2024 20:17:47 [1705346267701]: INFO - ---
+15-01-2024 20:17:47 [1705346267701]: INFO - Affichage des graphiques: [graphique]
+15-01-2024 20:17:47 [1705346267701]: INFO - Options et constantes du programme: [options]
+15-01-2024 20:17:47 [1705346267701]: INFO - Quitter le logiciel: [quitter]
+15-01-2024 20:17:49 [1705346269912]: INFO - > graphique
+15-01-2024 20:17:49 [1705346269913]: INFO - Évolution au cours des ans des dépenses et recettes: [evolution]
+15-01-2024 20:17:49 [1705346269913]: INFO - Recettes et dépenses par ministère: [ministere]
+15-01-2024 20:17:49 [1705346269913]: INFO - Dépenses d'un ministère par poste: [poste]
+15-01-2024 20:17:49 [1705346269913]: INFO - Retour: [retour]
+15-01-2024 20:17:53 [1705346273450]: INFO - > ministere
+15-01-2024 20:17:53 [1705346273450]: INFO - Veuillez spécifier une année
+15-01-2024 20:17:53 [1705346273452]: INFO - Années possibles : entre 2012 et 2022
+15-01-2024 20:17:56 [1705346276945]: INFO - > 2012
+15-01-2024 20:17:56 [1705346276945]: INFO - Afficher les dépenses inconnues: [oui]
+15-01-2024 20:17:56 [1705346276945]: INFO - Ne pas afficher les dépenses inconnues: [non]
+15-01-2024 20:17:58 [1705346278320]: INFO - > non
+15-01-2024 20:17:58 [1705346278320]: INFO - Ce graphique représente les dépense et les recettes de l'état par ministère: [retour]
+15-01-2024 20:19:40 [1705346380036]: INFO - Le programme démarre ...
+15-01-2024 20:19:40 [1705346380037]: INFO - Bienvenue dans l'interface en ligne de commande du programme d'Analayse du CGE
+15-01-2024 20:19:40 [1705346380038]: INFO - ---
+15-01-2024 20:19:40 [1705346380038]: INFO - Affichage des graphiques: [graphique]
+15-01-2024 20:19:40 [1705346380038]: INFO - Options et constantes du programme: [options]
+15-01-2024 20:19:40 [1705346380038]: INFO - Quitter le logiciel: [quitter]
+15-01-2024 20:19:42 [1705346382190]: INFO - > graphique
+15-01-2024 20:19:42 [1705346382191]: INFO - Évolution au cours des ans des dépenses et recettes: [evolution]
+15-01-2024 20:19:42 [1705346382191]: INFO - Recettes et dépenses par ministère: [ministere]
+15-01-2024 20:19:42 [1705346382191]: INFO - Dépenses d'un ministère par poste: [poste]
+15-01-2024 20:19:42 [1705346382191]: INFO - Retour: [retour]
+15-01-2024 20:19:44 [1705346384318]: INFO - > ministere
+15-01-2024 20:19:44 [1705346384318]: INFO - Veuillez spécifier une année
+15-01-2024 20:19:44 [1705346384320]: INFO - Années possibles : entre 2012 et 2022
+15-01-2024 20:19:46 [1705346386455]: INFO - > 2012
+15-01-2024 20:19:46 [1705346386456]: INFO - Afficher les dépenses inconnues: [oui]
+15-01-2024 20:19:46 [1705346386456]: INFO - Ne pas afficher les dépenses inconnues: [non]
+15-01-2024 20:19:47 [1705346387192]: INFO - > non
+15-01-2024 20:19:47 [1705346387192]: INFO - Ce graphique représente les dépense et les recettes de l'état par ministère: [retour]
+15-01-2024 20:19:58 [1705346398658]: INFO - Le programme démarre ...
+15-01-2024 20:19:58 [1705346398659]: INFO - Bienvenue dans l'interface en ligne de commande du programme d'Analayse du CGE
+15-01-2024 20:19:58 [1705346398659]: INFO - ---
+15-01-2024 20:19:58 [1705346398659]: INFO - Affichage des graphiques: [graphique]
+15-01-2024 20:19:58 [1705346398659]: INFO - Options et constantes du programme: [options]
+15-01-2024 20:19:58 [1705346398659]: INFO - Quitter le logiciel: [quitter]
+15-01-2024 20:20:01 [1705346401998]: INFO - > graphique
+15-01-2024 20:20:01 [1705346401998]: INFO - Évolution au cours des ans des dépenses et recettes: [evolution]
+15-01-2024 20:20:01 [1705346401998]: INFO - Recettes et dépenses par ministère: [ministere]
+15-01-2024 20:20:01 [1705346401998]: INFO - Dépenses d'un ministère par poste: [poste]
+15-01-2024 20:20:01 [1705346401998]: INFO - Retour: [retour]
+15-01-2024 20:20:03 [1705346403951]: INFO - > ministere
+15-01-2024 20:20:03 [1705346403951]: INFO - Veuillez spécifier une année
+15-01-2024 20:20:03 [1705346403953]: INFO - Années possibles : entre 2012 et 2022
+15-01-2024 20:20:05 [1705346405534]: INFO - > 2012
+15-01-2024 20:20:05 [1705346405534]: INFO - Afficher les dépenses inconnues: [oui]
+15-01-2024 20:20:05 [1705346405534]: INFO - Ne pas afficher les dépenses inconnues: [non]
+15-01-2024 20:20:06 [1705346406742]: INFO - > non
+15-01-2024 20:20:06 [1705346406742]: INFO - Ce graphique représente les dépense et les recettes de l'état par ministère: [retour]
+15-01-2024 20:20:36 [1705346436672]: INFO - Le programme démarre ...
+15-01-2024 20:20:36 [1705346436673]: INFO - 
+15-01-2024 20:20:36 [1705346436673]: INFO - Utilisation : main.py -parametres
+15-01-2024 20:20:36 [1705346436673]: INFO - 
+15-01-2024 20:20:36 [1705346436673]: INFO - Paramètres :
+15-01-2024 20:20:36 [1705346436673]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 20:20:36 [1705346436673]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 20:20:36 [1705346436673]: INFO - Mode verbeux : -v
+15-01-2024 20:20:36 [1705346436673]: INFO - 
+15-01-2024 20:20:36 [1705346436674]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 20:20:36 [1705346436674]: INFO - 
+15-01-2024 20:20:36 [1705346436675]: INFO - Lancement de l'interface graphique
+15-01-2024 20:21:42 [1705346502545]: INFO - Le programme démarre ...
+15-01-2024 20:21:42 [1705346502545]: INFO - 
+15-01-2024 20:21:42 [1705346502545]: INFO - Utilisation : main.py -parametres
+15-01-2024 20:21:42 [1705346502545]: INFO - 
+15-01-2024 20:21:42 [1705346502546]: INFO - Paramètres :
+15-01-2024 20:21:42 [1705346502546]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 20:21:42 [1705346502546]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 20:21:42 [1705346502546]: INFO - Mode verbeux : -v
+15-01-2024 20:21:42 [1705346502546]: INFO - 
+15-01-2024 20:21:42 [1705346502546]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 20:21:42 [1705346502546]: INFO - 
+15-01-2024 20:21:42 [1705346502546]: INFO - Lancement de l'interface graphique
+15-01-2024 20:22:59 [1705346579245]: INFO - Le programme démarre ...
+15-01-2024 20:22:59 [1705346579246]: INFO - 
+15-01-2024 20:22:59 [1705346579246]: INFO - Utilisation : main.py -parametres
+15-01-2024 20:22:59 [1705346579246]: INFO - 
+15-01-2024 20:22:59 [1705346579247]: INFO - Paramètres :
+15-01-2024 20:22:59 [1705346579247]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 20:22:59 [1705346579247]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 20:22:59 [1705346579247]: INFO - Mode verbeux : -v
+15-01-2024 20:22:59 [1705346579247]: INFO - 
+15-01-2024 20:22:59 [1705346579248]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 20:22:59 [1705346579248]: INFO - 
+15-01-2024 20:22:59 [1705346579249]: INFO - Lancement de l'interface graphique
+15-01-2024 20:27:36 [1705346856110]: INFO - Le programme démarre ...
+15-01-2024 20:27:36 [1705346856112]: INFO - 
+15-01-2024 20:27:36 [1705346856112]: INFO - Utilisation : main.py -parametres
+15-01-2024 20:27:36 [1705346856112]: INFO - 
+15-01-2024 20:27:36 [1705346856112]: INFO - Paramètres :
+15-01-2024 20:27:36 [1705346856112]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 20:27:36 [1705346856112]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 20:27:36 [1705346856112]: INFO - Mode verbeux : -v
+15-01-2024 20:27:36 [1705346856112]: INFO - 
+15-01-2024 20:27:36 [1705346856113]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 20:27:36 [1705346856113]: INFO - 
+15-01-2024 20:27:36 [1705346856113]: INFO - Lancement de l'interface graphique
+15-01-2024 20:27:59 [1705346879731]: INFO - Le programme démarre ...
+15-01-2024 20:27:59 [1705346879732]: INFO - 
+15-01-2024 20:27:59 [1705346879732]: INFO - Utilisation : main.py -parametres
+15-01-2024 20:27:59 [1705346879732]: INFO - 
+15-01-2024 20:27:59 [1705346879732]: INFO - Paramètres :
+15-01-2024 20:27:59 [1705346879732]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 20:27:59 [1705346879732]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 20:27:59 [1705346879732]: INFO - Mode verbeux : -v
+15-01-2024 20:27:59 [1705346879732]: INFO - 
+15-01-2024 20:27:59 [1705346879733]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 20:27:59 [1705346879733]: INFO - 
+15-01-2024 20:27:59 [1705346879733]: INFO - Lancement de l'interface graphique
+15-01-2024 20:28:30 [1705346910208]: INFO - Le programme démarre ...
+15-01-2024 20:28:30 [1705346910208]: INFO - 
+15-01-2024 20:28:30 [1705346910208]: INFO - Utilisation : main.py -parametres
+15-01-2024 20:28:30 [1705346910208]: INFO - 
+15-01-2024 20:28:30 [1705346910209]: INFO - Paramètres :
+15-01-2024 20:28:30 [1705346910209]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 20:28:30 [1705346910209]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 20:28:30 [1705346910209]: INFO - Mode verbeux : -v
+15-01-2024 20:28:30 [1705346910209]: INFO - 
+15-01-2024 20:28:30 [1705346910209]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 20:28:30 [1705346910209]: INFO - 
+15-01-2024 20:28:30 [1705346910209]: INFO - Lancement de l'interface graphique
+15-01-2024 20:28:37 [1705346917499]: INFO - Le programme démarre ...
+15-01-2024 20:28:37 [1705346917500]: INFO - 
+15-01-2024 20:28:37 [1705346917500]: INFO - Utilisation : main.py -parametres
+15-01-2024 20:28:37 [1705346917500]: INFO - 
+15-01-2024 20:28:37 [1705346917500]: INFO - Paramètres :
+15-01-2024 20:28:37 [1705346917500]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 20:28:37 [1705346917500]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 20:28:37 [1705346917500]: INFO - Mode verbeux : -v
+15-01-2024 20:28:37 [1705346917500]: INFO - 
+15-01-2024 20:28:37 [1705346917501]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 20:28:37 [1705346917501]: INFO - 
+15-01-2024 20:28:37 [1705346917501]: INFO - Lancement de l'interface graphique
+15-01-2024 20:28:48 [1705346928580]: INFO - Le programme démarre ...
+15-01-2024 20:28:48 [1705346928580]: INFO - 
+15-01-2024 20:28:48 [1705346928580]: INFO - Utilisation : main.py -parametres
+15-01-2024 20:28:48 [1705346928580]: INFO - 
+15-01-2024 20:28:48 [1705346928581]: INFO - Paramètres :
+15-01-2024 20:28:48 [1705346928581]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 20:28:48 [1705346928581]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 20:28:48 [1705346928581]: INFO - Mode verbeux : -v
+15-01-2024 20:28:48 [1705346928581]: INFO - 
+15-01-2024 20:28:48 [1705346928581]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 20:28:48 [1705346928581]: INFO - 
+15-01-2024 20:28:48 [1705346928582]: INFO - Lancement de l'interface graphique
+15-01-2024 20:28:55 [1705346935724]: INFO - Le programme démarre ...
+15-01-2024 20:28:55 [1705346935724]: INFO - 
+15-01-2024 20:28:55 [1705346935724]: INFO - Utilisation : main.py -parametres
+15-01-2024 20:28:55 [1705346935724]: INFO - 
+15-01-2024 20:28:55 [1705346935725]: INFO - Paramètres :
+15-01-2024 20:28:55 [1705346935725]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 20:28:55 [1705346935725]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 20:28:55 [1705346935725]: INFO - Mode verbeux : -v
+15-01-2024 20:28:55 [1705346935725]: INFO - 
+15-01-2024 20:28:55 [1705346935725]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 20:28:55 [1705346935725]: INFO - 
+15-01-2024 20:28:55 [1705346935726]: INFO - Lancement de l'interface graphique
+15-01-2024 20:29:05 [1705346945693]: INFO - Le programme démarre ...
+15-01-2024 20:29:05 [1705346945694]: INFO - 
+15-01-2024 20:29:05 [1705346945694]: INFO - Utilisation : main.py -parametres
+15-01-2024 20:29:05 [1705346945694]: INFO - 
+15-01-2024 20:29:05 [1705346945694]: INFO - Paramètres :
+15-01-2024 20:29:05 [1705346945694]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 20:29:05 [1705346945694]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 20:29:05 [1705346945694]: INFO - Mode verbeux : -v
+15-01-2024 20:29:05 [1705346945694]: INFO - 
+15-01-2024 20:29:05 [1705346945695]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 20:29:05 [1705346945695]: INFO - 
+15-01-2024 20:29:05 [1705346945695]: INFO - Lancement de l'interface graphique
+15-01-2024 20:29:17 [1705346957197]: INFO - Le programme démarre ...
+15-01-2024 20:29:17 [1705346957197]: INFO - 
+15-01-2024 20:29:17 [1705346957197]: INFO - Utilisation : main.py -parametres
+15-01-2024 20:29:17 [1705346957197]: INFO - 
+15-01-2024 20:29:17 [1705346957198]: INFO - Paramètres :
+15-01-2024 20:29:17 [1705346957198]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 20:29:17 [1705346957198]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 20:29:17 [1705346957198]: INFO - Mode verbeux : -v
+15-01-2024 20:29:17 [1705346957198]: INFO - 
+15-01-2024 20:29:17 [1705346957198]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 20:29:17 [1705346957198]: INFO - 
+15-01-2024 20:29:17 [1705346957199]: INFO - Lancement de l'interface graphique
+15-01-2024 20:29:25 [1705346965559]: INFO - Le programme démarre ...
+15-01-2024 20:29:25 [1705346965560]: INFO - 
+15-01-2024 20:29:25 [1705346965560]: INFO - Utilisation : main.py -parametres
+15-01-2024 20:29:25 [1705346965560]: INFO - 
+15-01-2024 20:29:25 [1705346965560]: INFO - Paramètres :
+15-01-2024 20:29:25 [1705346965560]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 20:29:25 [1705346965560]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 20:29:25 [1705346965560]: INFO - Mode verbeux : -v
+15-01-2024 20:29:25 [1705346965560]: INFO - 
+15-01-2024 20:29:25 [1705346965561]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 20:29:25 [1705346965561]: INFO - 
+15-01-2024 20:29:25 [1705346965561]: INFO - Lancement de l'interface graphique
+15-01-2024 20:29:50 [1705346990679]: INFO - Le programme démarre ...
+15-01-2024 20:29:50 [1705346990680]: INFO - 
+15-01-2024 20:29:50 [1705346990680]: INFO - Utilisation : main.py -parametres
+15-01-2024 20:29:50 [1705346990680]: INFO - 
+15-01-2024 20:29:50 [1705346990680]: INFO - Paramètres :
+15-01-2024 20:29:50 [1705346990680]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 20:29:50 [1705346990680]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 20:29:50 [1705346990680]: INFO - Mode verbeux : -v
+15-01-2024 20:29:50 [1705346990680]: INFO - 
+15-01-2024 20:29:50 [1705346990681]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 20:29:50 [1705346990681]: INFO - 
+15-01-2024 20:29:50 [1705346990681]: INFO - Lancement de l'interface graphique
+15-01-2024 20:29:51 [1705346991869]: AVERTISSEMENT - Echec de la génération du titre du graphique
+15-01-2024 20:29:51 [1705346991869]: AVERTISSEMENT - list index out of range
+15-01-2024 20:29:58 [1705346998850]: AVERTISSEMENT - Echec de la génération du titre du graphique
+15-01-2024 20:29:58 [1705346998850]: AVERTISSEMENT - list index out of range
+15-01-2024 20:30:01 [1705347001099]: AVERTISSEMENT - Echec de la génération du titre du graphique
+15-01-2024 20:30:01 [1705347001099]: AVERTISSEMENT - list index out of range
+15-01-2024 20:30:03 [1705347003239]: AVERTISSEMENT - Echec de la génération du titre du graphique
+15-01-2024 20:30:03 [1705347003239]: AVERTISSEMENT - list index out of range
+15-01-2024 20:30:07 [1705347007119]: AVERTISSEMENT - Echec de la génération du titre du graphique
+15-01-2024 20:30:07 [1705347007119]: AVERTISSEMENT - list index out of range
+15-01-2024 20:30:08 [1705347008401]: AVERTISSEMENT - Echec de la génération du titre du graphique
+15-01-2024 20:30:08 [1705347008401]: AVERTISSEMENT - list index out of range
+15-01-2024 20:30:10 [1705347010180]: AVERTISSEMENT - Echec de la génération du titre du graphique
+15-01-2024 20:30:10 [1705347010180]: AVERTISSEMENT - list index out of range
+15-01-2024 20:30:12 [1705347012834]: AVERTISSEMENT - Echec de la génération du titre du graphique
+15-01-2024 20:30:12 [1705347012834]: AVERTISSEMENT - list index out of range
+15-01-2024 20:30:16 [1705347016316]: AVERTISSEMENT - Echec de la génération du titre du graphique
+15-01-2024 20:30:16 [1705347016316]: AVERTISSEMENT - list index out of range
+15-01-2024 20:30:58 [1705347058997]: INFO - Le programme démarre ...
+15-01-2024 20:30:58 [1705347058998]: INFO - 
+15-01-2024 20:30:58 [1705347058998]: INFO - Utilisation : main.py -parametres
+15-01-2024 20:30:58 [1705347058998]: INFO - 
+15-01-2024 20:30:58 [1705347058998]: INFO - Paramètres :
+15-01-2024 20:30:58 [1705347058998]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 20:30:58 [1705347058998]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 20:30:58 [1705347058998]: INFO - Mode verbeux : -v
+15-01-2024 20:30:58 [1705347058998]: INFO - 
+15-01-2024 20:30:58 [1705347058999]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 20:30:58 [1705347058999]: INFO - 
+15-01-2024 20:30:58 [1705347058999]: INFO - Lancement de l'interface graphique
+15-01-2024 20:31:10 [1705347070552]: INFO - Le programme démarre ...
+15-01-2024 20:31:10 [1705347070552]: INFO - 
+15-01-2024 20:31:10 [1705347070552]: INFO - Utilisation : main.py -parametres
+15-01-2024 20:31:10 [1705347070552]: INFO - 
+15-01-2024 20:31:10 [1705347070553]: INFO - Paramètres :
+15-01-2024 20:31:10 [1705347070553]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 20:31:10 [1705347070553]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 20:31:10 [1705347070553]: INFO - Mode verbeux : -v
+15-01-2024 20:31:10 [1705347070553]: INFO - 
+15-01-2024 20:31:10 [1705347070553]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 20:31:10 [1705347070553]: INFO - 
+15-01-2024 20:31:10 [1705347070554]: INFO - Lancement de l'interface graphique
+15-01-2024 20:31:20 [1705347080238]: INFO - Le programme démarre ...
+15-01-2024 20:31:20 [1705347080238]: INFO - 
+15-01-2024 20:31:20 [1705347080238]: INFO - Utilisation : main.py -parametres
+15-01-2024 20:31:20 [1705347080238]: INFO - 
+15-01-2024 20:31:20 [1705347080238]: INFO - Paramètres :
+15-01-2024 20:31:20 [1705347080238]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 20:31:20 [1705347080238]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 20:31:20 [1705347080238]: INFO - Mode verbeux : -v
+15-01-2024 20:31:20 [1705347080238]: INFO - 
+15-01-2024 20:31:20 [1705347080239]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 20:31:20 [1705347080239]: INFO - 
+15-01-2024 20:31:20 [1705347080239]: INFO - Lancement de l'interface graphique
+15-01-2024 20:32:08 [1705347128427]: INFO - Le programme démarre ...
+15-01-2024 20:32:08 [1705347128427]: INFO - 
+15-01-2024 20:32:08 [1705347128427]: INFO - Utilisation : main.py -parametres
+15-01-2024 20:32:08 [1705347128427]: INFO - 
+15-01-2024 20:32:08 [1705347128428]: INFO - Paramètres :
+15-01-2024 20:32:08 [1705347128428]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 20:32:08 [1705347128428]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 20:32:08 [1705347128428]: INFO - Mode verbeux : -v
+15-01-2024 20:32:08 [1705347128428]: INFO - 
+15-01-2024 20:32:08 [1705347128428]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 20:32:08 [1705347128428]: INFO - 
+15-01-2024 20:32:08 [1705347128429]: INFO - Lancement de l'interface graphique
+15-01-2024 20:32:33 [1705347153050]: INFO - Le programme démarre ...
+15-01-2024 20:32:33 [1705347153050]: INFO - 
+15-01-2024 20:32:33 [1705347153050]: INFO - Utilisation : main.py -parametres
+15-01-2024 20:32:33 [1705347153050]: INFO - 
+15-01-2024 20:32:33 [1705347153051]: INFO - Paramètres :
+15-01-2024 20:32:33 [1705347153051]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 20:32:33 [1705347153051]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 20:32:33 [1705347153051]: INFO - Mode verbeux : -v
+15-01-2024 20:32:33 [1705347153051]: INFO - 
+15-01-2024 20:32:33 [1705347153052]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 20:32:33 [1705347153052]: INFO - 
+15-01-2024 20:32:33 [1705347153052]: INFO - Lancement de l'interface graphique
+15-01-2024 20:32:40 [1705347160098]: INFO - Le programme démarre ...
+15-01-2024 20:32:40 [1705347160098]: INFO - 
+15-01-2024 20:32:40 [1705347160098]: INFO - Utilisation : main.py -parametres
+15-01-2024 20:32:40 [1705347160098]: INFO - 
+15-01-2024 20:32:40 [1705347160098]: INFO - Paramètres :
+15-01-2024 20:32:40 [1705347160098]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 20:32:40 [1705347160098]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 20:32:40 [1705347160098]: INFO - Mode verbeux : -v
+15-01-2024 20:32:40 [1705347160098]: INFO - 
+15-01-2024 20:32:40 [1705347160099]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 20:32:40 [1705347160099]: INFO - 
+15-01-2024 20:32:40 [1705347160099]: INFO - Lancement de l'interface graphique
+15-01-2024 20:32:48 [1705347168680]: INFO - Le programme démarre ...
+15-01-2024 20:32:48 [1705347168680]: INFO - 
+15-01-2024 20:32:48 [1705347168680]: INFO - Utilisation : main.py -parametres
+15-01-2024 20:32:48 [1705347168680]: INFO - 
+15-01-2024 20:32:48 [1705347168681]: INFO - Paramètres :
+15-01-2024 20:32:48 [1705347168681]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 20:32:48 [1705347168681]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 20:32:48 [1705347168681]: INFO - Mode verbeux : -v
+15-01-2024 20:32:48 [1705347168681]: INFO - 
+15-01-2024 20:32:48 [1705347168681]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 20:32:48 [1705347168681]: INFO - 
+15-01-2024 20:32:48 [1705347168682]: INFO - Lancement de l'interface graphique
+15-01-2024 20:32:49 [1705347169898]: AVERTISSEMENT - Le graphique "Dépenses des ministères en 2022" n'a pas pu être créer
+15-01-2024 20:32:49 [1705347169898]: AVERTISSEMENT - bottom cannot be >= top
+15-01-2024 20:32:55 [1705347175439]: INFO - Le programme démarre ...
+15-01-2024 20:32:55 [1705347175439]: INFO - 
+15-01-2024 20:32:55 [1705347175439]: INFO - Utilisation : main.py -parametres
+15-01-2024 20:32:55 [1705347175439]: INFO - 
+15-01-2024 20:32:55 [1705347175440]: INFO - Paramètres :
+15-01-2024 20:32:55 [1705347175440]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 20:32:55 [1705347175440]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 20:32:55 [1705347175440]: INFO - Mode verbeux : -v
+15-01-2024 20:32:55 [1705347175440]: INFO - 
+15-01-2024 20:32:55 [1705347175441]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 20:32:55 [1705347175441]: INFO - 
+15-01-2024 20:32:55 [1705347175441]: INFO - Lancement de l'interface graphique
+15-01-2024 20:33:04 [1705347184252]: INFO - Le programme démarre ...
+15-01-2024 20:33:04 [1705347184253]: INFO - 
+15-01-2024 20:33:04 [1705347184253]: INFO - Utilisation : main.py -parametres
+15-01-2024 20:33:04 [1705347184253]: INFO - 
+15-01-2024 20:33:04 [1705347184253]: INFO - Paramètres :
+15-01-2024 20:33:04 [1705347184253]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 20:33:04 [1705347184253]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 20:33:04 [1705347184253]: INFO - Mode verbeux : -v
+15-01-2024 20:33:04 [1705347184253]: INFO - 
+15-01-2024 20:33:04 [1705347184254]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 20:33:04 [1705347184254]: INFO - 
+15-01-2024 20:33:04 [1705347184254]: INFO - Lancement de l'interface graphique
+15-01-2024 20:33:24 [1705347204466]: INFO - Le programme démarre ...
+15-01-2024 20:33:24 [1705347204466]: INFO - 
+15-01-2024 20:33:24 [1705347204466]: INFO - Utilisation : main.py -parametres
+15-01-2024 20:33:24 [1705347204466]: INFO - 
+15-01-2024 20:33:24 [1705347204467]: INFO - Paramètres :
+15-01-2024 20:33:24 [1705347204467]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 20:33:24 [1705347204467]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 20:33:24 [1705347204467]: INFO - Mode verbeux : -v
+15-01-2024 20:33:24 [1705347204467]: INFO - 
+15-01-2024 20:33:24 [1705347204467]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 20:33:24 [1705347204467]: INFO - 
+15-01-2024 20:33:24 [1705347204468]: INFO - Lancement de l'interface graphique
+15-01-2024 20:33:38 [1705347218054]: INFO - Le programme démarre ...
+15-01-2024 20:33:38 [1705347218054]: INFO - 
+15-01-2024 20:33:38 [1705347218054]: INFO - Utilisation : main.py -parametres
+15-01-2024 20:33:38 [1705347218054]: INFO - 
+15-01-2024 20:33:38 [1705347218055]: INFO - Paramètres :
+15-01-2024 20:33:38 [1705347218055]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 20:33:38 [1705347218055]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 20:33:38 [1705347218055]: INFO - Mode verbeux : -v
+15-01-2024 20:33:38 [1705347218055]: INFO - 
+15-01-2024 20:33:38 [1705347218056]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 20:33:38 [1705347218056]: INFO - 
+15-01-2024 20:33:38 [1705347218056]: INFO - Lancement de l'interface graphique
+15-01-2024 20:34:19 [1705347259892]: INFO - Le programme démarre ...
+15-01-2024 20:34:19 [1705347259893]: INFO - 
+15-01-2024 20:34:19 [1705347259893]: INFO - Utilisation : main.py -parametres
+15-01-2024 20:34:19 [1705347259893]: INFO - 
+15-01-2024 20:34:19 [1705347259893]: INFO - Paramètres :
+15-01-2024 20:34:19 [1705347259893]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 20:34:19 [1705347259893]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 20:34:19 [1705347259893]: INFO - Mode verbeux : -v
+15-01-2024 20:34:19 [1705347259893]: INFO - 
+15-01-2024 20:34:19 [1705347259894]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 20:34:19 [1705347259894]: INFO - 
+15-01-2024 20:34:19 [1705347259894]: INFO - Lancement de l'interface graphique
+15-01-2024 20:35:21 [1705347321882]: INFO - Le programme démarre ...
+15-01-2024 20:35:21 [1705347321883]: INFO - 
+15-01-2024 20:35:21 [1705347321883]: INFO - Utilisation : main.py -parametres
+15-01-2024 20:35:21 [1705347321883]: INFO - 
+15-01-2024 20:35:21 [1705347321883]: INFO - Paramètres :
+15-01-2024 20:35:21 [1705347321883]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 20:35:21 [1705347321883]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 20:35:21 [1705347321883]: INFO - Mode verbeux : -v
+15-01-2024 20:35:21 [1705347321883]: INFO - 
+15-01-2024 20:35:21 [1705347321884]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 20:35:21 [1705347321884]: INFO - 
+15-01-2024 20:35:21 [1705347321884]: INFO - Lancement de l'interface graphique
+15-01-2024 20:35:31 [1705347331072]: INFO - Le programme démarre ...
+15-01-2024 20:35:31 [1705347331072]: INFO - 
+15-01-2024 20:35:31 [1705347331072]: INFO - Utilisation : main.py -parametres
+15-01-2024 20:35:31 [1705347331072]: INFO - 
+15-01-2024 20:35:31 [1705347331073]: INFO - Paramètres :
+15-01-2024 20:35:31 [1705347331073]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 20:35:31 [1705347331073]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 20:35:31 [1705347331073]: INFO - Mode verbeux : -v
+15-01-2024 20:35:31 [1705347331073]: INFO - 
+15-01-2024 20:35:31 [1705347331074]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 20:35:31 [1705347331074]: INFO - 
+15-01-2024 20:35:31 [1705347331074]: INFO - Lancement de l'interface graphique
+15-01-2024 20:35:40 [1705347340429]: INFO - Le programme démarre ...
+15-01-2024 20:35:40 [1705347340429]: INFO - 
+15-01-2024 20:35:40 [1705347340429]: INFO - Utilisation : main.py -parametres
+15-01-2024 20:35:40 [1705347340429]: INFO - 
+15-01-2024 20:35:40 [1705347340430]: INFO - Paramètres :
+15-01-2024 20:35:40 [1705347340430]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 20:35:40 [1705347340430]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 20:35:40 [1705347340430]: INFO - Mode verbeux : -v
+15-01-2024 20:35:40 [1705347340430]: INFO - 
+15-01-2024 20:35:40 [1705347340430]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 20:35:40 [1705347340430]: INFO - 
+15-01-2024 20:35:40 [1705347340431]: INFO - Lancement de l'interface graphique
+15-01-2024 20:35:51 [1705347351175]: INFO - Le programme démarre ...
+15-01-2024 20:35:51 [1705347351175]: INFO - 
+15-01-2024 20:35:51 [1705347351175]: INFO - Utilisation : main.py -parametres
+15-01-2024 20:35:51 [1705347351175]: INFO - 
+15-01-2024 20:35:51 [1705347351176]: INFO - Paramètres :
+15-01-2024 20:35:51 [1705347351176]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 20:35:51 [1705347351176]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 20:35:51 [1705347351176]: INFO - Mode verbeux : -v
+15-01-2024 20:35:51 [1705347351176]: INFO - 
+15-01-2024 20:35:51 [1705347351177]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 20:35:51 [1705347351177]: INFO - 
+15-01-2024 20:35:51 [1705347351177]: INFO - Lancement de l'interface graphique
+15-01-2024 20:35:52 [1705347352378]: AVERTISSEMENT - Echec de la génération du titre du graphique
+15-01-2024 20:35:52 [1705347352378]: AVERTISSEMENT - Text.set_position() takes 2 positional arguments but 3 were given
+15-01-2024 20:35:58 [1705347358897]: INFO - Le programme démarre ...
+15-01-2024 20:35:58 [1705347358897]: INFO - 
+15-01-2024 20:35:58 [1705347358897]: INFO - Utilisation : main.py -parametres
+15-01-2024 20:35:58 [1705347358897]: INFO - 
+15-01-2024 20:35:58 [1705347358898]: INFO - Paramètres :
+15-01-2024 20:35:58 [1705347358898]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 20:35:58 [1705347358898]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 20:35:58 [1705347358898]: INFO - Mode verbeux : -v
+15-01-2024 20:35:58 [1705347358898]: INFO - 
+15-01-2024 20:35:58 [1705347358898]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 20:35:58 [1705347358898]: INFO - 
+15-01-2024 20:35:58 [1705347358899]: INFO - Lancement de l'interface graphique
+15-01-2024 20:36:00 [1705347360044]: AVERTISSEMENT - Echec de la génération du titre du graphique
+15-01-2024 20:36:00 [1705347360044]: AVERTISSEMENT - Text.set_position() takes 2 positional arguments but 3 were given
+15-01-2024 20:36:11 [1705347371080]: INFO - Le programme démarre ...
+15-01-2024 20:36:11 [1705347371081]: INFO - 
+15-01-2024 20:36:11 [1705347371081]: INFO - Utilisation : main.py -parametres
+15-01-2024 20:36:11 [1705347371081]: INFO - 
+15-01-2024 20:36:11 [1705347371081]: INFO - Paramètres :
+15-01-2024 20:36:11 [1705347371081]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 20:36:11 [1705347371081]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 20:36:11 [1705347371081]: INFO - Mode verbeux : -v
+15-01-2024 20:36:11 [1705347371081]: INFO - 
+15-01-2024 20:36:11 [1705347371082]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 20:36:11 [1705347371082]: INFO - 
+15-01-2024 20:36:11 [1705347371082]: INFO - Lancement de l'interface graphique
+15-01-2024 20:36:12 [1705347372253]: AVERTISSEMENT - Echec de la génération du titre du graphique
+15-01-2024 20:36:12 [1705347372253]: AVERTISSEMENT - 'int' object is not subscriptable
+15-01-2024 20:36:18 [1705347378101]: INFO - Le programme démarre ...
+15-01-2024 20:36:18 [1705347378101]: INFO - 
+15-01-2024 20:36:18 [1705347378101]: INFO - Utilisation : main.py -parametres
+15-01-2024 20:36:18 [1705347378101]: INFO - 
+15-01-2024 20:36:18 [1705347378102]: INFO - Paramètres :
+15-01-2024 20:36:18 [1705347378102]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 20:36:18 [1705347378102]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 20:36:18 [1705347378102]: INFO - Mode verbeux : -v
+15-01-2024 20:36:18 [1705347378102]: INFO - 
+15-01-2024 20:36:18 [1705347378102]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 20:36:18 [1705347378102]: INFO - 
+15-01-2024 20:36:18 [1705347378103]: INFO - Lancement de l'interface graphique
+15-01-2024 20:36:19 [1705347379325]: AVERTISSEMENT - Echec de la génération du titre du graphique
+15-01-2024 20:36:19 [1705347379325]: AVERTISSEMENT - 'float' object is not subscriptable
+15-01-2024 20:36:24 [1705347384923]: INFO - Le programme démarre ...
+15-01-2024 20:36:24 [1705347384923]: INFO - 
+15-01-2024 20:36:24 [1705347384923]: INFO - Utilisation : main.py -parametres
+15-01-2024 20:36:24 [1705347384923]: INFO - 
+15-01-2024 20:36:24 [1705347384924]: INFO - Paramètres :
+15-01-2024 20:36:24 [1705347384924]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 20:36:24 [1705347384924]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 20:36:24 [1705347384924]: INFO - Mode verbeux : -v
+15-01-2024 20:36:24 [1705347384924]: INFO - 
+15-01-2024 20:36:24 [1705347384925]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 20:36:24 [1705347384925]: INFO - 
+15-01-2024 20:36:24 [1705347384925]: INFO - Lancement de l'interface graphique
+15-01-2024 20:36:26 [1705347386115]: AVERTISSEMENT - Echec de la génération du titre du graphique
+15-01-2024 20:36:26 [1705347386115]: AVERTISSEMENT - Text.set_position() takes 2 positional arguments but 3 were given
+15-01-2024 20:37:10 [1705347430453]: INFO - Le programme démarre ...
+15-01-2024 20:37:10 [1705347430454]: INFO - 
+15-01-2024 20:37:10 [1705347430454]: INFO - Utilisation : main.py -parametres
+15-01-2024 20:37:10 [1705347430454]: INFO - 
+15-01-2024 20:37:10 [1705347430454]: INFO - Paramètres :
+15-01-2024 20:37:10 [1705347430454]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 20:37:10 [1705347430454]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 20:37:10 [1705347430454]: INFO - Mode verbeux : -v
+15-01-2024 20:37:10 [1705347430454]: INFO - 
+15-01-2024 20:37:10 [1705347430455]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 20:37:10 [1705347430455]: INFO - 
+15-01-2024 20:37:10 [1705347430456]: INFO - Lancement de l'interface graphique
+15-01-2024 20:38:23 [1705347503763]: INFO - Le programme démarre ...
+15-01-2024 20:38:23 [1705347503763]: INFO - 
+15-01-2024 20:38:23 [1705347503763]: INFO - Utilisation : main.py -parametres
+15-01-2024 20:38:23 [1705347503763]: INFO - 
+15-01-2024 20:38:23 [1705347503764]: INFO - Paramètres :
+15-01-2024 20:38:23 [1705347503764]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 20:38:23 [1705347503764]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 20:38:23 [1705347503764]: INFO - Mode verbeux : -v
+15-01-2024 20:38:23 [1705347503764]: INFO - 
+15-01-2024 20:38:23 [1705347503764]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 20:38:23 [1705347503764]: INFO - 
+15-01-2024 20:38:23 [1705347503765]: INFO - Lancement de l'interface graphique
+15-01-2024 20:38:31 [1705347511624]: INFO - Le programme démarre ...
+15-01-2024 20:38:31 [1705347511625]: INFO - 
+15-01-2024 20:38:31 [1705347511625]: INFO - Utilisation : main.py -parametres
+15-01-2024 20:38:31 [1705347511625]: INFO - 
+15-01-2024 20:38:31 [1705347511625]: INFO - Paramètres :
+15-01-2024 20:38:31 [1705347511625]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 20:38:31 [1705347511625]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 20:38:31 [1705347511625]: INFO - Mode verbeux : -v
+15-01-2024 20:38:31 [1705347511625]: INFO - 
+15-01-2024 20:38:31 [1705347511626]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 20:38:31 [1705347511626]: INFO - 
+15-01-2024 20:38:31 [1705347511626]: INFO - Lancement de l'interface graphique
+15-01-2024 20:38:39 [1705347519669]: INFO - Le programme démarre ...
+15-01-2024 20:38:39 [1705347519669]: INFO - 
+15-01-2024 20:38:39 [1705347519669]: INFO - Utilisation : main.py -parametres
+15-01-2024 20:38:39 [1705347519669]: INFO - 
+15-01-2024 20:38:39 [1705347519670]: INFO - Paramètres :
+15-01-2024 20:38:39 [1705347519670]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 20:38:39 [1705347519670]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 20:38:39 [1705347519670]: INFO - Mode verbeux : -v
+15-01-2024 20:38:39 [1705347519670]: INFO - 
+15-01-2024 20:38:39 [1705347519671]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 20:38:39 [1705347519671]: INFO - 
+15-01-2024 20:38:39 [1705347519671]: INFO - Lancement de l'interface graphique
+15-01-2024 20:38:54 [1705347534578]: INFO - Le programme démarre ...
+15-01-2024 20:38:54 [1705347534579]: INFO - 
+15-01-2024 20:38:54 [1705347534579]: INFO - Utilisation : main.py -parametres
+15-01-2024 20:38:54 [1705347534579]: INFO - 
+15-01-2024 20:38:54 [1705347534580]: INFO - Paramètres :
+15-01-2024 20:38:54 [1705347534580]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 20:38:54 [1705347534580]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 20:38:54 [1705347534580]: INFO - Mode verbeux : -v
+15-01-2024 20:38:54 [1705347534580]: INFO - 
+15-01-2024 20:38:54 [1705347534581]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 20:38:54 [1705347534581]: INFO - 
+15-01-2024 20:38:54 [1705347534581]: INFO - Lancement de l'interface graphique
+15-01-2024 20:39:03 [1705347543105]: INFO - Le programme démarre ...
+15-01-2024 20:39:03 [1705347543106]: INFO - 
+15-01-2024 20:39:03 [1705347543106]: INFO - Utilisation : main.py -parametres
+15-01-2024 20:39:03 [1705347543106]: INFO - 
+15-01-2024 20:39:03 [1705347543106]: INFO - Paramètres :
+15-01-2024 20:39:03 [1705347543106]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 20:39:03 [1705347543106]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 20:39:03 [1705347543106]: INFO - Mode verbeux : -v
+15-01-2024 20:39:03 [1705347543106]: INFO - 
+15-01-2024 20:39:03 [1705347543107]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 20:39:03 [1705347543107]: INFO - 
+15-01-2024 20:39:03 [1705347543107]: INFO - Lancement de l'interface graphique
+15-01-2024 20:39:10 [1705347550560]: INFO - Le programme démarre ...
+15-01-2024 20:39:10 [1705347550560]: INFO - 
+15-01-2024 20:39:10 [1705347550560]: INFO - Utilisation : main.py -parametres
+15-01-2024 20:39:10 [1705347550560]: INFO - 
+15-01-2024 20:39:10 [1705347550560]: INFO - Paramètres :
+15-01-2024 20:39:10 [1705347550560]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 20:39:10 [1705347550560]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 20:39:10 [1705347550560]: INFO - Mode verbeux : -v
+15-01-2024 20:39:10 [1705347550560]: INFO - 
+15-01-2024 20:39:10 [1705347550561]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 20:39:10 [1705347550561]: INFO - 
+15-01-2024 20:39:10 [1705347550561]: INFO - Lancement de l'interface graphique
+15-01-2024 20:39:17 [1705347557034]: INFO - Le programme démarre ...
+15-01-2024 20:39:17 [1705347557034]: INFO - 
+15-01-2024 20:39:17 [1705347557034]: INFO - Utilisation : main.py -parametres
+15-01-2024 20:39:17 [1705347557034]: INFO - 
+15-01-2024 20:39:17 [1705347557035]: INFO - Paramètres :
+15-01-2024 20:39:17 [1705347557035]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 20:39:17 [1705347557035]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 20:39:17 [1705347557035]: INFO - Mode verbeux : -v
+15-01-2024 20:39:17 [1705347557035]: INFO - 
+15-01-2024 20:39:17 [1705347557036]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 20:39:17 [1705347557036]: INFO - 
+15-01-2024 20:39:17 [1705347557036]: INFO - Lancement de l'interface graphique
+15-01-2024 20:41:37 [1705347697315]: INFO - Le programme démarre ...
+15-01-2024 20:41:37 [1705347697315]: INFO - 
+15-01-2024 20:41:37 [1705347697315]: INFO - Utilisation : main.py -parametres
+15-01-2024 20:41:37 [1705347697315]: INFO - 
+15-01-2024 20:41:37 [1705347697316]: INFO - Paramètres :
+15-01-2024 20:41:37 [1705347697316]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 20:41:37 [1705347697316]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 20:41:37 [1705347697316]: INFO - Mode verbeux : -v
+15-01-2024 20:41:37 [1705347697316]: INFO - 
+15-01-2024 20:41:37 [1705347697316]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 20:41:37 [1705347697316]: INFO - 
+15-01-2024 20:41:37 [1705347697317]: INFO - Lancement de l'interface graphique
+15-01-2024 20:41:45 [1705347705945]: INFO - Le programme démarre ...
+15-01-2024 20:41:45 [1705347705945]: INFO - 
+15-01-2024 20:41:45 [1705347705945]: INFO - Utilisation : main.py -parametres
+15-01-2024 20:41:45 [1705347705945]: INFO - 
+15-01-2024 20:41:45 [1705347705945]: INFO - Paramètres :
+15-01-2024 20:41:45 [1705347705945]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 20:41:45 [1705347705945]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 20:41:45 [1705347705945]: INFO - Mode verbeux : -v
+15-01-2024 20:41:45 [1705347705945]: INFO - 
+15-01-2024 20:41:45 [1705347705946]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 20:41:45 [1705347705946]: INFO - 
+15-01-2024 20:41:45 [1705347705946]: INFO - Lancement de l'interface graphique
+15-01-2024 20:41:57 [1705347717433]: INFO - Le programme démarre ...
+15-01-2024 20:41:57 [1705347717434]: INFO - 
+15-01-2024 20:41:57 [1705347717434]: INFO - Utilisation : main.py -parametres
+15-01-2024 20:41:57 [1705347717434]: INFO - 
+15-01-2024 20:41:57 [1705347717434]: INFO - Paramètres :
+15-01-2024 20:41:57 [1705347717434]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 20:41:57 [1705347717434]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 20:41:57 [1705347717434]: INFO - Mode verbeux : -v
+15-01-2024 20:41:57 [1705347717434]: INFO - 
+15-01-2024 20:41:57 [1705347717435]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 20:41:57 [1705347717435]: INFO - 
+15-01-2024 20:41:57 [1705347717435]: INFO - Lancement de l'interface graphique
