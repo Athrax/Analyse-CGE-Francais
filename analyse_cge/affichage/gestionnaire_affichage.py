@@ -118,7 +118,7 @@ def affichage_pie(X, Y, titre):
 
     # On génère le graphique en camembert
     fig, ax = plt.subplots(figsize=(15, 10), dpi=100)
-    explode = np.linspace(0, 0.3, len(X))
+    explode = np.linspace(0, 0.5, len(X))
     ax.pie(X, labels=Y, labeldistance=1.2, explode=explode, autopct='%1.1f%%', startangle=180)
     ax.legend(loc='best', bbox_to_anchor=(1, 0.5))
     fig.subplots_adjust(top=0.8)

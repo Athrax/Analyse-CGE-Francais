@@ -6594,3 +6594,30 @@
 15-01-2024 20:41:57 [1705347717435]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
 15-01-2024 20:41:57 [1705347717435]: INFO - 
 15-01-2024 20:41:57 [1705347717435]: INFO - Lancement de l'interface graphique
+15-01-2024 20:43:03 [1705347783346]: INFO - Le programme démarre ...
+15-01-2024 20:43:03 [1705347783346]: INFO - 
+15-01-2024 20:43:03 [1705347783346]: INFO - Utilisation : main.py -parametres
+15-01-2024 20:43:03 [1705347783346]: INFO - 
+15-01-2024 20:43:03 [1705347783347]: INFO - Paramètres :
+15-01-2024 20:43:03 [1705347783347]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 20:43:03 [1705347783347]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 20:43:03 [1705347783347]: INFO - Mode verbeux : -v
+15-01-2024 20:43:03 [1705347783347]: INFO - 
+15-01-2024 20:43:03 [1705347783347]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 20:43:03 [1705347783347]: INFO - 
+15-01-2024 20:43:03 [1705347783348]: INFO - Lancement de l'interface graphique
+15-01-2024 20:43:29 [1705347809614]: INFO - Le programme démarre ...
+15-01-2024 20:43:29 [1705347809614]: INFO - 
+15-01-2024 20:43:29 [1705347809614]: INFO - Utilisation : main.py -parametres
+15-01-2024 20:43:29 [1705347809614]: INFO - 
+15-01-2024 20:43:29 [1705347809615]: INFO - Paramètres :
+15-01-2024 20:43:29 [1705347809615]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 20:43:29 [1705347809615]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 20:43:29 [1705347809615]: INFO - Mode verbeux : -v
+15-01-2024 20:43:29 [1705347809615]: INFO - 
+15-01-2024 20:43:29 [1705347809615]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 20:43:29 [1705347809615]: INFO - 
+15-01-2024 20:43:29 [1705347809615]: INFO - Lancement de l'interface graphique
+15-01-2024 20:44:42 [1705347882746]: INFO - Fin du programme
+15-01-2024 20:44:42 [1705347882746]: INFO - Merci d'avoir utiliser notre programme Analyse CGE
+15-01-2024 20:44:42 [1705347882746]: INFO - Fait par : Lise Renaud et Aymeric Schaeffer
