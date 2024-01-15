@@ -5597,3 +5597,120 @@
 15-01-2024 13:39:37 [1705322377275]: INFO - Fin du programme
 15-01-2024 13:39:37 [1705322377275]: INFO - Merci d'avoir utiliser notre programme Analyse CGE
 15-01-2024 13:39:37 [1705322377275]: INFO - Fait par : Lise Renaud et Aymeric Schaeffer
+15-01-2024 13:40:15 [1705322415300]: INFO - Le programme démarre ...
+15-01-2024 13:40:15 [1705322415301]: INFO - 
+15-01-2024 13:40:15 [1705322415301]: INFO - Utilisation : main.py -parametres
+15-01-2024 13:40:15 [1705322415301]: INFO - 
+15-01-2024 13:40:15 [1705322415303]: INFO - Paramètres :
+15-01-2024 13:40:15 [1705322415303]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 13:40:15 [1705322415303]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 13:40:15 [1705322415303]: INFO - Mode verbeux : -v
+15-01-2024 13:40:15 [1705322415303]: INFO - 
+15-01-2024 13:40:15 [1705322415303]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 13:40:15 [1705322415303]: INFO - 
+15-01-2024 13:40:15 [1705322415303]: INFO - Lancement de l'interface graphique
+15-01-2024 13:41:47 [1705322507446]: INFO - Fin du programme
+15-01-2024 13:41:47 [1705322507446]: INFO - Merci d'avoir utiliser notre programme Analyse CGE
+15-01-2024 13:41:47 [1705322507446]: INFO - Fait par : Lise Renaud et Aymeric Schaeffer
+15-01-2024 14:28:10 [1705325290060]: INFO - Le programme démarre ...
+15-01-2024 14:28:10 [1705325290061]: INFO - 
+15-01-2024 14:28:10 [1705325290061]: INFO - Utilisation : main.py -parametres
+15-01-2024 14:28:10 [1705325290061]: INFO - 
+15-01-2024 14:28:10 [1705325290061]: INFO - Paramètres :
+15-01-2024 14:28:10 [1705325290061]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 14:28:10 [1705325290061]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 14:28:10 [1705325290061]: INFO - Mode verbeux : -v
+15-01-2024 14:28:10 [1705325290061]: INFO - 
+15-01-2024 14:28:10 [1705325290063]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 14:28:10 [1705325290063]: INFO - 
+15-01-2024 14:28:10 [1705325290063]: INFO - Lancement de l'interface graphique
+15-01-2024 15:03:58 [1705327438298]: INFO - Le programme démarre ...
+15-01-2024 15:03:58 [1705327438300]: INFO - Recherche du fichier passé en argument : source/source.csv
+15-01-2024 15:03:58 [1705327438300]: INFO - Fichier ouvert avec succès
+15-01-2024 15:03:58 [1705327438300]: INFO - Création de la base de donnée à partir de la source ...
+15-01-2024 15:03:58 [1705327438301]: INFO - Regroupement du contenu du fichier source par ministère...
+15-01-2024 15:03:58 [1705327438301]: INFO - Création d'un nouveau ministère Économie, finances et relance
+15-01-2024 15:03:58 [1705327438302]: INFO - Création d'un nouveau ministère Non renseigné
+15-01-2024 15:03:58 [1705327438304]: INFO - Création d'un nouveau ministère Justice
+15-01-2024 15:03:58 [1705327438305]: INFO - Création d'un nouveau ministère Transition écologique
+15-01-2024 15:03:58 [1705327438306]: INFO - Création d'un nouveau ministère Intérieur
+15-01-2024 15:03:58 [1705327438310]: INFO - Création d'un nouveau ministère Agriculture et alimentation
+15-01-2024 15:03:58 [1705327438319]: INFO - Création d'un nouveau ministère Travail, emploi et insertion
+15-01-2024 15:03:58 [1705327438320]: INFO - Création d'un nouveau ministère Cohésion des territoires et relations avec les collectivités territoriales
+15-01-2024 15:03:58 [1705327438322]: INFO - Création d'un nouveau ministère Services du Premier ministre
+15-01-2024 15:03:58 [1705327438329]: INFO - Création d'un nouveau ministère Outre-Mer
+15-01-2024 15:03:58 [1705327438336]: INFO - Création d'un nouveau ministère Culture
+15-01-2024 15:03:58 [1705327438337]: INFO - Création d'un nouveau ministère Armées
+15-01-2024 15:03:58 [1705327438345]: INFO - Création d'un nouveau ministère Mer
+15-01-2024 15:03:58 [1705327438349]: INFO - Création d'un nouveau ministère Éducation nationale, jeunesse et sports
+15-01-2024 15:03:58 [1705327438350]: INFO - Création d'un nouveau ministère Transformation et de la fonction publiques
+15-01-2024 15:03:58 [1705327438355]: INFO - Création d'un nouveau ministère Solidarités et santé
+15-01-2024 15:03:58 [1705327438366]: INFO - Création d'un nouveau ministère Enseignement supérieur, recherche et innovation
+15-01-2024 15:03:58 [1705327438379]: INFO - Création d'un nouveau ministère Europe et affaires étrangères
+15-01-2024 15:04:11 [1705327451305]: INFO - Bienvenue dans l'interface en ligne de commande du programme d'Analayse du CGE
+15-01-2024 15:04:11 [1705327451306]: INFO - ---
+15-01-2024 15:04:11 [1705327451306]: INFO - Affichage des graphiques: [graphique]
+15-01-2024 15:04:11 [1705327451306]: INFO - Options et constantes du programme: [options]
+15-01-2024 15:04:11 [1705327451306]: INFO - Quitter le logiciel: [quitter]
+15-01-2024 15:05:54 [1705327554959]: INFO - Le programme démarre ...
+15-01-2024 15:05:54 [1705327554959]: INFO - Recherche du fichier passé en argument : source/source.csv
+15-01-2024 15:05:54 [1705327554961]: INFO - Fichier ouvert avec succès
+15-01-2024 15:05:54 [1705327554961]: INFO - Création de la base de donnée à partir de la source ...
+15-01-2024 15:05:54 [1705327554961]: INFO - Regroupement du contenu du fichier source par ministère...
+15-01-2024 15:05:54 [1705327554962]: INFO - Création d'un nouveau ministère Économie, finances et relance
+15-01-2024 15:05:54 [1705327554962]: INFO - Création d'un nouveau ministère Non renseigné
+15-01-2024 15:05:54 [1705327554965]: INFO - Création d'un nouveau ministère Justice
+15-01-2024 15:05:54 [1705327554965]: INFO - Création d'un nouveau ministère Transition écologique
+15-01-2024 15:05:54 [1705327554966]: INFO - Création d'un nouveau ministère Intérieur
+15-01-2024 15:05:54 [1705327554969]: INFO - Création d'un nouveau ministère Agriculture et alimentation
+15-01-2024 15:05:54 [1705327554977]: INFO - Création d'un nouveau ministère Travail, emploi et insertion
+15-01-2024 15:05:54 [1705327554977]: INFO - Création d'un nouveau ministère Cohésion des territoires et relations avec les collectivités territoriales
+15-01-2024 15:05:54 [1705327554979]: INFO - Création d'un nouveau ministère Services du Premier ministre
+15-01-2024 15:05:54 [1705327554985]: INFO - Création d'un nouveau ministère Outre-Mer
+15-01-2024 15:05:54 [1705327554989]: INFO - Création d'un nouveau ministère Culture
+15-01-2024 15:05:54 [1705327554991]: INFO - Création d'un nouveau ministère Armées
+15-01-2024 15:05:54 [1705327554996]: INFO - Création d'un nouveau ministère Mer
+15-01-2024 15:05:54 [1705327554999]: INFO - Création d'un nouveau ministère Éducation nationale, jeunesse et sports
+15-01-2024 15:05:55 [1705327555000]: INFO - Création d'un nouveau ministère Transformation et de la fonction publiques
+15-01-2024 15:05:55 [1705327555004]: INFO - Création d'un nouveau ministère Solidarités et santé
+15-01-2024 15:05:55 [1705327555013]: INFO - Création d'un nouveau ministère Enseignement supérieur, recherche et innovation
+15-01-2024 15:05:55 [1705327555029]: INFO - Création d'un nouveau ministère Europe et affaires étrangères
+15-01-2024 15:06:06 [1705327566309]: INFO - Le programme démarre ...
+15-01-2024 15:06:06 [1705327566309]: INFO - 
+15-01-2024 15:06:06 [1705327566309]: INFO - Utilisation : main.py -parametres
+15-01-2024 15:06:06 [1705327566309]: INFO - 
+15-01-2024 15:06:06 [1705327566311]: INFO - Paramètres :
+15-01-2024 15:06:06 [1705327566311]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 15:06:06 [1705327566311]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 15:06:06 [1705327566311]: INFO - Mode verbeux : -v
+15-01-2024 15:06:06 [1705327566311]: INFO - 
+15-01-2024 15:06:06 [1705327566312]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 15:06:06 [1705327566312]: INFO - 
+15-01-2024 15:06:06 [1705327566312]: INFO - Lancement de l'interface graphique
+15-01-2024 15:11:11 [1705327871826]: INFO - Le programme démarre ...
+15-01-2024 15:11:11 [1705327871828]: INFO - 
+15-01-2024 15:11:11 [1705327871828]: INFO - Utilisation : main.py -parametres
+15-01-2024 15:11:11 [1705327871828]: INFO - 
+15-01-2024 15:11:11 [1705327871829]: INFO - Paramètres :
+15-01-2024 15:11:11 [1705327871829]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 15:11:11 [1705327871829]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 15:11:11 [1705327871829]: INFO - Mode verbeux : -v
+15-01-2024 15:11:11 [1705327871829]: INFO - 
+15-01-2024 15:11:11 [1705327871829]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 15:11:11 [1705327871829]: INFO - 
+15-01-2024 15:11:11 [1705327871830]: INFO - Lancement de l'interface graphique
+15-01-2024 15:14:42 [1705328082119]: INFO - Le programme démarre ...
+15-01-2024 15:14:42 [1705328082121]: INFO - 
+15-01-2024 15:14:42 [1705328082121]: INFO - Utilisation : main.py -parametres
+15-01-2024 15:14:42 [1705328082121]: INFO - 
+15-01-2024 15:14:42 [1705328082122]: INFO - Paramètres :
+15-01-2024 15:14:42 [1705328082122]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 15:14:42 [1705328082122]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 15:14:42 [1705328082122]: INFO - Mode verbeux : -v
+15-01-2024 15:14:42 [1705328082122]: INFO - 
+15-01-2024 15:14:42 [1705328082122]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 15:14:42 [1705328082122]: INFO - 
+15-01-2024 15:14:42 [1705328082122]: INFO - Lancement de l'interface graphique
+15-01-2024 15:14:57 [1705328097251]: INFO - Fin du programme
+15-01-2024 15:14:57 [1705328097251]: INFO - Merci d'avoir utiliser notre programme Analyse CGE
+15-01-2024 15:14:57 [1705328097251]: INFO - Fait par : Lise Renaud et Aymeric Schaeffer

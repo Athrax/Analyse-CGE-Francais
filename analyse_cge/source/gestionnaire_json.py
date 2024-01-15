@@ -22,7 +22,7 @@ def sauvegarder_json(dictionnaire, chemin_json):  # Sauvegarder en fichier json 
         debug(f"Le nom du fichier json à sauvegarder à été modifier en {chemin_json}")
 
     try:
-        with open(chemin_json, 'w') as json_file:
+        with open(chemin_json, 'w', encoding='UTF-8') as json_file:
             json.dump(dictionnaire, json_file, indent=4)
             json_file.flush()  # On force a sauvegarder le fichier
             debug(f"Le fichier json à été sauvegardé : {chemin_json}")
@@ -33,7 +33,7 @@ def sauvegarder_json(dictionnaire, chemin_json):  # Sauvegarder en fichier json 
 
 def importer_json(chemin_json):
     try:
-        with open(chemin_json, 'r') as json_file:
+        with open(chemin_json, 'r', encoding='UTF-8') as json_file:
             debug(f"Le fichier {chemin_json} json à été importé")
             return json.load(json_file)
 

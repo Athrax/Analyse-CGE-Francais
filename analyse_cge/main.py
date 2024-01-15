@@ -53,7 +53,7 @@ def run():
         info("Recherche du fichier passé en argument : {0}".format(chemin_fichier_source))
 
         try:  # On essaye de charger le fichier de donnees
-            fichier_source = open(chemin_fichier_source, "r")
+            fichier_source = open(chemin_fichier_source, "r", encoding='UTF-8')
             info("Fichier ouvert avec succès", "Création de la base de donnée à partir de la source ...")
 
             # On traite le fichier source donné
@@ -98,6 +98,7 @@ def run():
     return 0  # Fin du programme
 
 if __name__ == '__main__':  # On vérifie si on execute bien le fichier directement et non comme un module
+    # -*- coding: utf-8 -*-
     info("Le programme démarre ...")
     sys.exit(run())  # Si on ne l'execute pas comme un module, alors on démarre notre programme
 

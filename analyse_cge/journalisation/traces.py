@@ -35,7 +35,7 @@ def log(niveau, message, temps_actuel):
 
     try:
         with open(chemin(grand_parent(parent(__file__)), "logs", "latest.log"),
-                  'a') as fichier_log:  # On ouvre le dernier fichier de journalisation ou le créer
+                  'a', encoding='UTF-8') as fichier_log:  # On ouvre le dernier fichier de journalisation ou le créer
             fichier_log.write(entree + "\n")
     except FileNotFoundError:  # Le dossier n'existe pas
         print(f"{date_heure} [{timestamp}]: ERREUR - Le dossier logs n'existe pas")
