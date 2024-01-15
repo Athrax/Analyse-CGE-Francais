@@ -58,7 +58,7 @@ class CadreTitre(ctk.CTkFrame):
 class CadreRepartitionMinisteres(ctk.CTkFrame):
     def rafraichir(self, _):
         self.figure.clear()
-        self.figure, self.axes = graph_ministeres(self.cont_ministere_inconnu.get(), self.cont_choix_annee.get(), self.cont_choix_dep_rec.get())
+        self.figure, self.axes, self.axes2 = graph_pie_autre(self.cont_ministere_inconnu.get(), self.cont_choix_annee.get(), self.cont_choix_dep_rec.get())
         self.figure.set_dpi(80)
         self.canvas = FigureCanvasTkAgg(self.figure, self)
         self.canvas.draw()
@@ -94,7 +94,7 @@ class CadreRepartitionMinisteres(ctk.CTkFrame):
 
         self.init_bouton()
 
-        self.figure, self.axes = graph_ministeres(self.cont_ministere_inconnu.get(), self.cont_choix_annee.get(), self.cont_choix_dep_rec.get())
+        self.figure, self.axes, self.axes2 = graph_pie_autre(self.cont_ministere_inconnu.get(), self.cont_choix_annee.get(), self.cont_choix_dep_rec.get())
         self.figure.set_dpi(80)
         self.canvas = FigureCanvasTkAgg(self.figure, self)
         self.canvas.draw()

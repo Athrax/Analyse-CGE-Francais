@@ -6621,3 +6621,279 @@
 15-01-2024 20:44:42 [1705347882746]: INFO - Fin du programme
 15-01-2024 20:44:42 [1705347882746]: INFO - Merci d'avoir utiliser notre programme Analyse CGE
 15-01-2024 20:44:42 [1705347882746]: INFO - Fait par : Lise Renaud et Aymeric Schaeffer
+15-01-2024 21:33:17 [1705350797426]: INFO - Le programme démarre ...
+15-01-2024 21:33:17 [1705350797428]: INFO - Bienvenue dans l'interface en ligne de commande du programme d'Analayse du CGE
+15-01-2024 21:33:17 [1705350797428]: INFO - ---
+15-01-2024 21:33:17 [1705350797428]: INFO - Affichage des graphiques: [graphique]
+15-01-2024 21:33:17 [1705350797428]: INFO - Options et constantes du programme: [options]
+15-01-2024 21:33:17 [1705350797428]: INFO - Quitter le logiciel: [quitter]
+15-01-2024 21:46:35 [1705351595203]: INFO - Le programme démarre ...
+15-01-2024 21:46:35 [1705351595204]: INFO - Bienvenue dans l'interface en ligne de commande du programme d'Analayse du CGE
+15-01-2024 21:46:35 [1705351595205]: INFO - ---
+15-01-2024 21:46:35 [1705351595205]: INFO - Affichage des graphiques: [graphique]
+15-01-2024 21:46:35 [1705351595205]: INFO - Options et constantes du programme: [options]
+15-01-2024 21:46:35 [1705351595205]: INFO - Quitter le logiciel: [quitter]
+15-01-2024 21:46:44 [1705351604816]: INFO - Le programme démarre ...
+15-01-2024 21:46:44 [1705351604816]: INFO - 
+15-01-2024 21:46:44 [1705351604816]: INFO - Utilisation : main.py -parametres
+15-01-2024 21:46:44 [1705351604816]: INFO - 
+15-01-2024 21:46:44 [1705351604816]: INFO - Paramètres :
+15-01-2024 21:46:44 [1705351604816]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 21:46:44 [1705351604816]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 21:46:44 [1705351604816]: INFO - Mode verbeux : -v
+15-01-2024 21:46:44 [1705351604816]: INFO - 
+15-01-2024 21:46:44 [1705351604817]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 21:46:44 [1705351604817]: INFO - 
+15-01-2024 21:46:44 [1705351604817]: INFO - Lancement de l'interface graphique
+15-01-2024 22:05:42 [1705352742161]: INFO - Le programme démarre ...
+15-01-2024 22:05:42 [1705352742162]: INFO - 
+15-01-2024 22:05:42 [1705352742162]: INFO - Utilisation : main.py -parametres
+15-01-2024 22:05:42 [1705352742162]: INFO - 
+15-01-2024 22:05:42 [1705352742162]: INFO - Paramètres :
+15-01-2024 22:05:42 [1705352742162]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 22:05:42 [1705352742162]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 22:05:42 [1705352742162]: INFO - Mode verbeux : -v
+15-01-2024 22:05:42 [1705352742162]: INFO - 
+15-01-2024 22:05:42 [1705352742163]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 22:05:42 [1705352742163]: INFO - 
+15-01-2024 22:05:42 [1705352742163]: INFO - Lancement de l'interface graphique
+15-01-2024 22:06:40 [1705352800890]: INFO - Le programme démarre ...
+15-01-2024 22:06:40 [1705352800890]: INFO - 
+15-01-2024 22:06:40 [1705352800890]: INFO - Utilisation : main.py -parametres
+15-01-2024 22:06:40 [1705352800890]: INFO - 
+15-01-2024 22:06:40 [1705352800891]: INFO - Paramètres :
+15-01-2024 22:06:40 [1705352800891]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 22:06:40 [1705352800891]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 22:06:40 [1705352800891]: INFO - Mode verbeux : -v
+15-01-2024 22:06:40 [1705352800891]: INFO - 
+15-01-2024 22:06:40 [1705352800892]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 22:06:40 [1705352800892]: INFO - 
+15-01-2024 22:06:40 [1705352800892]: INFO - Lancement de l'interface graphique
+15-01-2024 22:08:21 [1705352901583]: INFO - Le programme démarre ...
+15-01-2024 22:08:21 [1705352901584]: INFO - 
+15-01-2024 22:08:21 [1705352901584]: INFO - Utilisation : main.py -parametres
+15-01-2024 22:08:21 [1705352901584]: INFO - 
+15-01-2024 22:08:21 [1705352901585]: INFO - Paramètres :
+15-01-2024 22:08:21 [1705352901585]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 22:08:21 [1705352901585]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 22:08:21 [1705352901585]: INFO - Mode verbeux : -v
+15-01-2024 22:08:21 [1705352901585]: INFO - 
+15-01-2024 22:08:21 [1705352901585]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 22:08:21 [1705352901585]: INFO - 
+15-01-2024 22:08:21 [1705352901585]: INFO - Lancement de l'interface graphique
+15-01-2024 22:10:26 [1705353026588]: INFO - Le programme démarre ...
+15-01-2024 22:10:26 [1705353026589]: INFO - 
+15-01-2024 22:10:26 [1705353026589]: INFO - Utilisation : main.py -parametres
+15-01-2024 22:10:26 [1705353026589]: INFO - 
+15-01-2024 22:10:26 [1705353026589]: INFO - Paramètres :
+15-01-2024 22:10:26 [1705353026589]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 22:10:26 [1705353026589]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 22:10:26 [1705353026589]: INFO - Mode verbeux : -v
+15-01-2024 22:10:26 [1705353026589]: INFO - 
+15-01-2024 22:10:26 [1705353026590]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 22:10:26 [1705353026590]: INFO - 
+15-01-2024 22:10:26 [1705353026590]: INFO - Lancement de l'interface graphique
+15-01-2024 22:11:33 [1705353093851]: INFO - Le programme démarre ...
+15-01-2024 22:11:33 [1705353093851]: INFO - 
+15-01-2024 22:11:33 [1705353093851]: INFO - Utilisation : main.py -parametres
+15-01-2024 22:11:33 [1705353093851]: INFO - 
+15-01-2024 22:11:33 [1705353093852]: INFO - Paramètres :
+15-01-2024 22:11:33 [1705353093852]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 22:11:33 [1705353093852]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 22:11:33 [1705353093852]: INFO - Mode verbeux : -v
+15-01-2024 22:11:33 [1705353093852]: INFO - 
+15-01-2024 22:11:33 [1705353093852]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 22:11:33 [1705353093852]: INFO - 
+15-01-2024 22:11:33 [1705353093852]: INFO - Lancement de l'interface graphique
+15-01-2024 22:12:17 [1705353137065]: INFO - Le programme démarre ...
+15-01-2024 22:12:17 [1705353137065]: INFO - 
+15-01-2024 22:12:17 [1705353137065]: INFO - Utilisation : main.py -parametres
+15-01-2024 22:12:17 [1705353137065]: INFO - 
+15-01-2024 22:12:17 [1705353137065]: INFO - Paramètres :
+15-01-2024 22:12:17 [1705353137065]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 22:12:17 [1705353137065]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 22:12:17 [1705353137065]: INFO - Mode verbeux : -v
+15-01-2024 22:12:17 [1705353137065]: INFO - 
+15-01-2024 22:12:17 [1705353137066]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 22:12:17 [1705353137066]: INFO - 
+15-01-2024 22:12:17 [1705353137066]: INFO - Lancement de l'interface graphique
+15-01-2024 22:13:01 [1705353181097]: INFO - Le programme démarre ...
+15-01-2024 22:13:01 [1705353181098]: INFO - 
+15-01-2024 22:13:01 [1705353181098]: INFO - Utilisation : main.py -parametres
+15-01-2024 22:13:01 [1705353181098]: INFO - 
+15-01-2024 22:13:01 [1705353181098]: INFO - Paramètres :
+15-01-2024 22:13:01 [1705353181098]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 22:13:01 [1705353181098]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 22:13:01 [1705353181098]: INFO - Mode verbeux : -v
+15-01-2024 22:13:01 [1705353181098]: INFO - 
+15-01-2024 22:13:01 [1705353181099]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 22:13:01 [1705353181099]: INFO - 
+15-01-2024 22:13:01 [1705353181099]: INFO - Lancement de l'interface graphique
+15-01-2024 22:13:14 [1705353194795]: INFO - Le programme démarre ...
+15-01-2024 22:13:14 [1705353194795]: INFO - 
+15-01-2024 22:13:14 [1705353194795]: INFO - Utilisation : main.py -parametres
+15-01-2024 22:13:14 [1705353194795]: INFO - 
+15-01-2024 22:13:14 [1705353194796]: INFO - Paramètres :
+15-01-2024 22:13:14 [1705353194796]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 22:13:14 [1705353194796]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 22:13:14 [1705353194796]: INFO - Mode verbeux : -v
+15-01-2024 22:13:14 [1705353194796]: INFO - 
+15-01-2024 22:13:14 [1705353194797]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 22:13:14 [1705353194797]: INFO - 
+15-01-2024 22:13:14 [1705353194798]: INFO - Lancement de l'interface graphique
+15-01-2024 22:13:22 [1705353202524]: INFO - Le programme démarre ...
+15-01-2024 22:13:22 [1705353202524]: INFO - 
+15-01-2024 22:13:22 [1705353202524]: INFO - Utilisation : main.py -parametres
+15-01-2024 22:13:22 [1705353202524]: INFO - 
+15-01-2024 22:13:22 [1705353202525]: INFO - Paramètres :
+15-01-2024 22:13:22 [1705353202525]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 22:13:22 [1705353202525]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 22:13:22 [1705353202525]: INFO - Mode verbeux : -v
+15-01-2024 22:13:22 [1705353202525]: INFO - 
+15-01-2024 22:13:22 [1705353202526]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 22:13:22 [1705353202526]: INFO - 
+15-01-2024 22:13:22 [1705353202526]: INFO - Lancement de l'interface graphique
+15-01-2024 22:13:32 [1705353212373]: INFO - Le programme démarre ...
+15-01-2024 22:13:32 [1705353212374]: INFO - 
+15-01-2024 22:13:32 [1705353212374]: INFO - Utilisation : main.py -parametres
+15-01-2024 22:13:32 [1705353212374]: INFO - 
+15-01-2024 22:13:32 [1705353212374]: INFO - Paramètres :
+15-01-2024 22:13:32 [1705353212374]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 22:13:32 [1705353212374]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 22:13:32 [1705353212374]: INFO - Mode verbeux : -v
+15-01-2024 22:13:32 [1705353212374]: INFO - 
+15-01-2024 22:13:32 [1705353212375]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 22:13:32 [1705353212375]: INFO - 
+15-01-2024 22:13:32 [1705353212375]: INFO - Lancement de l'interface graphique
+15-01-2024 22:13:47 [1705353227682]: INFO - Le programme démarre ...
+15-01-2024 22:13:47 [1705353227682]: INFO - 
+15-01-2024 22:13:47 [1705353227682]: INFO - Utilisation : main.py -parametres
+15-01-2024 22:13:47 [1705353227682]: INFO - 
+15-01-2024 22:13:47 [1705353227682]: INFO - Paramètres :
+15-01-2024 22:13:47 [1705353227682]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 22:13:47 [1705353227682]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 22:13:47 [1705353227682]: INFO - Mode verbeux : -v
+15-01-2024 22:13:47 [1705353227682]: INFO - 
+15-01-2024 22:13:47 [1705353227683]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 22:13:47 [1705353227683]: INFO - 
+15-01-2024 22:13:47 [1705353227683]: INFO - Lancement de l'interface graphique
+15-01-2024 22:14:59 [1705353299926]: INFO - Le programme démarre ...
+15-01-2024 22:14:59 [1705353299926]: INFO - 
+15-01-2024 22:14:59 [1705353299926]: INFO - Utilisation : main.py -parametres
+15-01-2024 22:14:59 [1705353299926]: INFO - 
+15-01-2024 22:14:59 [1705353299927]: INFO - Paramètres :
+15-01-2024 22:14:59 [1705353299927]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 22:14:59 [1705353299927]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 22:14:59 [1705353299927]: INFO - Mode verbeux : -v
+15-01-2024 22:14:59 [1705353299927]: INFO - 
+15-01-2024 22:14:59 [1705353299928]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 22:14:59 [1705353299928]: INFO - 
+15-01-2024 22:14:59 [1705353299928]: INFO - Lancement de l'interface graphique
+15-01-2024 22:15:08 [1705353308799]: INFO - Le programme démarre ...
+15-01-2024 22:15:08 [1705353308800]: INFO - 
+15-01-2024 22:15:08 [1705353308800]: INFO - Utilisation : main.py -parametres
+15-01-2024 22:15:08 [1705353308800]: INFO - 
+15-01-2024 22:15:08 [1705353308800]: INFO - Paramètres :
+15-01-2024 22:15:08 [1705353308800]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 22:15:08 [1705353308800]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 22:15:08 [1705353308800]: INFO - Mode verbeux : -v
+15-01-2024 22:15:08 [1705353308800]: INFO - 
+15-01-2024 22:15:08 [1705353308801]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 22:15:08 [1705353308801]: INFO - 
+15-01-2024 22:15:08 [1705353308801]: INFO - Lancement de l'interface graphique
+15-01-2024 22:15:16 [1705353316372]: INFO - Le programme démarre ...
+15-01-2024 22:15:16 [1705353316372]: INFO - 
+15-01-2024 22:15:16 [1705353316372]: INFO - Utilisation : main.py -parametres
+15-01-2024 22:15:16 [1705353316372]: INFO - 
+15-01-2024 22:15:16 [1705353316372]: INFO - Paramètres :
+15-01-2024 22:15:16 [1705353316372]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 22:15:16 [1705353316372]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 22:15:16 [1705353316372]: INFO - Mode verbeux : -v
+15-01-2024 22:15:16 [1705353316372]: INFO - 
+15-01-2024 22:15:16 [1705353316373]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 22:15:16 [1705353316373]: INFO - 
+15-01-2024 22:15:16 [1705353316373]: INFO - Lancement de l'interface graphique
+15-01-2024 22:15:22 [1705353322411]: INFO - Le programme démarre ...
+15-01-2024 22:15:22 [1705353322412]: INFO - 
+15-01-2024 22:15:22 [1705353322412]: INFO - Utilisation : main.py -parametres
+15-01-2024 22:15:22 [1705353322412]: INFO - 
+15-01-2024 22:15:22 [1705353322412]: INFO - Paramètres :
+15-01-2024 22:15:22 [1705353322412]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 22:15:22 [1705353322412]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 22:15:22 [1705353322412]: INFO - Mode verbeux : -v
+15-01-2024 22:15:22 [1705353322412]: INFO - 
+15-01-2024 22:15:22 [1705353322413]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 22:15:22 [1705353322413]: INFO - 
+15-01-2024 22:15:22 [1705353322413]: INFO - Lancement de l'interface graphique
+15-01-2024 22:15:38 [1705353338942]: INFO - Le programme démarre ...
+15-01-2024 22:15:38 [1705353338942]: INFO - 
+15-01-2024 22:15:38 [1705353338942]: INFO - Utilisation : main.py -parametres
+15-01-2024 22:15:38 [1705353338942]: INFO - 
+15-01-2024 22:15:38 [1705353338942]: INFO - Paramètres :
+15-01-2024 22:15:38 [1705353338942]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 22:15:38 [1705353338942]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 22:15:38 [1705353338942]: INFO - Mode verbeux : -v
+15-01-2024 22:15:38 [1705353338942]: INFO - 
+15-01-2024 22:15:38 [1705353338943]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 22:15:38 [1705353338943]: INFO - 
+15-01-2024 22:15:38 [1705353338943]: INFO - Lancement de l'interface graphique
+15-01-2024 22:15:47 [1705353347577]: INFO - Le programme démarre ...
+15-01-2024 22:15:47 [1705353347577]: INFO - 
+15-01-2024 22:15:47 [1705353347577]: INFO - Utilisation : main.py -parametres
+15-01-2024 22:15:47 [1705353347577]: INFO - 
+15-01-2024 22:15:47 [1705353347577]: INFO - Paramètres :
+15-01-2024 22:15:47 [1705353347577]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 22:15:47 [1705353347577]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 22:15:47 [1705353347577]: INFO - Mode verbeux : -v
+15-01-2024 22:15:47 [1705353347577]: INFO - 
+15-01-2024 22:15:47 [1705353347578]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 22:15:47 [1705353347578]: INFO - 
+15-01-2024 22:15:47 [1705353347578]: INFO - Lancement de l'interface graphique
+15-01-2024 22:16:01 [1705353361197]: INFO - Le programme démarre ...
+15-01-2024 22:16:01 [1705353361197]: INFO - 
+15-01-2024 22:16:01 [1705353361197]: INFO - Utilisation : main.py -parametres
+15-01-2024 22:16:01 [1705353361197]: INFO - 
+15-01-2024 22:16:01 [1705353361198]: INFO - Paramètres :
+15-01-2024 22:16:01 [1705353361198]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 22:16:01 [1705353361198]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 22:16:01 [1705353361198]: INFO - Mode verbeux : -v
+15-01-2024 22:16:01 [1705353361198]: INFO - 
+15-01-2024 22:16:01 [1705353361198]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 22:16:01 [1705353361198]: INFO - 
+15-01-2024 22:16:01 [1705353361198]: INFO - Lancement de l'interface graphique
+15-01-2024 22:17:03 [1705353423748]: INFO - Le programme démarre ...
+15-01-2024 22:17:03 [1705353423749]: INFO - 
+15-01-2024 22:17:03 [1705353423749]: INFO - Utilisation : main.py -parametres
+15-01-2024 22:17:03 [1705353423749]: INFO - 
+15-01-2024 22:17:03 [1705353423749]: INFO - Paramètres :
+15-01-2024 22:17:03 [1705353423749]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 22:17:03 [1705353423749]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 22:17:03 [1705353423749]: INFO - Mode verbeux : -v
+15-01-2024 22:17:03 [1705353423749]: INFO - 
+15-01-2024 22:17:03 [1705353423750]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 22:17:03 [1705353423750]: INFO - 
+15-01-2024 22:17:03 [1705353423750]: INFO - Lancement de l'interface graphique
+15-01-2024 22:17:12 [1705353432120]: INFO - Le programme démarre ...
+15-01-2024 22:17:12 [1705353432120]: INFO - 
+15-01-2024 22:17:12 [1705353432120]: INFO - Utilisation : main.py -parametres
+15-01-2024 22:17:12 [1705353432120]: INFO - 
+15-01-2024 22:17:12 [1705353432120]: INFO - Paramètres :
+15-01-2024 22:17:12 [1705353432120]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 22:17:12 [1705353432120]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 22:17:12 [1705353432120]: INFO - Mode verbeux : -v
+15-01-2024 22:17:12 [1705353432120]: INFO - 
+15-01-2024 22:17:12 [1705353432121]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 22:17:12 [1705353432121]: INFO - 
+15-01-2024 22:17:12 [1705353432121]: INFO - Lancement de l'interface graphique
+15-01-2024 22:17:56 [1705353476684]: INFO - Le programme démarre ...
+15-01-2024 22:17:56 [1705353476684]: INFO - 
+15-01-2024 22:17:56 [1705353476684]: INFO - Utilisation : main.py -parametres
+15-01-2024 22:17:56 [1705353476684]: INFO - 
+15-01-2024 22:17:56 [1705353476685]: INFO - Paramètres :
+15-01-2024 22:17:56 [1705353476685]: INFO - Fichier source : -source "chemin_vers_fichier_csv"
+15-01-2024 22:17:56 [1705353476685]: INFO - Interface en ligne de commande : -nogui
+15-01-2024 22:17:56 [1705353476685]: INFO - Mode verbeux : -v
+15-01-2024 22:17:56 [1705353476685]: INFO - 
+15-01-2024 22:17:56 [1705353476685]: INFO - Exemple: main.py -source ../docs/source.csv -nogui
+15-01-2024 22:17:56 [1705353476685]: INFO - 
+15-01-2024 22:17:56 [1705353476686]: INFO - Lancement de l'interface graphique

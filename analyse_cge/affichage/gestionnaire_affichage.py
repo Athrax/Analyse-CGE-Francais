@@ -130,3 +130,35 @@ def affichage_pie(X, Y, titre):
         avert("Echec de la génération du titre du graphique", exc)
 
     return fig, plt
+
+
+def affichage_pie_autre(liste_autre, labels_autre, valeurs_1, labels_1, titre, total_autre):
+
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(9, 5))
+    fig.subplots_adjust(wspace=0)
+
+    angle = -180 * valeurs_1[0]
+    wedges, *_ = ax1.pie(valeurs_1, autopct='%1.1f%%', startangle=angle,
+                         labels=labels_1)
+
+    bottom = 1
+    width = .2
+    list_pourcent = []
+    for elt in liste_autre:
+        list_pourcent.append(elt / total_autre)
+
+    for j, (height, label) in enumerate(reversed([*zip(list_pourcent, labels_autre)])):
+        bottom -= height
+        bc = ax2.bar(0, height, width, bottom=bottom, color='C0', label=label,
+                     alpha=0.1 + 0.05 * j)
+        ax2.bar_label(bc, labels=[f"{height:.0%}"], label_type='center')
+
+    ax1.set_title(titre)
+    ax1.axis('off')
+    ax2.set_title('Autres')
+    ax2.legend(loc='best', bbox_to_anchor=(0.6, 0.95))
+    ax2.axis('off')
+    ax2.set_xlim(- 2.5 * width, 2.5 * width)
+
+
+    return fig, ax1, ax2
