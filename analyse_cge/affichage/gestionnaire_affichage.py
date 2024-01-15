@@ -37,30 +37,39 @@ def affichage_X_Y1_Y2(X, echelle, Y1, Y2, titre, label_Y1, label_Y2):
         Y1 (list): Valeurs ordonnées
         Y2 (list): Valeurs ordonnées
     """
-    # On génère le graphique en camembert
-    plt.plot(X, Y1, label=label_Y1)
-    plt.plot(X, Y2, label=label_Y2)
-
-    plt.legend()
-    plt.grid(axis='y')
-    plt.xticks(X)
-
-    plt.ylabel('en Milliards €')
-    if echelle == "semilog":
-        # Ajuster les paramètres de l'axe y
-        plt.yscale('log')  # On définit l'échelle logarithmique sur l'axe y
-        plt.locator_params(axis='y', numticks=10)  # Ajustez numticks selon vos besoins
-
+    fig, ax = plt.subplots()
 
     try:
-        plt.title(titre)
+        # Tracer les deux courbes
+        ax.plot(X, Y1, label=label_Y1)
+        ax.plot(X, Y2, label=label_Y2)
+
+        # Ajout des légendes, grille, étiquettes, etc.
+        ax.legend()
+        ax.grid(axis='y')
+        ax.set_xticks(X)
+        ax.set_ylabel('en Milliards €')
+
+        if echelle == "semilog":
+            # Ajuster les paramètres de l'axe y en échelle logarithmique
+            ax.set_yscale('log')
+            ax.locator_params(axis='y', numticks=10)  # Ajustez numticks selon vos besoins
+
+        fig.tight_layout() # Ajuste automatiquement la disposition du graphique
+        fig.subplots_adjust(top=0.9)
+
+        try:
+            ax.set_title(titre)
+        except Exception as exc:
+            print("Echec de la génération du titre du graphique", exc)
+
     except Exception as exc:
-        avert("Echec de la génération du titre du graphique", exc)
+        print("Erreur lors de la création du graphique", exc)
 
-    return plt
+    return fig, ax
 
 
-def affichage_bar(X, Y, titre):
+def affichage_bar(X, echelle, Y, titre):
     """
     Cette fonction affiche un diagramme en barre à partir de listes X et Y
 
@@ -69,27 +78,31 @@ def affichage_bar(X, Y, titre):
         Y (list): Valeurs ordonnées
     """
 
-    # On génère le graphique en barres
-    plt.bar(X, Y)
+    # Création d'une figure et d'axes
+    fig, ax = plt.subplots()
 
     try:
         # Ajout de titres et d'étiquettes
-        plt.title(titre)
-        plt.ylabel('Dépenses en €')
+        ax.set_title(titre)
+        ax.set_ylabel('Dépenses en €')
+        ax.grid(axis='y', color='lightgrey')
 
-        plt.xticks(rotation=25, ha="right")  # On tourne légerement les labels de l'axe x
-        plt.yscale('log')  # On définit l'échelle logarithmique sur l'axe y
-        plt.tight_layout()  # Ajuste automatiquement la disposition du graphique pour voir les labels en entier
+
+        ax.xaxis.set_ticks([i for i in range(len(X))])
+        ax.set_xticklabels(X, rotation=25, ha="right")  # On tourne légèrement les labels de l'axe x
+        if echelle == "semilog":
+            ax.set_yscale('log')  # On définit l'échelle logarithmique sur l'axe y
+        fig.tight_layout()  # Ajuste automatiquement la disposition du graphique pour voir les labels en entier
+        fig.subplots_adjust(left=0.2)
 
         palette = plt.get_cmap("Set2")  # On utilise une palette de couleur matplotlib
 
-        for i in range(len(X)): # Affichage des barres avec des couleurs différentes
-            plt.bar(X[i], Y[i], color=palette(i))
+        for i in range(len(X)):  # Affichage des barres avec des couleurs différentes
+            ax.bar(X[i], Y[i], color=palette(i))
 
-    except Exception as exc:
-        avert("Echec de la génération du titre/étiquettes du graphique", exc)
-
-    return plt
+        return fig, ax
+    except UserWarning:
+        pass
 
 
 def affichage_pie(X, Y, titre):
@@ -103,11 +116,12 @@ def affichage_pie(X, Y, titre):
     """
 
     # On génère le graphique en camembert
-    plt.pie(X, labels=Y, autopct='%1.1f%%')
+    fig, ax = plt.subplots()
+    ax.pie(X, labels=Y, autopct='%1.1f%%')
 
     try:
-        plt.title(titre)
+        ax.set_title(titre)
     except Exception as exc:
         avert("Echec de la génération du titre du graphique", exc)
 
-    return plt
+    return fig, plt

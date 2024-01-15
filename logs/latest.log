@@ -4021,3 +4021,1540 @@
 15-01-2024 09:20:16 [1705306816058]: INFO - Europe et affaires étrangères: [17]
 15-01-2024 09:20:20 [1705306820742]: INFO - > 12
 15-01-2024 09:20:20 [1705306820743]: INFO - Ce graphique représente les dépenses du ministère "Mer" par poste en 2013.
+15-01-2024 09:28:27 [1705307307351]: INFO - Le programme démarre ...
+15-01-2024 09:28:27 [1705307307352]: INFO - Bienvenue dans l'interface en ligne de commande du programme d'Analayse du CGE
+15-01-2024 09:28:27 [1705307307352]: INFO - ---
+15-01-2024 09:28:27 [1705307307354]: INFO - Affichage des graphiques: [graphique]
+15-01-2024 09:28:27 [1705307307354]: INFO - Options et constantes du programme: [options]
+15-01-2024 09:28:27 [1705307307354]: INFO - Quitter le logiciel: [quitter]
+15-01-2024 09:28:36 [1705307316711]: INFO - Le programme démarre ...
+15-01-2024 09:28:36 [1705307316712]: INFO - Bienvenue dans l'interface en ligne de commande du programme d'Analayse du CGE
+15-01-2024 09:28:36 [1705307316714]: INFO - ---
+15-01-2024 09:28:36 [1705307316716]: INFO - Affichage des graphiques: [graphique]
+15-01-2024 09:28:36 [1705307316716]: INFO - Options et constantes du programme: [options]
+15-01-2024 09:28:36 [1705307316716]: INFO - Quitter le logiciel: [quitter]
+15-01-2024 09:28:39 [1705307319676]: INFO - > graphique
+15-01-2024 09:28:39 [1705307319677]: INFO - Évolution au cours des ans des dépenses et recettes: [evolution]
+15-01-2024 09:28:39 [1705307319677]: INFO - Recettes et dépenses par ministère: [ministere]
+15-01-2024 09:28:39 [1705307319677]: INFO - Dépenses d'un ministère par poste: [poste]
+15-01-2024 09:28:39 [1705307319677]: INFO - Retour: [retour]
+15-01-2024 09:28:47 [1705307327060]: INFO - > evolution
+15-01-2024 09:28:47 [1705307327061]: INFO - Dépenses et recettes de l'état au fil des ans: [etat]
+15-01-2024 09:28:47 [1705307327061]: INFO - Dépenses et recettes d'un ministère au fil des ans: [ministere]
+15-01-2024 09:28:48 [1705307328860]: INFO - > etat
+15-01-2024 09:28:48 [1705307328860]: INFO - Ce graphique représente les dépense et les recettes de l'état au fil des ans: [retour]
+15-01-2024 09:28:52 [1705307332109]: INFO - > retour
+15-01-2024 09:28:52 [1705307332109]: INFO - Dépenses et recettes de l'état au fil des ans: [etat]
+15-01-2024 09:28:52 [1705307332109]: INFO - Dépenses et recettes d'un ministère au fil des ans: [ministere]
+15-01-2024 09:28:53 [1705307333956]: INFO - > ministere
+15-01-2024 09:28:53 [1705307333956]: INFO - Retour: [retour]
+15-01-2024 09:28:53 [1705307333958]: INFO - Économie, finances et relance: [0]
+15-01-2024 09:28:53 [1705307333958]: INFO - Non renseigné: [1]
+15-01-2024 09:28:53 [1705307333958]: INFO - Justice: [2]
+15-01-2024 09:28:53 [1705307333958]: INFO - Transition écologique: [3]
+15-01-2024 09:28:53 [1705307333958]: INFO - Intérieur: [4]
+15-01-2024 09:28:53 [1705307333958]: INFO - Agriculture et alimentation: [5]
+15-01-2024 09:28:53 [1705307333958]: INFO - Travail, emploi et insertion: [6]
+15-01-2024 09:28:53 [1705307333959]: INFO - Cohésion des territoires et relations avec les collectivités territoriales: [7]
+15-01-2024 09:28:53 [1705307333959]: INFO - Services du Premier ministre: [8]
+15-01-2024 09:28:53 [1705307333959]: INFO - Outre-Mer: [9]
+15-01-2024 09:28:53 [1705307333959]: INFO - Culture: [10]
+15-01-2024 09:28:53 [1705307333959]: INFO - Armées: [11]
+15-01-2024 09:28:53 [1705307333959]: INFO - Mer: [12]
+15-01-2024 09:28:53 [1705307333959]: INFO - Éducation nationale, jeunesse et sports: [13]
+15-01-2024 09:28:53 [1705307333959]: INFO - Transformation et de la fonction publiques: [14]
+15-01-2024 09:28:53 [1705307333959]: INFO - Solidarités et santé: [15]
+15-01-2024 09:28:53 [1705307333960]: INFO - Enseignement supérieur, recherche et innovation: [16]
+15-01-2024 09:28:53 [1705307333960]: INFO - Europe et affaires étrangères: [17]
+15-01-2024 09:28:55 [1705307335924]: INFO - > 13
+15-01-2024 09:28:55 [1705307335924]: INFO - Ce graphique représente les dépense et les recettes du ministère "Éducation nationale, jeunesse et sports" au fil des ans
+15-01-2024 09:29:20 [1705307360267]: INFO - Le programme démarre ...
+15-01-2024 09:29:20 [1705307360267]: INFO - Bienvenue dans l'interface en ligne de commande du programme d'Analayse du CGE
+15-01-2024 09:29:20 [1705307360268]: INFO - ---
+15-01-2024 09:29:20 [1705307360270]: INFO - Affichage des graphiques: [graphique]
+15-01-2024 09:29:20 [1705307360270]: INFO - Options et constantes du programme: [options]
+15-01-2024 09:29:20 [1705307360270]: INFO - Quitter le logiciel: [quitter]
+15-01-2024 09:29:22 [1705307362586]: INFO - > graphique
+15-01-2024 09:29:22 [1705307362587]: INFO - Évolution au cours des ans des dépenses et recettes: [evolution]
+15-01-2024 09:29:22 [1705307362587]: INFO - Recettes et dépenses par ministère: [ministere]
+15-01-2024 09:29:22 [1705307362587]: INFO - Dépenses d'un ministère par poste: [poste]
+15-01-2024 09:29:22 [1705307362587]: INFO - Retour: [retour]
+15-01-2024 09:29:25 [1705307365434]: INFO - > ministere
+15-01-2024 09:29:25 [1705307365434]: INFO - Veuillez spécifier une année
+15-01-2024 09:29:25 [1705307365436]: INFO - Années possibles : entre 2012 et 2022
+15-01-2024 09:29:27 [1705307367826]: INFO - > 2012
+15-01-2024 09:29:27 [1705307367826]: INFO - Afficher les dépenses inconnues: [oui]
+15-01-2024 09:29:27 [1705307367826]: INFO - Ne pas afficher les dépenses inconnues: [non]
+15-01-2024 09:29:29 [1705307369428]: INFO - > non
+15-01-2024 09:29:29 [1705307369428]: INFO - Ce graphique représente les dépense et les recettes de l'état par ministère: [retour]
+15-01-2024 09:29:31 [1705307371787]: INFO - > retour
+15-01-2024 09:29:31 [1705307371788]: INFO - Afficher les dépenses inconnues: [oui]
+15-01-2024 09:29:31 [1705307371788]: INFO - Ne pas afficher les dépenses inconnues: [non]
+15-01-2024 09:29:33 [1705307373149]: INFO - > retour
+15-01-2024 09:29:33 [1705307373149]: INFO - Veuillez spécifier une année
+15-01-2024 09:29:33 [1705307373151]: INFO - Années possibles : entre 2012 et 2022
+15-01-2024 09:29:35 [1705307375011]: INFO - > retour
+15-01-2024 09:29:35 [1705307375012]: INFO - Évolution au cours des ans des dépenses et recettes: [evolution]
+15-01-2024 09:29:35 [1705307375012]: INFO - Recettes et dépenses par ministère: [ministere]
+15-01-2024 09:29:35 [1705307375012]: INFO - Dépenses d'un ministère par poste: [poste]
+15-01-2024 09:29:35 [1705307375012]: INFO - Retour: [retour]
+15-01-2024 09:29:36 [1705307376843]: INFO - > poste
+15-01-2024 09:29:36 [1705307376844]: INFO - Veuillez spécifier une année
+15-01-2024 09:29:36 [1705307376845]: INFO - Années possibles : entre 2012 et 2022
+15-01-2024 09:29:38 [1705307378435]: INFO - > 2012
+15-01-2024 09:29:38 [1705307378436]: INFO - Retour: [retour]
+15-01-2024 09:29:38 [1705307378437]: INFO - Économie, finances et relance: [0]
+15-01-2024 09:29:38 [1705307378437]: INFO - Non renseigné: [1]
+15-01-2024 09:29:38 [1705307378438]: INFO - Justice: [2]
+15-01-2024 09:29:38 [1705307378438]: INFO - Transition écologique: [3]
+15-01-2024 09:29:38 [1705307378438]: INFO - Intérieur: [4]
+15-01-2024 09:29:38 [1705307378438]: INFO - Agriculture et alimentation: [5]
+15-01-2024 09:29:38 [1705307378438]: INFO - Travail, emploi et insertion: [6]
+15-01-2024 09:29:38 [1705307378438]: INFO - Cohésion des territoires et relations avec les collectivités territoriales: [7]
+15-01-2024 09:29:38 [1705307378438]: INFO - Services du Premier ministre: [8]
+15-01-2024 09:29:38 [1705307378439]: INFO - Outre-Mer: [9]
+15-01-2024 09:29:38 [1705307378439]: INFO - Culture: [10]
+15-01-2024 09:29:38 [1705307378439]: INFO - Armées: [11]
+15-01-2024 09:29:38 [1705307378439]: INFO - Mer: [12]
+15-01-2024 09:29:38 [1705307378439]: INFO - Éducation nationale, jeunesse et sports: [13]
+15-01-2024 09:29:38 [1705307378439]: INFO - Transformation et de la fonction publiques: [14]
+15-01-2024 09:29:38 [1705307378439]: INFO - Solidarités et santé: [15]
+15-01-2024 09:29:38 [1705307378439]: INFO - Enseignement supérieur, recherche et innovation: [16]
+15-01-2024 09:29:38 [1705307378440]: INFO - Europe et affaires étrangères: [17]
+15-01-2024 09:29:39 [1705307379619]: INFO - > 12
+15-01-2024 09:29:39 [1705307379620]: INFO - Ce graphique représente les dépenses du ministère "Mer" par poste en 2012.
+15-01-2024 09:29:42 [1705307382418]: INFO - > retour
+15-01-2024 09:29:42 [1705307382418]: INFO - Veuillez spécifier une année
+15-01-2024 09:29:42 [1705307382420]: INFO - Années possibles : entre 2012 et 2022
+15-01-2024 09:34:31 [1705307671642]: INFO - Le programme démarre ...
+15-01-2024 09:34:31 [1705307671643]: INFO - Bienvenue dans l'interface en ligne de commande du programme d'Analayse du CGE
+15-01-2024 09:34:31 [1705307671645]: INFO - ---
+15-01-2024 09:34:31 [1705307671646]: INFO - Affichage des graphiques: [graphique]
+15-01-2024 09:34:31 [1705307671646]: INFO - Options et constantes du programme: [options]
+15-01-2024 09:34:31 [1705307671646]: INFO - Quitter le logiciel: [quitter]
+15-01-2024 09:45:03 [1705308303956]: INFO - Le programme démarre ...
+15-01-2024 09:45:03 [1705308303959]: INFO - Bienvenue dans l'interface en ligne de commande du programme d'Analayse du CGE
+15-01-2024 09:45:03 [1705308303960]: INFO - ---
+15-01-2024 09:45:03 [1705308303961]: INFO - Affichage des graphiques: [graphique]
+15-01-2024 09:45:03 [1705308303961]: INFO - Options et constantes du programme: [options]
+15-01-2024 09:45:03 [1705308303961]: INFO - Quitter le logiciel: [quitter]
+15-01-2024 09:45:06 [1705308306814]: INFO - > graphique
+15-01-2024 09:45:06 [1705308306815]: INFO - Évolution au cours des ans des dépenses et recettes: [evolution]
+15-01-2024 09:45:06 [1705308306815]: INFO - Recettes et dépenses par ministère: [ministere]
+15-01-2024 09:45:06 [1705308306815]: INFO - Dépenses d'un ministère par poste: [poste]
+15-01-2024 09:45:06 [1705308306815]: INFO - Retour: [retour]
+15-01-2024 09:45:10 [1705308310082]: INFO - > evolution
+15-01-2024 09:45:10 [1705308310083]: INFO - Dépenses et recettes de l'état au fil des ans: [etat]
+15-01-2024 09:45:10 [1705308310083]: INFO - Dépenses et recettes d'un ministère au fil des ans: [ministere]
+15-01-2024 09:45:11 [1705308311657]: INFO - > etat
+15-01-2024 09:45:11 [1705308311658]: INFO - Ce graphique représente les dépense et les recettes de l'état au fil des ans: [retour]
+15-01-2024 09:45:11 [1705308311898]: AVERTISSEMENT - La commande graph_etat_evolution_sans_inconnu a échouée
+15-01-2024 09:45:11 [1705308311898]: AVERTISSEMENT - Erreur: 'tuple' object has no attribute 'show'
+15-01-2024 09:45:11 [1705308311898]: AVERTISSEMENT - Veuillez entrer une commande ou paramètres valide
+15-01-2024 09:45:11 [1705308311898]: AVERTISSEMENT - Retour [retour]
+15-01-2024 09:48:04 [1705308484550]: INFO - Le programme démarre ...
+15-01-2024 09:48:04 [1705308484550]: INFO - Bienvenue dans l'interface en ligne de commande du programme d'Analayse du CGE
+15-01-2024 09:48:04 [1705308484551]: INFO - ---
+15-01-2024 09:48:04 [1705308484552]: INFO - Affichage des graphiques: [graphique]
+15-01-2024 09:48:04 [1705308484552]: INFO - Options et constantes du programme: [options]
+15-01-2024 09:48:04 [1705308484552]: INFO - Quitter le logiciel: [quitter]
+15-01-2024 10:09:56 [1705309796863]: INFO - Le programme démarre ...
+15-01-2024 10:09:56 [1705309796865]: INFO - Bienvenue dans l'interface en ligne de commande du programme d'Analayse du CGE
+15-01-2024 10:09:56 [1705309796865]: INFO - ---
+15-01-2024 10:09:56 [1705309796867]: INFO - Affichage des graphiques: [graphique]
+15-01-2024 10:09:56 [1705309796867]: INFO - Options et constantes du programme: [options]
+15-01-2024 10:09:56 [1705309796867]: INFO - Quitter le logiciel: [quitter]
+15-01-2024 10:09:59 [1705309799414]: INFO - > graphique
+15-01-2024 10:09:59 [1705309799414]: INFO - Évolution au cours des ans des dépenses et recettes: [evolution]
+15-01-2024 10:09:59 [1705309799414]: INFO - Recettes et dépenses par ministère: [ministere]
+15-01-2024 10:09:59 [1705309799414]: INFO - Dépenses d'un ministère par poste: [poste]
+15-01-2024 10:09:59 [1705309799414]: INFO - Retour: [retour]
+15-01-2024 10:10:01 [1705309801846]: INFO - > evolution
+15-01-2024 10:10:01 [1705309801846]: INFO - Dépenses et recettes de l'état au fil des ans: [etat]
+15-01-2024 10:10:01 [1705309801846]: INFO - Dépenses et recettes d'un ministère au fil des ans: [ministere]
+15-01-2024 10:10:03 [1705309803159]: INFO - > etat
+15-01-2024 10:10:03 [1705309803159]: INFO - Ce graphique représente les dépense et les recettes de l'état au fil des ans: [retour]
+15-01-2024 10:10:03 [1705309803388]: AVERTISSEMENT - La commande graph_etat_evolution_sans_inconnu a échouée
+15-01-2024 10:10:03 [1705309803388]: AVERTISSEMENT - Erreur: 'tuple' object has no attribute 'show'
+15-01-2024 10:10:03 [1705309803388]: AVERTISSEMENT - Veuillez entrer une commande ou paramètres valide
+15-01-2024 10:10:03 [1705309803388]: AVERTISSEMENT - Retour [retour]
+15-01-2024 10:12:52 [1705309972209]: INFO - Le programme démarre ...
+15-01-2024 10:12:52 [1705309972209]: INFO - Bienvenue dans l'interface en ligne de commande du programme d'Analayse du CGE
+15-01-2024 10:12:52 [1705309972211]: INFO - ---
+15-01-2024 10:12:52 [1705309972214]: INFO - Affichage des graphiques: [graphique]
+15-01-2024 10:12:52 [1705309972214]: INFO - Options et constantes du programme: [options]
+15-01-2024 10:12:52 [1705309972214]: INFO - Quitter le logiciel: [quitter]
+15-01-2024 10:16:51 [1705310211089]: INFO - Le programme démarre ...
+15-01-2024 10:16:51 [1705310211091]: INFO - Bienvenue dans l'interface en ligne de commande du programme d'Analayse du CGE
+15-01-2024 10:16:51 [1705310211091]: INFO - ---
+15-01-2024 10:16:51 [1705310211093]: INFO - Affichage des graphiques: [graphique]
+15-01-2024 10:16:51 [1705310211093]: INFO - Options et constantes du programme: [options]
+15-01-2024 10:16:51 [1705310211093]: INFO - Quitter le logiciel: [quitter]
+15-01-2024 10:16:53 [1705310213398]: INFO - > graphique
+15-01-2024 10:16:53 [1705310213399]: INFO - Évolution au cours des ans des dépenses et recettes: [evolution]
+15-01-2024 10:16:53 [1705310213399]: INFO - Recettes et dépenses par ministère: [ministere]
+15-01-2024 10:16:53 [1705310213399]: INFO - Dépenses d'un ministère par poste: [poste]
+15-01-2024 10:16:53 [1705310213399]: INFO - Retour: [retour]
+15-01-2024 10:16:56 [1705310216078]: INFO - > poste
+15-01-2024 10:16:56 [1705310216079]: INFO - Veuillez spécifier une année
+15-01-2024 10:16:56 [1705310216080]: INFO - Années possibles : entre 2012 et 2022
+15-01-2024 10:16:57 [1705310217890]: INFO - > 2012
+15-01-2024 10:16:57 [1705310217890]: INFO - Retour: [retour]
+15-01-2024 10:16:57 [1705310217892]: INFO - Économie, finances et relance: [0]
+15-01-2024 10:16:57 [1705310217892]: INFO - Non renseigné: [1]
+15-01-2024 10:16:57 [1705310217892]: INFO - Justice: [2]
+15-01-2024 10:16:57 [1705310217892]: INFO - Transition écologique: [3]
+15-01-2024 10:16:57 [1705310217892]: INFO - Intérieur: [4]
+15-01-2024 10:16:57 [1705310217893]: INFO - Agriculture et alimentation: [5]
+15-01-2024 10:16:57 [1705310217893]: INFO - Travail, emploi et insertion: [6]
+15-01-2024 10:16:57 [1705310217893]: INFO - Cohésion des territoires et relations avec les collectivités territoriales: [7]
+15-01-2024 10:16:57 [1705310217893]: INFO - Services du Premier ministre: [8]
+15-01-2024 10:16:57 [1705310217893]: INFO - Outre-Mer: [9]
+15-01-2024 10:16:57 [1705310217893]: INFO - Culture: [10]
+15-01-2024 10:16:57 [1705310217893]: INFO - Armées: [11]
+15-01-2024 10:16:57 [1705310217893]: INFO - Mer: [12]
+15-01-2024 10:16:57 [1705310217893]: INFO - Éducation nationale, jeunesse et sports: [13]
+15-01-2024 10:16:57 [1705310217894]: INFO - Transformation et de la fonction publiques: [14]
+15-01-2024 10:16:57 [1705310217894]: INFO - Solidarités et santé: [15]
+15-01-2024 10:16:57 [1705310217894]: INFO - Enseignement supérieur, recherche et innovation: [16]
+15-01-2024 10:16:57 [1705310217894]: INFO - Europe et affaires étrangères: [17]
+15-01-2024 10:16:59 [1705310219415]: INFO - > 12
+15-01-2024 10:16:59 [1705310219415]: INFO - Ce graphique représente les dépenses du ministère "Mer" par poste en 2012.
+15-01-2024 10:19:43 [1705310383532]: INFO - Le programme démarre ...
+15-01-2024 10:19:43 [1705310383533]: INFO - Bienvenue dans l'interface en ligne de commande du programme d'Analayse du CGE
+15-01-2024 10:19:43 [1705310383533]: INFO - ---
+15-01-2024 10:19:43 [1705310383535]: INFO - Affichage des graphiques: [graphique]
+15-01-2024 10:19:43 [1705310383535]: INFO - Options et constantes du programme: [options]
+15-01-2024 10:19:43 [1705310383535]: INFO - Quitter le logiciel: [quitter]
+15-01-2024 10:19:46 [1705310386683]: INFO - > graphique
+15-01-2024 10:19:46 [1705310386683]: INFO - Évolution au cours des ans des dépenses et recettes: [evolution]
+15-01-2024 10:19:46 [1705310386683]: INFO - Recettes et dépenses par ministère: [ministere]
+15-01-2024 10:19:46 [1705310386683]: INFO - Dépenses d'un ministère par poste: [poste]
+15-01-2024 10:19:46 [1705310386683]: INFO - Retour: [retour]
+15-01-2024 10:19:49 [1705310389668]: INFO - > evolution
+15-01-2024 10:19:49 [1705310389669]: INFO - Dépenses et recettes de l'état au fil des ans: [etat]
+15-01-2024 10:19:49 [1705310389669]: INFO - Dépenses et recettes d'un ministère au fil des ans: [ministere]
+15-01-2024 10:19:51 [1705310391213]: INFO - > etat
+15-01-2024 10:19:51 [1705310391213]: INFO - Ce graphique représente les dépense et les recettes de l'état au fil des ans: [retour]
+15-01-2024 10:19:57 [1705310397923]: INFO - > retour
+15-01-2024 10:19:57 [1705310397923]: INFO - Dépenses et recettes de l'état au fil des ans: [etat]
+15-01-2024 10:19:57 [1705310397923]: INFO - Dépenses et recettes d'un ministère au fil des ans: [ministere]
+15-01-2024 10:20:00 [1705310400235]: INFO - > ministere
+15-01-2024 10:20:00 [1705310400235]: INFO - Retour: [retour]
+15-01-2024 10:20:00 [1705310400237]: INFO - Économie, finances et relance: [0]
+15-01-2024 10:20:00 [1705310400237]: INFO - Non renseigné: [1]
+15-01-2024 10:20:00 [1705310400237]: INFO - Justice: [2]
+15-01-2024 10:20:00 [1705310400237]: INFO - Transition écologique: [3]
+15-01-2024 10:20:00 [1705310400237]: INFO - Intérieur: [4]
+15-01-2024 10:20:00 [1705310400237]: INFO - Agriculture et alimentation: [5]
+15-01-2024 10:20:00 [1705310400237]: INFO - Travail, emploi et insertion: [6]
+15-01-2024 10:20:00 [1705310400238]: INFO - Cohésion des territoires et relations avec les collectivités territoriales: [7]
+15-01-2024 10:20:00 [1705310400238]: INFO - Services du Premier ministre: [8]
+15-01-2024 10:20:00 [1705310400238]: INFO - Outre-Mer: [9]
+15-01-2024 10:20:00 [1705310400238]: INFO - Culture: [10]
+15-01-2024 10:20:00 [1705310400238]: INFO - Armées: [11]
+15-01-2024 10:20:00 [1705310400238]: INFO - Mer: [12]
+15-01-2024 10:20:00 [1705310400238]: INFO - Éducation nationale, jeunesse et sports: [13]
+15-01-2024 10:20:00 [1705310400238]: INFO - Transformation et de la fonction publiques: [14]
+15-01-2024 10:20:00 [1705310400239]: INFO - Solidarités et santé: [15]
+15-01-2024 10:20:00 [1705310400239]: INFO - Enseignement supérieur, recherche et innovation: [16]
+15-01-2024 10:20:00 [1705310400239]: INFO - Europe et affaires étrangères: [17]
+15-01-2024 10:20:02 [1705310402347]: INFO - > 12
+15-01-2024 10:20:02 [1705310402347]: INFO - Ce graphique représente les dépense et les recettes du ministère "Mer" au fil des ans
+15-01-2024 10:20:13 [1705310413581]: INFO - > retour
+15-01-2024 10:20:13 [1705310413581]: INFO - Dépenses et recettes de l'état au fil des ans: [etat]
+15-01-2024 10:20:13 [1705310413581]: INFO - Dépenses et recettes d'un ministère au fil des ans: [ministere]
+15-01-2024 10:20:15 [1705310415994]: INFO - > ministere
+15-01-2024 10:20:15 [1705310415994]: INFO - Retour: [retour]
+15-01-2024 10:20:15 [1705310415996]: INFO - Économie, finances et relance: [0]
+15-01-2024 10:20:15 [1705310415996]: INFO - Non renseigné: [1]
+15-01-2024 10:20:15 [1705310415996]: INFO - Justice: [2]
+15-01-2024 10:20:15 [1705310415996]: INFO - Transition écologique: [3]
+15-01-2024 10:20:15 [1705310415997]: INFO - Intérieur: [4]
+15-01-2024 10:20:15 [1705310415997]: INFO - Agriculture et alimentation: [5]
+15-01-2024 10:20:15 [1705310415997]: INFO - Travail, emploi et insertion: [6]
+15-01-2024 10:20:15 [1705310415997]: INFO - Cohésion des territoires et relations avec les collectivités territoriales: [7]
+15-01-2024 10:20:15 [1705310415997]: INFO - Services du Premier ministre: [8]
+15-01-2024 10:20:15 [1705310415997]: INFO - Outre-Mer: [9]
+15-01-2024 10:20:15 [1705310415997]: INFO - Culture: [10]
+15-01-2024 10:20:15 [1705310415997]: INFO - Armées: [11]
+15-01-2024 10:20:15 [1705310415998]: INFO - Mer: [12]
+15-01-2024 10:20:15 [1705310415998]: INFO - Éducation nationale, jeunesse et sports: [13]
+15-01-2024 10:20:15 [1705310415998]: INFO - Transformation et de la fonction publiques: [14]
+15-01-2024 10:20:15 [1705310415998]: INFO - Solidarités et santé: [15]
+15-01-2024 10:20:15 [1705310415998]: INFO - Enseignement supérieur, recherche et innovation: [16]
+15-01-2024 10:20:15 [1705310415998]: INFO - Europe et affaires étrangères: [17]
+15-01-2024 10:20:17 [1705310417890]: INFO - > 17
+15-01-2024 10:20:17 [1705310417891]: INFO - Ce graphique représente les dépense et les recettes du ministère "Europe et affaires étrangères" au fil des ans
+15-01-2024 10:20:20 [1705310420788]: INFO - > retour
+15-01-2024 10:20:20 [1705310420788]: INFO - Dépenses et recettes de l'état au fil des ans: [etat]
+15-01-2024 10:20:20 [1705310420788]: INFO - Dépenses et recettes d'un ministère au fil des ans: [ministere]
+15-01-2024 10:20:23 [1705310423540]: INFO - > retour
+15-01-2024 10:20:23 [1705310423540]: INFO - Évolution au cours des ans des dépenses et recettes: [evolution]
+15-01-2024 10:20:23 [1705310423540]: INFO - Recettes et dépenses par ministère: [ministere]
+15-01-2024 10:20:23 [1705310423540]: INFO - Dépenses d'un ministère par poste: [poste]
+15-01-2024 10:20:23 [1705310423540]: INFO - Retour: [retour]
+15-01-2024 10:20:25 [1705310425515]: INFO - > ministere
+15-01-2024 10:20:25 [1705310425515]: INFO - Veuillez spécifier une année
+15-01-2024 10:20:25 [1705310425517]: INFO - Années possibles : entre 2012 et 2022
+15-01-2024 10:20:27 [1705310427178]: INFO - > 2012
+15-01-2024 10:20:27 [1705310427179]: INFO - Afficher les dépenses inconnues: [oui]
+15-01-2024 10:20:27 [1705310427179]: INFO - Ne pas afficher les dépenses inconnues: [non]
+15-01-2024 10:20:28 [1705310428714]: INFO - > non
+15-01-2024 10:20:28 [1705310428715]: INFO - Ce graphique représente les dépense et les recettes de l'état par ministère: [retour]
+15-01-2024 10:20:34 [1705310434763]: INFO - > retour
+15-01-2024 10:20:34 [1705310434763]: INFO - Afficher les dépenses inconnues: [oui]
+15-01-2024 10:20:34 [1705310434763]: INFO - Ne pas afficher les dépenses inconnues: [non]
+15-01-2024 10:20:38 [1705310438330]: INFO - > non
+15-01-2024 10:20:38 [1705310438330]: INFO - Ce graphique représente les dépense et les recettes de l'état par ministère: [retour]
+15-01-2024 10:20:40 [1705310440058]: INFO - > retour
+15-01-2024 10:20:40 [1705310440058]: INFO - Afficher les dépenses inconnues: [oui]
+15-01-2024 10:20:40 [1705310440058]: INFO - Ne pas afficher les dépenses inconnues: [non]
+15-01-2024 10:20:43 [1705310443442]: INFO - > retour
+15-01-2024 10:20:43 [1705310443442]: INFO - Veuillez spécifier une année
+15-01-2024 10:20:43 [1705310443444]: INFO - Années possibles : entre 2012 et 2022
+15-01-2024 10:20:45 [1705310445378]: INFO - > retour
+15-01-2024 10:20:45 [1705310445378]: INFO - Évolution au cours des ans des dépenses et recettes: [evolution]
+15-01-2024 10:20:45 [1705310445378]: INFO - Recettes et dépenses par ministère: [ministere]
+15-01-2024 10:20:45 [1705310445378]: INFO - Dépenses d'un ministère par poste: [poste]
+15-01-2024 10:20:45 [1705310445378]: INFO - Retour: [retour]
+15-01-2024 10:20:48 [1705310448226]: INFO - > poste
+15-01-2024 10:20:48 [1705310448227]: INFO - Veuillez spécifier une année
+15-01-2024 10:20:48 [1705310448228]: INFO - Années possibles : entre 2012 et 2022
+15-01-2024 10:20:49 [1705310449761]: INFO - > 2012
+15-01-2024 10:20:49 [1705310449762]: INFO - Retour: [retour]
+15-01-2024 10:20:49 [1705310449763]: INFO - Économie, finances et relance: [0]
+15-01-2024 10:20:49 [1705310449764]: INFO - Non renseigné: [1]
+15-01-2024 10:20:49 [1705310449764]: INFO - Justice: [2]
+15-01-2024 10:20:49 [1705310449764]: INFO - Transition écologique: [3]
+15-01-2024 10:20:49 [1705310449764]: INFO - Intérieur: [4]
+15-01-2024 10:20:49 [1705310449764]: INFO - Agriculture et alimentation: [5]
+15-01-2024 10:20:49 [1705310449764]: INFO - Travail, emploi et insertion: [6]
+15-01-2024 10:20:49 [1705310449764]: INFO - Cohésion des territoires et relations avec les collectivités territoriales: [7]
+15-01-2024 10:20:49 [1705310449764]: INFO - Services du Premier ministre: [8]
+15-01-2024 10:20:49 [1705310449764]: INFO - Outre-Mer: [9]
+15-01-2024 10:20:49 [1705310449765]: INFO - Culture: [10]
+15-01-2024 10:20:49 [1705310449765]: INFO - Armées: [11]
+15-01-2024 10:20:49 [1705310449765]: INFO - Mer: [12]
+15-01-2024 10:20:49 [1705310449765]: INFO - Éducation nationale, jeunesse et sports: [13]
+15-01-2024 10:20:49 [1705310449765]: INFO - Transformation et de la fonction publiques: [14]
+15-01-2024 10:20:49 [1705310449765]: INFO - Solidarités et santé: [15]
+15-01-2024 10:20:49 [1705310449765]: INFO - Enseignement supérieur, recherche et innovation: [16]
+15-01-2024 10:20:49 [1705310449765]: INFO - Europe et affaires étrangères: [17]
+15-01-2024 10:20:51 [1705310451323]: INFO - > 12
+15-01-2024 10:20:51 [1705310451324]: INFO - Ce graphique représente les dépenses du ministère "Mer" par poste en 2012.
+15-01-2024 10:20:51 [1705310451336]: AVERTISSEMENT - La commande graph_poste_par_ministere a échouée
+15-01-2024 10:20:51 [1705310451336]: AVERTISSEMENT - Erreur: Failed to convert value(s) to axis units: ('Stocks', 'Dettes financières', 'Immobilisations incorporelles')
+15-01-2024 10:20:51 [1705310451336]: AVERTISSEMENT - Veuillez entrer une commande ou paramètres valide
+15-01-2024 10:20:51 [1705310451336]: AVERTISSEMENT - Retour [retour]
+15-01-2024 10:22:11 [1705310531595]: INFO - Le programme démarre ...
+15-01-2024 10:22:11 [1705310531595]: INFO - Bienvenue dans l'interface en ligne de commande du programme d'Analayse du CGE
+15-01-2024 10:22:11 [1705310531597]: INFO - ---
+15-01-2024 10:22:11 [1705310531599]: INFO - Affichage des graphiques: [graphique]
+15-01-2024 10:22:11 [1705310531599]: INFO - Options et constantes du programme: [options]
+15-01-2024 10:22:11 [1705310531599]: INFO - Quitter le logiciel: [quitter]
+15-01-2024 10:22:14 [1705310534456]: INFO - > graphique
+15-01-2024 10:22:14 [1705310534456]: INFO - Évolution au cours des ans des dépenses et recettes: [evolution]
+15-01-2024 10:22:14 [1705310534456]: INFO - Recettes et dépenses par ministère: [ministere]
+15-01-2024 10:22:14 [1705310534456]: INFO - Dépenses d'un ministère par poste: [poste]
+15-01-2024 10:22:14 [1705310534456]: INFO - Retour: [retour]
+15-01-2024 10:22:16 [1705310536512]: INFO - > poste
+15-01-2024 10:22:16 [1705310536513]: INFO - Veuillez spécifier une année
+15-01-2024 10:22:16 [1705310536514]: INFO - Années possibles : entre 2012 et 2022
+15-01-2024 10:22:19 [1705310539784]: INFO - > 2012
+15-01-2024 10:22:19 [1705310539785]: INFO - Retour: [retour]
+15-01-2024 10:22:19 [1705310539787]: INFO - Économie, finances et relance: [0]
+15-01-2024 10:22:19 [1705310539787]: INFO - Non renseigné: [1]
+15-01-2024 10:22:19 [1705310539787]: INFO - Justice: [2]
+15-01-2024 10:22:19 [1705310539787]: INFO - Transition écologique: [3]
+15-01-2024 10:22:19 [1705310539787]: INFO - Intérieur: [4]
+15-01-2024 10:22:19 [1705310539787]: INFO - Agriculture et alimentation: [5]
+15-01-2024 10:22:19 [1705310539787]: INFO - Travail, emploi et insertion: [6]
+15-01-2024 10:22:19 [1705310539787]: INFO - Cohésion des territoires et relations avec les collectivités territoriales: [7]
+15-01-2024 10:22:19 [1705310539788]: INFO - Services du Premier ministre: [8]
+15-01-2024 10:22:19 [1705310539788]: INFO - Outre-Mer: [9]
+15-01-2024 10:22:19 [1705310539788]: INFO - Culture: [10]
+15-01-2024 10:22:19 [1705310539788]: INFO - Armées: [11]
+15-01-2024 10:22:19 [1705310539788]: INFO - Mer: [12]
+15-01-2024 10:22:19 [1705310539788]: INFO - Éducation nationale, jeunesse et sports: [13]
+15-01-2024 10:22:19 [1705310539788]: INFO - Transformation et de la fonction publiques: [14]
+15-01-2024 10:22:19 [1705310539788]: INFO - Solidarités et santé: [15]
+15-01-2024 10:22:19 [1705310539788]: INFO - Enseignement supérieur, recherche et innovation: [16]
+15-01-2024 10:22:19 [1705310539788]: INFO - Europe et affaires étrangères: [17]
+15-01-2024 10:22:20 [1705310540768]: INFO - > 12
+15-01-2024 10:22:20 [1705310540768]: INFO - Ce graphique représente les dépenses du ministère "Mer" par poste en 2012.
+15-01-2024 10:22:20 [1705310540809]: AVERTISSEMENT - La commande graph_poste_par_ministere a échouée
+15-01-2024 10:22:20 [1705310540809]: AVERTISSEMENT - Erreur: Failed to convert value(s) to axis units: ('Stocks', 'Dettes financières', 'Immobilisations incorporelles')
+15-01-2024 10:22:20 [1705310540809]: AVERTISSEMENT - Veuillez entrer une commande ou paramètres valide
+15-01-2024 10:22:20 [1705310540809]: AVERTISSEMENT - Retour [retour]
+15-01-2024 10:22:27 [1705310547838]: INFO - Le programme démarre ...
+15-01-2024 10:22:27 [1705310547838]: INFO - Bienvenue dans l'interface en ligne de commande du programme d'Analayse du CGE
+15-01-2024 10:22:27 [1705310547840]: INFO - ---
+15-01-2024 10:22:27 [1705310547841]: INFO - Affichage des graphiques: [graphique]
+15-01-2024 10:22:27 [1705310547841]: INFO - Options et constantes du programme: [options]
+15-01-2024 10:22:27 [1705310547841]: INFO - Quitter le logiciel: [quitter]
+15-01-2024 10:22:30 [1705310550297]: INFO - > graphique
+15-01-2024 10:22:30 [1705310550297]: INFO - Évolution au cours des ans des dépenses et recettes: [evolution]
+15-01-2024 10:22:30 [1705310550297]: INFO - Recettes et dépenses par ministère: [ministere]
+15-01-2024 10:22:30 [1705310550297]: INFO - Dépenses d'un ministère par poste: [poste]
+15-01-2024 10:22:30 [1705310550297]: INFO - Retour: [retour]
+15-01-2024 10:22:32 [1705310552096]: INFO - > poste
+15-01-2024 10:22:32 [1705310552097]: INFO - Veuillez spécifier une année
+15-01-2024 10:22:32 [1705310552098]: INFO - Années possibles : entre 2012 et 2022
+15-01-2024 10:22:33 [1705310553624]: INFO - > 2012
+15-01-2024 10:22:33 [1705310553624]: INFO - Retour: [retour]
+15-01-2024 10:22:33 [1705310553625]: INFO - Économie, finances et relance: [0]
+15-01-2024 10:22:33 [1705310553625]: INFO - Non renseigné: [1]
+15-01-2024 10:22:33 [1705310553625]: INFO - Justice: [2]
+15-01-2024 10:22:33 [1705310553625]: INFO - Transition écologique: [3]
+15-01-2024 10:22:33 [1705310553625]: INFO - Intérieur: [4]
+15-01-2024 10:22:33 [1705310553625]: INFO - Agriculture et alimentation: [5]
+15-01-2024 10:22:33 [1705310553625]: INFO - Travail, emploi et insertion: [6]
+15-01-2024 10:22:33 [1705310553625]: INFO - Cohésion des territoires et relations avec les collectivités territoriales: [7]
+15-01-2024 10:22:33 [1705310553626]: INFO - Services du Premier ministre: [8]
+15-01-2024 10:22:33 [1705310553626]: INFO - Outre-Mer: [9]
+15-01-2024 10:22:33 [1705310553626]: INFO - Culture: [10]
+15-01-2024 10:22:33 [1705310553626]: INFO - Armées: [11]
+15-01-2024 10:22:33 [1705310553626]: INFO - Mer: [12]
+15-01-2024 10:22:33 [1705310553626]: INFO - Éducation nationale, jeunesse et sports: [13]
+15-01-2024 10:22:33 [1705310553626]: INFO - Transformation et de la fonction publiques: [14]
+15-01-2024 10:22:33 [1705310553627]: INFO - Solidarités et santé: [15]
+15-01-2024 10:22:33 [1705310553627]: INFO - Enseignement supérieur, recherche et innovation: [16]
+15-01-2024 10:22:33 [1705310553627]: INFO - Europe et affaires étrangères: [17]
+15-01-2024 10:22:34 [1705310554928]: INFO - > 12
+15-01-2024 10:22:34 [1705310554929]: INFO - Ce graphique représente les dépenses du ministère "Mer" par poste en 2012.
+15-01-2024 10:22:34 [1705310554970]: AVERTISSEMENT - La commande graph_poste_par_ministere a échouée
+15-01-2024 10:22:34 [1705310554970]: AVERTISSEMENT - Erreur: Failed to convert value(s) to axis units: ('Stocks', 'Dettes financières', 'Immobilisations incorporelles')
+15-01-2024 10:22:34 [1705310554970]: AVERTISSEMENT - Veuillez entrer une commande ou paramètres valide
+15-01-2024 10:22:34 [1705310554970]: AVERTISSEMENT - Retour [retour]
+15-01-2024 10:22:42 [1705310562212]: INFO - Le programme démarre ...
+15-01-2024 10:22:42 [1705310562212]: INFO - Bienvenue dans l'interface en ligne de commande du programme d'Analayse du CGE
+15-01-2024 10:22:42 [1705310562214]: INFO - ---
+15-01-2024 10:22:42 [1705310562215]: INFO - Affichage des graphiques: [graphique]
+15-01-2024 10:22:42 [1705310562215]: INFO - Options et constantes du programme: [options]
+15-01-2024 10:22:42 [1705310562215]: INFO - Quitter le logiciel: [quitter]
+15-01-2024 10:22:44 [1705310564624]: INFO - > graphique
+15-01-2024 10:22:44 [1705310564624]: INFO - Évolution au cours des ans des dépenses et recettes: [evolution]
+15-01-2024 10:22:44 [1705310564624]: INFO - Recettes et dépenses par ministère: [ministere]
+15-01-2024 10:22:44 [1705310564624]: INFO - Dépenses d'un ministère par poste: [poste]
+15-01-2024 10:22:44 [1705310564624]: INFO - Retour: [retour]
+15-01-2024 10:22:45 [1705310565839]: INFO - > poste
+15-01-2024 10:22:45 [1705310565840]: INFO - Veuillez spécifier une année
+15-01-2024 10:22:45 [1705310565841]: INFO - Années possibles : entre 2012 et 2022
+15-01-2024 10:22:46 [1705310566752]: INFO - > 2012
+15-01-2024 10:22:46 [1705310566752]: INFO - Retour: [retour]
+15-01-2024 10:22:46 [1705310566754]: INFO - Économie, finances et relance: [0]
+15-01-2024 10:22:46 [1705310566754]: INFO - Non renseigné: [1]
+15-01-2024 10:22:46 [1705310566754]: INFO - Justice: [2]
+15-01-2024 10:22:46 [1705310566754]: INFO - Transition écologique: [3]
+15-01-2024 10:22:46 [1705310566754]: INFO - Intérieur: [4]
+15-01-2024 10:22:46 [1705310566755]: INFO - Agriculture et alimentation: [5]
+15-01-2024 10:22:46 [1705310566755]: INFO - Travail, emploi et insertion: [6]
+15-01-2024 10:22:46 [1705310566755]: INFO - Cohésion des territoires et relations avec les collectivités territoriales: [7]
+15-01-2024 10:22:46 [1705310566755]: INFO - Services du Premier ministre: [8]
+15-01-2024 10:22:46 [1705310566755]: INFO - Outre-Mer: [9]
+15-01-2024 10:22:46 [1705310566755]: INFO - Culture: [10]
+15-01-2024 10:22:46 [1705310566755]: INFO - Armées: [11]
+15-01-2024 10:22:46 [1705310566755]: INFO - Mer: [12]
+15-01-2024 10:22:46 [1705310566755]: INFO - Éducation nationale, jeunesse et sports: [13]
+15-01-2024 10:22:46 [1705310566756]: INFO - Transformation et de la fonction publiques: [14]
+15-01-2024 10:22:46 [1705310566756]: INFO - Solidarités et santé: [15]
+15-01-2024 10:22:46 [1705310566756]: INFO - Enseignement supérieur, recherche et innovation: [16]
+15-01-2024 10:22:46 [1705310566756]: INFO - Europe et affaires étrangères: [17]
+15-01-2024 10:22:47 [1705310567512]: INFO - > 12
+15-01-2024 10:22:47 [1705310567512]: INFO - Ce graphique représente les dépenses du ministère "Mer" par poste en 2012.
+15-01-2024 10:22:57 [1705310577965]: INFO - Le programme démarre ...
+15-01-2024 10:22:57 [1705310577965]: INFO - Bienvenue dans l'interface en ligne de commande du programme d'Analayse du CGE
+15-01-2024 10:22:57 [1705310577967]: INFO - ---
+15-01-2024 10:22:57 [1705310577971]: INFO - Affichage des graphiques: [graphique]
+15-01-2024 10:22:57 [1705310577971]: INFO - Options et constantes du programme: [options]
+15-01-2024 10:22:57 [1705310577971]: INFO - Quitter le logiciel: [quitter]
+15-01-2024 10:23:02 [1705310582306]: INFO - > graphique
+15-01-2024 10:23:02 [1705310582307]: INFO - Évolution au cours des ans des dépenses et recettes: [evolution]
+15-01-2024 10:23:02 [1705310582307]: INFO - Recettes et dépenses par ministère: [ministere]
+15-01-2024 10:23:02 [1705310582307]: INFO - Dépenses d'un ministère par poste: [poste]
+15-01-2024 10:23:02 [1705310582307]: INFO - Retour: [retour]
+15-01-2024 10:23:03 [1705310583594]: INFO - > poste
+15-01-2024 10:23:03 [1705310583594]: INFO - Veuillez spécifier une année
+15-01-2024 10:23:03 [1705310583596]: INFO - Années possibles : entre 2012 et 2022
+15-01-2024 10:23:04 [1705310584623]: INFO - > 2012
+15-01-2024 10:23:04 [1705310584624]: INFO - Retour: [retour]
+15-01-2024 10:23:04 [1705310584626]: INFO - Économie, finances et relance: [0]
+15-01-2024 10:23:04 [1705310584626]: INFO - Non renseigné: [1]
+15-01-2024 10:23:04 [1705310584626]: INFO - Justice: [2]
+15-01-2024 10:23:04 [1705310584626]: INFO - Transition écologique: [3]
+15-01-2024 10:23:04 [1705310584626]: INFO - Intérieur: [4]
+15-01-2024 10:23:04 [1705310584626]: INFO - Agriculture et alimentation: [5]
+15-01-2024 10:23:04 [1705310584626]: INFO - Travail, emploi et insertion: [6]
+15-01-2024 10:23:04 [1705310584627]: INFO - Cohésion des territoires et relations avec les collectivités territoriales: [7]
+15-01-2024 10:23:04 [1705310584627]: INFO - Services du Premier ministre: [8]
+15-01-2024 10:23:04 [1705310584627]: INFO - Outre-Mer: [9]
+15-01-2024 10:23:04 [1705310584627]: INFO - Culture: [10]
+15-01-2024 10:23:04 [1705310584627]: INFO - Armées: [11]
+15-01-2024 10:23:04 [1705310584627]: INFO - Mer: [12]
+15-01-2024 10:23:04 [1705310584627]: INFO - Éducation nationale, jeunesse et sports: [13]
+15-01-2024 10:23:04 [1705310584627]: INFO - Transformation et de la fonction publiques: [14]
+15-01-2024 10:23:04 [1705310584627]: INFO - Solidarités et santé: [15]
+15-01-2024 10:23:04 [1705310584627]: INFO - Enseignement supérieur, recherche et innovation: [16]
+15-01-2024 10:23:04 [1705310584628]: INFO - Europe et affaires étrangères: [17]
+15-01-2024 10:23:05 [1705310585904]: INFO - > 12
+15-01-2024 10:23:05 [1705310585904]: INFO - Ce graphique représente les dépenses du ministère "Mer" par poste en 2012.
+15-01-2024 10:23:49 [1705310629806]: INFO - > retour
+15-01-2024 10:23:49 [1705310629809]: INFO - Veuillez spécifier une année
+15-01-2024 10:23:49 [1705310629809]: INFO - Années possibles : entre 2012 et 2022
+15-01-2024 10:23:51 [1705310631702]: INFO - > 2012
+15-01-2024 10:23:51 [1705310631702]: INFO - Retour: [retour]
+15-01-2024 10:23:51 [1705310631704]: INFO - Économie, finances et relance: [0]
+15-01-2024 10:23:51 [1705310631704]: INFO - Non renseigné: [1]
+15-01-2024 10:23:51 [1705310631704]: INFO - Justice: [2]
+15-01-2024 10:23:51 [1705310631704]: INFO - Transition écologique: [3]
+15-01-2024 10:23:51 [1705310631704]: INFO - Intérieur: [4]
+15-01-2024 10:23:51 [1705310631704]: INFO - Agriculture et alimentation: [5]
+15-01-2024 10:23:51 [1705310631705]: INFO - Travail, emploi et insertion: [6]
+15-01-2024 10:23:51 [1705310631705]: INFO - Cohésion des territoires et relations avec les collectivités territoriales: [7]
+15-01-2024 10:23:51 [1705310631705]: INFO - Services du Premier ministre: [8]
+15-01-2024 10:23:51 [1705310631705]: INFO - Outre-Mer: [9]
+15-01-2024 10:23:51 [1705310631705]: INFO - Culture: [10]
+15-01-2024 10:23:51 [1705310631705]: INFO - Armées: [11]
+15-01-2024 10:23:51 [1705310631705]: INFO - Mer: [12]
+15-01-2024 10:23:51 [1705310631705]: INFO - Éducation nationale, jeunesse et sports: [13]
+15-01-2024 10:23:51 [1705310631705]: INFO - Transformation et de la fonction publiques: [14]
+15-01-2024 10:23:51 [1705310631706]: INFO - Solidarités et santé: [15]
+15-01-2024 10:23:51 [1705310631706]: INFO - Enseignement supérieur, recherche et innovation: [16]
+15-01-2024 10:23:51 [1705310631706]: INFO - Europe et affaires étrangères: [17]
+15-01-2024 10:23:57 [1705310637310]: INFO - > 16
+15-01-2024 10:23:57 [1705310637310]: INFO - Ce graphique représente les dépenses du ministère "Enseignement supérieur, recherche et innovation" par poste en 2012.
+15-01-2024 10:25:01 [1705310701859]: INFO - Le programme démarre ...
+15-01-2024 10:25:01 [1705310701859]: INFO - Bienvenue dans l'interface en ligne de commande du programme d'Analayse du CGE
+15-01-2024 10:25:01 [1705310701859]: INFO - ---
+15-01-2024 10:25:01 [1705310701860]: INFO - Affichage des graphiques: [graphique]
+15-01-2024 10:25:01 [1705310701860]: INFO - Options et constantes du programme: [options]
+15-01-2024 10:25:01 [1705310701860]: INFO - Quitter le logiciel: [quitter]
+15-01-2024 10:25:04 [1705310704155]: INFO - > graphique
+15-01-2024 10:25:04 [1705310704156]: INFO - Évolution au cours des ans des dépenses et recettes: [evolution]
+15-01-2024 10:25:04 [1705310704156]: INFO - Recettes et dépenses par ministère: [ministere]
+15-01-2024 10:25:04 [1705310704156]: INFO - Dépenses d'un ministère par poste: [poste]
+15-01-2024 10:25:04 [1705310704156]: INFO - Retour: [retour]
+15-01-2024 10:25:05 [1705310705846]: INFO - > poste
+15-01-2024 10:25:05 [1705310705846]: INFO - Veuillez spécifier une année
+15-01-2024 10:25:05 [1705310705848]: INFO - Années possibles : entre 2012 et 2022
+15-01-2024 10:25:08 [1705310708413]: INFO - > 2012
+15-01-2024 10:25:08 [1705310708414]: INFO - Retour: [retour]
+15-01-2024 10:25:08 [1705310708415]: INFO - Économie, finances et relance: [0]
+15-01-2024 10:25:08 [1705310708415]: INFO - Non renseigné: [1]
+15-01-2024 10:25:08 [1705310708415]: INFO - Justice: [2]
+15-01-2024 10:25:08 [1705310708416]: INFO - Transition écologique: [3]
+15-01-2024 10:25:08 [1705310708416]: INFO - Intérieur: [4]
+15-01-2024 10:25:08 [1705310708416]: INFO - Agriculture et alimentation: [5]
+15-01-2024 10:25:08 [1705310708416]: INFO - Travail, emploi et insertion: [6]
+15-01-2024 10:25:08 [1705310708416]: INFO - Cohésion des territoires et relations avec les collectivités territoriales: [7]
+15-01-2024 10:25:08 [1705310708416]: INFO - Services du Premier ministre: [8]
+15-01-2024 10:25:08 [1705310708416]: INFO - Outre-Mer: [9]
+15-01-2024 10:25:08 [1705310708417]: INFO - Culture: [10]
+15-01-2024 10:25:08 [1705310708417]: INFO - Armées: [11]
+15-01-2024 10:25:08 [1705310708417]: INFO - Mer: [12]
+15-01-2024 10:25:08 [1705310708417]: INFO - Éducation nationale, jeunesse et sports: [13]
+15-01-2024 10:25:08 [1705310708417]: INFO - Transformation et de la fonction publiques: [14]
+15-01-2024 10:25:08 [1705310708417]: INFO - Solidarités et santé: [15]
+15-01-2024 10:25:08 [1705310708417]: INFO - Enseignement supérieur, recherche et innovation: [16]
+15-01-2024 10:25:08 [1705310708417]: INFO - Europe et affaires étrangères: [17]
+15-01-2024 10:25:09 [1705310709173]: INFO - > 12
+15-01-2024 10:25:09 [1705310709173]: INFO - Ce graphique représente les dépenses du ministère "Mer" par poste en 2012.
+15-01-2024 10:25:09 [1705310709226]: AVERTISSEMENT - La commande graph_poste_par_ministere a échouée
+15-01-2024 10:25:09 [1705310709226]: AVERTISSEMENT - Erreur: 'locs' must be 1D with shape (N,), but your input has shape ()
+15-01-2024 10:25:09 [1705310709226]: AVERTISSEMENT - Veuillez entrer une commande ou paramètres valide
+15-01-2024 10:25:09 [1705310709226]: AVERTISSEMENT - Retour [retour]
+15-01-2024 10:25:23 [1705310723502]: INFO - Le programme démarre ...
+15-01-2024 10:25:23 [1705310723502]: INFO - Bienvenue dans l'interface en ligne de commande du programme d'Analayse du CGE
+15-01-2024 10:25:23 [1705310723504]: INFO - ---
+15-01-2024 10:25:23 [1705310723505]: INFO - Affichage des graphiques: [graphique]
+15-01-2024 10:25:23 [1705310723505]: INFO - Options et constantes du programme: [options]
+15-01-2024 10:25:23 [1705310723505]: INFO - Quitter le logiciel: [quitter]
+15-01-2024 10:25:26 [1705310726405]: INFO - > graphique
+15-01-2024 10:25:26 [1705310726405]: INFO - Évolution au cours des ans des dépenses et recettes: [evolution]
+15-01-2024 10:25:26 [1705310726405]: INFO - Recettes et dépenses par ministère: [ministere]
+15-01-2024 10:25:26 [1705310726405]: INFO - Dépenses d'un ministère par poste: [poste]
+15-01-2024 10:25:26 [1705310726405]: INFO - Retour: [retour]
+15-01-2024 10:25:28 [1705310728182]: INFO - > poste
+15-01-2024 10:25:28 [1705310728183]: INFO - Veuillez spécifier une année
+15-01-2024 10:25:28 [1705310728184]: INFO - Années possibles : entre 2012 et 2022
+15-01-2024 10:25:28 [1705310728892]: INFO - > 2012
+15-01-2024 10:25:28 [1705310728893]: INFO - Retour: [retour]
+15-01-2024 10:25:28 [1705310728894]: INFO - Économie, finances et relance: [0]
+15-01-2024 10:25:28 [1705310728895]: INFO - Non renseigné: [1]
+15-01-2024 10:25:28 [1705310728895]: INFO - Justice: [2]
+15-01-2024 10:25:28 [1705310728895]: INFO - Transition écologique: [3]
+15-01-2024 10:25:28 [1705310728895]: INFO - Intérieur: [4]
+15-01-2024 10:25:28 [1705310728895]: INFO - Agriculture et alimentation: [5]
+15-01-2024 10:25:28 [1705310728895]: INFO - Travail, emploi et insertion: [6]
+15-01-2024 10:25:28 [1705310728895]: INFO - Cohésion des territoires et relations avec les collectivités territoriales: [7]
+15-01-2024 10:25:28 [1705310728895]: INFO - Services du Premier ministre: [8]
+15-01-2024 10:25:28 [1705310728896]: INFO - Outre-Mer: [9]
+15-01-2024 10:25:28 [1705310728896]: INFO - Culture: [10]
+15-01-2024 10:25:28 [1705310728896]: INFO - Armées: [11]
+15-01-2024 10:25:28 [1705310728896]: INFO - Mer: [12]
+15-01-2024 10:25:28 [1705310728896]: INFO - Éducation nationale, jeunesse et sports: [13]
+15-01-2024 10:25:28 [1705310728896]: INFO - Transformation et de la fonction publiques: [14]
+15-01-2024 10:25:28 [1705310728896]: INFO - Solidarités et santé: [15]
+15-01-2024 10:25:28 [1705310728897]: INFO - Enseignement supérieur, recherche et innovation: [16]
+15-01-2024 10:25:28 [1705310728897]: INFO - Europe et affaires étrangères: [17]
+15-01-2024 10:25:29 [1705310729685]: INFO - > 12
+15-01-2024 10:25:29 [1705310729685]: INFO - Ce graphique représente les dépenses du ministère "Mer" par poste en 2012.
+15-01-2024 10:25:29 [1705310729727]: AVERTISSEMENT - La commande graph_poste_par_ministere a échouée
+15-01-2024 10:25:29 [1705310729727]: AVERTISSEMENT - Erreur: Failed to convert value(s) to axis units: ('Stocks', 'Dettes financières', 'Immobilisations incorporelles')
+15-01-2024 10:25:29 [1705310729727]: AVERTISSEMENT - Veuillez entrer une commande ou paramètres valide
+15-01-2024 10:25:29 [1705310729727]: AVERTISSEMENT - Retour [retour]
+15-01-2024 10:25:52 [1705310752782]: INFO - Le programme démarre ...
+15-01-2024 10:25:52 [1705310752782]: INFO - Bienvenue dans l'interface en ligne de commande du programme d'Analayse du CGE
+15-01-2024 10:25:52 [1705310752784]: INFO - ---
+15-01-2024 10:25:52 [1705310752786]: INFO - Affichage des graphiques: [graphique]
+15-01-2024 10:25:52 [1705310752786]: INFO - Options et constantes du programme: [options]
+15-01-2024 10:25:52 [1705310752786]: INFO - Quitter le logiciel: [quitter]
+15-01-2024 10:25:54 [1705310754860]: INFO - > graphique
+15-01-2024 10:25:54 [1705310754861]: INFO - Évolution au cours des ans des dépenses et recettes: [evolution]
+15-01-2024 10:25:54 [1705310754861]: INFO - Recettes et dépenses par ministère: [ministere]
+15-01-2024 10:25:54 [1705310754861]: INFO - Dépenses d'un ministère par poste: [poste]
+15-01-2024 10:25:54 [1705310754861]: INFO - Retour: [retour]
+15-01-2024 10:25:55 [1705310755790]: INFO - > poste
+15-01-2024 10:25:55 [1705310755790]: INFO - Veuillez spécifier une année
+15-01-2024 10:25:55 [1705310755792]: INFO - Années possibles : entre 2012 et 2022
+15-01-2024 10:25:57 [1705310757117]: INFO - > 2012
+15-01-2024 10:25:57 [1705310757117]: INFO - Retour: [retour]
+15-01-2024 10:25:57 [1705310757119]: INFO - Économie, finances et relance: [0]
+15-01-2024 10:25:57 [1705310757119]: INFO - Non renseigné: [1]
+15-01-2024 10:25:57 [1705310757119]: INFO - Justice: [2]
+15-01-2024 10:25:57 [1705310757120]: INFO - Transition écologique: [3]
+15-01-2024 10:25:57 [1705310757120]: INFO - Intérieur: [4]
+15-01-2024 10:25:57 [1705310757120]: INFO - Agriculture et alimentation: [5]
+15-01-2024 10:25:57 [1705310757120]: INFO - Travail, emploi et insertion: [6]
+15-01-2024 10:25:57 [1705310757120]: INFO - Cohésion des territoires et relations avec les collectivités territoriales: [7]
+15-01-2024 10:25:57 [1705310757120]: INFO - Services du Premier ministre: [8]
+15-01-2024 10:25:57 [1705310757120]: INFO - Outre-Mer: [9]
+15-01-2024 10:25:57 [1705310757120]: INFO - Culture: [10]
+15-01-2024 10:25:57 [1705310757120]: INFO - Armées: [11]
+15-01-2024 10:25:57 [1705310757121]: INFO - Mer: [12]
+15-01-2024 10:25:57 [1705310757121]: INFO - Éducation nationale, jeunesse et sports: [13]
+15-01-2024 10:25:57 [1705310757121]: INFO - Transformation et de la fonction publiques: [14]
+15-01-2024 10:25:57 [1705310757121]: INFO - Solidarités et santé: [15]
+15-01-2024 10:25:57 [1705310757121]: INFO - Enseignement supérieur, recherche et innovation: [16]
+15-01-2024 10:25:57 [1705310757121]: INFO - Europe et affaires étrangères: [17]
+15-01-2024 10:25:58 [1705310758638]: INFO - > 12
+15-01-2024 10:25:58 [1705310758638]: INFO - Ce graphique représente les dépenses du ministère "Mer" par poste en 2012.
+15-01-2024 10:27:31 [1705310851267]: INFO - Le programme démarre ...
+15-01-2024 10:27:31 [1705310851267]: INFO - Bienvenue dans l'interface en ligne de commande du programme d'Analayse du CGE
+15-01-2024 10:27:31 [1705310851269]: INFO - ---
+15-01-2024 10:27:31 [1705310851272]: INFO - Affichage des graphiques: [graphique]
+15-01-2024 10:27:31 [1705310851272]: INFO - Options et constantes du programme: [options]
+15-01-2024 10:27:31 [1705310851272]: INFO - Quitter le logiciel: [quitter]
+15-01-2024 10:27:33 [1705310853644]: INFO - > graphique
+15-01-2024 10:27:33 [1705310853644]: INFO - Évolution au cours des ans des dépenses et recettes: [evolution]
+15-01-2024 10:27:33 [1705310853644]: INFO - Recettes et dépenses par ministère: [ministere]
+15-01-2024 10:27:33 [1705310853644]: INFO - Dépenses d'un ministère par poste: [poste]
+15-01-2024 10:27:33 [1705310853644]: INFO - Retour: [retour]
+15-01-2024 10:27:38 [1705310858930]: INFO - > poste
+15-01-2024 10:27:38 [1705310858931]: INFO - Veuillez spécifier une année
+15-01-2024 10:27:38 [1705310858932]: INFO - Années possibles : entre 2012 et 2022
+15-01-2024 10:27:39 [1705310859604]: INFO - > 2012
+15-01-2024 10:27:39 [1705310859604]: INFO - Retour: [retour]
+15-01-2024 10:27:39 [1705310859606]: INFO - Économie, finances et relance: [0]
+15-01-2024 10:27:39 [1705310859606]: INFO - Non renseigné: [1]
+15-01-2024 10:27:39 [1705310859606]: INFO - Justice: [2]
+15-01-2024 10:27:39 [1705310859606]: INFO - Transition écologique: [3]
+15-01-2024 10:27:39 [1705310859606]: INFO - Intérieur: [4]
+15-01-2024 10:27:39 [1705310859607]: INFO - Agriculture et alimentation: [5]
+15-01-2024 10:27:39 [1705310859607]: INFO - Travail, emploi et insertion: [6]
+15-01-2024 10:27:39 [1705310859607]: INFO - Cohésion des territoires et relations avec les collectivités territoriales: [7]
+15-01-2024 10:27:39 [1705310859607]: INFO - Services du Premier ministre: [8]
+15-01-2024 10:27:39 [1705310859607]: INFO - Outre-Mer: [9]
+15-01-2024 10:27:39 [1705310859607]: INFO - Culture: [10]
+15-01-2024 10:27:39 [1705310859607]: INFO - Armées: [11]
+15-01-2024 10:27:39 [1705310859607]: INFO - Mer: [12]
+15-01-2024 10:27:39 [1705310859608]: INFO - Éducation nationale, jeunesse et sports: [13]
+15-01-2024 10:27:39 [1705310859608]: INFO - Transformation et de la fonction publiques: [14]
+15-01-2024 10:27:39 [1705310859608]: INFO - Solidarités et santé: [15]
+15-01-2024 10:27:39 [1705310859608]: INFO - Enseignement supérieur, recherche et innovation: [16]
+15-01-2024 10:27:39 [1705310859608]: INFO - Europe et affaires étrangères: [17]
+15-01-2024 10:27:40 [1705310860275]: INFO - > 12
+15-01-2024 10:27:40 [1705310860275]: INFO - Ce graphique représente les dépenses du ministère "Mer" par poste en 2012.
+15-01-2024 10:28:03 [1705310883438]: INFO - Le programme démarre ...
+15-01-2024 10:28:03 [1705310883438]: INFO - Bienvenue dans l'interface en ligne de commande du programme d'Analayse du CGE
+15-01-2024 10:28:03 [1705310883440]: INFO - ---
+15-01-2024 10:28:03 [1705310883449]: INFO - Affichage des graphiques: [graphique]
+15-01-2024 10:28:03 [1705310883449]: INFO - Options et constantes du programme: [options]
+15-01-2024 10:28:03 [1705310883449]: INFO - Quitter le logiciel: [quitter]
+15-01-2024 10:28:06 [1705310886802]: INFO - > graphique
+15-01-2024 10:28:06 [1705310886803]: INFO - Évolution au cours des ans des dépenses et recettes: [evolution]
+15-01-2024 10:28:06 [1705310886803]: INFO - Recettes et dépenses par ministère: [ministere]
+15-01-2024 10:28:06 [1705310886803]: INFO - Dépenses d'un ministère par poste: [poste]
+15-01-2024 10:28:06 [1705310886803]: INFO - Retour: [retour]
+15-01-2024 10:28:08 [1705310888706]: INFO - > poste
+15-01-2024 10:28:08 [1705310888706]: INFO - Veuillez spécifier une année
+15-01-2024 10:28:08 [1705310888708]: INFO - Années possibles : entre 2012 et 2022
+15-01-2024 10:28:10 [1705310890291]: INFO - > 2012
+15-01-2024 10:28:10 [1705310890292]: INFO - Retour: [retour]
+15-01-2024 10:28:10 [1705310890292]: INFO - Économie, finances et relance: [0]
+15-01-2024 10:28:10 [1705310890292]: INFO - Non renseigné: [1]
+15-01-2024 10:28:10 [1705310890292]: INFO - Justice: [2]
+15-01-2024 10:28:10 [1705310890292]: INFO - Transition écologique: [3]
+15-01-2024 10:28:10 [1705310890292]: INFO - Intérieur: [4]
+15-01-2024 10:28:10 [1705310890293]: INFO - Agriculture et alimentation: [5]
+15-01-2024 10:28:10 [1705310890293]: INFO - Travail, emploi et insertion: [6]
+15-01-2024 10:28:10 [1705310890293]: INFO - Cohésion des territoires et relations avec les collectivités territoriales: [7]
+15-01-2024 10:28:10 [1705310890293]: INFO - Services du Premier ministre: [8]
+15-01-2024 10:28:10 [1705310890293]: INFO - Outre-Mer: [9]
+15-01-2024 10:28:10 [1705310890294]: INFO - Culture: [10]
+15-01-2024 10:28:10 [1705310890294]: INFO - Armées: [11]
+15-01-2024 10:28:10 [1705310890294]: INFO - Mer: [12]
+15-01-2024 10:28:10 [1705310890294]: INFO - Éducation nationale, jeunesse et sports: [13]
+15-01-2024 10:28:10 [1705310890294]: INFO - Transformation et de la fonction publiques: [14]
+15-01-2024 10:28:10 [1705310890294]: INFO - Solidarités et santé: [15]
+15-01-2024 10:28:10 [1705310890295]: INFO - Enseignement supérieur, recherche et innovation: [16]
+15-01-2024 10:28:10 [1705310890295]: INFO - Europe et affaires étrangères: [17]
+15-01-2024 10:28:11 [1705310891715]: INFO - > 12
+15-01-2024 10:28:11 [1705310891715]: INFO - Ce graphique représente les dépenses du ministère "Mer" par poste en 2012.
+15-01-2024 10:29:51 [1705310991190]: INFO - Le programme démarre ...
+15-01-2024 10:29:51 [1705310991191]: INFO - Bienvenue dans l'interface en ligne de commande du programme d'Analayse du CGE
+15-01-2024 10:29:51 [1705310991191]: INFO - ---
+15-01-2024 10:29:51 [1705310991192]: INFO - Affichage des graphiques: [graphique]
+15-01-2024 10:29:51 [1705310991192]: INFO - Options et constantes du programme: [options]
+15-01-2024 10:29:51 [1705310991192]: INFO - Quitter le logiciel: [quitter]
+15-01-2024 10:29:53 [1705310993161]: INFO - > graphique
+15-01-2024 10:29:53 [1705310993161]: INFO - Évolution au cours des ans des dépenses et recettes: [evolution]
+15-01-2024 10:29:53 [1705310993161]: INFO - Recettes et dépenses par ministère: [ministere]
+15-01-2024 10:29:53 [1705310993161]: INFO - Dépenses d'un ministère par poste: [poste]
+15-01-2024 10:29:53 [1705310993161]: INFO - Retour: [retour]
+15-01-2024 10:29:54 [1705310994305]: INFO - > poste
+15-01-2024 10:29:54 [1705310994306]: INFO - Veuillez spécifier une année
+15-01-2024 10:29:54 [1705310994307]: INFO - Années possibles : entre 2012 et 2022
+15-01-2024 10:29:55 [1705310995770]: INFO - > 2012
+15-01-2024 10:29:55 [1705310995771]: INFO - Retour: [retour]
+15-01-2024 10:29:55 [1705310995772]: INFO - Économie, finances et relance: [0]
+15-01-2024 10:29:55 [1705310995773]: INFO - Non renseigné: [1]
+15-01-2024 10:29:55 [1705310995773]: INFO - Justice: [2]
+15-01-2024 10:29:55 [1705310995773]: INFO - Transition écologique: [3]
+15-01-2024 10:29:55 [1705310995773]: INFO - Intérieur: [4]
+15-01-2024 10:29:55 [1705310995773]: INFO - Agriculture et alimentation: [5]
+15-01-2024 10:29:55 [1705310995773]: INFO - Travail, emploi et insertion: [6]
+15-01-2024 10:29:55 [1705310995773]: INFO - Cohésion des territoires et relations avec les collectivités territoriales: [7]
+15-01-2024 10:29:55 [1705310995773]: INFO - Services du Premier ministre: [8]
+15-01-2024 10:29:55 [1705310995773]: INFO - Outre-Mer: [9]
+15-01-2024 10:29:55 [1705310995773]: INFO - Culture: [10]
+15-01-2024 10:29:55 [1705310995774]: INFO - Armées: [11]
+15-01-2024 10:29:55 [1705310995774]: INFO - Mer: [12]
+15-01-2024 10:29:55 [1705310995774]: INFO - Éducation nationale, jeunesse et sports: [13]
+15-01-2024 10:29:55 [1705310995774]: INFO - Transformation et de la fonction publiques: [14]
+15-01-2024 10:29:55 [1705310995774]: INFO - Solidarités et santé: [15]
+15-01-2024 10:29:55 [1705310995774]: INFO - Enseignement supérieur, recherche et innovation: [16]
+15-01-2024 10:29:55 [1705310995774]: INFO - Europe et affaires étrangères: [17]
+15-01-2024 10:29:57 [1705310997136]: INFO - > 12
+15-01-2024 10:29:57 [1705310997136]: INFO - Ce graphique représente les dépenses du ministère "Mer" par poste en 2012.
+15-01-2024 10:29:57 [1705310997186]: AVERTISSEMENT - La commande graph_poste_par_ministere a échouée
+15-01-2024 10:29:57 [1705310997186]: AVERTISSEMENT - Erreur: Failed to convert value(s) to axis units: ('Stocks', 'Dettes financières', 'Immobilisations incorporelles')
+15-01-2024 10:29:57 [1705310997186]: AVERTISSEMENT - Veuillez entrer une commande ou paramètres valide
+15-01-2024 10:29:57 [1705310997186]: AVERTISSEMENT - Retour [retour]
+15-01-2024 10:30:46 [1705311046791]: INFO - Le programme démarre ...
+15-01-2024 10:30:46 [1705311046791]: INFO - Bienvenue dans l'interface en ligne de commande du programme d'Analayse du CGE
+15-01-2024 10:30:46 [1705311046791]: INFO - ---
+15-01-2024 10:30:46 [1705311046792]: INFO - Affichage des graphiques: [graphique]
+15-01-2024 10:30:46 [1705311046792]: INFO - Options et constantes du programme: [options]
+15-01-2024 10:30:46 [1705311046792]: INFO - Quitter le logiciel: [quitter]
+15-01-2024 10:30:52 [1705311052407]: INFO - > graphique
+15-01-2024 10:30:52 [1705311052407]: INFO - Évolution au cours des ans des dépenses et recettes: [evolution]
+15-01-2024 10:30:52 [1705311052407]: INFO - Recettes et dépenses par ministère: [ministere]
+15-01-2024 10:30:52 [1705311052407]: INFO - Dépenses d'un ministère par poste: [poste]
+15-01-2024 10:30:52 [1705311052407]: INFO - Retour: [retour]
+15-01-2024 10:30:53 [1705311053191]: INFO - > poste
+15-01-2024 10:30:53 [1705311053191]: INFO - Veuillez spécifier une année
+15-01-2024 10:30:53 [1705311053193]: INFO - Années possibles : entre 2012 et 2022
+15-01-2024 10:30:55 [1705311055607]: INFO - > 2012
+15-01-2024 10:30:55 [1705311055607]: INFO - Retour: [retour]
+15-01-2024 10:30:55 [1705311055609]: INFO - Économie, finances et relance: [0]
+15-01-2024 10:30:55 [1705311055609]: INFO - Non renseigné: [1]
+15-01-2024 10:30:55 [1705311055609]: INFO - Justice: [2]
+15-01-2024 10:30:55 [1705311055609]: INFO - Transition écologique: [3]
+15-01-2024 10:30:55 [1705311055609]: INFO - Intérieur: [4]
+15-01-2024 10:30:55 [1705311055609]: INFO - Agriculture et alimentation: [5]
+15-01-2024 10:30:55 [1705311055610]: INFO - Travail, emploi et insertion: [6]
+15-01-2024 10:30:55 [1705311055610]: INFO - Cohésion des territoires et relations avec les collectivités territoriales: [7]
+15-01-2024 10:30:55 [1705311055610]: INFO - Services du Premier ministre: [8]
+15-01-2024 10:30:55 [1705311055610]: INFO - Outre-Mer: [9]
+15-01-2024 10:30:55 [1705311055610]: INFO - Culture: [10]
+15-01-2024 10:30:55 [1705311055610]: INFO - Armées: [11]
+15-01-2024 10:30:55 [1705311055610]: INFO - Mer: [12]
+15-01-2024 10:30:55 [1705311055611]: INFO - Éducation nationale, jeunesse et sports: [13]
+15-01-2024 10:30:55 [1705311055611]: INFO - Transformation et de la fonction publiques: [14]
+15-01-2024 10:30:55 [1705311055611]: INFO - Solidarités et santé: [15]
+15-01-2024 10:30:55 [1705311055611]: INFO - Enseignement supérieur, recherche et innovation: [16]
+15-01-2024 10:30:55 [1705311055611]: INFO - Europe et affaires étrangères: [17]
+15-01-2024 10:30:56 [1705311056111]: INFO - > 12
+15-01-2024 10:30:56 [1705311056111]: INFO - Ce graphique représente les dépenses du ministère "Mer" par poste en 2012.
+15-01-2024 10:30:56 [1705311056162]: AVERTISSEMENT - La commande graph_poste_par_ministere a échouée
+15-01-2024 10:30:56 [1705311056162]: AVERTISSEMENT - Erreur: Failed to convert value(s) to axis units: ('Stocks', 'Dettes financières', 'Immobilisations incorporelles')
+15-01-2024 10:30:56 [1705311056162]: AVERTISSEMENT - Veuillez entrer une commande ou paramètres valide
+15-01-2024 10:30:56 [1705311056162]: AVERTISSEMENT - Retour [retour]
+15-01-2024 10:31:01 [1705311061409]: INFO - Le programme démarre ...
+15-01-2024 10:31:01 [1705311061409]: INFO - Bienvenue dans l'interface en ligne de commande du programme d'Analayse du CGE
+15-01-2024 10:31:01 [1705311061411]: INFO - ---
+15-01-2024 10:31:01 [1705311061412]: INFO - Affichage des graphiques: [graphique]
+15-01-2024 10:31:01 [1705311061412]: INFO - Options et constantes du programme: [options]
+15-01-2024 10:31:01 [1705311061412]: INFO - Quitter le logiciel: [quitter]
+15-01-2024 10:31:04 [1705311064023]: INFO - > graphique
+15-01-2024 10:31:04 [1705311064023]: INFO - Évolution au cours des ans des dépenses et recettes: [evolution]
+15-01-2024 10:31:04 [1705311064023]: INFO - Recettes et dépenses par ministère: [ministere]
+15-01-2024 10:31:04 [1705311064023]: INFO - Dépenses d'un ministère par poste: [poste]
+15-01-2024 10:31:04 [1705311064023]: INFO - Retour: [retour]
+15-01-2024 10:31:05 [1705311065938]: INFO - > poste
+15-01-2024 10:31:05 [1705311065939]: INFO - Veuillez spécifier une année
+15-01-2024 10:31:05 [1705311065940]: INFO - Années possibles : entre 2012 et 2022
+15-01-2024 10:31:07 [1705311067750]: INFO - > 2012
+15-01-2024 10:31:07 [1705311067751]: INFO - Retour: [retour]
+15-01-2024 10:31:07 [1705311067752]: INFO - Économie, finances et relance: [0]
+15-01-2024 10:31:07 [1705311067752]: INFO - Non renseigné: [1]
+15-01-2024 10:31:07 [1705311067753]: INFO - Justice: [2]
+15-01-2024 10:31:07 [1705311067753]: INFO - Transition écologique: [3]
+15-01-2024 10:31:07 [1705311067753]: INFO - Intérieur: [4]
+15-01-2024 10:31:07 [1705311067753]: INFO - Agriculture et alimentation: [5]
+15-01-2024 10:31:07 [1705311067753]: INFO - Travail, emploi et insertion: [6]
+15-01-2024 10:31:07 [1705311067753]: INFO - Cohésion des territoires et relations avec les collectivités territoriales: [7]
+15-01-2024 10:31:07 [1705311067753]: INFO - Services du Premier ministre: [8]
+15-01-2024 10:31:07 [1705311067753]: INFO - Outre-Mer: [9]
+15-01-2024 10:31:07 [1705311067753]: INFO - Culture: [10]
+15-01-2024 10:31:07 [1705311067753]: INFO - Armées: [11]
+15-01-2024 10:31:07 [1705311067754]: INFO - Mer: [12]
+15-01-2024 10:31:07 [1705311067754]: INFO - Éducation nationale, jeunesse et sports: [13]
+15-01-2024 10:31:07 [1705311067754]: INFO - Transformation et de la fonction publiques: [14]
+15-01-2024 10:31:07 [1705311067754]: INFO - Solidarités et santé: [15]
+15-01-2024 10:31:07 [1705311067754]: INFO - Enseignement supérieur, recherche et innovation: [16]
+15-01-2024 10:31:07 [1705311067754]: INFO - Europe et affaires étrangères: [17]
+15-01-2024 10:31:09 [1705311069784]: INFO - > 12
+15-01-2024 10:31:09 [1705311069784]: INFO - Ce graphique représente les dépenses du ministère "Mer" par poste en 2012.
+15-01-2024 10:32:25 [1705311145140]: INFO - Le programme démarre ...
+15-01-2024 10:32:25 [1705311145140]: INFO - Bienvenue dans l'interface en ligne de commande du programme d'Analayse du CGE
+15-01-2024 10:32:25 [1705311145142]: INFO - ---
+15-01-2024 10:32:25 [1705311145144]: INFO - Affichage des graphiques: [graphique]
+15-01-2024 10:32:25 [1705311145144]: INFO - Options et constantes du programme: [options]
+15-01-2024 10:32:25 [1705311145144]: INFO - Quitter le logiciel: [quitter]
+15-01-2024 10:32:27 [1705311147319]: INFO - > graphique
+15-01-2024 10:32:27 [1705311147320]: INFO - Évolution au cours des ans des dépenses et recettes: [evolution]
+15-01-2024 10:32:27 [1705311147320]: INFO - Recettes et dépenses par ministère: [ministere]
+15-01-2024 10:32:27 [1705311147320]: INFO - Dépenses d'un ministère par poste: [poste]
+15-01-2024 10:32:27 [1705311147320]: INFO - Retour: [retour]
+15-01-2024 10:32:29 [1705311149484]: INFO - > poste
+15-01-2024 10:32:29 [1705311149484]: INFO - Veuillez spécifier une année
+15-01-2024 10:32:29 [1705311149486]: INFO - Années possibles : entre 2012 et 2022
+15-01-2024 10:32:31 [1705311151333]: INFO - > 2102
+15-01-2024 10:32:31 [1705311151333]: INFO - Retour: [retour]
+15-01-2024 10:32:31 [1705311151335]: INFO - Économie, finances et relance: [0]
+15-01-2024 10:32:31 [1705311151335]: INFO - Non renseigné: [1]
+15-01-2024 10:32:31 [1705311151335]: INFO - Justice: [2]
+15-01-2024 10:32:31 [1705311151336]: INFO - Transition écologique: [3]
+15-01-2024 10:32:31 [1705311151336]: INFO - Intérieur: [4]
+15-01-2024 10:32:31 [1705311151336]: INFO - Agriculture et alimentation: [5]
+15-01-2024 10:32:31 [1705311151336]: INFO - Travail, emploi et insertion: [6]
+15-01-2024 10:32:31 [1705311151336]: INFO - Cohésion des territoires et relations avec les collectivités territoriales: [7]
+15-01-2024 10:32:31 [1705311151336]: INFO - Services du Premier ministre: [8]
+15-01-2024 10:32:31 [1705311151336]: INFO - Outre-Mer: [9]
+15-01-2024 10:32:31 [1705311151336]: INFO - Culture: [10]
+15-01-2024 10:32:31 [1705311151337]: INFO - Armées: [11]
+15-01-2024 10:32:31 [1705311151337]: INFO - Mer: [12]
+15-01-2024 10:32:31 [1705311151337]: INFO - Éducation nationale, jeunesse et sports: [13]
+15-01-2024 10:32:31 [1705311151337]: INFO - Transformation et de la fonction publiques: [14]
+15-01-2024 10:32:31 [1705311151337]: INFO - Solidarités et santé: [15]
+15-01-2024 10:32:31 [1705311151337]: INFO - Enseignement supérieur, recherche et innovation: [16]
+15-01-2024 10:32:31 [1705311151337]: INFO - Europe et affaires étrangères: [17]
+15-01-2024 10:32:32 [1705311152908]: INFO - > 12
+15-01-2024 10:32:32 [1705311152909]: INFO - Ce graphique représente les dépenses du ministère "Mer" par poste en 2102.
+15-01-2024 10:32:32 [1705311152909]: AVERTISSEMENT - La commande graph_poste_par_ministere a échouée
+15-01-2024 10:32:32 [1705311152909]: AVERTISSEMENT - Erreur: '2102'
+15-01-2024 10:32:32 [1705311152909]: AVERTISSEMENT - Veuillez entrer une commande ou paramètres valide
+15-01-2024 10:32:32 [1705311152909]: AVERTISSEMENT - Retour [retour]
+15-01-2024 10:32:35 [1705311155598]: INFO - > retour
+15-01-2024 10:32:35 [1705311155598]: INFO - Veuillez spécifier une année
+15-01-2024 10:32:35 [1705311155600]: INFO - Années possibles : entre 2012 et 2022
+15-01-2024 10:32:37 [1705311157799]: INFO - > 2012
+15-01-2024 10:32:37 [1705311157800]: INFO - Retour: [retour]
+15-01-2024 10:32:37 [1705311157802]: INFO - Économie, finances et relance: [0]
+15-01-2024 10:32:37 [1705311157802]: INFO - Non renseigné: [1]
+15-01-2024 10:32:37 [1705311157802]: INFO - Justice: [2]
+15-01-2024 10:32:37 [1705311157802]: INFO - Transition écologique: [3]
+15-01-2024 10:32:37 [1705311157802]: INFO - Intérieur: [4]
+15-01-2024 10:32:37 [1705311157802]: INFO - Agriculture et alimentation: [5]
+15-01-2024 10:32:37 [1705311157802]: INFO - Travail, emploi et insertion: [6]
+15-01-2024 10:32:37 [1705311157802]: INFO - Cohésion des territoires et relations avec les collectivités territoriales: [7]
+15-01-2024 10:32:37 [1705311157803]: INFO - Services du Premier ministre: [8]
+15-01-2024 10:32:37 [1705311157803]: INFO - Outre-Mer: [9]
+15-01-2024 10:32:37 [1705311157803]: INFO - Culture: [10]
+15-01-2024 10:32:37 [1705311157803]: INFO - Armées: [11]
+15-01-2024 10:32:37 [1705311157803]: INFO - Mer: [12]
+15-01-2024 10:32:37 [1705311157803]: INFO - Éducation nationale, jeunesse et sports: [13]
+15-01-2024 10:32:37 [1705311157803]: INFO - Transformation et de la fonction publiques: [14]
+15-01-2024 10:32:37 [1705311157803]: INFO - Solidarités et santé: [15]
+15-01-2024 10:32:37 [1705311157803]: INFO - Enseignement supérieur, recherche et innovation: [16]
+15-01-2024 10:32:37 [1705311157804]: INFO - Europe et affaires étrangères: [17]
+15-01-2024 10:32:39 [1705311159732]: INFO - > 12
+15-01-2024 10:32:39 [1705311159732]: INFO - Ce graphique représente les dépenses du ministère "Mer" par poste en 2012.
+15-01-2024 10:32:52 [1705311172659]: INFO - Le programme démarre ...
+15-01-2024 10:32:52 [1705311172659]: INFO - Bienvenue dans l'interface en ligne de commande du programme d'Analayse du CGE
+15-01-2024 10:32:52 [1705311172661]: INFO - ---
+15-01-2024 10:32:52 [1705311172665]: INFO - Affichage des graphiques: [graphique]
+15-01-2024 10:32:52 [1705311172665]: INFO - Options et constantes du programme: [options]
+15-01-2024 10:32:52 [1705311172665]: INFO - Quitter le logiciel: [quitter]
+15-01-2024 10:32:57 [1705311177302]: INFO - > graphique
+15-01-2024 10:32:57 [1705311177302]: INFO - Évolution au cours des ans des dépenses et recettes: [evolution]
+15-01-2024 10:32:57 [1705311177302]: INFO - Recettes et dépenses par ministère: [ministere]
+15-01-2024 10:32:57 [1705311177302]: INFO - Dépenses d'un ministère par poste: [poste]
+15-01-2024 10:32:57 [1705311177302]: INFO - Retour: [retour]
+15-01-2024 10:32:59 [1705311179073]: INFO - > poste
+15-01-2024 10:32:59 [1705311179073]: INFO - Veuillez spécifier une année
+15-01-2024 10:32:59 [1705311179075]: INFO - Années possibles : entre 2012 et 2022
+15-01-2024 10:32:59 [1705311179870]: INFO - > 2012
+15-01-2024 10:32:59 [1705311179870]: INFO - Retour: [retour]
+15-01-2024 10:32:59 [1705311179872]: INFO - Économie, finances et relance: [0]
+15-01-2024 10:32:59 [1705311179872]: INFO - Non renseigné: [1]
+15-01-2024 10:32:59 [1705311179872]: INFO - Justice: [2]
+15-01-2024 10:32:59 [1705311179872]: INFO - Transition écologique: [3]
+15-01-2024 10:32:59 [1705311179873]: INFO - Intérieur: [4]
+15-01-2024 10:32:59 [1705311179873]: INFO - Agriculture et alimentation: [5]
+15-01-2024 10:32:59 [1705311179873]: INFO - Travail, emploi et insertion: [6]
+15-01-2024 10:32:59 [1705311179873]: INFO - Cohésion des territoires et relations avec les collectivités territoriales: [7]
+15-01-2024 10:32:59 [1705311179873]: INFO - Services du Premier ministre: [8]
+15-01-2024 10:32:59 [1705311179873]: INFO - Outre-Mer: [9]
+15-01-2024 10:32:59 [1705311179873]: INFO - Culture: [10]
+15-01-2024 10:32:59 [1705311179874]: INFO - Armées: [11]
+15-01-2024 10:32:59 [1705311179874]: INFO - Mer: [12]
+15-01-2024 10:32:59 [1705311179874]: INFO - Éducation nationale, jeunesse et sports: [13]
+15-01-2024 10:32:59 [1705311179874]: INFO - Transformation et de la fonction publiques: [14]
+15-01-2024 10:32:59 [1705311179874]: INFO - Solidarités et santé: [15]
+15-01-2024 10:32:59 [1705311179874]: INFO - Enseignement supérieur, recherche et innovation: [16]
+15-01-2024 10:32:59 [1705311179874]: INFO - Europe et affaires étrangères: [17]
+15-01-2024 10:33:00 [1705311180556]: INFO - > 12
+15-01-2024 10:33:00 [1705311180557]: INFO - Ce graphique représente les dépenses du ministère "Mer" par poste en 2012.
+15-01-2024 10:34:59 [1705311299274]: INFO - Le programme démarre ...
+15-01-2024 10:34:59 [1705311299274]: INFO - Bienvenue dans l'interface en ligne de commande du programme d'Analayse du CGE
+15-01-2024 10:34:59 [1705311299274]: INFO - ---
+15-01-2024 10:34:59 [1705311299276]: INFO - Affichage des graphiques: [graphique]
+15-01-2024 10:34:59 [1705311299276]: INFO - Options et constantes du programme: [options]
+15-01-2024 10:34:59 [1705311299276]: INFO - Quitter le logiciel: [quitter]
+15-01-2024 10:35:01 [1705311301754]: INFO - > graphique
+15-01-2024 10:35:01 [1705311301755]: INFO - Évolution au cours des ans des dépenses et recettes: [evolution]
+15-01-2024 10:35:01 [1705311301755]: INFO - Recettes et dépenses par ministère: [ministere]
+15-01-2024 10:35:01 [1705311301755]: INFO - Dépenses d'un ministère par poste: [poste]
+15-01-2024 10:35:01 [1705311301755]: INFO - Retour: [retour]
+15-01-2024 10:35:04 [1705311304262]: INFO - > ministere
+15-01-2024 10:35:04 [1705311304262]: INFO - Veuillez spécifier une année
+15-01-2024 10:35:04 [1705311304264]: INFO - Années possibles : entre 2012 et 2022
+15-01-2024 10:35:08 [1705311308555]: INFO - > 2012
+15-01-2024 10:35:08 [1705311308555]: INFO - Afficher les dépenses inconnues: [oui]
+15-01-2024 10:35:08 [1705311308555]: INFO - Ne pas afficher les dépenses inconnues: [non]
+15-01-2024 10:35:10 [1705311310395]: INFO - > non
+15-01-2024 10:35:10 [1705311310396]: INFO - Ce graphique représente les dépense et les recettes de l'état par ministère: [retour]
+15-01-2024 10:56:17 [1705312577078]: INFO - Économie, finances et relance: [0]
+15-01-2024 10:56:17 [1705312577081]: INFO - Non renseigné: [1]
+15-01-2024 10:56:17 [1705312577081]: INFO - Justice: [2]
+15-01-2024 10:56:17 [1705312577081]: INFO - Transition écologique: [3]
+15-01-2024 10:56:17 [1705312577081]: INFO - Intérieur: [4]
+15-01-2024 10:56:17 [1705312577081]: INFO - Agriculture et alimentation: [5]
+15-01-2024 10:56:17 [1705312577081]: INFO - Travail, emploi et insertion: [6]
+15-01-2024 10:56:17 [1705312577081]: INFO - Cohésion des territoires et relations avec les collectivités territoriales: [7]
+15-01-2024 10:56:17 [1705312577081]: INFO - Services du Premier ministre: [8]
+15-01-2024 10:56:17 [1705312577081]: INFO - Outre-Mer: [9]
+15-01-2024 10:56:17 [1705312577082]: INFO - Culture: [10]
+15-01-2024 10:56:17 [1705312577082]: INFO - Armées: [11]
+15-01-2024 10:56:17 [1705312577082]: INFO - Mer: [12]
+15-01-2024 10:56:17 [1705312577082]: INFO - Éducation nationale, jeunesse et sports: [13]
+15-01-2024 10:56:17 [1705312577082]: INFO - Transformation et de la fonction publiques: [14]
+15-01-2024 10:56:17 [1705312577082]: INFO - Solidarités et santé: [15]
+15-01-2024 10:56:17 [1705312577082]: INFO - Enseignement supérieur, recherche et innovation: [16]
+15-01-2024 10:56:17 [1705312577082]: INFO - Europe et affaires étrangères: [17]
+15-01-2024 10:56:21 [1705312581191]: INFO - > 12
+15-01-2024 10:56:21 [1705312581191]: INFO - Ce graphique représente les dépenses du ministère "Mer" par poste en 2022.
+15-01-2024 10:57:29 [1705312649023]: INFO - Économie, finances et relance: [0]
+15-01-2024 10:57:29 [1705312649025]: INFO - Non renseigné: [1]
+15-01-2024 10:57:29 [1705312649025]: INFO - Justice: [2]
+15-01-2024 10:57:29 [1705312649026]: INFO - Transition écologique: [3]
+15-01-2024 10:57:29 [1705312649026]: INFO - Intérieur: [4]
+15-01-2024 10:57:29 [1705312649026]: INFO - Agriculture et alimentation: [5]
+15-01-2024 10:57:29 [1705312649026]: INFO - Travail, emploi et insertion: [6]
+15-01-2024 10:57:29 [1705312649026]: INFO - Cohésion des territoires et relations avec les collectivités territoriales: [7]
+15-01-2024 10:57:29 [1705312649026]: INFO - Services du Premier ministre: [8]
+15-01-2024 10:57:29 [1705312649026]: INFO - Outre-Mer: [9]
+15-01-2024 10:57:29 [1705312649026]: INFO - Culture: [10]
+15-01-2024 10:57:29 [1705312649026]: INFO - Armées: [11]
+15-01-2024 10:57:29 [1705312649026]: INFO - Mer: [12]
+15-01-2024 10:57:29 [1705312649027]: INFO - Éducation nationale, jeunesse et sports: [13]
+15-01-2024 10:57:29 [1705312649027]: INFO - Transformation et de la fonction publiques: [14]
+15-01-2024 10:57:29 [1705312649027]: INFO - Solidarités et santé: [15]
+15-01-2024 10:57:29 [1705312649027]: INFO - Enseignement supérieur, recherche et innovation: [16]
+15-01-2024 10:57:29 [1705312649027]: INFO - Europe et affaires étrangères: [17]
+15-01-2024 10:57:30 [1705312650441]: INFO - > 13
+15-01-2024 10:57:30 [1705312650441]: INFO - Ce graphique représente les dépenses du ministère "Éducation nationale, jeunesse et sports" par poste en 2022.
+15-01-2024 10:57:45 [1705312665467]: INFO - Économie, finances et relance: [0]
+15-01-2024 10:57:45 [1705312665468]: INFO - Non renseigné: [1]
+15-01-2024 10:57:45 [1705312665469]: INFO - Justice: [2]
+15-01-2024 10:57:45 [1705312665469]: INFO - Transition écologique: [3]
+15-01-2024 10:57:45 [1705312665470]: INFO - Intérieur: [4]
+15-01-2024 10:57:45 [1705312665470]: INFO - Agriculture et alimentation: [5]
+15-01-2024 10:57:45 [1705312665470]: INFO - Travail, emploi et insertion: [6]
+15-01-2024 10:57:45 [1705312665470]: INFO - Cohésion des territoires et relations avec les collectivités territoriales: [7]
+15-01-2024 10:57:45 [1705312665470]: INFO - Services du Premier ministre: [8]
+15-01-2024 10:57:45 [1705312665470]: INFO - Outre-Mer: [9]
+15-01-2024 10:57:45 [1705312665470]: INFO - Culture: [10]
+15-01-2024 10:57:45 [1705312665470]: INFO - Armées: [11]
+15-01-2024 10:57:45 [1705312665471]: INFO - Mer: [12]
+15-01-2024 10:57:45 [1705312665471]: INFO - Éducation nationale, jeunesse et sports: [13]
+15-01-2024 10:57:45 [1705312665471]: INFO - Transformation et de la fonction publiques: [14]
+15-01-2024 10:57:45 [1705312665471]: INFO - Solidarités et santé: [15]
+15-01-2024 10:57:45 [1705312665471]: INFO - Enseignement supérieur, recherche et innovation: [16]
+15-01-2024 10:57:45 [1705312665471]: INFO - Europe et affaires étrangères: [17]
+15-01-2024 10:58:07 [1705312687809]: INFO - Économie, finances et relance: [0]
+15-01-2024 10:58:07 [1705312687809]: INFO - Non renseigné: [1]
+15-01-2024 10:58:07 [1705312687811]: INFO - Justice: [2]
+15-01-2024 10:58:07 [1705312687811]: INFO - Transition écologique: [3]
+15-01-2024 10:58:07 [1705312687811]: INFO - Intérieur: [4]
+15-01-2024 10:58:07 [1705312687811]: INFO - Agriculture et alimentation: [5]
+15-01-2024 10:58:07 [1705312687812]: INFO - Travail, emploi et insertion: [6]
+15-01-2024 10:58:07 [1705312687812]: INFO - Cohésion des territoires et relations avec les collectivités territoriales: [7]
+15-01-2024 10:58:07 [1705312687812]: INFO - Services du Premier ministre: [8]
+15-01-2024 10:58:07 [1705312687812]: INFO - Outre-Mer: [9]
+15-01-2024 10:58:07 [1705312687812]: INFO - Culture: [10]
+15-01-2024 10:58:07 [1705312687812]: INFO - Armées: [11]
+15-01-2024 10:58:07 [1705312687812]: INFO - Mer: [12]
+15-01-2024 10:58:07 [1705312687812]: INFO - Éducation nationale, jeunesse et sports: [13]
+15-01-2024 10:58:07 [1705312687812]: INFO - Transformation et de la fonction publiques: [14]
+15-01-2024 10:58:07 [1705312687813]: INFO - Solidarités et santé: [15]
+15-01-2024 10:58:07 [1705312687813]: INFO - Enseignement supérieur, recherche et innovation: [16]
+15-01-2024 10:58:07 [1705312687813]: INFO - Europe et affaires étrangères: [17]
+15-01-2024 10:58:10 [1705312690530]: INFO - > 12
+15-01-2024 10:58:10 [1705312690530]: INFO - Ce graphique représente les dépenses du ministère "Mer" par poste en 2022.
+15-01-2024 11:03:41 [1705313021236]: INFO - Économie, finances et relance: [0]
+15-01-2024 11:03:41 [1705313021236]: INFO - Non renseigné: [1]
+15-01-2024 11:03:41 [1705313021238]: INFO - Justice: [2]
+15-01-2024 11:03:41 [1705313021238]: INFO - Transition écologique: [3]
+15-01-2024 11:03:41 [1705313021238]: INFO - Intérieur: [4]
+15-01-2024 11:03:41 [1705313021238]: INFO - Agriculture et alimentation: [5]
+15-01-2024 11:03:41 [1705313021238]: INFO - Travail, emploi et insertion: [6]
+15-01-2024 11:03:41 [1705313021239]: INFO - Cohésion des territoires et relations avec les collectivités territoriales: [7]
+15-01-2024 11:03:41 [1705313021239]: INFO - Services du Premier ministre: [8]
+15-01-2024 11:03:41 [1705313021239]: INFO - Outre-Mer: [9]
+15-01-2024 11:03:41 [1705313021239]: INFO - Culture: [10]
+15-01-2024 11:03:41 [1705313021239]: INFO - Armées: [11]
+15-01-2024 11:03:41 [1705313021239]: INFO - Mer: [12]
+15-01-2024 11:03:41 [1705313021239]: INFO - Éducation nationale, jeunesse et sports: [13]
+15-01-2024 11:03:41 [1705313021239]: INFO - Transformation et de la fonction publiques: [14]
+15-01-2024 11:03:41 [1705313021239]: INFO - Solidarités et santé: [15]
+15-01-2024 11:03:41 [1705313021239]: INFO - Enseignement supérieur, recherche et innovation: [16]
+15-01-2024 11:03:41 [1705313021240]: INFO - Europe et affaires étrangères: [17]
+15-01-2024 11:05:03 [1705313103337]: INFO - Économie, finances et relance: [0]
+15-01-2024 11:05:03 [1705313103339]: INFO - Non renseigné: [1]
+15-01-2024 11:05:03 [1705313103340]: INFO - Justice: [2]
+15-01-2024 11:05:03 [1705313103340]: INFO - Transition écologique: [3]
+15-01-2024 11:05:03 [1705313103340]: INFO - Intérieur: [4]
+15-01-2024 11:05:03 [1705313103340]: INFO - Agriculture et alimentation: [5]
+15-01-2024 11:05:03 [1705313103340]: INFO - Travail, emploi et insertion: [6]
+15-01-2024 11:05:03 [1705313103340]: INFO - Cohésion des territoires et relations avec les collectivités territoriales: [7]
+15-01-2024 11:05:03 [1705313103340]: INFO - Services du Premier ministre: [8]
+15-01-2024 11:05:03 [1705313103340]: INFO - Outre-Mer: [9]
+15-01-2024 11:05:03 [1705313103341]: INFO - Culture: [10]
+15-01-2024 11:05:03 [1705313103341]: INFO - Armées: [11]
+15-01-2024 11:05:03 [1705313103341]: INFO - Mer: [12]
+15-01-2024 11:05:03 [1705313103341]: INFO - Éducation nationale, jeunesse et sports: [13]
+15-01-2024 11:05:03 [1705313103341]: INFO - Transformation et de la fonction publiques: [14]
+15-01-2024 11:05:03 [1705313103341]: INFO - Solidarités et santé: [15]
+15-01-2024 11:05:03 [1705313103341]: INFO - Enseignement supérieur, recherche et innovation: [16]
+15-01-2024 11:05:03 [1705313103342]: INFO - Europe et affaires étrangères: [17]
+15-01-2024 11:05:09 [1705313109192]: INFO - > 12
+15-01-2024 11:05:09 [1705313109193]: INFO - Ce graphique représente les dépenses du ministère "Mer" par poste en 2022.
+15-01-2024 11:06:37 [1705313197606]: INFO - Économie, finances et relance: [0]
+15-01-2024 11:06:37 [1705313197606]: INFO - Non renseigné: [1]
+15-01-2024 11:06:37 [1705313197608]: INFO - Justice: [2]
+15-01-2024 11:06:37 [1705313197608]: INFO - Transition écologique: [3]
+15-01-2024 11:06:37 [1705313197608]: INFO - Intérieur: [4]
+15-01-2024 11:06:37 [1705313197608]: INFO - Agriculture et alimentation: [5]
+15-01-2024 11:06:37 [1705313197608]: INFO - Travail, emploi et insertion: [6]
+15-01-2024 11:06:37 [1705313197608]: INFO - Cohésion des territoires et relations avec les collectivités territoriales: [7]
+15-01-2024 11:06:37 [1705313197609]: INFO - Services du Premier ministre: [8]
+15-01-2024 11:06:37 [1705313197609]: INFO - Outre-Mer: [9]
+15-01-2024 11:06:37 [1705313197609]: INFO - Culture: [10]
+15-01-2024 11:06:37 [1705313197609]: INFO - Armées: [11]
+15-01-2024 11:06:37 [1705313197609]: INFO - Mer: [12]
+15-01-2024 11:06:37 [1705313197609]: INFO - Éducation nationale, jeunesse et sports: [13]
+15-01-2024 11:06:37 [1705313197609]: INFO - Transformation et de la fonction publiques: [14]
+15-01-2024 11:06:37 [1705313197609]: INFO - Solidarités et santé: [15]
+15-01-2024 11:06:37 [1705313197609]: INFO - Enseignement supérieur, recherche et innovation: [16]
+15-01-2024 11:06:37 [1705313197609]: INFO - Europe et affaires étrangères: [17]
+15-01-2024 11:07:13 [1705313233966]: INFO - Économie, finances et relance: [0]
+15-01-2024 11:07:13 [1705313233967]: INFO - Non renseigné: [1]
+15-01-2024 11:07:13 [1705313233968]: INFO - Justice: [2]
+15-01-2024 11:07:13 [1705313233968]: INFO - Transition écologique: [3]
+15-01-2024 11:07:13 [1705313233969]: INFO - Intérieur: [4]
+15-01-2024 11:07:13 [1705313233969]: INFO - Agriculture et alimentation: [5]
+15-01-2024 11:07:13 [1705313233969]: INFO - Travail, emploi et insertion: [6]
+15-01-2024 11:07:13 [1705313233969]: INFO - Cohésion des territoires et relations avec les collectivités territoriales: [7]
+15-01-2024 11:07:13 [1705313233969]: INFO - Services du Premier ministre: [8]
+15-01-2024 11:07:13 [1705313233969]: INFO - Outre-Mer: [9]
+15-01-2024 11:07:13 [1705313233969]: INFO - Culture: [10]
+15-01-2024 11:07:13 [1705313233970]: INFO - Armées: [11]
+15-01-2024 11:07:13 [1705313233970]: INFO - Mer: [12]
+15-01-2024 11:07:13 [1705313233970]: INFO - Éducation nationale, jeunesse et sports: [13]
+15-01-2024 11:07:13 [1705313233970]: INFO - Transformation et de la fonction publiques: [14]
+15-01-2024 11:07:13 [1705313233970]: INFO - Solidarités et santé: [15]
+15-01-2024 11:07:13 [1705313233970]: INFO - Enseignement supérieur, recherche et innovation: [16]
+15-01-2024 11:07:13 [1705313233970]: INFO - Europe et affaires étrangères: [17]
+15-01-2024 11:07:20 [1705313240831]: INFO - > 12
+15-01-2024 11:07:20 [1705313240831]: INFO - Ce graphique représente les dépenses du ministère "Mer" par poste en 2022.
+15-01-2024 11:08:59 [1705313339017]: INFO - Le programme démarre ...
+15-01-2024 11:08:59 [1705313339018]: INFO - Bienvenue dans l'interface en ligne de commande du programme d'Analayse du CGE
+15-01-2024 11:08:59 [1705313339018]: INFO - ---
+15-01-2024 11:08:59 [1705313339019]: INFO - Affichage des graphiques: [graphique]
+15-01-2024 11:08:59 [1705313339019]: INFO - Options et constantes du programme: [options]
+15-01-2024 11:08:59 [1705313339019]: INFO - Quitter le logiciel: [quitter]
+15-01-2024 11:09:02 [1705313342333]: INFO - > graphique
+15-01-2024 11:09:02 [1705313342334]: INFO - Évolution au cours des ans des dépenses et recettes: [evolution]
+15-01-2024 11:09:02 [1705313342334]: INFO - Recettes et dépenses par ministère: [ministere]
+15-01-2024 11:09:02 [1705313342334]: INFO - Dépenses d'un ministère par poste: [poste]
+15-01-2024 11:09:02 [1705313342334]: INFO - Retour: [retour]
+15-01-2024 11:09:03 [1705313343445]: INFO - > poste
+15-01-2024 11:09:03 [1705313343445]: INFO - Veuillez spécifier une année
+15-01-2024 11:09:03 [1705313343447]: INFO - Années possibles : entre 2012 et 2022
+15-01-2024 11:09:05 [1705313345069]: INFO - > 2012
+15-01-2024 11:09:05 [1705313345069]: INFO - Retour: [retour]
+15-01-2024 11:09:05 [1705313345071]: INFO - Économie, finances et relance: [0]
+15-01-2024 11:09:05 [1705313345071]: INFO - Non renseigné: [1]
+15-01-2024 11:09:05 [1705313345071]: INFO - Justice: [2]
+15-01-2024 11:09:05 [1705313345071]: INFO - Transition écologique: [3]
+15-01-2024 11:09:05 [1705313345071]: INFO - Intérieur: [4]
+15-01-2024 11:09:05 [1705313345071]: INFO - Agriculture et alimentation: [5]
+15-01-2024 11:09:05 [1705313345071]: INFO - Travail, emploi et insertion: [6]
+15-01-2024 11:09:05 [1705313345071]: INFO - Cohésion des territoires et relations avec les collectivités territoriales: [7]
+15-01-2024 11:09:05 [1705313345072]: INFO - Services du Premier ministre: [8]
+15-01-2024 11:09:05 [1705313345072]: INFO - Outre-Mer: [9]
+15-01-2024 11:09:05 [1705313345072]: INFO - Culture: [10]
+15-01-2024 11:09:05 [1705313345072]: INFO - Armées: [11]
+15-01-2024 11:09:05 [1705313345072]: INFO - Mer: [12]
+15-01-2024 11:09:05 [1705313345072]: INFO - Éducation nationale, jeunesse et sports: [13]
+15-01-2024 11:09:05 [1705313345072]: INFO - Transformation et de la fonction publiques: [14]
+15-01-2024 11:09:05 [1705313345072]: INFO - Solidarités et santé: [15]
+15-01-2024 11:09:05 [1705313345072]: INFO - Enseignement supérieur, recherche et innovation: [16]
+15-01-2024 11:09:05 [1705313345073]: INFO - Europe et affaires étrangères: [17]
+15-01-2024 11:09:05 [1705313345933]: INFO - > 12
+15-01-2024 11:09:05 [1705313345933]: INFO - Ce graphique représente les dépenses du ministère "Mer" par poste en 2012.
+15-01-2024 11:09:56 [1705313396737]: INFO - Le programme démarre ...
+15-01-2024 11:09:56 [1705313396737]: INFO - Bienvenue dans l'interface en ligne de commande du programme d'Analayse du CGE
+15-01-2024 11:09:56 [1705313396738]: INFO - ---
+15-01-2024 11:09:56 [1705313396739]: INFO - Affichage des graphiques: [graphique]
+15-01-2024 11:09:56 [1705313396739]: INFO - Options et constantes du programme: [options]
+15-01-2024 11:09:56 [1705313396739]: INFO - Quitter le logiciel: [quitter]
+15-01-2024 11:10:06 [1705313406203]: INFO - Le programme démarre ...
+15-01-2024 11:10:06 [1705313406203]: INFO - Bienvenue dans l'interface en ligne de commande du programme d'Analayse du CGE
+15-01-2024 11:10:06 [1705313406205]: INFO - ---
+15-01-2024 11:10:06 [1705313406206]: INFO - Affichage des graphiques: [graphique]
+15-01-2024 11:10:06 [1705313406206]: INFO - Options et constantes du programme: [options]
+15-01-2024 11:10:06 [1705313406206]: INFO - Quitter le logiciel: [quitter]
+15-01-2024 11:10:08 [1705313408117]: INFO - > graphique
+15-01-2024 11:10:08 [1705313408117]: INFO - Évolution au cours des ans des dépenses et recettes: [evolution]
+15-01-2024 11:10:08 [1705313408117]: INFO - Recettes et dépenses par ministère: [ministere]
+15-01-2024 11:10:08 [1705313408117]: INFO - Dépenses d'un ministère par poste: [poste]
+15-01-2024 11:10:08 [1705313408117]: INFO - Retour: [retour]
+15-01-2024 11:10:09 [1705313409644]: INFO - > poste
+15-01-2024 11:10:09 [1705313409645]: INFO - Veuillez spécifier une année
+15-01-2024 11:10:09 [1705313409646]: INFO - Années possibles : entre 2012 et 2022
+15-01-2024 11:10:10 [1705313410780]: INFO - > 2012
+15-01-2024 11:10:10 [1705313410780]: INFO - Retour: [retour]
+15-01-2024 11:10:10 [1705313410782]: INFO - Économie, finances et relance: [0]
+15-01-2024 11:10:10 [1705313410782]: INFO - Non renseigné: [1]
+15-01-2024 11:10:10 [1705313410782]: INFO - Justice: [2]
+15-01-2024 11:10:10 [1705313410782]: INFO - Transition écologique: [3]
+15-01-2024 11:10:10 [1705313410783]: INFO - Intérieur: [4]
+15-01-2024 11:10:10 [1705313410783]: INFO - Agriculture et alimentation: [5]
+15-01-2024 11:10:10 [1705313410783]: INFO - Travail, emploi et insertion: [6]
+15-01-2024 11:10:10 [1705313410783]: INFO - Cohésion des territoires et relations avec les collectivités territoriales: [7]
+15-01-2024 11:10:10 [1705313410783]: INFO - Services du Premier ministre: [8]
+15-01-2024 11:10:10 [1705313410783]: INFO - Outre-Mer: [9]
+15-01-2024 11:10:10 [1705313410783]: INFO - Culture: [10]
+15-01-2024 11:10:10 [1705313410783]: INFO - Armées: [11]
+15-01-2024 11:10:10 [1705313410784]: INFO - Mer: [12]
+15-01-2024 11:10:10 [1705313410784]: INFO - Éducation nationale, jeunesse et sports: [13]
+15-01-2024 11:10:10 [1705313410784]: INFO - Transformation et de la fonction publiques: [14]
+15-01-2024 11:10:10 [1705313410784]: INFO - Solidarités et santé: [15]
+15-01-2024 11:10:10 [1705313410784]: INFO - Enseignement supérieur, recherche et innovation: [16]
+15-01-2024 11:10:10 [1705313410784]: INFO - Europe et affaires étrangères: [17]
+15-01-2024 11:10:11 [1705313411660]: INFO - > 12
+15-01-2024 11:10:11 [1705313411660]: INFO - Ce graphique représente les dépenses du ministère "Mer" par poste en 2012.
+15-01-2024 11:10:26 [1705313426676]: INFO - > retour
+15-01-2024 11:10:26 [1705313426678]: INFO - Veuillez spécifier une année
+15-01-2024 11:10:26 [1705313426678]: INFO - Années possibles : entre 2012 et 2022
+15-01-2024 11:10:29 [1705313429523]: INFO - > 2021
+15-01-2024 11:10:29 [1705313429524]: INFO - Retour: [retour]
+15-01-2024 11:10:29 [1705313429525]: INFO - Économie, finances et relance: [0]
+15-01-2024 11:10:29 [1705313429526]: INFO - Non renseigné: [1]
+15-01-2024 11:10:29 [1705313429526]: INFO - Justice: [2]
+15-01-2024 11:10:29 [1705313429526]: INFO - Transition écologique: [3]
+15-01-2024 11:10:29 [1705313429526]: INFO - Intérieur: [4]
+15-01-2024 11:10:29 [1705313429526]: INFO - Agriculture et alimentation: [5]
+15-01-2024 11:10:29 [1705313429526]: INFO - Travail, emploi et insertion: [6]
+15-01-2024 11:10:29 [1705313429527]: INFO - Cohésion des territoires et relations avec les collectivités territoriales: [7]
+15-01-2024 11:10:29 [1705313429527]: INFO - Services du Premier ministre: [8]
+15-01-2024 11:10:29 [1705313429527]: INFO - Outre-Mer: [9]
+15-01-2024 11:10:29 [1705313429527]: INFO - Culture: [10]
+15-01-2024 11:10:29 [1705313429527]: INFO - Armées: [11]
+15-01-2024 11:10:29 [1705313429527]: INFO - Mer: [12]
+15-01-2024 11:10:29 [1705313429527]: INFO - Éducation nationale, jeunesse et sports: [13]
+15-01-2024 11:10:29 [1705313429527]: INFO - Transformation et de la fonction publiques: [14]
+15-01-2024 11:10:29 [1705313429527]: INFO - Solidarités et santé: [15]
+15-01-2024 11:10:29 [1705313429528]: INFO - Enseignement supérieur, recherche et innovation: [16]
+15-01-2024 11:10:29 [1705313429528]: INFO - Europe et affaires étrangères: [17]
+15-01-2024 11:10:31 [1705313431132]: INFO - > 17
+15-01-2024 11:10:31 [1705313431132]: INFO - Ce graphique représente les dépenses du ministère "Europe et affaires étrangères" par poste en 2021.
+15-01-2024 11:11:42 [1705313502689]: INFO - Le programme démarre ...
+15-01-2024 11:11:42 [1705313502691]: INFO - Bienvenue dans l'interface en ligne de commande du programme d'Analayse du CGE
+15-01-2024 11:11:42 [1705313502692]: INFO - ---
+15-01-2024 11:11:42 [1705313502695]: INFO - Affichage des graphiques: [graphique]
+15-01-2024 11:11:42 [1705313502695]: INFO - Options et constantes du programme: [options]
+15-01-2024 11:11:42 [1705313502695]: INFO - Quitter le logiciel: [quitter]
+15-01-2024 11:11:45 [1705313505290]: INFO - > graphique
+15-01-2024 11:11:45 [1705313505291]: INFO - Évolution au cours des ans des dépenses et recettes: [evolution]
+15-01-2024 11:11:45 [1705313505291]: INFO - Recettes et dépenses par ministère: [ministere]
+15-01-2024 11:11:45 [1705313505291]: INFO - Dépenses d'un ministère par poste: [poste]
+15-01-2024 11:11:45 [1705313505291]: INFO - Retour: [retour]
+15-01-2024 11:11:46 [1705313506906]: INFO - > poste
+15-01-2024 11:11:46 [1705313506906]: INFO - Veuillez spécifier une année
+15-01-2024 11:11:46 [1705313506908]: INFO - Années possibles : entre 2012 et 2022
+15-01-2024 11:11:47 [1705313507938]: INFO - > 2012
+15-01-2024 11:11:47 [1705313507938]: INFO - Retour: [retour]
+15-01-2024 11:11:47 [1705313507940]: INFO - Économie, finances et relance: [0]
+15-01-2024 11:11:47 [1705313507940]: INFO - Non renseigné: [1]
+15-01-2024 11:11:47 [1705313507941]: INFO - Justice: [2]
+15-01-2024 11:11:47 [1705313507941]: INFO - Transition écologique: [3]
+15-01-2024 11:11:47 [1705313507941]: INFO - Intérieur: [4]
+15-01-2024 11:11:47 [1705313507941]: INFO - Agriculture et alimentation: [5]
+15-01-2024 11:11:47 [1705313507941]: INFO - Travail, emploi et insertion: [6]
+15-01-2024 11:11:47 [1705313507941]: INFO - Cohésion des territoires et relations avec les collectivités territoriales: [7]
+15-01-2024 11:11:47 [1705313507941]: INFO - Services du Premier ministre: [8]
+15-01-2024 11:11:47 [1705313507941]: INFO - Outre-Mer: [9]
+15-01-2024 11:11:47 [1705313507941]: INFO - Culture: [10]
+15-01-2024 11:11:47 [1705313507942]: INFO - Armées: [11]
+15-01-2024 11:11:47 [1705313507942]: INFO - Mer: [12]
+15-01-2024 11:11:47 [1705313507942]: INFO - Éducation nationale, jeunesse et sports: [13]
+15-01-2024 11:11:47 [1705313507942]: INFO - Transformation et de la fonction publiques: [14]
+15-01-2024 11:11:47 [1705313507942]: INFO - Solidarités et santé: [15]
+15-01-2024 11:11:47 [1705313507942]: INFO - Enseignement supérieur, recherche et innovation: [16]
+15-01-2024 11:11:47 [1705313507942]: INFO - Europe et affaires étrangères: [17]
+15-01-2024 11:11:48 [1705313508690]: INFO - > 12
+15-01-2024 11:11:48 [1705313508690]: INFO - Ce graphique représente les dépenses du ministère "Mer" par poste en 2012.
+15-01-2024 11:11:54 [1705313514953]: INFO - Le programme démarre ...
+15-01-2024 11:11:54 [1705313514954]: INFO - Bienvenue dans l'interface en ligne de commande du programme d'Analayse du CGE
+15-01-2024 11:11:54 [1705313514957]: INFO - ---
+15-01-2024 11:11:54 [1705313514959]: INFO - Affichage des graphiques: [graphique]
+15-01-2024 11:11:54 [1705313514959]: INFO - Options et constantes du programme: [options]
+15-01-2024 11:11:54 [1705313514959]: INFO - Quitter le logiciel: [quitter]
+15-01-2024 11:11:57 [1705313517300]: INFO - > graphique
+15-01-2024 11:11:57 [1705313517301]: INFO - Évolution au cours des ans des dépenses et recettes: [evolution]
+15-01-2024 11:11:57 [1705313517301]: INFO - Recettes et dépenses par ministère: [ministere]
+15-01-2024 11:11:57 [1705313517301]: INFO - Dépenses d'un ministère par poste: [poste]
+15-01-2024 11:11:57 [1705313517301]: INFO - Retour: [retour]
+15-01-2024 11:11:58 [1705313518179]: INFO - > poste
+15-01-2024 11:11:58 [1705313518179]: INFO - Veuillez spécifier une année
+15-01-2024 11:11:58 [1705313518181]: INFO - Années possibles : entre 2012 et 2022
+15-01-2024 11:11:59 [1705313519851]: INFO - > 2012
+15-01-2024 11:11:59 [1705313519852]: INFO - Retour: [retour]
+15-01-2024 11:11:59 [1705313519853]: INFO - Économie, finances et relance: [0]
+15-01-2024 11:11:59 [1705313519854]: INFO - Non renseigné: [1]
+15-01-2024 11:11:59 [1705313519854]: INFO - Justice: [2]
+15-01-2024 11:11:59 [1705313519854]: INFO - Transition écologique: [3]
+15-01-2024 11:11:59 [1705313519854]: INFO - Intérieur: [4]
+15-01-2024 11:11:59 [1705313519854]: INFO - Agriculture et alimentation: [5]
+15-01-2024 11:11:59 [1705313519854]: INFO - Travail, emploi et insertion: [6]
+15-01-2024 11:11:59 [1705313519855]: INFO - Cohésion des territoires et relations avec les collectivités territoriales: [7]
+15-01-2024 11:11:59 [1705313519855]: INFO - Services du Premier ministre: [8]
+15-01-2024 11:11:59 [1705313519855]: INFO - Outre-Mer: [9]
+15-01-2024 11:11:59 [1705313519855]: INFO - Culture: [10]
+15-01-2024 11:11:59 [1705313519855]: INFO - Armées: [11]
+15-01-2024 11:11:59 [1705313519855]: INFO - Mer: [12]
+15-01-2024 11:11:59 [1705313519855]: INFO - Éducation nationale, jeunesse et sports: [13]
+15-01-2024 11:11:59 [1705313519855]: INFO - Transformation et de la fonction publiques: [14]
+15-01-2024 11:11:59 [1705313519855]: INFO - Solidarités et santé: [15]
+15-01-2024 11:11:59 [1705313519856]: INFO - Enseignement supérieur, recherche et innovation: [16]
+15-01-2024 11:11:59 [1705313519856]: INFO - Europe et affaires étrangères: [17]
+15-01-2024 11:12:01 [1705313521387]: INFO - > 12
+15-01-2024 11:12:01 [1705313521387]: INFO - Ce graphique représente les dépenses du ministère "Mer" par poste en 2012.
+15-01-2024 11:12:04 [1705313524337]: INFO - > 12
+15-01-2024 11:12:04 [1705313524338]: INFO - Veuillez spécifier une année
+15-01-2024 11:12:04 [1705313524339]: INFO - Années possibles : entre 2012 et 2022
+15-01-2024 11:12:07 [1705313527706]: INFO - > 2022
+15-01-2024 11:12:07 [1705313527707]: INFO - Retour: [retour]
+15-01-2024 11:12:07 [1705313527708]: INFO - Économie, finances et relance: [0]
+15-01-2024 11:12:07 [1705313527709]: INFO - Non renseigné: [1]
+15-01-2024 11:12:07 [1705313527709]: INFO - Justice: [2]
+15-01-2024 11:12:07 [1705313527709]: INFO - Transition écologique: [3]
+15-01-2024 11:12:07 [1705313527709]: INFO - Intérieur: [4]
+15-01-2024 11:12:07 [1705313527709]: INFO - Agriculture et alimentation: [5]
+15-01-2024 11:12:07 [1705313527709]: INFO - Travail, emploi et insertion: [6]
+15-01-2024 11:12:07 [1705313527709]: INFO - Cohésion des territoires et relations avec les collectivités territoriales: [7]
+15-01-2024 11:12:07 [1705313527709]: INFO - Services du Premier ministre: [8]
+15-01-2024 11:12:07 [1705313527710]: INFO - Outre-Mer: [9]
+15-01-2024 11:12:07 [1705313527710]: INFO - Culture: [10]
+15-01-2024 11:12:07 [1705313527710]: INFO - Armées: [11]
+15-01-2024 11:12:07 [1705313527710]: INFO - Mer: [12]
+15-01-2024 11:12:07 [1705313527710]: INFO - Éducation nationale, jeunesse et sports: [13]
+15-01-2024 11:12:07 [1705313527710]: INFO - Transformation et de la fonction publiques: [14]
+15-01-2024 11:12:07 [1705313527710]: INFO - Solidarités et santé: [15]
+15-01-2024 11:12:07 [1705313527710]: INFO - Enseignement supérieur, recherche et innovation: [16]
+15-01-2024 11:12:07 [1705313527710]: INFO - Europe et affaires étrangères: [17]
+15-01-2024 11:12:10 [1705313530489]: INFO - > 13
+15-01-2024 11:12:10 [1705313530490]: INFO - Ce graphique représente les dépenses du ministère "Éducation nationale, jeunesse et sports" par poste en 2022.
+15-01-2024 11:12:17 [1705313537722]: INFO - > retour
+15-01-2024 11:12:17 [1705313537722]: INFO - Veuillez spécifier une année
+15-01-2024 11:12:17 [1705313537724]: INFO - Années possibles : entre 2012 et 2022
+15-01-2024 11:12:45 [1705313565812]: INFO - Le programme démarre ...
+15-01-2024 11:12:45 [1705313565813]: INFO - Bienvenue dans l'interface en ligne de commande du programme d'Analayse du CGE
+15-01-2024 11:12:45 [1705313565814]: INFO - ---
+15-01-2024 11:12:45 [1705313565816]: INFO - Affichage des graphiques: [graphique]
+15-01-2024 11:12:45 [1705313565816]: INFO - Options et constantes du programme: [options]
+15-01-2024 11:12:45 [1705313565816]: INFO - Quitter le logiciel: [quitter]
+15-01-2024 11:12:47 [1705313567946]: INFO - > graphique
+15-01-2024 11:12:47 [1705313567946]: INFO - Évolution au cours des ans des dépenses et recettes: [evolution]
+15-01-2024 11:12:47 [1705313567946]: INFO - Recettes et dépenses par ministère: [ministere]
+15-01-2024 11:12:47 [1705313567946]: INFO - Dépenses d'un ministère par poste: [poste]
+15-01-2024 11:12:47 [1705313567946]: INFO - Retour: [retour]
+15-01-2024 11:12:50 [1705313570979]: INFO - > poste
+15-01-2024 11:12:50 [1705313570979]: INFO - Veuillez spécifier une année
+15-01-2024 11:12:50 [1705313570981]: INFO - Années possibles : entre 2012 et 2022
+15-01-2024 11:12:52 [1705313572865]: INFO - > 2022
+15-01-2024 11:12:52 [1705313572865]: INFO - Retour: [retour]
+15-01-2024 11:12:52 [1705313572867]: INFO - Économie, finances et relance: [0]
+15-01-2024 11:12:52 [1705313572867]: INFO - Non renseigné: [1]
+15-01-2024 11:12:52 [1705313572867]: INFO - Justice: [2]
+15-01-2024 11:12:52 [1705313572867]: INFO - Transition écologique: [3]
+15-01-2024 11:12:52 [1705313572868]: INFO - Intérieur: [4]
+15-01-2024 11:12:52 [1705313572868]: INFO - Agriculture et alimentation: [5]
+15-01-2024 11:12:52 [1705313572868]: INFO - Travail, emploi et insertion: [6]
+15-01-2024 11:12:52 [1705313572868]: INFO - Cohésion des territoires et relations avec les collectivités territoriales: [7]
+15-01-2024 11:12:52 [1705313572868]: INFO - Services du Premier ministre: [8]
+15-01-2024 11:12:52 [1705313572868]: INFO - Outre-Mer: [9]
+15-01-2024 11:12:52 [1705313572868]: INFO - Culture: [10]
+15-01-2024 11:12:52 [1705313572868]: INFO - Armées: [11]
+15-01-2024 11:12:52 [1705313572869]: INFO - Mer: [12]
+15-01-2024 11:12:52 [1705313572869]: INFO - Éducation nationale, jeunesse et sports: [13]
+15-01-2024 11:12:52 [1705313572869]: INFO - Transformation et de la fonction publiques: [14]
+15-01-2024 11:12:52 [1705313572869]: INFO - Solidarités et santé: [15]
+15-01-2024 11:12:52 [1705313572869]: INFO - Enseignement supérieur, recherche et innovation: [16]
+15-01-2024 11:12:52 [1705313572869]: INFO - Europe et affaires étrangères: [17]
+15-01-2024 11:12:54 [1705313574209]: INFO - > 13
+15-01-2024 11:12:54 [1705313574210]: INFO - Ce graphique représente les dépenses du ministère "Éducation nationale, jeunesse et sports" par poste en 2022.
+15-01-2024 11:12:59 [1705313579793]: INFO - > 
+15-01-2024 11:12:59 [1705313579794]: INFO - Veuillez spécifier une année
+15-01-2024 11:12:59 [1705313579795]: INFO - Années possibles : entre 2012 et 2022
+15-01-2024 11:13:01 [1705313581483]: INFO - > 2022
+15-01-2024 11:13:01 [1705313581483]: INFO - Retour: [retour]
+15-01-2024 11:13:01 [1705313581485]: INFO - Économie, finances et relance: [0]
+15-01-2024 11:13:01 [1705313581485]: INFO - Non renseigné: [1]
+15-01-2024 11:13:01 [1705313581485]: INFO - Justice: [2]
+15-01-2024 11:13:01 [1705313581485]: INFO - Transition écologique: [3]
+15-01-2024 11:13:01 [1705313581485]: INFO - Intérieur: [4]
+15-01-2024 11:13:01 [1705313581485]: INFO - Agriculture et alimentation: [5]
+15-01-2024 11:13:01 [1705313581486]: INFO - Travail, emploi et insertion: [6]
+15-01-2024 11:13:01 [1705313581486]: INFO - Cohésion des territoires et relations avec les collectivités territoriales: [7]
+15-01-2024 11:13:01 [1705313581486]: INFO - Services du Premier ministre: [8]
+15-01-2024 11:13:01 [1705313581486]: INFO - Outre-Mer: [9]
+15-01-2024 11:13:01 [1705313581486]: INFO - Culture: [10]
+15-01-2024 11:13:01 [1705313581486]: INFO - Armées: [11]
+15-01-2024 11:13:01 [1705313581486]: INFO - Mer: [12]
+15-01-2024 11:13:01 [1705313581486]: INFO - Éducation nationale, jeunesse et sports: [13]
+15-01-2024 11:13:01 [1705313581486]: INFO - Transformation et de la fonction publiques: [14]
+15-01-2024 11:13:01 [1705313581487]: INFO - Solidarités et santé: [15]
+15-01-2024 11:13:01 [1705313581487]: INFO - Enseignement supérieur, recherche et innovation: [16]
+15-01-2024 11:13:01 [1705313581487]: INFO - Europe et affaires étrangères: [17]
+15-01-2024 11:13:02 [1705313582609]: INFO - > 13
+15-01-2024 11:13:02 [1705313582609]: INFO - Ce graphique représente les dépenses du ministère "Éducation nationale, jeunesse et sports" par poste en 2022.
+15-01-2024 11:13:11 [1705313591150]: INFO - Le programme démarre ...
+15-01-2024 11:13:11 [1705313591150]: INFO - Bienvenue dans l'interface en ligne de commande du programme d'Analayse du CGE
+15-01-2024 11:13:11 [1705313591152]: INFO - ---
+15-01-2024 11:13:11 [1705313591153]: INFO - Affichage des graphiques: [graphique]
+15-01-2024 11:13:11 [1705313591153]: INFO - Options et constantes du programme: [options]
+15-01-2024 11:13:11 [1705313591153]: INFO - Quitter le logiciel: [quitter]
+15-01-2024 11:13:15 [1705313595745]: INFO - > graphique
+15-01-2024 11:13:15 [1705313595745]: INFO - Évolution au cours des ans des dépenses et recettes: [evolution]
+15-01-2024 11:13:15 [1705313595745]: INFO - Recettes et dépenses par ministère: [ministere]
+15-01-2024 11:13:15 [1705313595745]: INFO - Dépenses d'un ministère par poste: [poste]
+15-01-2024 11:13:15 [1705313595745]: INFO - Retour: [retour]
+15-01-2024 11:13:17 [1705313597120]: INFO - > poste
+15-01-2024 11:13:17 [1705313597121]: INFO - Veuillez spécifier une année
+15-01-2024 11:13:17 [1705313597123]: INFO - Années possibles : entre 2012 et 2022
+15-01-2024 11:13:19 [1705313599032]: INFO - > 2022
+15-01-2024 11:13:19 [1705313599033]: INFO - Retour: [retour]
+15-01-2024 11:13:19 [1705313599034]: INFO - Économie, finances et relance: [0]
+15-01-2024 11:13:19 [1705313599034]: INFO - Non renseigné: [1]
+15-01-2024 11:13:19 [1705313599035]: INFO - Justice: [2]
+15-01-2024 11:13:19 [1705313599035]: INFO - Transition écologique: [3]
+15-01-2024 11:13:19 [1705313599035]: INFO - Intérieur: [4]
+15-01-2024 11:13:19 [1705313599035]: INFO - Agriculture et alimentation: [5]
+15-01-2024 11:13:19 [1705313599035]: INFO - Travail, emploi et insertion: [6]
+15-01-2024 11:13:19 [1705313599035]: INFO - Cohésion des territoires et relations avec les collectivités territoriales: [7]
+15-01-2024 11:13:19 [1705313599035]: INFO - Services du Premier ministre: [8]
+15-01-2024 11:13:19 [1705313599035]: INFO - Outre-Mer: [9]
+15-01-2024 11:13:19 [1705313599036]: INFO - Culture: [10]
+15-01-2024 11:13:19 [1705313599036]: INFO - Armées: [11]
+15-01-2024 11:13:19 [1705313599036]: INFO - Mer: [12]
+15-01-2024 11:13:19 [1705313599036]: INFO - Éducation nationale, jeunesse et sports: [13]
+15-01-2024 11:13:19 [1705313599036]: INFO - Transformation et de la fonction publiques: [14]
+15-01-2024 11:13:19 [1705313599036]: INFO - Solidarités et santé: [15]
+15-01-2024 11:13:19 [1705313599036]: INFO - Enseignement supérieur, recherche et innovation: [16]
+15-01-2024 11:13:19 [1705313599036]: INFO - Europe et affaires étrangères: [17]
+15-01-2024 11:13:20 [1705313600730]: INFO - > 13
+15-01-2024 11:13:20 [1705313600730]: INFO - Ce graphique représente les dépenses du ministère "Éducation nationale, jeunesse et sports" par poste en 2022.
+15-01-2024 11:15:31 [1705313731594]: INFO - Le programme démarre ...
+15-01-2024 11:15:31 [1705313731596]: INFO - Bienvenue dans l'interface en ligne de commande du programme d'Analayse du CGE
+15-01-2024 11:15:31 [1705313731596]: INFO - ---
+15-01-2024 11:15:31 [1705313731597]: INFO - Affichage des graphiques: [graphique]
+15-01-2024 11:15:31 [1705313731597]: INFO - Options et constantes du programme: [options]
+15-01-2024 11:15:31 [1705313731597]: INFO - Quitter le logiciel: [quitter]
+15-01-2024 11:15:33 [1705313733822]: INFO - > graphique
+15-01-2024 11:15:33 [1705313733822]: INFO - Évolution au cours des ans des dépenses et recettes: [evolution]
+15-01-2024 11:15:33 [1705313733822]: INFO - Recettes et dépenses par ministère: [ministere]
+15-01-2024 11:15:33 [1705313733822]: INFO - Dépenses d'un ministère par poste: [poste]
+15-01-2024 11:15:33 [1705313733822]: INFO - Retour: [retour]
+15-01-2024 11:15:35 [1705313735399]: INFO - > poste
+15-01-2024 11:15:35 [1705313735399]: INFO - Veuillez spécifier une année
+15-01-2024 11:15:35 [1705313735401]: INFO - Années possibles : entre 2012 et 2022
+15-01-2024 11:15:38 [1705313738118]: INFO - > 2012
+15-01-2024 11:15:38 [1705313738118]: INFO - Retour: [retour]
+15-01-2024 11:15:38 [1705313738120]: INFO - Économie, finances et relance: [0]
+15-01-2024 11:15:38 [1705313738120]: INFO - Non renseigné: [1]
+15-01-2024 11:15:38 [1705313738120]: INFO - Justice: [2]
+15-01-2024 11:15:38 [1705313738120]: INFO - Transition écologique: [3]
+15-01-2024 11:15:38 [1705313738120]: INFO - Intérieur: [4]
+15-01-2024 11:15:38 [1705313738121]: INFO - Agriculture et alimentation: [5]
+15-01-2024 11:15:38 [1705313738121]: INFO - Travail, emploi et insertion: [6]
+15-01-2024 11:15:38 [1705313738121]: INFO - Cohésion des territoires et relations avec les collectivités territoriales: [7]
+15-01-2024 11:15:38 [1705313738121]: INFO - Services du Premier ministre: [8]
+15-01-2024 11:15:38 [1705313738121]: INFO - Outre-Mer: [9]
+15-01-2024 11:15:38 [1705313738121]: INFO - Culture: [10]
+15-01-2024 11:15:38 [1705313738121]: INFO - Armées: [11]
+15-01-2024 11:15:38 [1705313738121]: INFO - Mer: [12]
+15-01-2024 11:15:38 [1705313738121]: INFO - Éducation nationale, jeunesse et sports: [13]
+15-01-2024 11:15:38 [1705313738121]: INFO - Transformation et de la fonction publiques: [14]
+15-01-2024 11:15:38 [1705313738122]: INFO - Solidarités et santé: [15]
+15-01-2024 11:15:38 [1705313738122]: INFO - Enseignement supérieur, recherche et innovation: [16]
+15-01-2024 11:15:38 [1705313738122]: INFO - Europe et affaires étrangères: [17]
+15-01-2024 11:15:39 [1705313739239]: INFO - > 12
+15-01-2024 11:15:39 [1705313739239]: INFO - Ce graphique représente les dépenses du ministère "Mer" par poste en 2012.
+15-01-2024 11:19:41 [1705313981629]: INFO - Le programme démarre ...
+15-01-2024 11:19:41 [1705313981630]: INFO - Bienvenue dans l'interface en ligne de commande du programme d'Analayse du CGE
+15-01-2024 11:19:41 [1705313981630]: INFO - ---
+15-01-2024 11:19:41 [1705313981631]: INFO - Affichage des graphiques: [graphique]
+15-01-2024 11:19:41 [1705313981631]: INFO - Options et constantes du programme: [options]
+15-01-2024 11:19:41 [1705313981631]: INFO - Quitter le logiciel: [quitter]
+15-01-2024 11:19:43 [1705313983682]: INFO - > graphique
+15-01-2024 11:19:43 [1705313983682]: INFO - Évolution au cours des ans des dépenses et recettes: [evolution]
+15-01-2024 11:19:43 [1705313983682]: INFO - Recettes et dépenses par ministère: [ministere]
+15-01-2024 11:19:43 [1705313983682]: INFO - Dépenses d'un ministère par poste: [poste]
+15-01-2024 11:19:43 [1705313983682]: INFO - Retour: [retour]
+15-01-2024 11:19:45 [1705313985577]: INFO - > ministere
+15-01-2024 11:19:45 [1705313985577]: INFO - Veuillez spécifier une année
+15-01-2024 11:19:45 [1705313985579]: INFO - Années possibles : entre 2012 et 2022
+15-01-2024 11:19:47 [1705313987371]: INFO - > 1012
+15-01-2024 11:19:47 [1705313987371]: INFO - Afficher les dépenses inconnues: [oui]
+15-01-2024 11:19:47 [1705313987371]: INFO - Ne pas afficher les dépenses inconnues: [non]
+15-01-2024 11:19:48 [1705313988892]: INFO - > non
+15-01-2024 11:19:48 [1705313988892]: INFO - Ce graphique représente les dépense et les recettes de l'état par ministère: [retour]
+15-01-2024 11:19:48 [1705313988894]: AVERTISSEMENT - La commande graph_ministere_sans_inconnu a échouée
+15-01-2024 11:19:48 [1705313988894]: AVERTISSEMENT - Erreur: '1012'
+15-01-2024 11:19:48 [1705313988894]: AVERTISSEMENT - Veuillez entrer une commande ou paramètres valide
+15-01-2024 11:19:48 [1705313988894]: AVERTISSEMENT - Retour [retour]
+15-01-2024 11:19:51 [1705313991441]: INFO - > retour
+15-01-2024 11:19:51 [1705313991442]: INFO - Afficher les dépenses inconnues: [oui]
+15-01-2024 11:19:51 [1705313991442]: INFO - Ne pas afficher les dépenses inconnues: [non]
+15-01-2024 11:19:53 [1705313993634]: INFO - > retour
+15-01-2024 11:19:53 [1705313993634]: INFO - Veuillez spécifier une année
+15-01-2024 11:19:53 [1705313993636]: INFO - Années possibles : entre 2012 et 2022
+15-01-2024 11:19:55 [1705313995009]: INFO - > retour
+15-01-2024 11:19:55 [1705313995010]: INFO - Évolution au cours des ans des dépenses et recettes: [evolution]
+15-01-2024 11:19:55 [1705313995010]: INFO - Recettes et dépenses par ministère: [ministere]
+15-01-2024 11:19:55 [1705313995010]: INFO - Dépenses d'un ministère par poste: [poste]
+15-01-2024 11:19:55 [1705313995010]: INFO - Retour: [retour]
+15-01-2024 11:19:57 [1705313997409]: INFO - > poste
+15-01-2024 11:19:57 [1705313997409]: INFO - Veuillez spécifier une année
+15-01-2024 11:19:57 [1705313997411]: INFO - Années possibles : entre 2012 et 2022
+15-01-2024 11:19:59 [1705313999202]: INFO - > 2012
+15-01-2024 11:19:59 [1705313999202]: INFO - Retour: [retour]
+15-01-2024 11:19:59 [1705313999204]: INFO - Économie, finances et relance: [0]
+15-01-2024 11:19:59 [1705313999204]: INFO - Non renseigné: [1]
+15-01-2024 11:19:59 [1705313999204]: INFO - Justice: [2]
+15-01-2024 11:19:59 [1705313999204]: INFO - Transition écologique: [3]
+15-01-2024 11:19:59 [1705313999204]: INFO - Intérieur: [4]
+15-01-2024 11:19:59 [1705313999204]: INFO - Agriculture et alimentation: [5]
+15-01-2024 11:19:59 [1705313999205]: INFO - Travail, emploi et insertion: [6]
+15-01-2024 11:19:59 [1705313999205]: INFO - Cohésion des territoires et relations avec les collectivités territoriales: [7]
+15-01-2024 11:19:59 [1705313999205]: INFO - Services du Premier ministre: [8]
+15-01-2024 11:19:59 [1705313999205]: INFO - Outre-Mer: [9]
+15-01-2024 11:19:59 [1705313999205]: INFO - Culture: [10]
+15-01-2024 11:19:59 [1705313999205]: INFO - Armées: [11]
+15-01-2024 11:19:59 [1705313999205]: INFO - Mer: [12]
+15-01-2024 11:19:59 [1705313999205]: INFO - Éducation nationale, jeunesse et sports: [13]
+15-01-2024 11:19:59 [1705313999205]: INFO - Transformation et de la fonction publiques: [14]
+15-01-2024 11:19:59 [1705313999206]: INFO - Solidarités et santé: [15]
+15-01-2024 11:19:59 [1705313999206]: INFO - Enseignement supérieur, recherche et innovation: [16]
+15-01-2024 11:19:59 [1705313999206]: INFO - Europe et affaires étrangères: [17]
+15-01-2024 11:20:01 [1705314001042]: INFO - > 17
+15-01-2024 11:20:01 [1705314001043]: INFO - Ce graphique représente les dépenses du ministère "Europe et affaires étrangères" par poste en 2012.
+15-01-2024 11:20:43 [1705314043871]: INFO - Le programme démarre ...
+15-01-2024 11:20:43 [1705314043871]: INFO - Bienvenue dans l'interface en ligne de commande du programme d'Analayse du CGE
+15-01-2024 11:20:43 [1705314043872]: INFO - ---
+15-01-2024 11:20:43 [1705314043873]: INFO - Affichage des graphiques: [graphique]
+15-01-2024 11:20:43 [1705314043873]: INFO - Options et constantes du programme: [options]
+15-01-2024 11:20:43 [1705314043873]: INFO - Quitter le logiciel: [quitter]
+15-01-2024 11:50:52 [1705315852086]: AVERTISSEMENT - Le graphique "Dépenses des ministères en 2014" n'a pas pu être créer
+15-01-2024 11:50:52 [1705315852086]: AVERTISSEMENT - Wedge sizes 'x' must be non negative values
+15-01-2024 11:55:21 [1705316121640]: AVERTISSEMENT - Le graphique "Dépenses des ministères en 2019" n'a pas pu être créer
+15-01-2024 11:55:21 [1705316121640]: AVERTISSEMENT - Wedge sizes 'x' must be non negative values
+15-01-2024 11:55:23 [1705316123700]: AVERTISSEMENT - Le graphique "Dépenses des ministères en 2021" n'a pas pu être créer
+15-01-2024 11:55:23 [1705316123700]: AVERTISSEMENT - Wedge sizes 'x' must be non negative values
+15-01-2024 11:59:43 [1705316383570]: AVERTISSEMENT - Le graphique "Dépenses des ministères en 2016" n'a pas pu être créer
+15-01-2024 11:59:43 [1705316383570]: AVERTISSEMENT - Wedge sizes 'x' must be non negative values
+15-01-2024 11:59:44 [1705316384967]: AVERTISSEMENT - Le graphique "Dépenses des ministères en 2019" n'a pas pu être créer
+15-01-2024 11:59:44 [1705316384967]: AVERTISSEMENT - Wedge sizes 'x' must be non negative values
+15-01-2024 11:59:46 [1705316386551]: AVERTISSEMENT - Le graphique "Dépenses des ministères en 2018" n'a pas pu être créer
+15-01-2024 11:59:46 [1705316386551]: AVERTISSEMENT - Wedge sizes 'x' must be non negative values
+15-01-2024 11:59:48 [1705316388035]: AVERTISSEMENT - Le graphique "Dépenses des ministères en 2015" n'a pas pu être créer
+15-01-2024 11:59:48 [1705316388035]: AVERTISSEMENT - Wedge sizes 'x' must be non negative values
+15-01-2024 11:59:49 [1705316389984]: AVERTISSEMENT - Le graphique "Dépenses des ministères en 2015" n'a pas pu être créer
+15-01-2024 11:59:49 [1705316389984]: AVERTISSEMENT - Wedge sizes 'x' must be non negative values
+15-01-2024 12:48:17 [1705319297230]: AVERTISSEMENT - Le graphique "Dépenses des ministères en 2020" n'a pas pu être créer
+15-01-2024 12:48:17 [1705319297230]: AVERTISSEMENT - Wedge sizes 'x' must be non negative values
+15-01-2024 12:52:03 [1705319523895]: AVERTISSEMENT - Le graphique "Recettes des ministères en 2022" n'a pas pu être créer
+15-01-2024 12:52:03 [1705319523895]: AVERTISSEMENT - Wedge sizes 'x' must be non negative values
+15-01-2024 12:52:06 [1705319526189]: AVERTISSEMENT - Le graphique "Recettes des ministères en 2020" n'a pas pu être créer
+15-01-2024 12:52:06 [1705319526189]: AVERTISSEMENT - Wedge sizes 'x' must be non negative values
+15-01-2024 12:52:11 [1705319531457]: AVERTISSEMENT - Le graphique "Recettes des ministères en 2014" n'a pas pu être créer
+15-01-2024 12:52:11 [1705319531457]: AVERTISSEMENT - Wedge sizes 'x' must be non negative values
+15-01-2024 12:52:13 [1705319533379]: AVERTISSEMENT - Le graphique "Recettes des ministères en 2014" n'a pas pu être créer
+15-01-2024 12:52:13 [1705319533379]: AVERTISSEMENT - Wedge sizes 'x' must be non negative values
+15-01-2024 12:52:15 [1705319535060]: AVERTISSEMENT - Le graphique "Recettes des ministères en 2014" n'a pas pu être créer
+15-01-2024 12:52:15 [1705319535060]: AVERTISSEMENT - Wedge sizes 'x' must be non negative values
+15-01-2024 12:52:28 [1705319548645]: AVERTISSEMENT - Le graphique "Recettes des ministères en 2014" n'a pas pu être créer
+15-01-2024 12:52:28 [1705319548645]: AVERTISSEMENT - Wedge sizes 'x' must be non negative values
+15-01-2024 12:52:51 [1705319571066]: AVERTISSEMENT - Le graphique "Recettes des ministères en 2014" n'a pas pu être créer
+15-01-2024 12:52:51 [1705319571066]: AVERTISSEMENT - Wedge sizes 'x' must be non negative values
+15-01-2024 13:01:29 [1705320089860]: AVERTISSEMENT - Le graphique "Recettes des ministères en 2012" n'a pas pu être créer
+15-01-2024 13:01:29 [1705320089860]: AVERTISSEMENT - Wedge sizes 'x' must be non negative values
+15-01-2024 13:06:45 [1705320405047]: AVERTISSEMENT - Le graphique "Recettes des ministères en 2020" n'a pas pu être créer
+15-01-2024 13:06:45 [1705320405047]: AVERTISSEMENT - Wedge sizes 'x' must be non negative values
+15-01-2024 13:17:23 [1705321043907]: INFO - Le programme démarre ...
+15-01-2024 13:17:23 [1705321043908]: INFO - Bienvenue dans l'interface en ligne de commande du programme d'Analayse du CGE
+15-01-2024 13:17:23 [1705321043908]: INFO - ---
+15-01-2024 13:17:23 [1705321043909]: INFO - Affichage des graphiques: [graphique]
+15-01-2024 13:17:23 [1705321043909]: INFO - Options et constantes du programme: [options]
+15-01-2024 13:17:23 [1705321043909]: INFO - Quitter le logiciel: [quitter]
+15-01-2024 13:17:26 [1705321046056]: INFO - > graphique
+15-01-2024 13:17:26 [1705321046056]: INFO - Évolution au cours des ans des dépenses et recettes: [evolution]
+15-01-2024 13:17:26 [1705321046056]: INFO - Recettes et dépenses par ministère: [ministere]
+15-01-2024 13:17:26 [1705321046056]: INFO - Dépenses d'un ministère par poste: [poste]
+15-01-2024 13:17:26 [1705321046056]: INFO - Retour: [retour]
+15-01-2024 13:17:29 [1705321049624]: INFO - > evolution
+15-01-2024 13:17:29 [1705321049624]: INFO - Dépenses et recettes de l'état au fil des ans: [etat]
+15-01-2024 13:17:29 [1705321049624]: INFO - Dépenses et recettes d'un ministère au fil des ans: [ministere]
+15-01-2024 13:17:31 [1705321051495]: INFO - > etta
+15-01-2024 13:17:31 [1705321051496]: INFO - Dépenses et recettes de l'état au fil des ans: [etat]
+15-01-2024 13:17:31 [1705321051496]: INFO - Dépenses et recettes d'un ministère au fil des ans: [ministere]
+15-01-2024 13:17:32 [1705321052649]: INFO - > etat
+15-01-2024 13:17:32 [1705321052649]: INFO - Ce graphique représente les dépense et les recettes de l'état au fil des ans: [retour]

@@ -18,21 +18,31 @@ from source.detection_donnees import en_tete_utiles
 from donnees.db import db, db_etat
 
 
-def graph_ministeres(ministere_inconnu, annee):
+def graph_ministeres(ministere_inconnu, annee, dep_ou_rec="Dépenses"):
     labels = [*db]
-    if ministere_inconnu:
-        valeurs = [-int(db[ministere]["dépense_annuelle"][annee]) for ministere in [*db]]
+    if ministere_inconnu == ("Ministère connues et inconnus" or True):
+        if dep_ou_rec == "Dépenses":
+            valeurs = [-int(db[ministere]["dépense_annuelle"][annee]) for ministere in [*db]]
+            titre = f"Dépenses des ministères en {annee}"
+        else:
+            valeurs = [int(db[ministere]["recette_annuelle"][annee]) for ministere in [*db]]
+            titre = f"Recettes des ministères en {annee}"
+
     else:
-        valeurs = [-int(db[ministere]["dépense_annuelle"][annee]) for ministere in [*db]
-                   if ministere != "Non renseigné"]
+        if dep_ou_rec == "Dépenses":
+            valeurs = [-int(db[ministere]["dépense_annuelle"][annee]) for ministere in [*db]
+                       if ministere != "Non renseigné"]
+            titre = f"Dépenses des ministères en {annee}"
+        else:
+            valeurs = [int(db[ministere]["recette_annuelle"][annee]) for ministere in [*db]
+                       if ministere != "Non renseigné"]
+            titre = f"Recettes des ministères en {annee}"
+
         labels.pop(labels.index("Non renseigné"))
-    titre = f"Dépenses des ministères en {annee}"
 
     try:
-        return affichage_pie(valeurs, labels, titre)
-
-
         debug("Valeurs du graphique :", valeurs, "labels :", labels)
+        return affichage_pie(valeurs, labels, titre)
 
     except Exception as exc:
         avert(f"Le graphique \"{titre}\" n'a pas pu être créer", exc)
@@ -41,35 +51,36 @@ def graph_ministeres(ministere_inconnu, annee):
         avert("Indication :", warn)
 
 
-def graph_postes(annee):
-    # On affiche les choix des ministères
-    liste_ministeres = [*db]  # On créer une liste avec tous les ministères
-    for i in range(len(db)):  # On la parcours associer un nombre a chaque ministère
-        info(f"{liste_ministeres[i]}: [{str(i)}]")
+def graph_postes(annee, ministere=None, echelle="semilog"):
+    if not ministere:
+        # On affiche les choix des ministères
+        liste_ministeres = [*db]  # On créer une liste avec tous les ministères
+        for i in range(len(db)):  # On la parcours associer un nombre a chaque ministère
+            info(f"{liste_ministeres[i]}: [{str(i)}]")
 
-    # On demande le choix du ministere à l'utilisateur
-    from cli.menu import effacer_console  # Pour eviter les boucles d'appel, on importe la fonction ici
-    while True:
-        try:
-            entree = int(input("> "))  # On ne récupère l'entrée que si c'est un nombre
-            break
-        except:
-            pass
-    info("> " + str(entree))
-    effacer_console()
-    info(f"Ce graphique représente les dépenses du ministère \"{liste_ministeres[entree]}\" par poste en {annee}.")
+        # On demande le choix du ministere à l'utilisateur
+        from cli.menu import effacer_console  # Pour eviter les boucles d'appel, on importe la fonction ici
+        while True:
+            try:
+                entree = int(input("> "))  # On ne récupère l'entrée que si c'est un nombre
+                break
+            except:
+                pass
+        info("> " + str(entree))
+        ministere = liste_ministeres[entree]
+        effacer_console()
+        info(f"Ce graphique représente les dépenses du ministère \"{ministere}\" par poste en {annee}.")
 
-    titre = f"Dépense du ministère \"{liste_ministeres[entree]}\" par poste en {annee}"
+    titre = f"Dépense du ministère \n\"{ministere}\" par poste en {annee}"
     X = [clef
-         for clef, poste in db[liste_ministeres[entree]]["postes"].items()
+         for clef, poste in db[ministere]["postes"].items()
          if poste["dépense_annuelle"][annee]]  # On liste les postes
     Y = [-poste["dépense_annuelle"][annee]
-         for clef, poste in db[liste_ministeres[entree]]["postes"].items()
+         for clef, poste in db[ministere]["postes"].items()
          if poste["dépense_annuelle"][annee]]  # On récupère les dépenses
 
     Xtrie, Ytrie = trie_croissant_X_Y(X, Y)
-    return affichage_bar(Xtrie, Ytrie, titre)
-
+    return affichage_bar(Xtrie, echelle, Ytrie, titre)
 
 
 def afficher_db():
@@ -119,23 +130,23 @@ def graph_ministere_evolution(ministere=None, echelle="semilog"):
 def commande(operation, parametre):
     if operation == "graph_ministere_avec_inconnu":
         graph = graph_ministeres(True, parametre)
-        graph.show()
+        plt.show()
 
     elif operation == "graph_ministere_sans_inconnu":
         graph = graph_ministeres(False, parametre)
-        graph.show()
+        plt.show()
 
     elif operation == "graph_poste_par_ministere":
         graph = graph_postes(parametre)
-        graph.show()
+        plt.show()
 
     elif operation == "graph_etat_evolution_sans_inconnu":
         graph = graph_etat_evolution()
-        graph.show()
+        plt.show()
 
     elif operation == "graph_ministere_evolution_sans_inconnu":
         graph = graph_ministere_evolution()
-        graph.show()
+        plt.show()
 
     elif operation == "afficher_db":
         afficher_db()
